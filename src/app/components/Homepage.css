@@ -1,0 +1,284 @@
+#big
+{
+    font-family: cursive;
+
+}
+
+.topnav
+{
+    padding: 30px 5%;
+    position: fixed;
+    width: 100%;
+
+}
+
+.navbar
+{
+    background-color: rgba(0, 0, 0, 0.459);
+    color: white;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 20px;
+    padding: 15px 20px;
+
+}
+
+.navbar .left
+{
+    display: flex;
+    align-items: center;
+
+}
+
+.navbar .left h1
+{
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.navbar .middle
+{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    gap: 25px;
+    
+}
+
+.navbar .middle h2
+{
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.1s;
+
+}
+
+.tap
+{
+    border-bottom: 2px solid white;
+    width: fit-content;
+    padding-bottom: 8px;
+
+}
+
+/* feedback */
+.feedback
+{
+    padding: 6px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.459);
+    width: fit-content;
+    font-size: 21px;
+    position: absolute;
+    margin: 450px 0 0 5%;
+
+}
+
+.feedback:hover + .content
+{
+    display: block;
+    
+}
+
+.content
+{
+    display: none;
+    
+}
+
+.content p
+{
+    font-size: 12px;
+    background-color: rgba(0, 0, 0, 0.459);
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 3px;
+    font-family: cursive;
+    width: fit-content;
+    position: absolute;
+    margin: 455px 0 0 9%;
+    
+}
+
+/* background_img */
+.background_img
+{
+    width: 100%;
+    height: 105vh;
+}
+
+/* news heading */
+.news_heading h2
+{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    font-family: cursive;
+    font-size: 17px;
+    cursor: pointer;
+    padding: 10px 5%;
+    border-radius: 5px;
+    margin-top: 2px;
+
+}
+
+
+
+/* phone */
+#mobile
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.topnav_phone
+{
+    padding: 30px 5%;
+    position: fixed;
+    width: 100%;
+
+}
+
+.navbar_phone
+{
+    background-color: rgba(0, 0, 0, 0.459);
+    color: white;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 20px;
+    padding: 15px 20px;
+
+}
+
+.navbar_phone .left
+{
+    display: flex;
+    align-items: center;
+
+}
+
+.navbar_phone .left h1
+{
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.navbar_phone .right
+{
+    margin-left: auto;
+    cursor: pointer;
+
+}
+
+.navbar_phone .right .dropdown
+{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.459);
+    color: white;
+    padding: 20px 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: -35px;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+    align-items: center;
+    transition: 0.3s;
+    justify-content: center;
+
+}
+
+.navbar_phone .right .dropdown p
+{
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+
+.tap_phone
+{
+    background-color: white;
+    color: black;
+    width: 72px;
+
+}
+
+/* feedback_phone */
+.feedback_phone
+{
+    padding: 6px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.459);
+    width: fit-content;
+    font-size: 21px;
+    position: absolute;
+    margin: 400px 0 0 5%;
+
+}
+
+.feedback_phone:hover + .content_phone
+{
+    display: block;
+    
+}
+
+.content_phone
+{
+    display: none;
+    
+}
+
+.content_phone p
+{
+    font-size: 12px;
+    background-color: rgba(0, 0, 0, 0.459);
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 3px;
+    font-family: cursive;
+    width: fit-content;
+    position: absolute;
+    margin: 405px 0 0 9%;
+    
+}
+
+/* background_img_phone */
+.background_img_phone
+{
+    width: 100%;
+    height: 91vh;
+
+}
+
+/* news heading_phone */
+.news_heading_phone h2
+{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    font-family: cursive;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 8px 5%;
+    border-radius: 5px;
+    margin-top: 2px;
+
+}
