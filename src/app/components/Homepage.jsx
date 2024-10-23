@@ -288,7 +288,7 @@ const Homepage = () => {
 
               <div className="right">
                 {dropdownIcon === true &&
-                  <p onClick={handleDropdownIcon}>▼</p>
+                  <p onClick={handleDropdownIcon}>≡</p>
                 }
 
                 {dropdown === true &&

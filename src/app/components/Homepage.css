@@ -181,6 +181,12 @@
 
 }
 
+.navbar_phone .right p
+{
+    font-size: 30px;
+
+}
+
 .navbar_phone .right .dropdown
 {
     position: absolute;
