@@ -134,7 +134,7 @@
 /* phone */
 #mobile
 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
 
@@ -155,6 +155,7 @@
     border: none;
     border-radius: 20px;
     padding: 15px 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
 
@@ -264,7 +265,7 @@
 .background_img_phone
 {
     width: 100%;
-    height: 91vh;
+    height: 82vh;
 
 }
 
@@ -277,6 +278,7 @@
     font-family: cursive;
     font-size: 15px;
     cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 8px 5%;
     border-radius: 5px;
     margin-top: 2px;

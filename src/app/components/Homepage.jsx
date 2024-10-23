@@ -318,7 +318,7 @@ const Homepage = () => {
 
           {like === true &&
           <div onClick={handleNotlike}>
-            <p className='feedback_phone'>💗</p>
+            <p className='feedback_phone'>❤</p>
 
             <div className='content_phone'>
               <p>thanks for the likes</p>
