@@ -14,6 +14,8 @@ import perez from './Image/Perez.jpg'
 import kylian from './Image/kylian.jpg'
 import rodrygo from './Image/rodrygo.jpg'
 import mobile_background_img from './Image/mobile_background.jpg'
+import mbappe from './Image/Mbappe.jpg'
+import madrid_stadium from './Image/Santiago-Bernabeu.jpg'
 
 const Homepage = () => {
 
@@ -145,49 +147,74 @@ const Homepage = () => {
           </div>
 
           {/* news */}
-          <div className="ctn">
-            <div className="left">
-              <Image className='img' src={militao} alt='militao' priority />
+          <div>
+            <div className="ctn">
+              <div className="left">
+                <Image className='img' src={militao} alt='militao' priority />
 
-              <h2 style={{marginTop:'20px', fontSize:'15px'}}>Eder Militaos medical report</h2>
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Eder Militaos medical report</h2>
 
+              </div>
+
+              <div className="middle">
+                <Image className='img' src={david} alt='' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>David Beckham the Inter Miami manager has broken silence on Mbappes move to Real Madrid</h2>
+
+              </div>
+
+              <div className="right">
+                <Image className='img' src={champions} alt='champions league 2024' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Real Madrid have been crowned the 2023/24 Uefa Champions League winners</h2>
+
+              </div>
             </div>
 
-            <div className="middle">
-              <Image className='img' src={david} alt='' priority />
+            <div className="ctn">
+              <div className="left">
+                <Image className='img' src={kylian} alt='militao' priority />
 
-              <h2 style={{marginTop:'20px', fontSize:'15px'}}>David Beckham the Inter Miami manager has broken silence on Mbappes move to Real Madrid</h2>
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Mbappe:PSG do not want me in the squad anymore, it was Luis Enrique that saved me</h2>
 
+              </div>
+
+              <div className="middle">
+                <Image className='img' src={rodrygo} alt='' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Rodrygo has succeded to score the opening goal for Real Madrid for the last two seasons</h2>
+
+              </div>
+
+              <div className="right">
+                <Image className='img' src={perez} alt='champions league 2024' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Florentino Perez:This title would give us energy for a very difficult season</h2>
+
+              </div>
             </div>
 
-            <div className="right">
-              <Image className='img' src={champions} alt='champions league 2024' priority />
+            <div className="ctn">
+              <div className="left">
+                <Image className='img' src={background_img} alt='militao' priority />
 
-              <h2 style={{marginTop:'20px', fontSize:'15px'}}>Real Madrid have been crowned the 2023/24 Uefa Champions League winners</h2>
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Bellinghams medical report</h2>
 
-            </div>
-          </div>
+              </div>
 
-          <div className="ctn">
-            <div className="left">
-              <Image className='img' src={kylian} alt='militao' priority />
+              <div className="middle">
+                <Image className='img' src={mbappe} alt='' priority />
 
-              <h2 style={{marginTop:'20px', fontSize:'15px'}}>Mbappe:PSG do not want me in the squad anymore, he procceded to mention Luis Enrique and two other people who saved him</h2>
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Mbappe set to leave PSG for Real Madrid</h2>
 
-            </div>
+              </div>
 
-            <div className="middle">
-              <Image className='img' src={rodrygo} alt='' priority />
+              <div className="right">
+                <Image className='img' src={madrid_stadium} alt='champions league 2024' priority />
 
-              <h2 style={{marginTop:'20px', fontSize:'15px'}}>Rodrygo has succeded to score the opening goal for Real Madrid for the last two seasons</h2>
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Welcome to KickOff-SantiagoBernabeu</h2>
 
-            </div>
-
-            <div className="right">
-              <Image className='img' src={perez} alt='champions league 2024' priority />
-
-              <h2 style={{marginTop:'20px', fontSize:'15px'}}>Florentino Perez:This title would give us energy for a very difficult season</h2>
-
+              </div>
             </div>
           </div>
 
@@ -257,6 +284,78 @@ const Homepage = () => {
             <h2>News</h2>
           </div>
 
+          {/* news */}
+          <div>
+            <div className="ctn">
+              <div className="left">
+                <Image className='img' src={militao} alt='militao' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Eder Militaos medical report</h2>
+
+              </div>
+
+              <div className="middle">
+                <Image className='img' src={david} alt='' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>David Beckham the Inter Miami manager has broken silence on Mbappes move to Real Madrid</h2>
+
+              </div>
+
+              <div className="right">
+                <Image className='img' src={champions} alt='champions league 2024' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Real Madrid have been crowned the 2023/24 Uefa Champions League winners</h2>
+
+              </div>
+            </div>
+
+            <div className="ctn">
+              <div className="left">
+                <Image className='img' src={kylian} alt='militao' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Mbappe:PSG do not want me in the squad anymore, it was Luis Enrique that saved me</h2>
+
+              </div>
+
+              <div className="middle">
+                <Image className='img' src={rodrygo} alt='' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Rodrygo has succeded to score the opening goal for Real Madrid for the last two seasons</h2>
+
+              </div>
+
+              <div className="right">
+                <Image className='img' src={perez} alt='champions league 2024' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Florentino Perez:This title would give us energy for a very difficult season</h2>
+
+              </div>
+            </div>
+
+            <div className="ctn">
+              <div className="left">
+                <Image className='img' src={background_img} alt='militao' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Bellinghams medical report</h2>
+
+              </div>
+
+              <div className="middle">
+                <Image className='img' src={mbappe} alt='' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Mbappe set to leave PSG for Real Madrid</h2>
+
+              </div>
+
+              <div className="right">
+                <Image className='img' src={madrid_stadium} alt='champions league 2024' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Welcome to KickOff-SantiagoBernabeu</h2>
+
+              </div>
+            </div>
+          </div>
+
         </div>
         
       </div>
@@ -320,6 +419,78 @@ const Homepage = () => {
           {/* news header */}
           <div className='news_heading'>
             <h2>News</h2>
+          </div>
+
+          {/* news */}
+          <div>
+            <div className="ctn_tablet">
+              <div className="left">
+                <Image className='img' src={militao} alt='militao' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Eder Militaos medical report</h2>
+
+              </div>
+
+              <div className="middle">
+                <Image className='img' src={david} alt='' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>David Beckham the Inter Miami manager has broken silence on Mbappes move to Real Madrid</h2>
+
+              </div>
+
+              <div className="right">
+                <Image className='img' src={champions} alt='champions league 2024' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Real Madrid have been crowned the 2023/24 Uefa Champions League winners</h2>
+
+              </div>
+            </div>
+
+            <div className="ctn_tablet">
+              <div className="left">
+                <Image className='img' src={kylian} alt='militao' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Mbappe:PSG do not want me in the squad anymore, it was Luis Enrique that saved me</h2>
+
+              </div>
+
+              <div className="middle">
+                <Image className='img' src={rodrygo} alt='' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Rodrygo has succeded to score the opening goal for Real Madrid for the last two seasons</h2>
+
+              </div>
+
+              <div className="right">
+                <Image className='img' src={perez} alt='champions league 2024' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Florentino Perez:This title would give us energy for a very difficult season</h2>
+
+              </div>
+            </div>
+
+            <div className="ctn_tablet">
+              <div className="left">
+                <Image className='img' src={background_img} alt='militao' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Bellinghams medical report</h2>
+
+              </div>
+
+              <div className="middle">
+                <Image className='img' src={mbappe} alt='' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Mbappe set to leave PSG for Real Madrid</h2>
+
+              </div>
+
+              <div className="right">
+                <Image className='img' src={madrid_stadium} alt='champions league 2024' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Welcome to KickOff-SantiagoBernabeu</h2>
+
+              </div>
+            </div>
           </div>
 
         </div>
@@ -391,6 +562,9 @@ const Homepage = () => {
           <div className="news_heading_phone">
             <h2>News</h2>
           </div>
+
+          {/* news */}
+          
         </div>
       </div>
       
