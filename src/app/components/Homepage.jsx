@@ -23,7 +23,7 @@ const Homepage = () => {
 
   // aos
   useEffect(()=> {
-    Aos.init({duration: 1200});
+    Aos.init({duration: 1100});
   }, [])
 
   // navbar click functionality
@@ -541,7 +541,7 @@ const Homepage = () => {
 
           {/* feedback */}
           {notlike === true &&
-          <div onClick={handleLike}>
+          <div onClick={handleLike} data-aos="fade-right">
             <p className='feedback_phone'>🤍</p>
 
             <div className='content_phone'>
