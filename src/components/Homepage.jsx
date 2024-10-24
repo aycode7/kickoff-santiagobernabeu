@@ -18,6 +18,17 @@ import rodrygo from './Image/rodrygo.jpg'
 import mobile_background_img from './Image/mobile_background.jpg'
 import mbappe from './Image/Mbappe.jpg'
 import madrid_stadium from './Image/Santiago-Bernabeu.jpg'
+import ancelloti_200 from './Image/ancelloti_200.jpg'
+import carvajal_med from './Image/carvajal_med.jpg'
+import courtois_med from './Image/courtois_med.jpg'
+import legend from './Image/legend.jpg'
+import mbappe_med from './Image/mbappe_med.jpg'
+import modric_250 from './Image/modric_250.jpg'
+import modric_oldest from './Image/modric_oldest.jpg'
+import rodrygo_med from './Image/rodrygo_med.jpg'
+import tchoumeini from './Image/tchoumeini.jpg'
+import varane from './Image/varane.jpg'
+import mbappe_training from './Image/_0_DB20398.webp'
 
 const Homepage = () => {
 
@@ -160,12 +171,14 @@ const Homepage = () => {
           {/* news */}
           <div>
             <div className="ctn">
+              <Link href="eder-militao-medical-report">
               <div className="left" data-aos="fade-right">
                 <Image className='img' src={militao} alt='militao' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Eder Militaos medical report</h2>
 
               </div>
+              </Link>
 
               <Link href="david-beckham-has-broken-silence-on-mbappes-move-to-real-madrid">
                 <div className="middle" data-aos="fade-up">
@@ -226,6 +239,81 @@ const Homepage = () => {
                 <Image className='img' src={madrid_stadium} alt='champions league 2024' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Welcome to KickOff-SantiagoBernabeu</h2>
+
+              </div>
+            </div>
+
+            <div className="ctn">
+              <div className="left" data-aos="fade-right">
+                <Image className='img' src={tchoumeini} alt='' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Tchouameni reaches his 100th game for Real Madrid</h2>
+
+              </div>
+
+              <div className="middle" data-aos="fade-up">
+                <Image className='img' src={modric_oldest} alt='' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Modric becomes the oldest player to appear in an official match in the history of Real Madrid</h2>
+
+              </div>
+
+              <Link href="johan-neeskens-passes-away" >
+              <div className="right" data-aos="fade-up">
+                <Image className='img' src={legend} alt='champions league 2024' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Official announcement:Johan Neeskens passes away</h2>
+
+              </div>
+              </Link>
+            </div>
+
+            <div className="ctn">
+              <div className="left" data-aos="fade-right">
+                <Image className='img' src={rodrygo_med} alt='' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Rodrygo medical report</h2>
+
+              </div>
+
+              <Link href="courtois-medical-report">
+              <div className="middle" data-aos="fade-up">
+                <Image className='img' src={courtois_med} alt='' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Courtois medical report</h2>
+
+              </div>
+              </Link>
+
+              <div className="right" data-aos="fade-left">
+                <Image className='img' src={modric_250} alt='champions league 2024' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Modrić wins his 250th league match as a Real Madrid player</h2>
+
+              </div>
+            </div>
+
+            <div className="ctn">
+              <Link href="carvajal-medical-report">
+              <div className="left" data-aos="fade-right">
+                <Image className='img' src={carvajal_med} alt='' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Carvajal medical report</h2>
+
+              </div>
+              </Link>
+
+              <div className="middle" data-aos="fade-up">
+                <Image className='img' src={ancelloti_200} alt='' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Ancelotti reaches 200 Laliga games at Real Madrid</h2>
+
+              </div>
+
+              <div className="right" data-aos="fade-left">
+                <Image className='img' src={varane} alt='champions league 2024' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Raphael Varane retirement</h2>
 
               </div>
             </div>
@@ -300,12 +388,14 @@ const Homepage = () => {
           {/* news */}
           <div>
             <div className="ctn">
-              <div className="left" data-aos="fade-right">
-                <Image className='img' src={militao} alt='militao' priority />
+              <Link href="eder-militao-medical-report">
+                <div className="left" data-aos="fade-right">
+                  <Image className='img' src={militao} alt='militao' priority />
 
-                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Eder Militaos medical report</h2>
+                  <h2 style={{marginTop:'20px', fontSize:'15px'}}>Eder Militaos medical report</h2>
 
-              </div>
+                </div>
+              </Link>
 
               <Link href="david-beckham-has-broken-silence-on-mbappes-move-to-real-madrid">
               <div className="middle" data-aos="fade-up">
@@ -366,6 +456,79 @@ const Homepage = () => {
                 <Image className='img' src={madrid_stadium} alt='champions league 2024' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Welcome to KickOff-SantiagoBernabeu</h2>
+
+              </div>
+            </div>
+
+            <div className="ctn">
+              <div className="left" data-aos="fade-right">
+                <Image className='img' src={tchoumeini} alt='' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Tchouameni reaches his 100th game for Real Madrid</h2>
+
+              </div>
+
+              <div className="middle" data-aos="fade-up">
+                <Image className='img' src={modric_oldest} alt='' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Modric becomes the oldest player to appear in an official match in the history of Real Madrid</h2>
+
+              </div>
+
+              <Link href="johan-neeskens-passes-away" >
+              <div className="right" data-aos="fade-up">
+                <Image className='img' src={legend} alt='champions league 2024' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Official announcement:Johan Neeskens passes away</h2>
+
+              </div>
+              </Link>
+            </div>
+
+            <div className="ctn">
+              <div className="left" data-aos="fade-right">
+                <Image className='img' src={rodrygo_med} alt='' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Rodrygo medical report</h2>
+
+              </div>
+
+              <Link href="courtois-medical-report">
+              <div className="middle" data-aos="fade-up">
+                <Image className='img' src={courtois_med} alt='' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Courtois medical report</h2>
+
+              </div>
+              </Link>
+
+              <div className="right" data-aos="fade-left">
+                <Image className='img' src={modric_250} alt='champions league 2024' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Modrić wins his 250th league match as a Real Madrid player</h2>
+
+              </div>
+            </div>
+
+            <div className="ctn">
+              <div className="left" data-aos="fade-right">
+                <Image className='img' src={carvajal_med} alt='' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Carvajal medical report</h2>
+
+              </div>
+
+              <div className="middle" data-aos="fade-up">
+                <Image className='img' src={ancelloti_200} alt='' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Ancelotti reaches 200 Laliga games at Real Madrid</h2>
+
+              </div>
+
+              <div className="right" data-aos="fade-left">
+                <Image className='img' src={varane} alt='champions league 2024' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Raphael Varane retirement</h2>
 
               </div>
             </div>
@@ -443,12 +606,14 @@ const Homepage = () => {
           {/* news */}
           <div>
             <div className="ctn_tablet">
-              <div className="left" data-aos="fade-right">
-                <Image className='img' src={militao} alt='militao' priority />
+              <Link href="eder-militao-medical-report">
+                <div className="left" data-aos="fade-right">
+                  <Image className='img' src={militao} alt='militao' priority />
 
-                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Eder Militaos medical report</h2>
+                  <h2 style={{marginTop:'20px', fontSize:'15px'}}>Eder Militaos medical report</h2>
 
-              </div>
+                </div>
+              </Link>
 
               <Link href="david-beckham-has-broken-silence-on-mbappes-move-to-real-madrid">
               <div className="middle" data-aos="fade-up">
@@ -512,6 +677,83 @@ const Homepage = () => {
 
               </div>
             </div>
+
+            <div className="ctn_tablet">
+              <div className="left" data-aos="fade-right">
+                <Image className='img' src={tchoumeini} alt='' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Tchouameni reaches his 100th game for Real Madrid</h2>
+
+              </div>
+
+              <div className="middle" data-aos="fade-up">
+                <Image className='img' src={modric_oldest} alt='' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Modric becomes the oldest player to appear in an official match in the history of Real Madrid</h2>
+
+              </div>
+
+              <Link href="johan-neeskens-passes-away" >
+              <div className="right" data-aos="fade-up">
+                <Image className='img' src={legend} alt='champions league 2024' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Official announcement:Johan Neeskens passes away</h2>
+
+              </div>
+              </Link>
+            </div>
+
+            <div className="ctn_tablet">
+              <div className="left" data-aos="fade-right">
+                <Image className='img' src={rodrygo_med} alt='' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Rodrygo medical report</h2>
+
+              </div>
+
+              <Link href="courtois-medical-report">
+              <div className="middle" data-aos="fade-up">
+                <Image className='img' src={courtois_med} alt='' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Courtois medical report</h2>
+
+              </div>
+              </Link>
+
+              <div className="right" data-aos="fade-left">
+                <Image className='img' src={modric_250} alt='champions league 2024' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Modrić wins his 250th league match as a Real Madrid player</h2>
+
+              </div>
+            </div>
+
+            <div className="ctn_tablet">
+            <Link href="carvajal-medical-report">
+              <div className="left" data-aos="fade-right">
+                <Image className='img' src={carvajal_med} alt='' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Carvajal medical report</h2>
+
+              </div>
+              </Link>
+
+              <div className="middle" data-aos="fade-up">
+                <Image className='img' src={ancelloti_200} alt='' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Ancelotti reaches 200 Laliga games at Real Madrid</h2>
+
+              </div>
+
+              <div className="right" data-aos="fade-left">
+                <Image className='img' src={varane} alt='champions league 2024' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Raphael Varane retirement</h2>
+
+              </div>
+            </div>
+
+            
           </div>
 
         </div>
@@ -591,12 +833,14 @@ const Homepage = () => {
           {/* news */}
           <div className="news">
             <div className="ctn_phone">
-              <div className="left" data-aos="fade-up">
-                <Image className='img' src={militao} alt='militao' priority />
+              <Link href="eder-militao-medical-report">
+                <div className="left" data-aos="fade-right">
+                  <Image className='img' src={militao} alt='militao' priority />
 
-                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Eder Militaos medical report</h2>
+                  <h2 style={{marginTop:'20px', fontSize:'15px'}}>Eder Militaos medical report</h2>
 
-              </div>
+                </div>
+              </Link>
 
               <Link href="david-beckham-has-broken-silence-on-mbappes-move-to-real-madrid">
               <div className="middle" data-aos="fade-up">
@@ -657,6 +901,81 @@ const Homepage = () => {
                 <Image className='img' src={madrid_stadium} alt='champions league 2024' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Welcome to KickOff-SantiagoBernabeu</h2>
+
+              </div>
+            </div>
+
+            <div className="ctn_phone">
+              <div className="left" data-aos="fade-up">
+                <Image className='img' src={tchoumeini} alt='' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Tchouameni reaches his 100th game for Real Madrid</h2>
+
+              </div>
+
+              <div className="middle" data-aos="fade-up">
+                <Image className='img' src={modric_oldest} alt='' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Modric becomes the oldest player to appear in an official match in the history of Real Madrid</h2>
+
+              </div>
+
+              <Link href="johan-neeskens-passes-away" >
+              <div className="right" data-aos="fade-up">
+                <Image className='img' src={legend} alt='champions league 2024' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Official announcement:Johan Neeskens passes away</h2>
+
+              </div>
+              </Link>
+            </div>
+
+            <div className="ctn_phone">
+              <div className="left" data-aos="fade-up">
+                <Image className='img' src={rodrygo_med} alt='' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Rodrygo medical report</h2>
+
+              </div>
+
+              <Link href="courtois-medical-report">
+              <div className="middle" data-aos="fade-up">
+                <Image className='img' src={courtois_med} alt='' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Courtois medical report</h2>
+
+              </div>
+              </Link>
+
+              <div className="right" data-aos="fade-up">
+                <Image className='img' src={modric_250} alt='champions league 2024' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Modrić wins his 250th league match as a Real Madrid player</h2>
+
+              </div>
+            </div>
+
+            <div className="ctn_phone">
+            <Link href="carvajal-medical-report">
+              <div className="left" data-aos="fade-right">
+                <Image className='img' src={carvajal_med} alt='' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Carvajal medical report</h2>
+
+              </div>
+              </Link>
+
+              <div className="middle" data-aos="fade-up">
+                <Image className='img' src={ancelloti_200} alt='' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Ancelotti reaches 200 Laliga games at Real Madrid</h2>
+
+              </div>
+
+              <div className="right" data-aos="fade-up">
+                <Image className='img' src={varane} alt='champions league 2024' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Raphael Varane retirement</h2>
 
               </div>
             </div>

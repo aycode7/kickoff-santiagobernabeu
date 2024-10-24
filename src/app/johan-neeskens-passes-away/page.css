@@ -78,6 +78,7 @@ body
 {
     display: flex;
     gap: 30px;
+    justify-content: center;
     padding: 140px 6%;
 
 }
@@ -103,7 +104,7 @@ body
 
 .news .image
 {
-    width: 650px;
+    width: 600px;
     height: 600px;
     border: none;
     border-radius: 40px;
@@ -112,7 +113,7 @@ body
 
 .news .image .img
 {
-    width: 650px;
+    width: 550px;
     height: 600px;
     border: none;
     border-radius: 40px;
@@ -160,8 +161,8 @@ body
 
 .news_tablet .image .img
 {
-    width: 600px;
-    height: 500px;
+    width: 630px;
+    height: 650px;
     border: none;
     border-radius: 40px;
     cursor: pointer;

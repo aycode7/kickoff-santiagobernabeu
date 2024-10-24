@@ -78,6 +78,7 @@ body
 {
     display: flex;
     gap: 30px;
+    justify-content: center;
     padding: 140px 6%;
 
 }
@@ -103,7 +104,7 @@ body
 
 .news .image
 {
-    width: 650px;
+    width: 600px;
     height: 600px;
     border: none;
     border-radius: 40px;
@@ -112,7 +113,7 @@ body
 
 .news .image .img
 {
-    width: 650px;
+    width: 600px;
     height: 600px;
     border: none;
     border-radius: 40px;
