@@ -102,13 +102,17 @@ const Homepage = () => {
           <div className="topnav">
 
             <div className='navbar'>
+              <Link href="/">
               <div className="left">
                 <h1>KickOff</h1>
                 <Image style={{cursor:'pointer'}} src={logo} width={90} alt='' priority />
               </div>
+              </Link>
 
               <div className="middle">
+                <Link href="/">
                 <h2 onClick={handleTap} className={tap === true ? 'tap' : ''}>News</h2>
+                </Link>
                 <h2 onClick={handleTap2} className={tap2 === true ? 'tap' : ''}>Fixtures</h2>
                 <h2 onClick={handleTap3} className={tap3 === true ? 'tap' : ''}>Standings</h2>
                 <h2 onClick={handleTap4} className={tap4 === true ? 'tap' : ''}>Players</h2>
@@ -163,12 +167,14 @@ const Homepage = () => {
 
               </div>
 
-              <div className="middle" data-aos="fade-up">
-                <Image className='img' src={david} alt='' priority />
+              <Link href="david-beckham-has-broken-silence-on-mbappes-move-to-real-madrid">
+                <div className="middle" data-aos="fade-up">
+                  <Image className='img' src={david} alt='' priority />
 
-                <h2 style={{marginTop:'20px', fontSize:'15px'}}>David Beckham the Inter Miami manager has broken silence on Mbappes move to Real Madrid</h2>
+                  <h2 style={{marginTop:'20px', fontSize:'15px'}}>David Beckham the Inter Miami manager has broken silence on Mbappes move to Real Madrid</h2>
 
-              </div>
+                </div>
+              </Link>
 
               <div className="right" data-aos="fade-left">
                 <Image className='img' src={champions} alt='champions league 2024' priority />
@@ -301,12 +307,14 @@ const Homepage = () => {
 
               </div>
 
+              <Link href="david-beckham-has-broken-silence-on-mbappes-move-to-real-madrid">
               <div className="middle" data-aos="fade-up">
                 <Image className='img' src={david} alt='' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>David Beckham the Inter Miami manager has broken silence on Mbappes move to Real Madrid</h2>
 
               </div>
+              </Link>
 
               <div className="right" data-aos="fade-left">
                 <Image className='img' src={champions} alt='champions league 2024' priority />
@@ -377,13 +385,17 @@ const Homepage = () => {
           <div className="topnav">
 
             <div className='navbar'>
+              <Link href="/">
               <div className="left">
                 <h1>KickOff</h1>
                 <Image style={{cursor:'pointer'}} src={logo} width={90} alt='' priority />
               </div>
+              </Link>
 
               <div className="middle">
+                <Link href="/">
                 <h2 onClick={handleTap} className={tap === true ? 'tap' : ''}>News</h2>
+                </Link>
                 <h2 onClick={handleTap2} className={tap2 === true ? 'tap' : ''}>Fixtures</h2>
                 <h2 onClick={handleTap3} className={tap3 === true ? 'tap' : ''}>Standings</h2>
                 <h2 onClick={handleTap4} className={tap4 === true ? 'tap' : ''}>Players</h2>
@@ -438,12 +450,14 @@ const Homepage = () => {
 
               </div>
 
+              <Link href="david-beckham-has-broken-silence-on-mbappes-move-to-real-madrid">
               <div className="middle" data-aos="fade-up">
                 <Image className='img' src={david} alt='' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>David Beckham the Inter Miami manager has broken silence on Mbappes move to Real Madrid</h2>
 
               </div>
+              </Link>
 
               <div className="right" data-aos="fade-left">
                 <Image className='img' src={champions} alt='champions league 2024' priority />
@@ -515,10 +529,12 @@ const Homepage = () => {
 
             <div className="navbar_phone">
 
+              <Link href="/">
               <div className="left">
                 <h1>KickOff</h1>
                 <Image src={logo} width={75} alt='' />
               </div>
+              </Link>
 
               <div className="right">
                 {dropdownIcon === true &&
@@ -527,7 +543,9 @@ const Homepage = () => {
 
                 {dropdown === true &&
                   <div className="dropdown">
+                    <Link href="/">
                     <p onClick={handleTap} className={tap === true ? "tap_phone" : ''}>News</p>
+                    </Link>
                     <p onClick={handleTap2} className={tap2 === true ? "tap_phone" : ''}>Fixtures</p>
                     <p onClick={handleTap3} className={tap3 === true ? "tap_phone" : ''}>Standings</p>
                     <p onClick={handleTap4} className={tap4 === true ? "tap_phone" : ''}>Players</p>
@@ -580,12 +598,14 @@ const Homepage = () => {
 
               </div>
 
+              <Link href="david-beckham-has-broken-silence-on-mbappes-move-to-real-madrid">
               <div className="middle" data-aos="fade-up">
                 <Image className='img' src={david} alt='' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>David Beckham the Inter Miami manager has broken silence on Mbappes move to Real Madrid</h2>
 
               </div>
+              </Link>
 
               <div className="right" data-aos="fade-up">
                 <Image className='img' src={champions} alt='champions league 2024' priority />
