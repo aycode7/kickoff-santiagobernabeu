@@ -596,21 +596,21 @@ const Homepage = () => {
             </div>
 
             <div className="ctn_phone">
-              <div className="left" data-aos="fade-right">
+              <div className="left" data-aos="fade-left">
                 <Image className='img' src={kylian} alt='militao' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Mbappe:PSG do not want me in the squad anymore, it was Luis Enrique that saved me</h2>
 
               </div>
 
-              <div className="middle" data-aos="fade-left">
+              <div className="middle" data-aos="fade-right">
                 <Image className='img' src={rodrygo} alt='' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Rodrygo has succeded to score the opening goal for Real Madrid for the last two seasons</h2>
 
               </div>
 
-              <div className="right" data-aos="fade-right">
+              <div className="right" data-aos="fade-left">
                 <Image className='img' src={perez} alt='champions league 2024' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Florentino Perez:This title would give us energy for a very difficult season</h2>
