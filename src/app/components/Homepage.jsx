@@ -1,7 +1,9 @@
 'use client'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import React from 'react'
 import Link from 'next/link'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 import './Homepage.css'
 import Image from 'next/image'
 import background_img from './Image/bellingham_med.webp'
@@ -18,6 +20,11 @@ import mbappe from './Image/Mbappe.jpg'
 import madrid_stadium from './Image/Santiago-Bernabeu.jpg'
 
 const Homepage = () => {
+
+  // aos
+  useEffect(()=> {
+    Aos.init({duration: 1200});
+  }, [])
 
   // navbar click functionality
   const [tap, setTap] = useState(true);
@@ -115,7 +122,7 @@ const Homepage = () => {
           <div>
 
             {notlike === true &&
-            <div onClick={handleLike}>
+            <div onClick={handleLike} data-aos="fade-right">
                 <p className='feedback'>🤍</p>
 
                 <div className='content'>
@@ -149,21 +156,21 @@ const Homepage = () => {
           {/* news */}
           <div>
             <div className="ctn">
-              <div className="left">
+              <div className="left" data-aos="fade-right">
                 <Image className='img' src={militao} alt='militao' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Eder Militaos medical report</h2>
 
               </div>
 
-              <div className="middle">
+              <div className="middle" data-aos="fade-up">
                 <Image className='img' src={david} alt='' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>David Beckham the Inter Miami manager has broken silence on Mbappes move to Real Madrid</h2>
 
               </div>
 
-              <div className="right">
+              <div className="right" data-aos="fade-left">
                 <Image className='img' src={champions} alt='champions league 2024' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Real Madrid have been crowned the 2023/24 Uefa Champions League winners</h2>
@@ -172,21 +179,21 @@ const Homepage = () => {
             </div>
 
             <div className="ctn">
-              <div className="left">
+              <div className="left" data-aos="fade-right">
                 <Image className='img' src={kylian} alt='militao' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Mbappe:PSG do not want me in the squad anymore, it was Luis Enrique that saved me</h2>
 
               </div>
 
-              <div className="middle">
+              <div className="middle" data-aos="fade-up">
                 <Image className='img' src={rodrygo} alt='' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Rodrygo has succeded to score the opening goal for Real Madrid for the last two seasons</h2>
 
               </div>
 
-              <div className="right">
+              <div className="right" data-aos="fade-left">
                 <Image className='img' src={perez} alt='champions league 2024' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Florentino Perez:This title would give us energy for a very difficult season</h2>
@@ -195,21 +202,21 @@ const Homepage = () => {
             </div>
 
             <div className="ctn">
-              <div className="left">
+              <div className="left" data-aos="fade-right">
                 <Image className='img' src={background_img} alt='militao' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Bellinghams medical report</h2>
 
               </div>
 
-              <div className="middle">
+              <div className="middle" data-aos="fade-up">
                 <Image className='img' src={mbappe} alt='' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Mbappe set to leave PSG for Real Madrid</h2>
 
               </div>
 
-              <div className="right">
+              <div className="right" data-aos="fade-left">
                 <Image className='img' src={madrid_stadium} alt='champions league 2024' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Welcome to KickOff-SantiagoBernabeu</h2>
@@ -253,7 +260,7 @@ const Homepage = () => {
           <div>
 
             {notlike === true &&
-            <div onClick={handleLike}>
+            <div onClick={handleLike} data-aos="fade-right">
                 <p className='feedback'>🤍</p>
 
                 <div className='content'>
@@ -287,21 +294,21 @@ const Homepage = () => {
           {/* news */}
           <div>
             <div className="ctn">
-              <div className="left">
+              <div className="left" data-aos="fade-right">
                 <Image className='img' src={militao} alt='militao' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Eder Militaos medical report</h2>
 
               </div>
 
-              <div className="middle">
+              <div className="middle" data-aos="fade-up">
                 <Image className='img' src={david} alt='' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>David Beckham the Inter Miami manager has broken silence on Mbappes move to Real Madrid</h2>
 
               </div>
 
-              <div className="right">
+              <div className="right" data-aos="fade-left">
                 <Image className='img' src={champions} alt='champions league 2024' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Real Madrid have been crowned the 2023/24 Uefa Champions League winners</h2>
@@ -310,21 +317,21 @@ const Homepage = () => {
             </div>
 
             <div className="ctn">
-              <div className="left">
+              <div className="left" data-aos="fade-right">
                 <Image className='img' src={kylian} alt='militao' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Mbappe:PSG do not want me in the squad anymore, it was Luis Enrique that saved me</h2>
 
               </div>
 
-              <div className="middle">
+              <div className="middle" data-aos="fade-up">
                 <Image className='img' src={rodrygo} alt='' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Rodrygo has succeded to score the opening goal for Real Madrid for the last two seasons</h2>
 
               </div>
 
-              <div className="right">
+              <div className="right" data-aos="fade-left">
                 <Image className='img' src={perez} alt='champions league 2024' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Florentino Perez:This title would give us energy for a very difficult season</h2>
@@ -333,21 +340,21 @@ const Homepage = () => {
             </div>
 
             <div className="ctn">
-              <div className="left">
+              <div className="left" data-aos="fade-right">
                 <Image className='img' src={background_img} alt='militao' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Bellinghams medical report</h2>
 
               </div>
 
-              <div className="middle">
+              <div className="middle" data-aos="fade-up">
                 <Image className='img' src={mbappe} alt='' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Mbappe set to leave PSG for Real Madrid</h2>
 
               </div>
 
-              <div className="right">
+              <div className="right" data-aos="fade-left">
                 <Image className='img' src={madrid_stadium} alt='champions league 2024' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Welcome to KickOff-SantiagoBernabeu</h2>
@@ -390,7 +397,7 @@ const Homepage = () => {
           <div>
 
             {notlike === true &&
-            <div onClick={handleLike}>
+            <div onClick={handleLike} data-aos="fade-right">
                 <p className='feedback'>🤍</p>
 
                 <div className='content'>
@@ -424,21 +431,21 @@ const Homepage = () => {
           {/* news */}
           <div>
             <div className="ctn_tablet">
-              <div className="left">
+              <div className="left" data-aos="fade-right">
                 <Image className='img' src={militao} alt='militao' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Eder Militaos medical report</h2>
 
               </div>
 
-              <div className="middle">
+              <div className="middle" data-aos="fade-up">
                 <Image className='img' src={david} alt='' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>David Beckham the Inter Miami manager has broken silence on Mbappes move to Real Madrid</h2>
 
               </div>
 
-              <div className="right">
+              <div className="right" data-aos="fade-left">
                 <Image className='img' src={champions} alt='champions league 2024' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Real Madrid have been crowned the 2023/24 Uefa Champions League winners</h2>
@@ -447,21 +454,21 @@ const Homepage = () => {
             </div>
 
             <div className="ctn_tablet">
-              <div className="left">
+              <div className="left" data-aos="fade-right">
                 <Image className='img' src={kylian} alt='militao' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Mbappe:PSG do not want me in the squad anymore, it was Luis Enrique that saved me</h2>
 
               </div>
 
-              <div className="middle">
+              <div className="middle" data-aos="fade-up">
                 <Image className='img' src={rodrygo} alt='' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Rodrygo has succeded to score the opening goal for Real Madrid for the last two seasons</h2>
 
               </div>
 
-              <div className="right">
+              <div className="right" data-aos="fade-left">
                 <Image className='img' src={perez} alt='champions league 2024' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Florentino Perez:This title would give us energy for a very difficult season</h2>
@@ -470,21 +477,21 @@ const Homepage = () => {
             </div>
 
             <div className="ctn_tablet">
-              <div className="left">
+              <div className="left" data-aos="fade-right">
                 <Image className='img' src={background_img} alt='militao' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Bellinghams medical report</h2>
 
               </div>
 
-              <div className="middle">
+              <div className="middle" data-aos="fade-up">
                 <Image className='img' src={mbappe} alt='' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Mbappe set to leave PSG for Real Madrid</h2>
 
               </div>
 
-              <div className="right">
+              <div className="right" data-aos="fade-left">
                 <Image className='img' src={madrid_stadium} alt='champions league 2024' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Welcome to KickOff-SantiagoBernabeu</h2>
