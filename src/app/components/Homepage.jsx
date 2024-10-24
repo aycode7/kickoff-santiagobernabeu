@@ -13,7 +13,6 @@ import bellingham_med from './Image/bellingham_med.webp'
 import perez from './Image/Perez.jpg'
 import kylian from './Image/kylian.jpg'
 import rodrygo from './Image/rodrygo.jpg'
-import mbappe from './Image/mbappe.jpeg'
 import mobile_background_img from './Image/mobile_background.jpg'
 
 const Homepage = () => {
@@ -171,7 +170,7 @@ const Homepage = () => {
 
           <div className="ctn">
             <div className="left">
-              <Image className='img' src={mbappe} alt='militao' priority />
+              <Image className='img' src={kylian} alt='militao' priority />
 
               <h2 style={{marginTop:'20px', fontSize:'15px'}}>Mbappe:"PSG do not want me in the squad anymore, he procceded to mention Luis Enrique and two other people who saved him"</h2>
 
