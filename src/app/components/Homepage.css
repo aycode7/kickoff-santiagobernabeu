@@ -1,6 +1,7 @@
 body
 {
     background-color: white;
+    width: 100%;
 
 }
 
@@ -246,6 +247,7 @@ body
     border-radius: 30px;
     text-align: center;
     cursor: pointer;
+    z-index: 900;
 
 }
 
@@ -314,7 +316,8 @@ body
 #mobile
 {
     /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
-    font-family: 'Times New Roman', Times, serif;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 
@@ -323,6 +326,7 @@ body
     padding: 30px 5%;
     position: fixed;
     width: 100%;
+    z-index: 1000;
 
 }
 
@@ -391,9 +395,8 @@ body
 
 .navbar_phone .right .dropdown p
 {
-    font-size: 15px;
+    font-size: 16px;
     cursor: pointer;
-    font-family: 'Times New Roman', Times, serif;
     transition: all 0.3s ease;
 
 }
@@ -470,5 +473,92 @@ body
     font-family: 'Times New Roman', Times, serif;
     border-radius: 5px;
     margin-top: 2px;
+
+}
+
+/* news */
+.ctn_phone
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding: 25px 5%;
+    
+}
+
+.ctn_phone .left
+{
+    background-color: white;
+    color: black;
+    width: 270px;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 900;
+
+}
+
+.ctn_phone .left .img
+{
+    width: 270px;
+    height: 300px;
+    border: none;
+    border-radius: 30px;
+
+
+}
+
+.ctn_phone .middle 
+{
+    width: 270px;
+    height: 370px;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.ctn_phone .middle .img
+{
+    width: 270px;
+    height: 300px;
+    border: none;
+    border-radius: 30px;
+
+
+}
+
+.ctn_phone .right
+{
+    width: 270px;
+    height: 370px;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+
+.ctn_phone .right .img
+{
+    width: 270px;
+    height: 300px;
+    border: none;
+    border-radius: 30px;
 
 }
