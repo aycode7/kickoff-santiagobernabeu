@@ -10,7 +10,7 @@ import 'aos/dist/aos.css'
 import logo from './Image/madrid_icon.png'
 import militao from './Image/militao.jpg'
 
-const page = () => {
+const Page = () => {
 
   // aos
   useEffect(()=> {
@@ -273,4 +273,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
