@@ -9,7 +9,6 @@ import './page.css'
 import 'aos/dist/aos.css'
 import logo from './Image/madrid_icon.png'
 import militao from './Image/militao.jpg'
-import ancelotti from './Image/anselloti_200.jpg'
 
 const page = () => {
 
