@@ -6,6 +6,15 @@ import './Homepage.css'
 import Image from 'next/image'
 import background_img from './Image/bellingham_med.webp'
 import logo from './Image/madrid_icon.png'
+import militao from './Image/militao.jpg'
+import david from './Image/david.jpg'
+import champions from './Image/champions.jpg'
+import bellingham_med from './Image/bellingham_med.webp'
+import perez from './Image/Perez.jpg'
+import kylian from './Image/kylian.jpg'
+import rodrygo from './Image/rodrygo.jpg'
+import mbappe from './Image/mbappe.jpeg'
+import mobile_background_img from './Image/mobile_background.jpg'
 
 const Homepage = () => {
 
@@ -74,6 +83,7 @@ const Homepage = () => {
 
   return (
     <div>
+      
       {/* big laptop */}
       <div id='big' className='hidden md:hidden lg:hidden xl:block'>
 
@@ -133,6 +143,53 @@ const Homepage = () => {
           {/* news header */}
           <div className='news_heading'>
             <h2>News</h2>
+          </div>
+
+          {/* news */}
+          <div className="ctn">
+            <div className="left">
+              <Image className='img' src={militao} alt='militao' priority />
+
+              <h2 style={{marginTop:'20px', fontSize:'15px'}}>Eder Militao's medical report</h2>
+
+            </div>
+
+            <div className="middle">
+              <Image className='img' src={david} alt='' priority />
+
+              <h2 style={{marginTop:'20px', fontSize:'15px'}}>David Beckham the "Inter Miami" manager has broken silence on Mbappes move to "Real Madrid"</h2>
+
+            </div>
+
+            <div className="right">
+              <Image className='img' src={champions} alt='champions league 2024' priority />
+
+              <h2 style={{marginTop:'20px', fontSize:'15px'}}>Real Madrid have been crowned the 2023/24 Uefa Champions League winners</h2>
+
+            </div>
+          </div>
+
+          <div className="ctn">
+            <div className="left">
+              <Image className='img' src={mbappe} alt='militao' priority />
+
+              <h2 style={{marginTop:'20px', fontSize:'15px'}}>Mbappe:"PSG do not want me in the squad anymore, he procceded to mention Luis Enrique and two other people who saved him"</h2>
+
+            </div>
+
+            <div className="middle">
+              <Image className='img' src={rodrygo} alt='' priority />
+
+              <h2 style={{marginTop:'20px', fontSize:'15px'}}>Rodrygo has succeded to score the opening goal for "Real Madrid" for the last two seasons</h2>
+
+            </div>
+
+            <div className="right">
+              <Image className='img' src={perez} alt='champions league 2024' priority />
+
+              <h2 style={{marginTop:'20px', fontSize:'15px'}}>Florentino Perez:"This title would give us energy for a very difficult season"</h2>
+
+            </div>
           </div>
 
         </div>
@@ -246,7 +303,7 @@ const Homepage = () => {
 
             {like === true &&
             <div onClick={handleNotlike}>
-                <p className='feedback'>💗</p>
+                <p className='feedback'>❤</p>
 
                 <div className='content'>
                 <p>thanks for the likes</p>
@@ -328,7 +385,7 @@ const Homepage = () => {
 
           {/* background_img_phone */}
           <div >
-            <Image className='background_img_phone' src={background_img} alt='' priority />
+            <Image className='background_img_phone' src={mobile_background_img} alt='' priority />
           </div>
 
           {/* news heading */}
