@@ -156,7 +156,7 @@ const Homepage = () => {
             <div className="middle">
               <Image className='img' src={david} alt='' priority />
 
-              <h2 style={{marginTop:'20px', fontSize:'15px'}}>David Beckham the "Inter Miami" manager has broken silence on Mbappes move to Real Madrid</h2>
+              <h2 style={{marginTop:'20px', fontSize:'15px'}}>David Beckham the Inter Miami manager has broken silence on Mbappes move to Real Madrid</h2>
 
             </div>
 
