@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { useEffect } from 'react'
 import Aos from 'aos'
 import "aos/dist/aos.css"
-import './Page.css'
+import './page.css'
 import Image from 'next/image'
 import Link from 'next/link'
 import logo from './Image/madrid_icon.png'

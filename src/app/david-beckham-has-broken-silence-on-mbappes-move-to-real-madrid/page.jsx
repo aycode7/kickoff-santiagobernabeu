@@ -6,7 +6,7 @@ import React from 'react'
 import Link from 'next/link'
 import { useState } from 'react'
 import { useEffect } from 'react'
-import './Page.css'
+import './page.css'
 import logo from './Image/madrid_icon.png'
 import david from './Image/david.jpg'
 
