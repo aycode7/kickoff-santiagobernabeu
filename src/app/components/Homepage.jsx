@@ -149,14 +149,14 @@ const Homepage = () => {
             <div className="left">
               <Image className='img' src={militao} alt='militao' priority />
 
-              <h2 style={{marginTop:'20px', fontSize:'15px'}}>Eder Militao's medical report</h2>
+              <h2 style={{marginTop:'20px', fontSize:'15px'}}>Eder Militaos medical report</h2>
 
             </div>
 
             <div className="middle">
               <Image className='img' src={david} alt='' priority />
 
-              <h2 style={{marginTop:'20px', fontSize:'15px'}}>David Beckham the "Inter Miami" manager has broken silence on Mbappes move to "Real Madrid"</h2>
+              <h2 style={{marginTop:'20px', fontSize:'15px'}}>David Beckham the "Inter Miami" manager has broken silence on Mbappes move to Real Madrid</h2>
 
             </div>
 
@@ -172,21 +172,21 @@ const Homepage = () => {
             <div className="left">
               <Image className='img' src={kylian} alt='militao' priority />
 
-              <h2 style={{marginTop:'20px', fontSize:'15px'}}>Mbappe:"PSG do not want me in the squad anymore, he procceded to mention Luis Enrique and two other people who saved him"</h2>
+              <h2 style={{marginTop:'20px', fontSize:'15px'}}>Mbappe:PSG do not want me in the squad anymore, he procceded to mention Luis Enrique and two other people who saved him</h2>
 
             </div>
 
             <div className="middle">
               <Image className='img' src={rodrygo} alt='' priority />
 
-              <h2 style={{marginTop:'20px', fontSize:'15px'}}>Rodrygo has succeded to score the opening goal for "Real Madrid" for the last two seasons</h2>
+              <h2 style={{marginTop:'20px', fontSize:'15px'}}>Rodrygo has succeded to score the opening goal for Real Madrid for the last two seasons</h2>
 
             </div>
 
             <div className="right">
               <Image className='img' src={perez} alt='champions league 2024' priority />
 
-              <h2 style={{marginTop:'20px', fontSize:'15px'}}>Florentino Perez:"This title would give us energy for a very difficult season"</h2>
+              <h2 style={{marginTop:'20px', fontSize:'15px'}}>Florentino Perez:This title would give us energy for a very difficult season</h2>
 
             </div>
           </div>
