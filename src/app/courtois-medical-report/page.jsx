@@ -3,14 +3,14 @@ import Link from 'next/link'
 import Image from 'next/image'
 import React from 'react'
 import "aos/dist/aos.css"
-import './page.css'
+import './Page.css'
 import { useState } from 'react'
 import { useEffect } from 'react'
 import Aos from 'aos'
 import logo from './Image/madrid_icon.png'
 import courtois from './Image/courtois_med.jpg'
 
-const page = () => {
+const Page = () => {
 
   // aos
   useEffect(()=> {
@@ -294,4 +294,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

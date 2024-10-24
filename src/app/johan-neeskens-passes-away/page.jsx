@@ -6,12 +6,12 @@ import Aos from 'aos'
 import 'aos/dist/aos.css'
 import Link from 'next/link'
 import Image from 'next/image'
-import './page.css'
+import './Page.css'
 import logo from './Image/madrid_icon.png'
 import legend from './Image/legend.jpg'
 import mbappe from './Image/_0_DB20398.webp'
 
-const page = () => {
+const Page = () => {
 
   // aos
   useEffect(()=> {
@@ -338,4 +338,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
