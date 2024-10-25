@@ -10,7 +10,7 @@ import React from 'react'
 import perez from './Image/Perez.jpg'
 import logo from './Image/madrid_icon.png'
 
-const page = () => {
+const Page = () => {
 
   // aos
   useEffect(()=> {
@@ -335,4 +335,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
