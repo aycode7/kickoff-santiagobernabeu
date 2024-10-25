@@ -120,7 +120,7 @@ const Page = () => {
                 <p>The former Galatico approves of the strikers arrival</p>
                 <p>The confirmation of Kylian Mbappe signing for Real Madrid is on everyones lips, and even David Beckham has spoken about it. Mbappe has agreed a five-year contract worth a reported $15million-a-year, with a massive $163m loyalty bonus to be paid across his time at the Santiago Bernabeu. He will join after his contract with PSG expires on July 1, 2024</p>
                 <p>And Beckham, 49, said he was excited about the strikers arrival in the Spanish capital after Mbappe was finally presented as a new Real Madrid player on Tuesday. It is a very special moment, not only for Madrid, but for all of Spain, to see a player like him [Mbappe] come to La Liga, the Inter Miami co-owner said on his visit to Barcelona for a promotional event. I think he is a special player and a special person. I am happy for him, I am happy for Madrid. He is a great player, a great person and he joins a great club.
-                Beckham, ambassador of the TUDOR brand, was in Barcelona for the opening of the watch brand's first store in the capital of Catalonia.</p>
+                Beckham, ambassador of the TUDOR brand, was in Barcelona for the opening of the watch brands first store in the capital of Catalonia.</p>
 
                 <h1>How Real Madrid captured Kylian Mbappe</h1>
 
@@ -174,7 +174,7 @@ const Page = () => {
               <p>The former Galatico approves of the strikers arrival</p>
               <p>The confirmation of Kylian Mbappe signing for Real Madrid is on everyones lips, and even David Beckham has spoken about it. Mbappe has agreed a five-year contract worth a reported $15million-a-year, with a massive $163m loyalty bonus to be paid across his time at the Santiago Bernabeu. He will join after his contract with PSG expires on July 1, 2024</p>
               <p>And Beckham, 49, said he was excited about the strikers arrival in the Spanish capital after Mbappe was finally presented as a new Real Madrid player on Tuesday. It is a very special moment, not only for Madrid, but for all of Spain, to see a player like him [Mbappe] come to La Liga, the Inter Miami co-owner said on his visit to Barcelona for a promotional event. I think he is a special player and a special person. I am happy for him, I am happy for Madrid. He is a great player, a great person and he joins a great club.
-              Beckham, ambassador of the TUDOR brand, was in Barcelona for the opening of the watch brand's first store in the capital of Catalonia.</p>
+              Beckham, ambassador of the TUDOR brand, was in Barcelona for the opening of the watch brands first store in the capital of Catalonia.</p>
 
               <h1>How Real Madrid captured Kylian Mbappe</h1>
 
@@ -229,7 +229,7 @@ const Page = () => {
               <p>The former Galatico approves of the strikers arrival</p>
               <p>The confirmation of Kylian Mbappe signing for Real Madrid is on everyones lips, and even David Beckham has spoken about it. Mbappe has agreed a five-year contract worth a reported $15million-a-year, with a massive $163m loyalty bonus to be paid across his time at the Santiago Bernabeu. He will join after his contract with PSG expires on July 1, 2024</p>
               <p>And Beckham, 49, said he was excited about the strikers arrival in the Spanish capital after Mbappe was finally presented as a new Real Madrid player on Tuesday. It is a very special moment, not only for Madrid, but for all of Spain, to see a player like him [Mbappe] come to La Liga, the Inter Miami co-owner said on his visit to Barcelona for a promotional event. I think he is a special player and a special person. I am happy for him, I am happy for Madrid. He is a great player, a great person and he joins a great club.
-              Beckham, ambassador of the TUDOR brand, was in Barcelona for the opening of the watch brand's first store in the capital of Catalonia.</p>
+              Beckham, ambassador of the TUDOR brand, was in Barcelona for the opening of the watch brands first store in the capital of Catalonia.</p>
 
               <h1>How Real Madrid captured Kylian Mbappe</h1>
 
@@ -296,7 +296,7 @@ const Page = () => {
               <p>The former Galatico approves of the strikers arrival</p>
               <p>The confirmation of Kylian Mbappe signing for Real Madrid is on everyones lips, and even David Beckham has spoken about it. Mbappe has agreed a five-year contract worth a reported $15million-a-year, with a massive $163m loyalty bonus to be paid across his time at the Santiago Bernabeu. He will join after his contract with PSG expires on July 1, 2024</p>
               <p>And Beckham, 49, said he was excited about the strikers arrival in the Spanish capital after Mbappe was finally presented as a new Real Madrid player on Tuesday. It is a very special moment, not only for Madrid, but for all of Spain, to see a player like him [Mbappe] come to La Liga, the Inter Miami co-owner said on his visit to Barcelona for a promotional event. I think he is a special player and a special person. I am happy for him, I am happy for Madrid. He is a great player, a great person and he joins a great club.
-              Beckham, ambassador of the TUDOR brand, was in Barcelona for the opening of the watch brand's first store in the capital of Catalonia.</p>
+              Beckham, ambassador of the TUDOR brand, was in Barcelona for the opening of the watch brands first store in the capital of Catalonia.</p>
 
               <h1>How Real Madrid captured Kylian Mbappe</h1>
 
