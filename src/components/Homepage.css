@@ -17,9 +17,8 @@ body
 {
     padding: 30px 5%;
     position: fixed;
-    width: 94%;
-    max-width: 94%;
-    overflow-x: hidden;
+    width: 99.5%;
+    max-width: 99.5%;
     z-index: 1000;
 
 }
