@@ -212,7 +212,7 @@ const Homepage = () => {
 
               </div>
 
-              <Link href="florentino-perez-talks-about-winning-the-super-cup">
+              <Link href="florentino-perez-talks-about-winning-the-european-super-cup">
               <div className="right" data-aos="fade-left">
                 <Image className='img' src={perez} alt='champions league 2024' priority />
 
@@ -271,12 +271,14 @@ const Homepage = () => {
             </div>
 
             <div className="ctn">
+              <Link href="rodrygos-medical-report">
               <div className="left" data-aos="fade-right">
                 <Image className='img' src={rodrygo_med} alt='' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Rodrygo medical report</h2>
 
               </div>
+              </Link>
 
               <Link href="courtois-medical-report">
               <div className="middle" data-aos="fade-up">
@@ -431,7 +433,7 @@ const Homepage = () => {
 
               </div>
 
-              <Link href="florentino-perez-talks-about-winning-the-super-cup">
+              <Link href="florentino-perez-talks-about-winning-the-european-super-cup">
               <div className="right" data-aos="fade-left">
                 <Image className='img' src={perez} alt='champions league 2024' priority />
 
@@ -490,12 +492,14 @@ const Homepage = () => {
             </div>
 
             <div className="ctn">
+            <Link href="rodrygos-medical-report">
               <div className="left" data-aos="fade-right">
                 <Image className='img' src={rodrygo_med} alt='' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Rodrygo medical report</h2>
 
               </div>
+            </Link>
 
               <Link href="courtois-medical-report">
               <div className="middle" data-aos="fade-up">
@@ -651,7 +655,7 @@ const Homepage = () => {
 
               </div>
 
-              <Link href="florentino-perez-talks-about-winning-the-super-cup">
+              <Link href="florentino-perez-talks-about-winning-the-european-super-cup">
               <div className="right" data-aos="fade-left">
                 <Image className='img' src={perez} alt='champions league 2024' priority />
 
@@ -710,12 +714,14 @@ const Homepage = () => {
             </div>
 
             <div className="ctn_tablet">
+            <Link href="rodrygos-medical-report">
               <div className="left" data-aos="fade-right">
                 <Image className='img' src={rodrygo_med} alt='' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Rodrygo medical report</h2>
 
               </div>
+            </Link>
 
               <Link href="courtois-medical-report">
               <div className="middle" data-aos="fade-up">
@@ -880,7 +886,7 @@ const Homepage = () => {
 
               </div>
 
-              <Link href="florentino-perez-talks-about-winning-the-super-cup">
+              <Link href="florentino-perez-talks-about-winning-the-european-super-cup">
               <div className="right" data-aos="fade-left">
                 <Image className='img' src={perez} alt='champions league 2024' priority />
 
@@ -939,12 +945,14 @@ const Homepage = () => {
             </div>
 
             <div className="ctn_phone">
+            <Link href="rodrygos-medical-report">
               <div className="left" data-aos="fade-right">
                 <Image className='img' src={rodrygo_med} alt='' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Rodrygo medical report</h2>
 
               </div>
+            </Link>
 
               <Link href="courtois-medical-report">
               <div className="middle" data-aos="fade-left">

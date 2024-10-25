@@ -113,9 +113,20 @@ const Page = () => {
             <div className='news'>
 
               <div data-aos="fade-right" className="text">
-                <h1>David Beckham has broken silence on Mbappes move to Real Madrid</h1>
 
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio expedita assumenda magnam cum. Velit, doloribus. Quibusdam, omnis ut, nobis facere vitae consectetur soluta tempora unde eum ea, perferendis culpa similique!</p>
+
+                <h1>David Beckham breaks silence on Kylian Mbappe Real Madrid transfer: It is a very special moment</h1>
+
+                <p>The former Galatico approves of the strikers arrival</p>
+                <p>The confirmation of Kylian Mbappe signing for Real Madrid is on everyones lips, and even David Beckham has spoken about it. Mbappe has agreed a five-year contract worth a reported $15million-a-year, with a massive $163m loyalty bonus to be paid across his time at the Santiago Bernabeu. He will join after his contract with PSG expires on July 1, 2024</p>
+                <p>And Beckham, 49, said he was excited about the strikers arrival in the Spanish capital after Mbappe was finally presented as a new Real Madrid player on Tuesday. It is a very special moment, not only for Madrid, but for all of Spain, to see a player like him [Mbappe] come to La Liga, the Inter Miami co-owner said on his visit to Barcelona for a promotional event. I think he is a special player and a special person. I am happy for him, I am happy for Madrid. He is a great player, a great person and he joins a great club.
+                Beckham, ambassador of the TUDOR brand, was in Barcelona for the opening of the watch brand's first store in the capital of Catalonia.</p>
+
+                <h1>How Real Madrid captured Kylian Mbappe</h1>
+
+                <p>The journey to Mbappes signing began nearly two years ago, shortly after he left Real Madrid at the altar in May 2022. Under immense pressure from Paris, France, and Qatar, Mbappe renewed his contract with PSG just when Real Madrid had everything prepared to welcome him. Despite the disappointment, the LaLiga giants continued to lay the groundwork for the signing this summer. President Florentino Perez secured Mbappe, who worked diligently to ensure his freedom by June 30, 2024, a year earlier than initially agreed with PSG. Perez and Mbappe executed a flawless strategy last summer to finalize the signing of the century. Perez made PSG uneasy by denying any ongoing negotiations, while Mbappe remained resolute in his decision not to extend his contract with PSG.</p>
+
+                <p>This impecable plan ultimately brought Mbappe to the Santiago Bernabeu, and he will now wear the No.9 jersey as he prepares for a new adventure in Spain</p>
 
               </div>
 
@@ -157,9 +168,19 @@ const Page = () => {
           <div className='news'>
 
             <div data-aos="fade-right" className="text">
-              <h1>David Beckham has broken silence on Mbappes move to Real Madrid</h1>
 
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio expedita assumenda magnam cum. Velit, doloribus. Quibusdam, omnis ut, nobis facere vitae consectetur soluta tempora unde eum ea, perferendis culpa similique!</p>
+              <h1>David Beckham breaks silence on Kylian Mbappe Real Madrid transfer: It is a very special moment</h1>
+
+              <p>The former Galatico approves of the strikers arrival</p>
+              <p>The confirmation of Kylian Mbappe signing for Real Madrid is on everyones lips, and even David Beckham has spoken about it. Mbappe has agreed a five-year contract worth a reported $15million-a-year, with a massive $163m loyalty bonus to be paid across his time at the Santiago Bernabeu. He will join after his contract with PSG expires on July 1, 2024</p>
+              <p>And Beckham, 49, said he was excited about the strikers arrival in the Spanish capital after Mbappe was finally presented as a new Real Madrid player on Tuesday. It is a very special moment, not only for Madrid, but for all of Spain, to see a player like him [Mbappe] come to La Liga, the Inter Miami co-owner said on his visit to Barcelona for a promotional event. I think he is a special player and a special person. I am happy for him, I am happy for Madrid. He is a great player, a great person and he joins a great club.
+              Beckham, ambassador of the TUDOR brand, was in Barcelona for the opening of the watch brand's first store in the capital of Catalonia.</p>
+
+              <h1>How Real Madrid captured Kylian Mbappe</h1>
+
+              <p>The journey to Mbappes signing began nearly two years ago, shortly after he left Real Madrid at the altar in May 2022. Under immense pressure from Paris, France, and Qatar, Mbappe renewed his contract with PSG just when Real Madrid had everything prepared to welcome him. Despite the disappointment, the LaLiga giants continued to lay the groundwork for the signing this summer. President Florentino Perez secured Mbappe, who worked diligently to ensure his freedom by June 30, 2024, a year earlier than initially agreed with PSG. Perez and Mbappe executed a flawless strategy last summer to finalize the signing of the century. Perez made PSG uneasy by denying any ongoing negotiations, while Mbappe remained resolute in his decision not to extend his contract with PSG.</p>
+
+              <p>This impecable plan ultimately brought Mbappe to the Santiago Bernabeu, and he will now wear the No.9 jersey as he prepares for a new adventure in Spain</p>
 
             </div>
 
@@ -202,9 +223,19 @@ const Page = () => {
           <div className='news_tablet'>
 
             <div data-aos="fade-right" className="text">
-              <h1>David Beckham has broken silence on Mbappes move to Real Madrid</h1>
 
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio expedita assumenda magnam cum. Velit, doloribus. Quibusdam, omnis ut, nobis facere vitae consectetur soluta tempora unde eum ea, perferendis culpa similique!</p>
+              <h1>David Beckham breaks silence on Kylian Mbappe Real Madrid transfer: It is a very special moment</h1>
+
+              <p>The former Galatico approves of the strikers arrival</p>
+              <p>The confirmation of Kylian Mbappe signing for Real Madrid is on everyones lips, and even David Beckham has spoken about it. Mbappe has agreed a five-year contract worth a reported $15million-a-year, with a massive $163m loyalty bonus to be paid across his time at the Santiago Bernabeu. He will join after his contract with PSG expires on July 1, 2024</p>
+              <p>And Beckham, 49, said he was excited about the strikers arrival in the Spanish capital after Mbappe was finally presented as a new Real Madrid player on Tuesday. It is a very special moment, not only for Madrid, but for all of Spain, to see a player like him [Mbappe] come to La Liga, the Inter Miami co-owner said on his visit to Barcelona for a promotional event. I think he is a special player and a special person. I am happy for him, I am happy for Madrid. He is a great player, a great person and he joins a great club.
+              Beckham, ambassador of the TUDOR brand, was in Barcelona for the opening of the watch brand's first store in the capital of Catalonia.</p>
+
+              <h1>How Real Madrid captured Kylian Mbappe</h1>
+
+              <p>The journey to Mbappes signing began nearly two years ago, shortly after he left Real Madrid at the altar in May 2022. Under immense pressure from Paris, France, and Qatar, Mbappe renewed his contract with PSG just when Real Madrid had everything prepared to welcome him. Despite the disappointment, the LaLiga giants continued to lay the groundwork for the signing this summer. President Florentino Perez secured Mbappe, who worked diligently to ensure his freedom by June 30, 2024, a year earlier than initially agreed with PSG. Perez and Mbappe executed a flawless strategy last summer to finalize the signing of the century. Perez made PSG uneasy by denying any ongoing negotiations, while Mbappe remained resolute in his decision not to extend his contract with PSG.</p>
+
+              <p>This impecable plan ultimately brought Mbappe to the Santiago Bernabeu, and he will now wear the No.9 jersey as he prepares for a new adventure in Spain</p>
 
             </div>
 
@@ -259,9 +290,19 @@ const Page = () => {
             </div>
 
             <div className="text">
-              <h1>David Beckham has broken silence on Mbappes move to Real Madrid</h1>
 
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio expedita assumenda magnam cum. Velit, doloribus. Quibusdam, omnis ut, nobis facere vitae consectetur soluta tempora unde eum ea, perferendis culpa similique!</p>
+              <h1>David Beckham breaks silence on Kylian Mbappe Real Madrid transfer: It is a very special moment</h1>
+
+              <p>The former Galatico approves of the strikers arrival</p>
+              <p>The confirmation of Kylian Mbappe signing for Real Madrid is on everyones lips, and even David Beckham has spoken about it. Mbappe has agreed a five-year contract worth a reported $15million-a-year, with a massive $163m loyalty bonus to be paid across his time at the Santiago Bernabeu. He will join after his contract with PSG expires on July 1, 2024</p>
+              <p>And Beckham, 49, said he was excited about the strikers arrival in the Spanish capital after Mbappe was finally presented as a new Real Madrid player on Tuesday. It is a very special moment, not only for Madrid, but for all of Spain, to see a player like him [Mbappe] come to La Liga, the Inter Miami co-owner said on his visit to Barcelona for a promotional event. I think he is a special player and a special person. I am happy for him, I am happy for Madrid. He is a great player, a great person and he joins a great club.
+              Beckham, ambassador of the TUDOR brand, was in Barcelona for the opening of the watch brand's first store in the capital of Catalonia.</p>
+
+              <h1>How Real Madrid captured Kylian Mbappe</h1>
+
+              <p>The journey to Mbappes signing began nearly two years ago, shortly after he left Real Madrid at the altar in May 2022. Under immense pressure from Paris, France, and Qatar, Mbappe renewed his contract with PSG just when Real Madrid had everything prepared to welcome him. Despite the disappointment, the LaLiga giants continued to lay the groundwork for the signing this summer. President Florentino Perez secured Mbappe, who worked diligently to ensure his freedom by June 30, 2024, a year earlier than initially agreed with PSG. Perez and Mbappe executed a flawless strategy last summer to finalize the signing of the century. Perez made PSG uneasy by denying any ongoing negotiations, while Mbappe remained resolute in his decision not to extend his contract with PSG.</p>
+
+              <p>This impecable plan ultimately brought Mbappe to the Santiago Bernabeu, and he will now wear the No.9 jersey as he prepares for a new adventure in Spain</p>
 
             </div>
 

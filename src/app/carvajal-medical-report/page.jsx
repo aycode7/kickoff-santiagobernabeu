@@ -83,77 +83,30 @@ const Page = () => {
   return (
     <div>
 
-        {/* big laptop */}
-        <div id='big' className='hidden md:hidden lg:hidden xl:block'>
-
-            {/* navbar */}
-            <div className="topnav">
-
-                <div id='big' className='navbar'>
-                <Link href="/">
-                  <div className="left">
-                      <h1>KickOff</h1>
-                      <Image style={{cursor:'pointer'}} src={logo} width={90} alt='' priority />
-                  </div>
-                </Link>
-
-                <div className="middle">
-                    <Link href="/">
-                    <h2 onClick={handleTap} className={tap === true ? 'tap' : ''}>News</h2>
-                    </Link>
-                    <h2 onClick={handleTap2} className={tap2 === true ? 'tap' : ''}>Fixtures</h2>
-                    <h2 onClick={handleTap3} className={tap3 === true ? 'tap' : ''}>Standings</h2>
-                    <h2 onClick={handleTap4} className={tap4 === true ? 'tap' : ''}>Players</h2>
-                </div>
-
-                </div>
-
-            </div>
-
-            {/* news */}
-            <div className='news'>
-
-              <div data-aos="fade-right" className="text">
-                <h1>Dani Carvajal medical report</h1>
-
-                <p>The following tests carried out on Dani Carvajal by the Real Madrid
-                Medical Services, the player has been diagnosed with a ruptured anterior cruciate
-                ligament, a ruptured external collateral ligament and a ruptured popliteus
-                tendon in his right leg. He will undergo surgery in the coming days.</p>
-
-              </div>
-
-              <div data-aos="fade-left" className="image">
-                <Image className='img' src={carvajal_med} alt='' priority />
-              </div>
-
-            </div>
-        </div>
-
-        {/* small laptop */}
-        <div id='big' className='hidden md:hidden lg:block xl:hidden'>
+      {/* big laptop */}
+      <div id='big' className='hidden md:hidden lg:hidden xl:block'>
 
           {/* navbar */}
           <div className="topnav">
 
-            <div id='big' className='navbar'>
-            <Link href="/">
-              <div className="left">
-                  <h1>KickOff</h1>
-                  <Image style={{cursor:'pointer'}} src={logo} width={90} alt='' priority />
+              <div id='big' className='navbar'>
+              <Link href="/">
+                <div className="left">
+                    <h1>KickOff</h1>
+                    <Image style={{cursor:'pointer'}} src={logo} width={90} alt='' priority />
+                </div>
+              </Link>
+
+              <div className="middle">
+                  <Link href="/">
+                  <h2 onClick={handleTap} className={tap === true ? 'tap' : ''}>News</h2>
+                  </Link>
+                  <h2 onClick={handleTap2} className={tap2 === true ? 'tap' : ''}>Fixtures</h2>
+                  <h2 onClick={handleTap3} className={tap3 === true ? 'tap' : ''}>Standings</h2>
+                  <h2 onClick={handleTap4} className={tap4 === true ? 'tap' : ''}>Players</h2>
               </div>
-            </Link>
 
-            <div className="middle">
-                <Link href="/">
-                <h2 onClick={handleTap} className={tap === true ? 'tap' : ''}>News</h2>
-                </Link>
-                <h2 onClick={handleTap2} className={tap2 === true ? 'tap' : ''}>Fixtures</h2>
-                <h2 onClick={handleTap3} className={tap3 === true ? 'tap' : ''}>Standings</h2>
-                <h2 onClick={handleTap4} className={tap4 === true ? 'tap' : ''}>Players</h2>
-            </div>
-
-            </div>
+              </div>
 
           </div>
 
@@ -163,10 +116,12 @@ const Page = () => {
             <div data-aos="fade-right" className="text">
               <h1>Dani Carvajal medical report</h1>
 
+              <p>06/10/2024</p>
+
               <p>The following tests carried out on Dani Carvajal by the Real Madrid
-                Medical Services, the player has been diagnosed with a ruptured anterior cruciate
-                ligament, a ruptured external collateral ligament and a ruptured popliteus
-                tendon in his right leg. He will undergo surgery in the coming days.</p>
+              Medical Services, the player has been diagnosed with a ruptured anterior cruciate
+              ligament, a ruptured external collateral ligament and a ruptured popliteus
+              tendon in his right leg. He will undergo surgery in the coming days.</p>
 
             </div>
 
@@ -175,112 +130,165 @@ const Page = () => {
             </div>
 
           </div>
-          
+      </div>
+
+      {/* small laptop */}
+      <div id='big' className='hidden md:hidden lg:block xl:hidden'>
+
+        {/* navbar */}
+        <div className="topnav">
+
+          <div id='big' className='navbar'>
+          <Link href="/">
+            <div className="left">
+                <h1>KickOff</h1>
+                <Image style={{cursor:'pointer'}} src={logo} width={90} alt='' priority />
+            </div>
+          </Link>
+
+          <div className="middle">
+              <Link href="/">
+              <h2 onClick={handleTap} className={tap === true ? 'tap' : ''}>News</h2>
+              </Link>
+              <h2 onClick={handleTap2} className={tap2 === true ? 'tap' : ''}>Fixtures</h2>
+              <h2 onClick={handleTap3} className={tap3 === true ? 'tap' : ''}>Standings</h2>
+              <h2 onClick={handleTap4} className={tap4 === true ? 'tap' : ''}>Players</h2>
+          </div>
+
+          </div>
+
         </div>
 
-        {/* tablet */}
-        <div id='big' className='hidden md:block lg:hidden xl:hidden'>
+        {/* news */}
+        <div className='news'>
 
-          {/* navbar */}
-          <div className="topnav">
+          <div data-aos="fade-right" className="text">
+            <h1>Dani Carvajal medical report</h1>
 
-            <div id='big' className='navbar'>
+            <p>06/10/2024</p>
+
+            <p>The following tests carried out on Dani Carvajal by the Real Madrid
+              Medical Services, the player has been diagnosed with a ruptured anterior cruciate
+              ligament, a ruptured external collateral ligament and a ruptured popliteus
+              tendon in his right leg. He will undergo surgery in the coming days.</p>
+
+          </div>
+
+          <div data-aos="fade-left" className="image">
+            <Image className='img' src={carvajal_med} alt='' priority />
+          </div>
+
+        </div>
+        
+      </div>
+
+      {/* tablet */}
+      <div id='big' className='hidden md:block lg:hidden xl:hidden'>
+
+        {/* navbar */}
+        <div className="topnav">
+
+          <div id='big' className='navbar'>
+          <Link href="/">
+            <div className="left">
+                <h1>KickOff</h1>
+                <Image style={{cursor:'pointer'}} src={logo} width={90} alt='' priority />
+            </div>
+          </Link>
+
+          <div className="middle">
+              <Link href="/">
+              <h2 onClick={handleTap} className={tap === true ? 'tap' : ''}>News</h2>
+              </Link>
+              <h2 onClick={handleTap2} className={tap2 === true ? 'tap' : ''}>Fixtures</h2>
+              <h2 onClick={handleTap3} className={tap3 === true ? 'tap' : ''}>Standings</h2>
+              <h2 onClick={handleTap4} className={tap4 === true ? 'tap' : ''}>Players</h2>
+          </div>
+
+          </div>
+
+        </div>
+
+        {/* news */}
+        <div className='news_tablet'>
+
+          <div data-aos="fade-right" className="text">
+            <h1>Dani Carvajal medical report</h1>
+
+            <p>06/10/2024</p>
+
+            <p>The following tests carried out on Dani Carvajal by the Real Madrid
+              Medical Services, the player has been diagnosed with a ruptured anterior cruciate
+              ligament, a ruptured external collateral ligament and a ruptured popliteus
+              tendon in his right leg. He will undergo surgery in the coming days.</p>
+
+          </div>
+
+          <div data-aos="fade-left" className="image">
+            <Image className='img' src={carvajal_med} alt='' priority />
+          </div>
+
+        </div>
+      </div>
+
+      {/* phone */}
+      <div id='mobile' className='block md:hidden lg:hidden xl:hidden'>
+
+        {/* navbar_phone */}
+        <div className="topnav_phone">
+
+          <div className="navbar_phone">
+
             <Link href="/">
-              <div className="left">
-                  <h1>KickOff</h1>
-                  <Image style={{cursor:'pointer'}} src={logo} width={90} alt='' priority />
-              </div>
+            <div className="left">
+              <h1>KickOff</h1>
+              <Image src={logo} width={75} alt='' />
+            </div>
             </Link>
 
-            <div className="middle">
-                <Link href="/">
-                <h2 onClick={handleTap} className={tap === true ? 'tap' : ''}>News</h2>
-                </Link>
-                <h2 onClick={handleTap2} className={tap2 === true ? 'tap' : ''}>Fixtures</h2>
-                <h2 onClick={handleTap3} className={tap3 === true ? 'tap' : ''}>Standings</h2>
-                <h2 onClick={handleTap4} className={tap4 === true ? 'tap' : ''}>Players</h2>
-            </div>
+            <div className="right">
+              {dropdownIcon === true &&
+                <p onClick={handleDropdownIcon}>≡</p>
+              }
 
-            </div>
-
-          </div>
-
-          {/* news */}
-          <div className='news_tablet'>
-
-            <div data-aos="fade-right" className="text">
-              <h1>Dani Carvajal medical report</h1>
-
-              <p>The following tests carried out on Dani Carvajal by the Real Madrid
-                Medical Services, the player has been diagnosed with a ruptured anterior cruciate
-                ligament, a ruptured external collateral ligament and a ruptured popliteus
-                tendon in his right leg. He will undergo surgery in the coming days.</p>
-
-            </div>
-
-            <div data-aos="fade-left" className="image">
-              <Image className='img' src={carvajal_med} alt='' priority />
+              {dropdown === true &&
+                <div className="dropdown">
+                  <Link href="/">
+                  <p onClick={handleTap} className={tap === true ? "tap_phone" : ''}>News</p>
+                  </Link>
+                  <p onClick={handleTap2} className={tap2 === true ? "tap_phone" : ''}>Fixtures</p>
+                  <p onClick={handleTap3} className={tap3 === true ? "tap_phone" : ''}>Standings</p>
+                  <p onClick={handleTap4} className={tap4 === true ? "tap_phone" : ''}>Players</p>
+                </div>
+              }
             </div>
 
           </div>
+
         </div>
 
-        {/* phone */}
-        <div id='mobile' className='block md:hidden lg:hidden xl:hidden'>
+        {/* news_phone */}
+        <div data-aos="fade-up" className='news_phone'>
 
-          {/* navbar_phone */}
-          <div className="topnav_phone">
+          <div className="image">
+            <Image className='img' src={carvajal_med} alt='' priority />
+          </div>
 
-            <div className="navbar_phone">
+          <div className="text">
+            <h1>Dani Carvajal medical report</h1>
 
-              <Link href="/">
-              <div className="left">
-                <h1>KickOff</h1>
-                <Image src={logo} width={75} alt='' />
-              </div>
-              </Link>
+            <p>06/10/2024</p>
 
-              <div className="right">
-                {dropdownIcon === true &&
-                  <p onClick={handleDropdownIcon}>≡</p>
-                }
-
-                {dropdown === true &&
-                  <div className="dropdown">
-                    <Link href="/">
-                    <p onClick={handleTap} className={tap === true ? "tap_phone" : ''}>News</p>
-                    </Link>
-                    <p onClick={handleTap2} className={tap2 === true ? "tap_phone" : ''}>Fixtures</p>
-                    <p onClick={handleTap3} className={tap3 === true ? "tap_phone" : ''}>Standings</p>
-                    <p onClick={handleTap4} className={tap4 === true ? "tap_phone" : ''}>Players</p>
-                  </div>
-                }
-              </div>
-
-            </div>
+            <p>The following tests carried out on Dani Carvajal by the Real Madrid
+              Medical Services, the player has been diagnosed with a ruptured anterior cruciate
+              ligament, a ruptured external collateral ligament and a ruptured popliteus
+              tendon in his right leg. He will undergo surgery in the coming days.
+            </p>
 
           </div>
 
-          {/* news_phone */}
-          <div data-aos="fade-up" className='news_phone'>
-
-            <div className="image">
-              <Image className='img' src={carvajal_med} alt='' priority />
-            </div>
-
-            <div className="text">
-              <h1>Dani Carvajal medical report</h1>
-
-              <p>The following tests carried out on Dani Carvajal by the Real Madrid
-                Medical Services, the player has been diagnosed with a ruptured anterior cruciate
-                ligament, a ruptured external collateral ligament and a ruptured popliteus
-                tendon in his right leg. He will undergo surgery in the coming days.
-              </p>
-
-            </div>
-
-          </div>
         </div>
+      </div>
       
     </div>
   )
