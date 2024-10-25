@@ -83,6 +83,12 @@ body
 
 }
 
+button
+{
+    margin-top: 25px;
+
+}
+
 button:active
 {
     transition: all 0.7s ease;
@@ -190,6 +196,7 @@ button:active
 {
     padding: 30px 5%;
     position: fixed;
+    max-width: 100%;
     width: 100%;
     z-index: 1000;
 

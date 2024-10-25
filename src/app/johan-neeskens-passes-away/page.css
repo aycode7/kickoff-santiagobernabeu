@@ -6,6 +6,19 @@ body
 
 }
 
+button
+{
+    margin-top: 25px;
+
+}
+
+button:active
+{
+    transition: all 0.7s ease;
+    transform: scale(0.96);
+    
+}
+
 #big
 {
     font-family: cursive;
@@ -183,6 +196,7 @@ body
 {
     padding: 30px 5%;
     position: fixed;
+    max-width: 100%;
     width: 100%;
     z-index: 1000;
 
