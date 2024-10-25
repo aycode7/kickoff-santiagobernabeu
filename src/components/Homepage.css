@@ -17,7 +17,9 @@ body
 {
     padding: 30px 5%;
     position: fixed;
-    width: 100%;
+    width: 94%;
+    max-width: 94%;
+    overflow-x: hidden;
     z-index: 1000;
 
 }
@@ -331,7 +333,8 @@ body
 {
     padding: 30px 5%;
     position: fixed;
-    width: 100%;
+    width: 81%;
+    max-width: 81%;
     z-index: 1000;
 
 }
@@ -483,13 +486,20 @@ body
 }
 
 /* news */
+.news_phone
+{
+    display: flex;
+    flex-direction: column;
+
+}
+
 .ctn_phone
 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 25px;
+    gap: 70px;
     padding: 25px 5%;
     
 }
