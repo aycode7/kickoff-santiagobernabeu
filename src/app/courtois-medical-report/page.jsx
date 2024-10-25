@@ -124,6 +124,10 @@ const Page = () => {
                     in his left leg. His progress would be monitored.
                 </p>
 
+                <Link href="/">
+                <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back →</button>
+                </Link>
+
               </div>
 
               <div data-aos="fade-left" className="image">
@@ -173,6 +177,11 @@ const Page = () => {
                 by the Real Madrid Medical Services, has ben diagnosed with an adductor injuey
                 in his left leg. His progress would be monitored.
               </p>
+
+              <Link href="/">
+                <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back →</button>
+              </Link>
+
             </div>
 
             <div data-aos="fade-left" className="image">
@@ -223,6 +232,10 @@ const Page = () => {
                 by the Real Madrid Medical Services, has ben diagnosed with an adductor injuey
                 in his left leg. His progress would be monitored.
               </p>
+
+              <Link href="/">
+                <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back →</button>
+              </Link>
             </div>
 
             <div data-aos="fade-left" className="image">
@@ -285,6 +298,10 @@ const Page = () => {
                 by the Real Madrid Medical Services, has ben diagnosed with an adductor injuey
                 in his left leg. His progress would be monitored.
               </p>
+
+              <Link href="/">
+                <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back →</button>
+              </Link>
             </div>
 
           </div>

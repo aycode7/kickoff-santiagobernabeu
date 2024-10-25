@@ -118,6 +118,10 @@ const Page = () => {
 
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio expedita assumenda magnam cum. Velit, doloribus. Quibusdam, omnis ut, nobis facere vitae consectetur soluta tempora unde eum ea, perferendis culpa similique!</p>
 
+                <Link href="/">
+                <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back →</button>
+                </Link>
+
               </div>
 
               <div data-aos="fade-left" className="image">
@@ -161,6 +165,10 @@ const Page = () => {
               <h1>Eder Militao medical report</h1>
 
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio expedita assumenda magnam cum. Velit, doloribus. Quibusdam, omnis ut, nobis facere vitae consectetur soluta tempora unde eum ea, perferendis culpa similique!</p>
+
+              <Link href="/">
+                <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back →</button>
+              </Link>
 
             </div>
 
@@ -206,6 +214,10 @@ const Page = () => {
               <h1>Eder Militao medical report</h1>
 
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio expedita assumenda magnam cum. Velit, doloribus. Quibusdam, omnis ut, nobis facere vitae consectetur soluta tempora unde eum ea, perferendis culpa similique!</p>
+
+              <Link href="/">
+                <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back →</button>
+              </Link>
 
             </div>
 
@@ -263,6 +275,10 @@ const Page = () => {
               <h1>Eder Militao medical report</h1>
 
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio expedita assumenda magnam cum. Velit, doloribus. Quibusdam, omnis ut, nobis facere vitae consectetur soluta tempora unde eum ea, perferendis culpa similique!</p>
+
+              <Link href="/">
+                <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back →</button>
+              </Link>
 
             </div>
 

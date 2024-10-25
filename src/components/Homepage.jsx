@@ -317,7 +317,7 @@ const Homepage = () => {
               <div className="right" data-aos="fade-left">
                 <Image className='img' src={varane} alt='champions league 2024' priority />
 
-                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Raphael Varane retirement</h2>
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Raphael Varane announces his retirement from football</h2>
 
               </div>
             </div>
@@ -536,7 +536,7 @@ const Homepage = () => {
               <div className="right" data-aos="fade-left">
                 <Image className='img' src={varane} alt='champions league 2024' priority />
 
-                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Raphael Varane retirement</h2>
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Raphael Varane announces his retirement from football</h2>
 
               </div>
             </div>
@@ -760,7 +760,7 @@ const Homepage = () => {
               <div className="right" data-aos="fade-left">
                 <Image className='img' src={varane} alt='champions league 2024' priority />
 
-                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Raphael Varane retirement</h2>
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Raphael Varane announces his retirement from football</h2>
 
               </div>
             </div>
@@ -991,7 +991,7 @@ const Homepage = () => {
               <div className="right" data-aos="fade-left">
                 <Image className='img' src={varane} alt='champions league 2024' priority />
 
-                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Raphael Varane retirement</h2>
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Raphael Varane announces his retirement from football</h2>
 
               </div>
             </div>

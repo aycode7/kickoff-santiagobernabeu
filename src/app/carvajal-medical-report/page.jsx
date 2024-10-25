@@ -123,6 +123,10 @@ const Page = () => {
               ligament, a ruptured external collateral ligament and a ruptured popliteus
               tendon in his right leg. He will undergo surgery in the coming days.</p>
 
+              <Link href="/">
+                <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back →</button>
+              </Link>
+
             </div>
 
             <div data-aos="fade-left" className="image">
@@ -171,6 +175,10 @@ const Page = () => {
               Medical Services, the player has been diagnosed with a ruptured anterior cruciate
               ligament, a ruptured external collateral ligament and a ruptured popliteus
               tendon in his right leg. He will undergo surgery in the coming days.</p>
+
+              <Link href="/">
+                <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back →</button>
+              </Link>
 
           </div>
 
@@ -221,6 +229,10 @@ const Page = () => {
               Medical Services, the player has been diagnosed with a ruptured anterior cruciate
               ligament, a ruptured external collateral ligament and a ruptured popliteus
               tendon in his right leg. He will undergo surgery in the coming days.</p>
+
+              <Link href="/">
+                <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back →</button>
+              </Link>
 
           </div>
 
@@ -284,6 +296,10 @@ const Page = () => {
               ligament, a ruptured external collateral ligament and a ruptured popliteus
               tendon in his right leg. He will undergo surgery in the coming days.
             </p>
+
+            <Link href="/">
+              <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back →</button>
+            </Link>
 
           </div>
 

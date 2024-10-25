@@ -135,6 +135,10 @@ const Page = () => {
 
                 <p>Johan Neeskens passed away at the age of 73, may his soul rest in perfect peace</p>
 
+                <Link href="/">
+                <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back →</button>
+                </Link>
+
               </div>
 
               <div data-aos="fade-left" className="image">
@@ -194,6 +198,10 @@ const Page = () => {
               </p>
 
               <p>Johan Neeskens passed away at the age of 73, may his soul rest in perfect peace</p>
+
+              <Link href="/">
+                <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back →</button>
+              </Link>
 
             </div>
 
@@ -255,6 +263,10 @@ const Page = () => {
               </p>
 
               <p>Johan Neeskens passed away at the age of 73, may his soul rest in perfect peace</p>
+
+              <Link href="/">
+                <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back →</button>
+              </Link>
 
             </div>
 
@@ -328,6 +340,10 @@ const Page = () => {
               </p>
 
               <p>Johan Neeskens passed away at the age of 73, may his soul rest in perfect peace</p>
+
+              <Link href="/">
+                <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back →</button>
+              </Link>
 
             </div>
 

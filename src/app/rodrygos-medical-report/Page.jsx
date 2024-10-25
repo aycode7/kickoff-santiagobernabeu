@@ -120,6 +120,10 @@ const Page = () => {
 
             <p>The following test carried out on Real Madrid player Rodrygo goes by the Real Madrid medical service, he has been diagnosed with an injury to the biceps femoris muscle in his right thigh. His recovery would be assessed.</p>
 
+            <Link href="/">
+                <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back →</button>
+            </Link>
+
         </div>
 
         <div data-aos="fade-left" className="image">
@@ -166,6 +170,10 @@ const Page = () => {
             <p>MEDICAL REPORT 24/10/2024</p>
 
             <p>The following test carried out on Real Madrid player Rodrygo goes by the Real Madrid medical service, he has been diagnosed with an injury to the biceps femoris muscle in his right thigh. His recovery would be assessed.</p>
+
+            <Link href="/">
+                <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back →</button>
+            </Link>
 
         </div>
 
@@ -214,6 +222,10 @@ const Page = () => {
             <p>MEDICAL REPORT 24/10/2024</p>
 
             <p>The following test carried out on Real Madrid player Rodrygo goes by the Real Madrid medical service, he has been diagnosed with an injury to the biceps femoris muscle in his right thigh. His recovery would be assessed.</p>
+
+            <Link href="/">
+                <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back →</button>
+            </Link>
 
         </div>
 
@@ -274,6 +286,10 @@ const Page = () => {
             <p>MEDICAL REPORT 24/10/2024</p>
 
             <p>The following test carried out on Real Madrid player Rodrygo goes by the Real Madrid medical service, he has been diagnosed with an injury to the biceps femoris muscle in his right thigh. His recovery would be assessed.</p>
+
+            <Link href="/">
+                <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back →</button>
+            </Link>
 
         </div>
 

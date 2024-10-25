@@ -83,6 +83,13 @@ body
 
 }
 
+button:active
+{
+    transition: all 0.7s ease;
+    transform: scale(0.96);
+    
+}
+
 .news .text
 {
     width: 500px;
