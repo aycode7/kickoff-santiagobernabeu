@@ -276,14 +276,14 @@ const Homepage = () => {
             </div>
 
             <div className="ctn">
-              <Link href="rodrygo-health-report">
+              <Link href="rodrygo-medical-update">
               <div className="left" data-aos="fade-right">
                 <Image className='img' src={rodrygo_med} alt='' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Rodrygo medical report</h2>
 
               </div>
-              </Link>
+              </Link>              
 
               <Link href="courtois-medical-report">
               <div className="middle" data-aos="fade-up">
@@ -529,14 +529,14 @@ const Homepage = () => {
             </div>
 
             <div className="ctn_small">
-            <Link href="rodrygo-health-report">
+              <Link href="rodrygo-medical-update">
               <div className="left" data-aos="fade-right">
                 <Image className='img' src={rodrygo_med} alt='' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Rodrygo medical report</h2>
 
               </div>
-            </Link>
+              </Link>
 
               <Link href="courtois-medical-report">
               <div className="middle" data-aos="fade-up">
@@ -784,14 +784,14 @@ const Homepage = () => {
             </div>
 
             <div className="ctn_tablet">
-            <Link href="rodrygo-health-report">
-              <div className="left" data-aos="fade-right">
-                <Image className='img' src={rodrygo_med} alt='' priority />
+              <Link href="rodrygo-medical-update">
+                <div className="left" data-aos="fade-right">
+                  <Image className='img' src={rodrygo_med} alt='' priority />
 
-                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Rodrygo medical report</h2>
+                  <h2 style={{marginTop:'20px', fontSize:'15px'}}>Rodrygo medical report</h2>
 
-              </div>
-            </Link>
+                </div>
+              </Link>
 
               <Link href="courtois-medical-report">
               <div className="middle" data-aos="fade-up">
@@ -1047,14 +1047,14 @@ const Homepage = () => {
             </div>
 
             <div className="ctn_phone">
-            <Link href="rodrygo-health-report">
-              <div className="left" data-aos="fade-up">
-                <Image className='img' src={rodrygo_med} alt='' priority />
+              <Link href="rodrygo-medical-update">
+                <div className="left" data-aos="fade-right">
+                  <Image className='img' src={rodrygo_med} alt='' priority />
 
-                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Rodrygo medical report</h2>
+                  <h2 style={{marginTop:'20px', fontSize:'15px'}}>Rodrygo medical report</h2>
 
-              </div>
-            </Link>
+                </div>
+              </Link>
 
               <Link href="courtois-medical-report">
               <div className="middle" data-aos="fade-up">

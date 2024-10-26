@@ -6,6 +6,19 @@ body
 
 }
 
+button
+{
+    margin-top: 25px;
+
+}
+
+button:active
+{
+    transition: all 0.7s ease;
+    transform: scale(0.96);
+    
+}
+
 #big
 {
     font-family: cursive;
@@ -79,22 +92,8 @@ body
 {
     display: flex;
     gap: 30px;
-    justify-content: center;
     padding: 140px 6%;
 
-}
-
-button
-{
-    margin-top: 25px;
-
-}
-
-button:active
-{
-    transition: all 0.7s ease;
-    transform: scale(0.96);
-    
 }
 
 .news .text
@@ -118,7 +117,7 @@ button:active
 
 .news .image
 {
-    width: 600px;
+    width: 650px;
     height: 600px;
     border: none;
     border-radius: 40px;
@@ -127,7 +126,7 @@ button:active
 
 .news .image .img
 {
-    width: 520px;
+    width: 550px;
     height: 600px;
     border: none;
     border-radius: 40px;
@@ -197,9 +196,9 @@ button:active
 {
     padding: 30px 5%;
     position: fixed;
-    box-sizing: border-box;
     max-width: 100%;
     width: 100%;
+    box-sizing: border-box;
     z-index: 1000;
 
 }
@@ -300,7 +299,7 @@ button:active
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-top: 85px;
+    margin-top: 80px;
 
 }
 
@@ -313,7 +312,7 @@ button:active
 .news_phone .text p
 {
     font-size: 15px;
-    margin-top: 25px;
+    margin-top: 20px;
 
 }
 
