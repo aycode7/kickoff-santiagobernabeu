@@ -276,7 +276,7 @@ const Homepage = () => {
             </div>
 
             <div className="ctn">
-              <Link href="rodrygos-medical-report">
+              <Link href="rodrygo-health-report">
               <div className="left" data-aos="fade-right">
                 <Image className='img' src={rodrygo_med} alt='' priority />
 
@@ -360,7 +360,6 @@ const Homepage = () => {
         </div>
         
       </div>
-
 
       {/* small laptop */}
       <div id='big' className='hidden md:hidden lg:block xl:hidden'>
@@ -530,7 +529,7 @@ const Homepage = () => {
             </div>
 
             <div className="ctn_small">
-            <Link href="rodrygos-medical-report">
+            <Link href="rodrygo-health-report">
               <div className="left" data-aos="fade-right">
                 <Image className='img' src={rodrygo_med} alt='' priority />
 
@@ -785,7 +784,7 @@ const Homepage = () => {
             </div>
 
             <div className="ctn_tablet">
-            <Link href="rodrygos-medical-report">
+            <Link href="rodrygo-health-report">
               <div className="left" data-aos="fade-right">
                 <Image className='img' src={rodrygo_med} alt='' priority />
 
@@ -1048,7 +1047,7 @@ const Homepage = () => {
             </div>
 
             <div className="ctn_phone">
-            <Link href="rodrygos-medical-report">
+            <Link href="rodrygo-health-report">
               <div className="left" data-aos="fade-up">
                 <Image className='img' src={rodrygo_med} alt='' priority />
 
