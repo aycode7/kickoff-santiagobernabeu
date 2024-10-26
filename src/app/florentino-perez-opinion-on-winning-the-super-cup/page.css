@@ -15,6 +15,7 @@ body
 .topnav
 {
     padding: 30px 5%;
+    box-sizing: border-box;
     position: fixed;
     width: 100%;
     z-index: 1000;
@@ -198,6 +199,7 @@ button:active
     position: fixed;
     max-width: 100%;
     width: 100%;
+    box-sizing: border-box;
     z-index: 1000;
 
 }

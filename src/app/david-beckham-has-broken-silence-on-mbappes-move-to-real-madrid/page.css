@@ -30,6 +30,7 @@ button:active
     padding: 30px 5%;
     position: fixed;
     width: 100%;
+    box-sizing: border-box;
     z-index: 1000;
 
 }
@@ -197,6 +198,7 @@ button:active
     padding: 30px 5%;
     position: fixed;
     width: 100%;
+    box-sizing: border-box;
     max-width: 100%;
     z-index: 1000;
 

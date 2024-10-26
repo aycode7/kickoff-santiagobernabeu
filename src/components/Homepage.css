@@ -19,6 +19,7 @@ body
     position: fixed;
     width: 99.5%;
     max-width: 99.5%;
+    box-sizing: border-box;
     z-index: 1000;
 
 }
@@ -571,6 +572,7 @@ body
     position: fixed;
     max-width: 100%;
     width: 100%;
+    box-sizing: border-box;
     z-index: 1000;
 
 }

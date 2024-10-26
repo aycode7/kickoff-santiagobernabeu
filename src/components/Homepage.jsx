@@ -882,7 +882,7 @@ const Homepage = () => {
               </Link>
 
               <Link href="real-madrid-have-been-crowned-the-2023-2024-UEFA-champions-league-winners">
-              <div className="right" data-aos="fade-left">
+              <div className="right" data-aos="fade-up">
                 <Image className='img' src={champions} alt='champions league 2024' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Real Madrid have been crowned the 2023/24 Uefa Champions League winners</h2>
@@ -893,7 +893,7 @@ const Homepage = () => {
 
             <div className="ctn_phone">
               <Link href="mbappe-talks-about-psg-not-wanting-him-in-the-squad-anymore">
-                <div className="left" data-aos="fade-right">
+                <div className="left" data-aos="fade-up">
                   <Image className='img' src={kylian} alt='militao' priority />
 
                   <h2 style={{marginTop:'20px', fontSize:'15px'}}>Mbappe:PSG do not want me in the squad anymore, it was Luis Enrique that saved me</h2>
@@ -909,7 +909,7 @@ const Homepage = () => {
               </div>
 
               <Link href="florentino-perez-opinion-on-winning-the-super-cup">
-              <div className="right" data-aos="fade-left">
+              <div className="right" data-aos="fade-up">
                 <Image className='img' src={perez} alt='champions league 2024' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Florentino Perez:This title would give us energy for a very difficult season</h2>
@@ -1011,7 +1011,7 @@ const Homepage = () => {
               </div>
 
               <Link href="raphael-varane-announce-his-retirement-from-football">
-              <div className="right" data-aos="fade-left">
+              <div className="right" data-aos="fade-up">
                 <Image className='img' src={varane} alt='champions league 2024' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Raphael Varane announces his retirement from football</h2>
