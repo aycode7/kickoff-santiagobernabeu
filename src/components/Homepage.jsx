@@ -275,21 +275,22 @@ const Homepage = () => {
               </Link>
             </div>
 
-            <div className="ctn">
-              <Link href="rodrygo-medical-update">
-              <div className="left" data-aos="fade-right">
-                <Image className='img' src={rodrygo_med} alt='' priority />
-
-                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Rodrygo medical report</h2>
-
-              </div>
-              </Link>              
+            <div className="ctn">              
 
               <Link href="courtois-medical-report">
               <div className="middle" data-aos="fade-up">
                 <Image className='img' src={courtois_med} alt='' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Courtois medical report</h2>
+
+              </div>
+              </Link>
+
+              <Link href="rodrygo-medical-update">
+              <div className="left" data-aos="fade-right">
+                <Image className='img' src={rodrygo_med} alt='' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Rodrygo medical report</h2>
 
               </div>
               </Link>
