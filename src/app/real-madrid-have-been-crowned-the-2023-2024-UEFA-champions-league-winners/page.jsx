@@ -122,9 +122,9 @@ const Page = () => {
 
             <p>Spanish defender Dani Carvajal and Brazilian attacker Vinicius Jr. scored for Los Merengues in the 74th and 83rd minutes, respectively, at Wembley Stadium.</p>
 
-            <p>Dortmund's German striker Niclas Fullkrug missed a chance for the lead by aiming his shot at the crossbar in the 23rd minute. Fullkrug missed another chance to score in the 87th minute as the Video Assistant Referee (VAR) disallowed his goal because of an offside.</p>
+            <p>Dortmunds German striker Niclas Fullkrug missed a chance for the lead by aiming his shot at the crossbar in the 23rd minute. Fullkrug missed another chance to score in the 87th minute as the Video Assistant Referee (VAR) disallowed his goal because of an offside.</p>
 
-            <p>Dortmund's Swiss goalie Gregor Kobel made vital saves during the match to keep his team alive but could not prevent Real Madrid from clinching their 15th Champions League title.</p>
+            <p>Dortmunds Swiss goalie Gregor Kobel made vital saves during the match to keep his team alive but could not prevent Real Madrid from clinching their 15th Champions League title.</p>
 
             <p>UEFA Champions League record holders Real Madrid won their sixth trophy in the last 10 years.</p>
 
@@ -183,9 +183,9 @@ const Page = () => {
 
             <p>Spanish defender Dani Carvajal and Brazilian attacker Vinicius Jr. scored for Los Merengues in the 74th and 83rd minutes, respectively, at Wembley Stadium.</p>
 
-            <p>Dortmund's German striker Niclas Fullkrug missed a chance for the lead by aiming his shot at the crossbar in the 23rd minute. Fullkrug missed another chance to score in the 87th minute as the Video Assistant Referee (VAR) disallowed his goal because of an offside.</p>
+            <p>Dortmunds German striker Niclas Fullkrug missed a chance for the lead by aiming his shot at the crossbar in the 23rd minute. Fullkrug missed another chance to score in the 87th minute as the Video Assistant Referee (VAR) disallowed his goal because of an offside.</p>
 
-            <p>Dortmund's Swiss goalie Gregor Kobel made vital saves during the match to keep his team alive but could not prevent Real Madrid from clinching their 15th Champions League title.</p>
+            <p>Dortmunds Swiss goalie Gregor Kobel made vital saves during the match to keep his team alive but could not prevent Real Madrid from clinching their 15th Champions League title.</p>
 
             <p>UEFA Champions League record holders Real Madrid won their sixth trophy in the last 10 years.</p>
 
@@ -245,9 +245,9 @@ const Page = () => {
 
             <p>Spanish defender Dani Carvajal and Brazilian attacker Vinicius Jr. scored for Los Merengues in the 74th and 83rd minutes, respectively, at Wembley Stadium.</p>
 
-            <p>Dortmund's German striker Niclas Fullkrug missed a chance for the lead by aiming his shot at the crossbar in the 23rd minute. Fullkrug missed another chance to score in the 87th minute as the Video Assistant Referee (VAR) disallowed his goal because of an offside.</p>
+            <p>Dortmunds German striker Niclas Fullkrug missed a chance for the lead by aiming his shot at the crossbar in the 23rd minute. Fullkrug missed another chance to score in the 87th minute as the Video Assistant Referee (VAR) disallowed his goal because of an offside.</p>
 
-            <p>Dortmund's Swiss goalie Gregor Kobel made vital saves during the match to keep his team alive but could not prevent Real Madrid from clinching their 15th Champions League title.</p>
+            <p>Dortmunds Swiss goalie Gregor Kobel made vital saves during the match to keep his team alive but could not prevent Real Madrid from clinching their 15th Champions League title.</p>
 
             <p>UEFA Champions League record holders Real Madrid won their sixth trophy in the last 10 years.</p>
 
@@ -319,9 +319,9 @@ const Page = () => {
 
             <p>Spanish defender Dani Carvajal and Brazilian attacker Vinicius Jr. scored for Los Merengues in the 74th and 83rd minutes, respectively, at Wembley Stadium.</p>
 
-            <p>Dortmund's German striker Niclas Fullkrug missed a chance for the lead by aiming his shot at the crossbar in the 23rd minute. Fullkrug missed another chance to score in the 87th minute as the Video Assistant Referee (VAR) disallowed his goal because of an offside.</p>
+            <p>Dortmunds German striker Niclas Fullkrug missed a chance for the lead by aiming his shot at the crossbar in the 23rd minute. Fullkrug missed another chance to score in the 87th minute as the Video Assistant Referee (VAR) disallowed his goal because of an offside.</p>
 
-            <p>Dortmund's Swiss goalie Gregor Kobel made vital saves during the match to keep his team alive but could not prevent Real Madrid from clinching their 15th Champions League title.</p>
+            <p>Dortmunds Swiss goalie Gregor Kobel made vital saves during the match to keep his team alive but could not prevent Real Madrid from clinching their 15th Champions League title.</p>
 
             <p>UEFA Champions League record holders Real Madrid won their sixth trophy in the last 10 years.</p>
 
