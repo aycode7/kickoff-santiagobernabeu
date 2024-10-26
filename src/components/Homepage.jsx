@@ -216,7 +216,7 @@ const Homepage = () => {
 
               </div>
 
-              <Link href="florentino-perez-talks-about-winning-the-european-super-cup">
+              <Link href="florentino-perez-opinion-on-winning-the-super-cup">
               <div className="right" data-aos="fade-left">
                 <Image className='img' src={perez} alt='champions league 2024' priority />
 
@@ -443,7 +443,7 @@ const Homepage = () => {
 
               </div>
 
-              <Link href="florentino-perez-talks-about-winning-the-european-super-cup">
+              <Link href="florentino-perez-opinion-on-winning-the-super-cup">
               <div className="right" data-aos="fade-left">
                 <Image className='img' src={perez} alt='champions league 2024' priority />
 
@@ -671,7 +671,7 @@ const Homepage = () => {
 
               </div>
 
-              <Link href="florentino-perez-talks-about-winning-the-european-super-cup">
+              <Link href="florentino-perez-opinion-on-winning-the-super-cup">
               <div className="right" data-aos="fade-left">
                 <Image className='img' src={perez} alt='champions league 2024' priority />
 
@@ -908,8 +908,8 @@ const Homepage = () => {
 
               </div>
 
-              <Link href="florentino-perez-talks-about-winning-the-european-super-cup">
-              <div className="right" data-aos="fade-up">
+              <Link href="florentino-perez-opinion-on-winning-the-super-cup">
+              <div className="right" data-aos="fade-left">
                 <Image className='img' src={perez} alt='champions league 2024' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Florentino Perez:This title would give us energy for a very difficult season</h2>
