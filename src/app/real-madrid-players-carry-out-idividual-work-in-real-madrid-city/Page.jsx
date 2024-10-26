@@ -131,7 +131,7 @@ const Page = () => {
               </div>
 
               <div data-aos="fade-left" className="image">
-                <Image className='img' src={varane} alt='' priority />
+                <Image className='img' src={mbappe} alt='' priority />
               </div>
 
             </div>
