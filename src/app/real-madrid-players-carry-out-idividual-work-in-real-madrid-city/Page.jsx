@@ -325,7 +325,7 @@ import 'aos/dist/aos.css'
 import './page.css'
 import Image from "next/image"
 import logo from './Image/madrid_icon.png'
-import mbappe from './Image/mbappe-training.jpg'
+import mbappetraining from './Image/mbappe-training.jpg'
 import React from 'react'
 
 const Page = () => {
@@ -432,19 +432,19 @@ const Page = () => {
             <div className='news'>
 
               <div data-aos="fade-right" className="text">
-                <h1>Raphael Mbappe announces his retirement from football</h1>
+                <h1>Raphael Mbappe-training announces his retirement from football</h1>
 
                 <p>Former Man Utd, Lens and Real Madrid defender hangs up his boot at age 31</p>
 
-                <p>Mbappe wrote in a social media statement on Instagram: Reflecting on this moments, it is immense pride and a feeling of fulfilment that I am announcing my retirement from the game that we all love.</p>
+                <p>Mbappe-training wrote in a social media statement on Instagram: Reflecting on this moments, it is immense pride and a feeling of fulfilment that I am announcing my retirement from the game that we all love.</p>
 
                 <p>I have loved fighting for my clubs, my country, my team mates and the supporters of every team i have played for from Lens to Madrid to Manchester, and playing for our national team. I have defended every bagbe with everything i have and love every minute of the journey.</p>
 
-                <p>After announcing his news, Mbappes former united team mates all paid tribute to him in the comment of his post.</p>
+                <p>After announcing his news, Mbappe-trainings former united team mates all paid tribute to him in the comment of his post.</p>
 
-                <p>Mbappe enjoyed a trophy laden, 10 years stay with Real Madrid, winning the UEFA Champions league four times and LaLiga three times. He moved to Old Trafford in August 2021 and would go on to play 95 times in all competitions for Man Utd.</p>
+                <p>Mbappe-training enjoyed a trophy laden, 10 years stay with Real Madrid, winning the UEFA Champions league four times and LaLiga three times. He moved to Old Trafford in August 2021 and would go on to play 95 times in all competitions for Man Utd.</p>
 
-                <p>The centre-back won the EFL cup in 2023, while he also helped United beat Manchester City 2 - 1 to lift the FA Cup last season in his final match for the club, at international level Mbappe 93 caps for France and was a key part of the squad that lifted the FIFA World Cup 2018</p>
+                <p>The centre-back won the EFL cup in 2023, while he also helped United beat Manchester City 2 - 1 to lift the FA Cup last season in his final match for the club, at international level Mbappe-training 93 caps for France and was a key part of the squad that lifted the FIFA World Cup 2018</p>
 
                 <Link href="/">
                 <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back →</button>
@@ -453,7 +453,7 @@ const Page = () => {
               </div>
 
               <div data-aos="fade-left" className="image">
-                <Image className='img' src={mbappe} alt='' priority />
+                <Image className='img' src={mbappetraining} alt='' priority />
               </div>
 
             </div>
@@ -490,19 +490,19 @@ const Page = () => {
           <div className='news'>
 
             <div data-aos="fade-right" className="text">
-                <h1>Raphael Mbappe announces his retirement from Football</h1>
+                <h1>Raphael Mbappe-training announces his retirement from Football</h1>
 
                 <p>Former Man Utd, Lens and Real Madrid defender hangs up his boot at age 31</p>
 
-                <p>Mbappe wrote in a social media statement on Instagram: Reflecting on this moments, it is immense pride and a feeling of fulfilment that I am announcing my retirement from the game that we all love.</p>
+                <p>Mbappe-training wrote in a social media statement on Instagram: Reflecting on this moments, it is immense pride and a feeling of fulfilment that I am announcing my retirement from the game that we all love.</p>
 
                 <p>I have loved fighting for my clubs, my country, my team mates and the supporters of every team i have played for from Lens to Madrid to Manchester, and playing for our national team. I have defended every bagbe with everything i have and love every minute of the journey.</p>
 
-                <p>After announcing his news, Mbappes former united team mates all paid tribute to him in the comment of his post.</p>
+                <p>After announcing his news, Mbappe-trainings former united team mates all paid tribute to him in the comment of his post.</p>
 
-                <p>Mbappe enjoyed a trophy laden, 10 years stay with Real Madrid, winning the UEFA Champions league four times and LaLiga three times. He moved to Old Trafford in August 2021 and would go on to play 95 times in all competitions for Man Utd.</p>
+                <p>Mbappe-training enjoyed a trophy laden, 10 years stay with Real Madrid, winning the UEFA Champions league four times and LaLiga three times. He moved to Old Trafford in August 2021 and would go on to play 95 times in all competitions for Man Utd.</p>
 
-                <p>The centre-back won the EFL cup in 2023, while he also helped United beat Manchester City 2 - 1 to lift the FA Cup last season in his final match for the club, at international level Mbappe 93 caps for France and was a key part of the squad that lifted the FIFA World Cup 2018</p>
+                <p>The centre-back won the EFL cup in 2023, while he also helped United beat Manchester City 2 - 1 to lift the FA Cup last season in his final match for the club, at international level Mbappe-training 93 caps for France and was a key part of the squad that lifted the FIFA World Cup 2018</p>
 
               <Link href="/">
                 <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back →</button>
@@ -511,7 +511,7 @@ const Page = () => {
             </div>
 
             <div data-aos="fade-left" className="image">
-              <Image className='img' src={mbappe} alt='' priority />
+              <Image className='img' src={mbappetraining} alt='' priority />
             </div>
 
           </div>
@@ -549,19 +549,19 @@ const Page = () => {
           <div className='news_tablet'>
 
             <div data-aos="fade-right" className="text">
-                <h1>Raphael Mbappe announces his retirement from football</h1>
+                <h1>Raphael Mbappe-training announces his retirement from football</h1>
 
                 <p>Former Man Utd, Lens and Real Madrid defender hangs up his boot at age 31</p>
 
-                <p>Mbappe wrote in a social media statement on Instagram: Reflecting on this moments, it is immense pride and a feeling of fulfilment that I am announcing my retirement from the game that we all love.</p>
+                <p>Varane wrote in a social media statement on Instagram: Reflecting on this moments, it is immense pride and a feeling of fulfilment that I am announcing my retirement from the game that we all love.</p>
 
                 <p>I have loved fighting for my clubs, my country, my team mates and the supporters of every team i have played for from Lens to Madrid to Manchester, and playing for our national team. I have defended every bagbe with everything i have and love every minute of the journey.</p>
 
-                <p>After announcing his news, Mbappes former united team mates all paid tribute to him in the comment of his post.</p>
+                <p>After announcing his news, Varanes former united team mates all paid tribute to him in the comment of his post.</p>
 
-                <p>Mbappe enjoyed a trophy laden, 10 years stay with Real Madrid, winning the UEFA Champions league four times and LaLiga three times. He moved to Old Trafford in August 2021 and would go on to play 95 times in all competitions for Man Utd.</p>
+                <p>Varane enjoyed a trophy laden, 10 years stay with Real Madrid, winning the UEFA Champions league four times and LaLiga three times. He moved to Old Trafford in August 2021 and would go on to play 95 times in all competitions for Man Utd.</p>
 
-                <p>The centre-back won the EFL cup in 2023, while he also helped United beat Manchester City 2 - 1 to lift the FA Cup last season in his final match for the club, at international level Mbappe 93 caps for France and was a key part of the squad that lifted the FIFA World Cup 2018</p>
+                <p>The centre-back won the EFL cup in 2023, while he also helped United beat Manchester City 2 - 1 to lift the FA Cup last season in his final match for the club, at international level Varane 93 caps for France and was a key part of the squad that lifted the FIFA World Cup 2018</p>
 
               <Link href="/">
                 <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back →</button>
@@ -570,7 +570,7 @@ const Page = () => {
             </div>
 
             <div data-aos="fade-left" className="image">
-              <Image className='img' src={mbappe} alt='' priority />
+              <Image className='img' src={mbappetraining} alt='' priority />
             </div>
 
           </div>
@@ -616,23 +616,23 @@ const Page = () => {
           <div data-aos="fade-up" className='news_phone'>
 
             <div className="image">
-              <Image className='img' src={mbappe} alt='' priority />
+              <Image className='img' src={mbappetraining} alt='' priority />
             </div>
 
             <div className="text">
-                <h1>Raphael Mbappe announces his retirement from football</h1>
+                <h1>Raphael Varane announces his retirement from football</h1>
 
                 <p>Former Man Utd, Lens and Real Madrid defender hangs up his boot at age 31</p>
 
-                <p>Mbappe wrote in a social media statement on Instagram: Reflecting on this moments, it is immense pride and a feeling of fulfilment that I am announcing my retirement from the game that we all love.</p>
+                <p>Varane wrote in a social media statement on Instagram: Reflecting on this moments, it is immense pride and a feeling of fulfilment that I am announcing my retirement from the game that we all love.</p>
 
                 <p>I have loved fighting for my clubs, my country, my team mates and the supporters of every team i have played for from Lens to Madrid to Manchester, and playing for our national team. I have defended every bagbe with everything i have and love every minute of the journey.</p>
 
-                <p>After announcing his news, Mbappes former united team mates all paid tribute to him in the comment of his post.</p>
+                <p>After announcing his news, Varanes former united team mates all paid tribute to him in the comment of his post.</p>
 
-                <p>Mbappe enjoyed a trophy laden, 10 years stay with Real Madrid, winning the UEFA Champions league four times and LaLiga three times. He moved to Old Trafford in August 2021 and would go on to play 95 times in all competitions for Man Utd.</p>
+                <p>Varane enjoyed a trophy laden, 10 years stay with Real Madrid, winning the UEFA Champions league four times and LaLiga three times. He moved to Old Trafford in August 2021 and would go on to play 95 times in all competitions for Man Utd.</p>
 
-                <p>The centre-back won the EFL cup in 2023, while he also helped United beat Manchester City 2 - 1 to lift the FA Cup last season in his final match for the club, at international level Mbappe 93 caps for France and was a key part of the squad that lifted the FIFA World Cup 2018</p>
+                <p>The centre-back won the EFL cup in 2023, while he also helped United beat Manchester City 2 - 1 to lift the FA Cup last season in his final match for the club, at international level Varane 93 caps for France and was a key part of the squad that lifted the FIFA World Cup 2018</p>
 
               <Link href="/">
                 <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back</button>
