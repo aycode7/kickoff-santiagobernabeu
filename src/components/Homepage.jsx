@@ -189,21 +189,25 @@ const Homepage = () => {
                 </div>
               </Link>
 
+              <Link href="real-madrid-have-been-crowned-the-2023-2024-UEFA-champions-league-winners">
               <div className="right" data-aos="fade-left">
                 <Image className='img' src={champions} alt='champions league 2024' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Real Madrid have been crowned the 2023/24 Uefa Champions League winners</h2>
 
               </div>
+              </Link>
             </div>
 
             <div className="ctn">
+              <Link href="mbappe-talks-about-psg-not-wanting-him-in-the-squad-anymore">
               <div className="left" data-aos="fade-right">
                 <Image className='img' src={kylian} alt='militao' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Mbappe:PSG do not want me in the squad anymore, it was Luis Enrique that saved me</h2>
 
               </div>
+              </Link>
 
               <div className="middle" data-aos="fade-up">
                 <Image className='img' src={rodrygo} alt='' priority />
@@ -314,12 +318,14 @@ const Homepage = () => {
 
               </div>
 
+              <Link href="raphael-varane-announce-his-retirement-from-football">
               <div className="right" data-aos="fade-left">
                 <Image className='img' src={varane} alt='champions league 2024' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Raphael Varane announces his retirement from football</h2>
 
               </div>
+              </Link>
             </div>
           </div>
 
@@ -410,21 +416,25 @@ const Homepage = () => {
               </div>
               </Link>
 
+              <Link href="real-madrid-have-been-crowned-the-2023-2024-UEFA-champions-league-winners">
               <div className="right" data-aos="fade-left">
                 <Image className='img' src={champions} alt='champions league 2024' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Real Madrid have been crowned the 2023/24 Uefa Champions League winners</h2>
 
               </div>
+              </Link>
             </div>
 
-            <div className="ctn_small">
+            <div className="ctn_small">              
+              <Link href="mbappe-talks-about-psg-not-wanting-him-in-the-squad-anymore">
               <div className="left" data-aos="fade-right">
                 <Image className='img' src={kylian} alt='militao' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Mbappe:PSG do not want me in the squad anymore, it was Luis Enrique that saved me</h2>
 
               </div>
+              </Link>
 
               <div className="middle" data-aos="fade-up">
                 <Image className='img' src={rodrygo} alt='' priority />
@@ -533,12 +543,14 @@ const Homepage = () => {
 
               </div>
 
+              <Link href="raphael-varane-announce-his-retirement-from-football">
               <div className="right" data-aos="fade-left">
                 <Image className='img' src={varane} alt='champions league 2024' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Raphael Varane announces his retirement from football</h2>
 
               </div>
+              </Link>
             </div>
           </div>
 
@@ -632,21 +644,25 @@ const Homepage = () => {
               </div>
               </Link>
 
+              <Link href="real-madrid-have-been-crowned-the-2023-2024-UEFA-champions-league-winners">
               <div className="right" data-aos="fade-left">
                 <Image className='img' src={champions} alt='champions league 2024' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Real Madrid have been crowned the 2023/24 Uefa Champions League winners</h2>
 
               </div>
+              </Link>
             </div>
 
-            <div className="ctn_tablet">
+            <div className="ctn_tablet">              
+              <Link href="mbappe-talks-about-psg-not-wanting-him-in-the-squad-anymore">
               <div className="left" data-aos="fade-right">
                 <Image className='img' src={kylian} alt='militao' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Mbappe:PSG do not want me in the squad anymore, it was Luis Enrique that saved me</h2>
 
               </div>
+              </Link>
 
               <div className="middle" data-aos="fade-up">
                 <Image className='img' src={rodrygo} alt='' priority />
@@ -757,12 +773,14 @@ const Homepage = () => {
 
               </div>
 
+              <Link href="raphael-varane-announce-his-retirement-from-football">
               <div className="right" data-aos="fade-left">
                 <Image className='img' src={varane} alt='champions league 2024' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Raphael Varane announces his retirement from football</h2>
 
               </div>
+              </Link>
             </div>
 
             
@@ -863,21 +881,25 @@ const Homepage = () => {
               </div>
               </Link>
 
-              <div className="right" data-aos="fade-up">
+              <Link href="real-madrid-have-been-crowned-the-2023-2024-UEFA-champions-league-winners">
+              <div className="right" data-aos="fade-left">
                 <Image className='img' src={champions} alt='champions league 2024' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Real Madrid have been crowned the 2023/24 Uefa Champions League winners</h2>
 
               </div>
+              </Link>
             </div>
 
             <div className="ctn_phone">
-              <div className="left" data-aos="fade-up">
-                <Image className='img' src={kylian} alt='militao' priority />
+              <Link href="mbappe-talks-about-psg-not-wanting-him-in-the-squad-anymore">
+                <div className="left" data-aos="fade-right">
+                  <Image className='img' src={kylian} alt='militao' priority />
 
-                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Mbappe:PSG do not want me in the squad anymore, it was Luis Enrique that saved me</h2>
+                  <h2 style={{marginTop:'20px', fontSize:'15px'}}>Mbappe:PSG do not want me in the squad anymore, it was Luis Enrique that saved me</h2>
 
-              </div>
+                </div>
+              </Link>
 
               <div className="middle" data-aos="fade-up">
                 <Image className='img' src={rodrygo} alt='' priority />
@@ -988,12 +1010,14 @@ const Homepage = () => {
 
               </div>
 
-              <div className="right" data-aos="fade-up">
+              <Link href="raphael-varane-announce-his-retirement-from-football">
+              <div className="right" data-aos="fade-left">
                 <Image className='img' src={varane} alt='champions league 2024' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Raphael Varane announces his retirement from football</h2>
 
               </div>
+              </Link>
             </div>
           </div>
           
@@ -1005,13 +1029,3 @@ const Homepage = () => {
 }
 
 export default Homepage
-
-// mbappe blue psg
-// WHAT HAPPENED?
-// Before the 2023-24 campaign, Mbappe dropped a bombshell by informing PSG that he wouldn’t renew his contract and would leave on a free transfer at the end of the season. The club’s response was swift and brutal: he was sidelined from the first-team set-up and excluded from the pre-season tour of Japan and South Korea as they tried to coerce him to sign an extension.
-// THE BIGGER PICTURE
-// Nonetheless, Mbappe was resolute in his decision and did not buckle under pressure from the club management. Hence, as the Ligue 1 season kicked off, Mbappe remained at PSG but was conspicuously absent from the pitch in their campaign opener against FC Lorient. However, after the Parisians dropped points he was reintegrated into the squad with sporting director Luis Campos and Enrique playing pivotal roles.
-// WHAT MBAPPE SAID
-// During an interaction with reporters, Mbappe said: "I was made to understand that I would no longer play for PSG [after informing them of my desire to leave at the end of the season]. I was told right to my face, and quite violently, so I was convinced that I wasn’t going to play. Luis Enrique and Luis Campos saved me. Without them, I would never have stepped onto the pitch again. That’s why my ambition was different this year. It was below my standards but just playing, stringing together matches and winning trophies was my biggest pride but next season, I won’t settle for a season like that."
-// WHAT NEXT FOR MBAPPE?
-// Mbappe completed his dream transfer to Real Madrid as a free agent on Monday but will have to wait for some time before he dons the iconic white jersey as he is currently preparing for the European Championship with the French national team. He will be in action with Les Bleus on Wednesday evening in a preparatory friendly against Luxembourg.

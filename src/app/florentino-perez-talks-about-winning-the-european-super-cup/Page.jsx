@@ -1,18 +1,18 @@
 'use client'
-import { useState } from 'react'
-import { useEffect } from 'react'
-import Aos from 'aos'
+import { useState } from "react"
+import { useEffect } from "react"
+import Aos from "aos"
 import 'aos/dist/aos.css'
-import Link from 'next/link'
-import Image from 'next/image'
-import React from 'react'
+import Link from "next/link"
+import Image from "next/image"
 import './page.css'
+import React from 'react'
 import logo from './Image/madrid_icon.png'
-import perez from './Image/Perez.jpg'
+import perez from './Image/perez.jpg'
 
-const Page = () => {
+const page = () => {
 
-    // aos
+  // aos
   useEffect(()=> {
     Aos.init({duration: 1100});
   }, [])
@@ -86,60 +86,58 @@ const Page = () => {
         {/* big laptop */}
         <div id='big' className='hidden md:hidden lg:hidden xl:block'>
 
-        {/* navbar */}
-        <div className="topnav">
+            {/* navbar */}
+            <div className="topnav">
 
-            <div id='big' className='navbar'>
-            <Link href="/">
-            <div className="left">
-                <h1>KickOff</h1>
-                <Image style={{cursor:'pointer'}} src={logo} width={90} alt='' priority />
-            </div>
-            </Link>
-
-            <div className="middle">
+                <div id='big' className='navbar'>
                 <Link href="/">
-                <h2 onClick={handleTap} className={tap === true ? 'tap' : ''}>News</h2>
+                <div className="left">
+                    <h1>KickOff</h1>
+                    <Image style={{cursor:'pointer'}} src={logo} width={90} alt='' priority />
+                </div>
                 </Link>
-                <h2 onClick={handleTap2} className={tap2 === true ? 'tap' : ''}>Fixtures</h2>
-                <h2 onClick={handleTap3} className={tap3 === true ? 'tap' : ''}>Standings</h2>
-                <h2 onClick={handleTap4} className={tap4 === true ? 'tap' : ''}>Players</h2>
-            </div>
+
+                <div className="middle">
+                    <Link href="/">
+                    <h2 onClick={handleTap} className={tap === true ? 'tap' : ''}>News</h2>
+                    </Link>
+                    <h2 onClick={handleTap2} className={tap2 === true ? 'tap' : ''}>Fixtures</h2>
+                    <h2 onClick={handleTap3} className={tap3 === true ? 'tap' : ''}>Standings</h2>
+                    <h2 onClick={handleTap4} className={tap4 === true ? 'tap' : ''}>Players</h2>
+                </div>
+
+                </div>
 
             </div>
 
-        </div>
+            {/* news */}
+            <div className='news'>
 
-        {/* news */}
-        <div className='news'>
+            <div data-aos="fade-right" className="text">
+                <h1>Florentino Perez: This title will give us energy for a very difficult season</h1>
+                <p>Florentino Perez talks on winning the Super Cup</p>
+                <p>It is not easy to debut at Real Madrid with a goal and Mbappe has made a very good start, added the president after picking up his 64th title at the helm of the club.</p>
+                <p>President Florentino Perez was interviewed by Real Madrid TV after winning the European Super Cup in Warsaw: I am very happy. We are just starting the season, it is the first title we have won and this is going to encourage us to do our best. it would give us energy for a season that, as we all know, is going to be very difficult.</p>
+                <h1>Mbappes Debut</h1>
+                <p>The fact that Mbappe made his debut in a Real Madrid shirt by scoring is going to give him a lot of confidence to have a good season. He is very happy. When he picked up his medal he was happy. It is not easy to make your Real Madrid debut with a goal and he has made a great start. </p>
+                <h1>The match</h1>
+                <p>In the second half we came out to win. We scored two goals and we could have scored more. When you go out to win with that impetus and that strength. It is normal that we win.</p>
+                <h1>64 titles as President</h1>
+                <p>I am excited about everything we can do. We have to keep working hard like we did last year and we will reap the rewards. We have a great team and nobody doubts that.</p>
+                <h1>Madridstas</h1>
+                <p>I have just come back from the United States, where they were amazing, as they were here. Real Madrid is universal. Fans all over the world have the club in their hearts and we can see that every time we leave Spain.</p>
 
-        <div data-aos="fade-right" className="text">
-            <h1>Florentino Perez:This title would give us energy for a very difficult season</h1>
+                <Link href="/">
+                    <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back →</button>
+                </Link>
 
-            <p>Florentino Perez talks on winning the super cup, its not easy to debut at Real Madrid
-            with a goal and Mbappe has made a very good start, added the President 
-            after picking up the 64th title at the helm of the club.
-            </p>
+            </div>
 
-            <p>President Florentino Perez was interviewed by Real Madrid TV after winning the European Super Cup in Warsaw: Im very happy. We are just starting the season, it is the first title we have won and this is going to encourage us to do our best. it would give us energy for a season that, as we all know, is going to be very difficult.</p>
+            <div data-aos="fade-left" className="image">
+                <Image className='img' src={perez} alt='' priority />
+            </div>
 
-            <h1 style={{marginTop:'15px'}}>Mbappe debut</h1>
-
-            <p>The fact that Mbappe made his debut in a Real Madrid shirt by scoring is going to give him a lot of confidence to have a good season. He is very happy, when he picked up his medal he was happy. It is not easy to make your Real Madrid debut with a goal and he has made a great start.</p>
-
-            <h1 style={{marginTop:'15px'}}>The match</h1>
-
-            <p>In the second half we came out to win, we scored two goals and we could have scored more. When you go out to win with that impetus and that strength, it is normal that we win.
-            Im excited about everything we can do. We have to keep working hard like we did last year and we will reap the rewards, we have a great team and nobody doubts that.
-            </p>
-
-        </div>
-
-        <div data-aos="fade-left" className="image">
-            <Image className='img' src={perez} alt='' priority />
-        </div>
-
-        </div>
+            </div>
         </div>
 
         {/* small laptop */}
@@ -173,24 +171,23 @@ const Page = () => {
         <div className='news'>
 
         <div data-aos="fade-right" className="text">
-        <h1>Florentino Perez:This title would give us energy for a very difficult season</h1>
 
-        <p>Florentino Perez talks on winning the super cup, its not easy to debut at Real Madrid
-            with a goal and Mbappe has made a very good start, added the President 
-            after picking up the 64th title at the helm of the club.
-        </p>
+            <h1>Florentino Perez: This title will give us energy for a very difficult season</h1>
+            <p>Florentino Perez talks on winning the Super Cup</p>
+            <p>It is not easy to debut at Real Madrid with a goal and Mbappe has made a very good start, added the president after picking up his 64th title at the helm of the club.</p>
+            <p>President Florentino Perez was interviewed by Real Madrid TV after winning the European Super Cup in Warsaw: I am very happy. We are just starting the season, it is the first title we have won and this is going to encourage us to do our best. it would give us energy for a season that, as we all know, is going to be very difficult.</p>
+            <h1>Mbappes Debut</h1>
+            <p>The fact that Mbappe made his debut in a Real Madrid shirt by scoring is going to give him a lot of confidence to have a good season. He is very happy. When he picked up his medal he was happy. It is not easy to make your Real Madrid debut with a goal and he has made a great start. </p>
+            <h1>The match</h1>
+            <p>In the second half we came out to win. We scored two goals and we could have scored more. When you go out to win with that impetus and that strength. It is normal that we win.</p>
+            <h1>64 titles as President</h1>
+            <p>I am excited about everything we can do. We have to keep working hard like we did last year and we will reap the rewards. We have a great team and nobody doubts that.</p>
+            <h1>Madridstas</h1>
+            <p>I have just come back from the United States, where they were amazing, as they were here. Real Madrid is universal. Fans all over the world have the club in their hearts and we can see that every time we leave Spain.</p>
 
-        <p>President Florentino Perez was interviewed by Real Madrid TV after winning the European Super Cup in Warsaw: Im very happy. We are just starting the season, it is the first title we have won and this is going to encourage us to do our best. it would give us energy for a season that, as we all know, is going to be very difficult.</p>
-
-        <h1 style={{marginTop:'15px'}}>Mbappe debut</h1>
-
-        <p>The fact that Mbappe made his debut in a Real Madrid shirt by scoring is going to give him a lot of confidence to have a good season. He is very happy, when he picked up his medal he was happy. It is not easy to make your Real Madrid debut with a goal and he has made a great start.</p>
-
-        <h1 style={{marginTop:'15px'}}>The match</h1>
-
-        <p>In the second half we came out to win, we scored two goals and we could have scored more. When you go out to win with that impetus and that strength, it is normal that we win.
-        Im excited about everything we can do. We have to keep working hard like we did last year and we will reap the rewards, we have a great team and nobody doubts that.
-        </p>
+            <Link href="/">
+                <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back →</button>
+            </Link>
 
         </div>
 
@@ -233,24 +230,23 @@ const Page = () => {
         <div className='news_tablet'>
 
         <div data-aos="fade-right" className="text">
-        <h1>Florentino Perez:This title would give us energy for a very difficult season</h1>
 
-        <p>Florentino Perez talks on winning the super cup, its not easy to debut at Real Madrid
-            with a goal and Mbappe has made a very good start, added the President 
-            after picking up the 64th title at the helm of the club.
-        </p>
+            <h1>Florentino Perez: This title will give us energy for a very difficult season</h1>
+            <p>Florentino Perez talks on winning the Super Cup</p>
+            <p>It is not easy to debut at Real Madrid with a goal and Mbappe has made a very good start, added the president after picking up his 64th title at the helm of the club.</p>
+            <p>President Florentino Perez was interviewed by Real Madrid TV after winning the European Super Cup in Warsaw: I am very happy. We are just starting the season, it is the first title we have won and this is going to encourage us to do our best. it would give us energy for a season that, as we all know, is going to be very difficult.</p>
+            <h1>Mbappes Debut</h1>
+            <p>The fact that Mbappe made his debut in a Real Madrid shirt by scoring is going to give him a lot of confidence to have a good season. He is very happy. When he picked up his medal he was happy. It is not easy to make your Real Madrid debut with a goal and he has made a great start. </p>
+            <h1>The match</h1>
+            <p>In the second half we came out to win. We scored two goals and we could have scored more. When you go out to win with that impetus and that strength. It is normal that we win.</p>
+            <h1>64 titles as President</h1>
+            <p>I am excited about everything we can do. We have to keep working hard like we did last year and we will reap the rewards. We have a great team and nobody doubts that.</p>
+            <h1>Madridstas</h1>
+            <p>I have just come back from the United States, where they were amazing, as they were here. Real Madrid is universal. Fans all over the world have the club in their hearts and we can see that every time we leave Spain.</p>
 
-        <p>President Florentino Perez was interviewed by Real Madrid TV after winning the European Super Cup in Warsaw: Im very happy. We are just starting the season, it is the first title we have won and this is going to encourage us to do our best. it would give us energy for a season that, as we all know, is going to be very difficult.</p>
-
-        <h1 style={{marginTop:'15px'}}>Mbappe debut</h1>
-
-        <p>The fact that Mbappe made his debut in a Real Madrid shirt by scoring is going to give him a lot of confidence to have a good season. He is very happy, when he picked up his medal he was happy. It is not easy to make your Real Madrid debut with a goal and he has made a great start.</p>
-
-        <h1 style={{marginTop:'15px'}}>The match</h1>
-
-        <p>In the second half we came out to win, we scored two goals and we could have scored more. When you go out to win with that impetus and that strength, it is normal that we win.
-        Im excited about everything we can do. We have to keep working hard like we did last year and we will reap the rewards, we have a great team and nobody doubts that.
-        </p>
+            <Link href="/">
+                <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back →</button>
+            </Link>
 
         </div>
 
@@ -305,26 +301,23 @@ const Page = () => {
         </div>
 
         <div className="text">
-        <h1>Florentino Perez:This title would give us energy for a very difficult season</h1>
 
-        <h1>Florentino Perez:This title would give us energy for a very difficult season</h1>
+            <h1>Florentino Perez: This title will give us energy for a very difficult season</h1>
+            <p>Florentino Perez talks on winning the Super Cup</p>
+            <p>It is not easy to debut at Real Madrid with a goal and Mbappe has made a very good start, added the president after picking up his 64th title at the helm of the club.</p>
+            <p>President Florentino Perez was interviewed by Real Madrid TV after winning the European Super Cup in Warsaw: I am very happy. We are just starting the season, it is the first title we have won and this is going to encourage us to do our best. it would give us energy for a season that, as we all know, is going to be very difficult.</p>
+            <h1>Mbappes Debut</h1>
+            <p>The fact that Mbappe made his debut in a Real Madrid shirt by scoring is going to give him a lot of confidence to have a good season. He is very happy. When he picked up his medal he was happy. It is not easy to make your Real Madrid debut with a goal and he has made a great start. </p>
+            <h1>The match</h1>
+            <p>In the second half we came out to win. We scored two goals and we could have scored more. When you go out to win with that impetus and that strength. It is normal that we win.</p>
+            <h1>64 titles as President</h1>
+            <p>I am excited about everything we can do. We have to keep working hard like we did last year and we will reap the rewards. We have a great team and nobody doubts that.</p>
+            <h1>Madridstas</h1>
+            <p>I have just come back from the United States, where they were amazing, as they were here. Real Madrid is universal. Fans all over the world have the club in their hearts and we can see that every time we leave Spain.</p>
 
-        <p>Florentino Perez talks on winning the super cup, its not easy to debut at Real Madrid
-            with a goal and Mbappe has made a very good start, added the President 
-            after picking up the 64th title at the helm of the club.
-        </p>
-
-        <p>President Florentino Perez was interviewed by Real Madrid TV after winning the European Super Cup in Warsaw: Im very happy. We are just starting the season, it is the first title we have won and this is going to encourage us to do our best. it would give us energy for a season that, as we all know, is going to be very difficult.</p>
-
-        <h1 style={{marginTop:'5px'}}>Mbappe debut</h1>
-
-        <p>The fact that Mbappe made his debut in a Real Madrid shirt by scoring is going to give him a lot of confidence to have a good season. He is very happy, when he picked up his medal he was happy. It is not easy to make your Real Madrid debut with a goal and he has made a great start.</p>
-
-        <h1 style={{marginTop:'5px'}}>The match</h1>
-
-        <p>In the second half we came out to win, we scored two goals and we could have scored more. When you go out to win with that impetus and that strength, it is normal that we win.
-        Im excited about everything we can do. We have to keep working hard like we did last year and we will reap the rewards, we have a great team and nobody doubts that.
-        </p>
+            <Link href="/">
+                <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back</button>
+            </Link>
 
         </div>
 
@@ -335,4 +328,4 @@ const Page = () => {
   )
 }
 
-export default Page
+export default page

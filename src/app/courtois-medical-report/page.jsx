@@ -10,7 +10,7 @@ import Aos from 'aos'
 import logo from './Image/madrid_icon.png'
 import courtois from './Image/courtois_med.jpg'
 
-const Page = () => {
+const page = () => {
 
   // aos
   useEffect(()=> {
@@ -300,7 +300,7 @@ const Page = () => {
               </p>
 
               <Link href="/">
-                <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back →</button>
+                <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back</button>
               </Link>
             </div>
 
@@ -311,4 +311,4 @@ const Page = () => {
   )
 }
 
-export default Page
+export default page

@@ -10,8 +10,7 @@ import './page.css'
 import logo from './Image/madrid_icon.png'
 import david from './Image/david.jpg'
 
-const Page
- = () => {
+const page = () => {
 
   // aos
   useEffect(()=> {
@@ -318,7 +317,7 @@ const Page
               <p>This impecable plan ultimately brought Mbappe to the Santiago Bernabeu, and he will now wear the No.9 jersey as he prepares for a new adventure in Spain</p>
 
               <Link href="/">
-              <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back →</button>
+              <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back</button>
               </Link>
 
             </div>
@@ -330,5 +329,5 @@ const Page
   )
 }
 
-export default Page
+export default page
 

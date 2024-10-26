@@ -1,19 +1,18 @@
 'use client'
-import React from 'react'
-import { useEffect } from 'react'
-import { useState } from 'react'
-import Aos from 'aos'
+import { useState } from "react"
+import { useEffect } from "react"
+import Aos from "aos"
+import Link from "next/link"
 import 'aos/dist/aos.css'
-import Link from 'next/link'
-import Image from 'next/image'
 import './page.css'
+import Image from "next/image"
 import logo from './Image/madrid_icon.png'
-import legend from './Image/legend.jpg'
-import mbappe from './Image/_0_DB20398.webp'
+import varane from './Image/varane.jpg'
+import React from 'react'
 
 const page = () => {
 
-  // aos
+    // aos
   useEffect(()=> {
     Aos.init({duration: 1100});
   }, [])
@@ -115,25 +114,19 @@ const page = () => {
             <div className='news'>
 
               <div data-aos="fade-right" className="text">
-                <h1>Official Anouncement:Johan Neeskens passes away</h1>
+                <h1>Raphael Varane announces his retirement from football</h1>
 
-                <p>KickOff-SantiagoBernabéu would like to
-                express their deepest regrets at the passing of Johan Neeskens, one of the 
-                greatest legends of F.C. Barcelona, Ajaz Amsterdam and world football.                             
-                </p>
+                <p>Former Man Utd, Lens and Real Madrid defender hangs up his boot at age 31</p>
 
-                <p>KickOff-SantiagoBernabéu would like to express its condolence and affection to his family,
-                    his teamates, his clubs and all his loved ones. Neeskens played for more than two decades for a number of 
-                    teams in Europe and the United States with Ajax Amsterdam, he won 3 European cups, 1 international
-                    Cup, 2 Uefa Super Cups, 2 League titles and 2 Dutch Cups. With F.C Barcelona he won one European Cup Winners Cup and 
-                    1 Copa del Ray. With the New York Cosmos, he won 2 North American Soccer League titles. 
-                </p>
+                <p>Varane wrote in a social media statement on Instagram: Reflecting on this moments, it is immense pride and a feeling of fulfilment that I am announcing my retirement from the game that we all love.</p>
 
-                <p>He made 49 appearances for the Nertherlands, scored 17 goals and was a finalist in the 1974 World Cup in Germany and 
-                    the 1978 World Cup in Argentina.
-                </p>
+                <p>I have loved fighting for my clubs, my country, my team mates and the supporters of every team i have played for from Lens to Madrid to Manchester, and playing for our national team. I have defended every bagbe with everything i have and love every minute of the journey.</p>
 
-                <p>Johan Neeskens passed away at the age of 73, may his soul rest in perfect peace</p>
+                <p>After announcing his news, Varanes former united team mates all paid tribute to him in the comment of his post.</p>
+
+                <p>Varane enjoyed a trophy laden, 10 years stay with Real Madrid, winning the UEFA Champions league four times and LaLiga three times. He moved to Old Trafford in August 2021 and would go on to play 95 times in all competitions for Man Utd.</p>
+
+                <p>The centre-back won the EFL cup in 2023, while he also helped United beat Manchester City 2 - 1 to lift the FA Cup last season in his final match for the club, at international level Varane 93 caps for France and was a key part of the squad that lifted the FIFA World Cup 2018</p>
 
                 <Link href="/">
                 <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back →</button>
@@ -142,7 +135,7 @@ const page = () => {
               </div>
 
               <div data-aos="fade-left" className="image">
-                <Image className='img' src={legend} alt='' priority />
+                <Image className='img' src={varane} alt='' priority />
               </div>
 
             </div>
@@ -179,25 +172,19 @@ const page = () => {
           <div className='news'>
 
             <div data-aos="fade-right" className="text">
-              <h1>Official Anouncement:Johan Neeskens passes away</h1>
+                <h1>Raphael Varane announces his retirement from Football</h1>
 
-              <p>KickOff-SantiagoBernabéu would like to
-                express their deepest regrets at the passing of Johan Neeskens, one of the 
-                greatest legends of F.C. Barcelona, Ajaz Amsterdam and world football.                         
-              </p>
+                <p>Former Man Utd, Lens and Real Madrid defender hangs up his boot at age 31</p>
 
-              <p>KickOff-SantiagoBernabéu would like to express its condolence and affection to his family,
-                his teamates, his clubs and all his loved ones. Neeskens played for more than two decades for a number of 
-                teams in Europe and the United States with Ajax Amsterdam, he won 3 European cups, 1 international
-                Cup, 2 Uefa Super Cups, 2 League titles and 2 Dutch Cups. With F.C Barcelona he won one European Cup Winners Cup and 
-                1 Copa del Ray. With the New York Cosmos, he won 2 North American Soccer League titles. 
-              </p>
+                <p>Varane wrote in a social media statement on Instagram: Reflecting on this moments, it is immense pride and a feeling of fulfilment that I am announcing my retirement from the game that we all love.</p>
 
-              <p>He made 49 appearances for the Nertherlands, scored 17 goals and was a finalist in the 1974 World Cup in Germany and 
-                the 1978 World Cup in Argentina.
-              </p>
+                <p>I have loved fighting for my clubs, my country, my team mates and the supporters of every team i have played for from Lens to Madrid to Manchester, and playing for our national team. I have defended every bagbe with everything i have and love every minute of the journey.</p>
 
-              <p>Johan Neeskens passed away at the age of 73, may his soul rest in perfect peace</p>
+                <p>After announcing his news, Varanes former united team mates all paid tribute to him in the comment of his post.</p>
+
+                <p>Varane enjoyed a trophy laden, 10 years stay with Real Madrid, winning the UEFA Champions league four times and LaLiga three times. He moved to Old Trafford in August 2021 and would go on to play 95 times in all competitions for Man Utd.</p>
+
+                <p>The centre-back won the EFL cup in 2023, while he also helped United beat Manchester City 2 - 1 to lift the FA Cup last season in his final match for the club, at international level Varane 93 caps for France and was a key part of the squad that lifted the FIFA World Cup 2018</p>
 
               <Link href="/">
                 <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back →</button>
@@ -206,14 +193,14 @@ const page = () => {
             </div>
 
             <div data-aos="fade-left" className="image">
-              <Image className='img' src={legend} alt='' priority />
+              <Image className='img' src={varane} alt='' priority />
             </div>
 
           </div>
           
         </div>
 
-        {/* tablet */}
+        {/* tablet_laptop */}
         <div id='big' className='hidden md:block lg:hidden xl:hidden'>
 
           {/* navbar */}
@@ -244,25 +231,19 @@ const page = () => {
           <div className='news_tablet'>
 
             <div data-aos="fade-right" className="text">
-              <h1>Official Anouncement:Johan Neeskens passes away</h1>
+                <h1>Raphael Varane announces his retirement from football</h1>
 
-              <p>KickOff-SantiagoBernabéu would like to
-                express their deepest regrets at the passing of Johan Neeskens, one of the 
-                greatest legends of F.C. Barcelona, Ajaz Amsterdam and world football.                         
-              </p>
+                <p>Former Man Utd, Lens and Real Madrid defender hangs up his boot at age 31</p>
 
-              <p>KickOff-SantiagoBernabéu would like to express its condolence and affection to his family,
-                his teamates, his clubs and all his loved ones. Neeskens played for more than two decades for a number of 
-                teams in Europe and the United States with Ajax Amsterdam, he won 3 European cups, 1 international
-                Cup, 2 Uefa Super Cups, 2 League titles and 2 Dutch Cups. With F.C Barcelona he won one European Cup Winners Cup and 
-                1 Copa del Ray. With the New York Cosmos, he won 2 North American Soccer League titles. 
-              </p>
+                <p>Varane wrote in a social media statement on Instagram: Reflecting on this moments, it is immense pride and a feeling of fulfilment that I am announcing my retirement from the game that we all love.</p>
 
-              <p>He made 49 appearances for the Nertherlands, scored 17 goals and was a finalist in the 1974 World Cup in Germany and 
-                the 1978 World Cup in Argentina.
-              </p>
+                <p>I have loved fighting for my clubs, my country, my team mates and the supporters of every team i have played for from Lens to Madrid to Manchester, and playing for our national team. I have defended every bagbe with everything i have and love every minute of the journey.</p>
 
-              <p>Johan Neeskens passed away at the age of 73, may his soul rest in perfect peace</p>
+                <p>After announcing his news, Varanes former united team mates all paid tribute to him in the comment of his post.</p>
+
+                <p>Varane enjoyed a trophy laden, 10 years stay with Real Madrid, winning the UEFA Champions league four times and LaLiga three times. He moved to Old Trafford in August 2021 and would go on to play 95 times in all competitions for Man Utd.</p>
+
+                <p>The centre-back won the EFL cup in 2023, while he also helped United beat Manchester City 2 - 1 to lift the FA Cup last season in his final match for the club, at international level Varane 93 caps for France and was a key part of the squad that lifted the FIFA World Cup 2018</p>
 
               <Link href="/">
                 <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back →</button>
@@ -271,13 +252,13 @@ const page = () => {
             </div>
 
             <div data-aos="fade-left" className="image">
-              <Image className='img' src={legend} alt='' priority />
+              <Image className='img' src={varane} alt='' priority />
             </div>
 
           </div>
         </div>
 
-        {/* phone */}
+        {/* phone laptop */}
         <div id='mobile' className='block md:hidden lg:hidden xl:hidden'>
 
           {/* navbar_phone */}
@@ -317,29 +298,23 @@ const page = () => {
           <div data-aos="fade-up" className='news_phone'>
 
             <div className="image">
-              <Image className='img' src={legend} alt='' priority />
+              <Image className='img' src={varane} alt='' priority />
             </div>
 
             <div className="text">
-              <h1>Official Anouncement:Johan Neeskens passes away</h1>
+                <h1>Raphael Varane announces his retirement from football</h1>
 
-              <p>KickOff-SantiagoBernabéu would like to
-                express their deepest regrets at the passing of Johan Neeskens, one of the 
-                greatest legends of F.C. Barcelona, Ajaz Amsterdam and world football.                         
-              </p>
+                <p>Former Man Utd, Lens and Real Madrid defender hangs up his boot at age 31</p>
 
-              <p>KickOff-SantiagoBernabéu would like to express its condolence and affection to his family,
-                his teamates, his clubs and all his loved ones. Neeskens played for more than two decades for a number of 
-                teams in Europe and the United States with Ajax Amsterdam, he won 3 European cups, 1 international
-                Cup, 2 Uefa Super Cups, 2 League titles and 2 Dutch Cups. With F.C Barcelona he won one European Cup Winners Cup and 
-                1 Copa del Ray. With the New York Cosmos, he won 2 North American Soccer League titles. 
-              </p>
+                <p>Varane wrote in a social media statement on Instagram: Reflecting on this moments, it is immense pride and a feeling of fulfilment that I am announcing my retirement from the game that we all love.</p>
 
-              <p>He made 49 appearances for the Nertherlands, scored 17 goals and was a finalist in the 1974 World Cup in Germany and 
-                the 1978 World Cup in Argentina.
-              </p>
+                <p>I have loved fighting for my clubs, my country, my team mates and the supporters of every team i have played for from Lens to Madrid to Manchester, and playing for our national team. I have defended every bagbe with everything i have and love every minute of the journey.</p>
 
-              <p>Johan Neeskens passed away at the age of 73, may his soul rest in perfect peace</p>
+                <p>After announcing his news, Varanes former united team mates all paid tribute to him in the comment of his post.</p>
+
+                <p>Varane enjoyed a trophy laden, 10 years stay with Real Madrid, winning the UEFA Champions league four times and LaLiga three times. He moved to Old Trafford in August 2021 and would go on to play 95 times in all competitions for Man Utd.</p>
+
+                <p>The centre-back won the EFL cup in 2023, while he also helped United beat Manchester City 2 - 1 to lift the FA Cup last season in his final match for the club, at international level Varane 93 caps for France and was a key part of the squad that lifted the FIFA World Cup 2018</p>
 
               <Link href="/">
                 <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back</button>
