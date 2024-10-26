@@ -230,7 +230,6 @@ body
 
 
 /* small laptop */
-
 /* navbar samall */
 .topnav_small
 {
@@ -374,6 +373,60 @@ body
 
 
 /* tablet */
+.topnav_tablet
+{
+    padding: 30px 5%;
+    position: fixed;
+    width: 92%;
+    max-width: 92%;
+    z-index: 1000;
+
+}
+
+.navbar_tablet
+{
+    background-color: rgba(0, 0, 0, 0.459);
+    color: white;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 20px;
+    padding: 15px 20px;
+
+}
+
+.navbar_tablet .left
+{
+    display: flex;
+    align-items: center;
+
+}
+
+.navbar_tablet .left h1
+{
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.navbar_tablet .middle
+{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    gap: 25px;
+    
+}
+
+.navbar_tablet .middle h2
+{
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.1s;
+
+}
+
 /* news */
 .ctn_tablet
 {
@@ -389,9 +442,9 @@ body
 {
     background-color: white;
     color: black;
-    width: 235px;
+    width: 220px;
     height: 440px;
-    display: flex;
+    display:flex;
     flex-direction: column;
     align-items: center;
     border-radius: 30px;
@@ -403,7 +456,7 @@ body
 
 .ctn_tablet .left .img
 {
-    width: 235px;
+    width: 220px;
     height: 330px;
     border: none;
     border-radius: 30px;
@@ -413,7 +466,7 @@ body
 
 .ctn_tablet .middle 
 {
-    width: 235px;
+    width: 220px;
     height: 440px;
     background-color: white;
     color: black;
@@ -428,7 +481,7 @@ body
 
 .ctn_tablet .middle .img
 {
-    width: 235px;
+    width: 220px;
     height: 330px;
     border: none;
     border-radius: 30px;
@@ -438,7 +491,7 @@ body
 
 .ctn_tablet .right
 {
-    width: 235px;
+    width: 220px;
     height: 440px;
     background-color: white;
     color: black;
@@ -453,7 +506,7 @@ body
 
 .ctn_tablet .right .img
 {
-    width: 235px;
+    width: 220px;
     height: 330px;
     border: none;
     border-radius: 30px;
