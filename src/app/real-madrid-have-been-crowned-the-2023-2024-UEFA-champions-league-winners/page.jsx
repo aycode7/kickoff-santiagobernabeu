@@ -10,7 +10,7 @@ import './page.css'
 import champions from './Image/champions.jpg'
 import React from 'react'
 
-const page = () => {
+const Page = () => {
 
     // aos
   useEffect(()=> {
@@ -340,4 +340,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

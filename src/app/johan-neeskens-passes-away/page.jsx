@@ -11,7 +11,7 @@ import logo from './Image/madrid_icon.png'
 import legend from './Image/legend.jpg'
 import mbappe from './Image/_0_DB20398.webp'
 
-const page = () => {
+const Page = () => {
 
   // aos
   useEffect(()=> {
@@ -354,4 +354,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
