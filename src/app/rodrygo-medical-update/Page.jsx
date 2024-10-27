@@ -10,7 +10,7 @@ import React from 'react'
 import logo from './Image/madrid_icon.png'
 import rodrygo from './Image/rodrygo_med.jpg'
 
-const Page = () => {
+const page = () => {
 
     // aos
   useEffect(()=> {
@@ -114,11 +114,12 @@ const Page = () => {
         <div className='news'>
 
         <div data-aos="fade-right" className="text">
-            <h1>Rodrygo medical report</h1>
+            <h1>Hello World</h1>
+            {/* <h1>Rodrygo medical report</h1>
 
             <p>MEDICAL REPORT 24/10/2024</p>
 
-            <p>The following test carried out on the Real Madrid player Rodrygo goes by the Real Madrid medical service, he has been diagnosed with an injury to the biceps femoris muscle in his right thigh. His recovery would be accessed</p>
+            <p>The following test carried out on the Real Madrid player Rodrygo goes by the Real Madrid medical service, he has been diagnosed with an injury to the biceps femoris muscle in his right thigh. His recovery would be accessed</p> */}
 
             <Link href="/">
             <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back →</button>
@@ -164,11 +165,12 @@ const Page = () => {
         <div className='news'>
 
         <div data-aos="fade-right" className="text">
-        <h1>Rodrygo medical report</h1>
+        <h1>Hello World</h1>
+        {/* <h1>Rodrygo medical report</h1>
 
         <p>MEDICAL REPORT 24/10/2024</p>
 
-        <p>The following test carried out on the Real Madrid player Rodrygo goes by the Real Madrid medical service, he has been diagnosed with an injury to the biceps femoris muscle in his right thigh. His recovery would be accessed</p>
+        <p>The following test carried out on the Real Madrid player Rodrygo goes by the Real Madrid medical service, he has been diagnosed with an injury to the biceps femoris muscle in his right thigh. His recovery would be accessed</p> */}
 
         <Link href="/">
             <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back →</button>
@@ -215,11 +217,12 @@ const Page = () => {
         <div className='news_tablet'>
 
         <div data-aos="fade-right" className="text">
-        <h1>Rodrygo medical report</h1>
+        <h1>Hello World</h1>
+        {/* <h1>Rodrygo medical report</h1>
 
         <p>MEDICAL REPORT 24/10/2024</p>
 
-        <p>The following test carried out on the Real Madrid player Rodrygo goes by the Real Madrid medical service, he has been diagnosed with an injury to the biceps femoris muscle in his right thigh. His recovery would be accessed</p>
+        <p>The following test carried out on the Real Madrid player Rodrygo goes by the Real Madrid medical service, he has been diagnosed with an injury to the biceps femoris muscle in his right thigh. His recovery would be accessed</p> */}
 
         <Link href="/">
             <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back →</button>
@@ -234,7 +237,7 @@ const Page = () => {
         </div>
         </div>
 
-        {/* phone laptop */}
+        {/* phone */}
         <div id='mobile' className='block md:hidden lg:hidden xl:hidden'>
 
         {/* navbar_phone */}
@@ -278,11 +281,12 @@ const Page = () => {
         </div>
 
         <div className="text">
-        <h1>Rodrygo medical report</h1>
+        <h1>Hello World</h1>
+        {/* <h1>Rodrygo medical report</h1>
 
         <p>MEDICAL REPORT 24/10/2024</p>
 
-        <p>The following test carried out on the Real Madrid player Rodrygo goes by the Real Madrid medical service, he has been diagnosed with an injury to the biceps femoris muscle in his right thigh. His recovery would be accessed</p>
+        <p>The following test carried out on the Real Madrid player Rodrygo goes by the Real Madrid medical service, he has been diagnosed with an injury to the biceps femoris muscle in his right thigh. His recovery would be accessed</p> */}
 
         <Link href="/">
             <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back</button>
@@ -297,4 +301,4 @@ const Page = () => {
   )
 }
 
-export default Page
+export default page

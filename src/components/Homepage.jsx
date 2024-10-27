@@ -310,10 +310,19 @@ const Homepage = () => {
               </Link>
 
               <Link href="raphael-varane-announce-his-retirement-from-football">
-              <div className="right" data-aos="fade-left">
+              <div className="right" data-aos="fade-up">
                 <Image className='img' src={varane} alt='champions league 2024' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Raphael Varane announces his retirement from football</h2>
+
+              </div>
+              </Link>
+
+              <Link href="florentino-perez-opinion-on-winning-the-super-cup">
+              <div className="left" data-aos="fade-left">
+                <Image className='img' src={perez} alt='' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Florentino Perez: This title would give us energy for a very difficult season</h2>
 
               </div>
               </Link>
@@ -338,6 +347,14 @@ const Homepage = () => {
               </div>
               </Link>
 
+              <Link href="rodrygo-medical-update">
+              <div className="left" data-aos="fade-left">
+                <Image className='img' src={rodrygo_med} alt='' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Rodrygo medical report</h2>
+
+              </div>
+              </Link>
              
             </div>
           </div>
@@ -545,12 +562,14 @@ const Homepage = () => {
 
               </div>
 
+              <Link href="florentino-perez-opinion-on-winning-the-super-cup">
               <div className="middle" data-aos="fade-up">
-                <Image className='img' src={ancelloti_200} alt='' priority />
+                <Image className='img' src={perez} alt='' priority />
 
-                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Ancelotti reaches 200 Laliga games at Real Madrid</h2>
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Florentino Perez:This title would give us energy for a very difficult season</h2>
 
               </div>
+              </Link>
 
               <Link href="raphael-varane-announce-his-retirement-from-football">
               <div className="right" data-aos="fade-left">
@@ -577,6 +596,15 @@ const Homepage = () => {
                 <Image className='img' src={elclassico} alt='' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Pròximo Partido</h2>
+
+              </div>
+              </Link>
+
+              <Link href="rodrygo-medical-update">
+              <div className="left" data-aos="fade-left">
+                <Image className='img' src={rodrygo_med} alt='' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Rodrygo medical report</h2>
 
               </div>
               </Link>
@@ -792,12 +820,21 @@ const Homepage = () => {
               </Link>            
 
               <Link href="raphael-varane-announce-his-retirement-from-football">
-              <div className="right" data-aos="fade-left">
+              <div className="right" data-aos="fade-up">
                 <Image className='img' src={varane} alt='champions league 2024' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Raphael Varane announces his retirement from football</h2>
 
               </div>
+              </Link>
+
+              <Link href="florentino-perez-opinion-on-winning-the-super-cup">
+                <div className="left" data-aos="fade-left">
+                  <Image className='img' src={perez} alt='' priority />
+
+                  <h2 style={{marginTop:'20px', fontSize:'15px'}}>Florentino Perez: This title would give us energy for a very difficult season</h2>
+
+                </div>
               </Link>
             </div>
 
@@ -816,6 +853,15 @@ const Homepage = () => {
                 <Image className='img' src={elclassico} alt='' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Pròximo Partido</h2>
+
+              </div>
+              </Link>
+
+              <Link href="rodrygo-medical-update">
+              <div className="left" data-aos="fade-left">
+                <Image className='img' src={rodrygo_med} alt='' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Rodrygo medical report</h2>
 
               </div>
               </Link>
@@ -944,6 +990,15 @@ const Homepage = () => {
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Rodrygo has succeded to score the opening goal for Real Madrid for the last two seasons</h2>
 
               </div>              
+              
+              <Link href="florentino-perez-opinion-on-winning-the-super-cup">
+              <div className="right" data-aos="fade-up">
+                <Image className='img' src={perez} alt='' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Floretino Perez:This title would give us energy for a very difficult season</h2>
+
+              </div>
+              </Link>
             </div>
 
             <div className="ctn_phone">
@@ -1005,12 +1060,21 @@ const Homepage = () => {
               </div>
               </Link>
 
-              <div className="right" data-aos="fade-up">
+              <div className="middle" data-aos="fade-up">
                 <Image className='img' src={modric_250} alt='champions league 2024' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Modrić wins his 250th league match as a Real Madrid player</h2>
 
               </div>
+
+              <Link href="rodrygo-medical-update">
+              <div className="right" data-aos="fade-up">
+                <Image className='img' src={rodrygo_med} alt='champions league 2024' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Rodrygo medical report</h2>
+
+              </div>
+              </Link>
             </div>
 
             <div className="ctn_phone">

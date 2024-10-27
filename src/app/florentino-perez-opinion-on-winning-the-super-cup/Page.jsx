@@ -114,7 +114,8 @@ const Page = () => {
             <div className='news'>
 
             <div data-aos="fade-right" className="text">
-                <h1>Florentino Perez: This title will give us energy for a very difficult season</h1>
+                <h1>Hello World</h1>
+                {/* <h1>Florentino Perez: This title will give us energy for a very difficult season</h1>
                 <p>Florentino Perez talks on winning the Super Cup</p>
                 <p>It is not easy to debut at Real Madrid with a goal and Mbappe has made a very good start, added the president after picking up his 64th title at the helm of the club.</p>
                 <p>President Florentino Perez was interviewed by Real Madrid TV after winning the European Super Cup in Warsaw: I am very happy. We are just starting the season, it is the first title we have won and this is going to encourage us to do our best. it would give us energy for a season that, as we all know, is going to be very difficult.</p>
@@ -125,7 +126,7 @@ const Page = () => {
                 <h1>64 titles as President</h1>
                 <p>I am excited about everything we can do. We have to keep working hard like we did last year and we will reap the rewards. We have a great team and nobody doubts that.</p>
                 <h1>Madridstas</h1>
-                <p>I have just come back from the United States, where they were amazing, as they were here. Real Madrid is universal. Fans all over the world have the club in their hearts and we can see that every time we leave Spain.</p>
+                <p>I have just come back from the United States, where they were amazing, as they were here. Real Madrid is universal. Fans all over the world have the club in their hearts and we can see that every time we leave Spain.</p> */}
 
                 <Link href="/">
                     <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back →</button>
@@ -171,8 +172,9 @@ const Page = () => {
         <div className='news'>
 
         <div data-aos="fade-right" className="text">
+            <h1>Hello World</h1>
 
-            <h1>Florentino Perez: This title will give us energy for a very difficult season</h1>
+            {/* <h1>Florentino Perez: This title will give us energy for a very difficult season</h1>
             <p>Florentino Perez talks on winning the Super Cup</p>
             <p>It is not easy to debut at Real Madrid with a goal and Mbappe has made a very good start, added the president after picking up his 64th title at the helm of the club.</p>
             <p>President Florentino Perez was interviewed by Real Madrid TV after winning the European Super Cup in Warsaw: I am very happy. We are just starting the season, it is the first title we have won and this is going to encourage us to do our best. it would give us energy for a season that, as we all know, is going to be very difficult.</p>
@@ -183,7 +185,7 @@ const Page = () => {
             <h1>64 titles as President</h1>
             <p>I am excited about everything we can do. We have to keep working hard like we did last year and we will reap the rewards. We have a great team and nobody doubts that.</p>
             <h1>Madridstas</h1>
-            <p>I have just come back from the United States, where they were amazing, as they were here. Real Madrid is universal. Fans all over the world have the club in their hearts and we can see that every time we leave Spain.</p>
+            <p>I have just come back from the United States, where they were amazing, as they were here. Real Madrid is universal. Fans all over the world have the club in their hearts and we can see that every time we leave Spain.</p> */}
 
             <Link href="/">
                 <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back →</button>
@@ -230,8 +232,9 @@ const Page = () => {
         <div className='news_tablet'>
 
         <div data-aos="fade-right" className="text">
+            <h1>Hello World</h1>
 
-            <h1>Florentino Perez: This title will give us energy for a very difficult season</h1>
+            {/* <h1>Florentino Perez: This title will give us energy for a very difficult season</h1>
             <p>Florentino Perez talks on winning the Super Cup</p>
             <p>It is not easy to debut at Real Madrid with a goal and Mbappe has made a very good start, added the president after picking up his 64th title at the helm of the club.</p>
             <p>President Florentino Perez was interviewed by Real Madrid TV after winning the European Super Cup in Warsaw: I am very happy. We are just starting the season, it is the first title we have won and this is going to encourage us to do our best. it would give us energy for a season that, as we all know, is going to be very difficult.</p>
@@ -242,7 +245,7 @@ const Page = () => {
             <h1>64 titles as President</h1>
             <p>I am excited about everything we can do. We have to keep working hard like we did last year and we will reap the rewards. We have a great team and nobody doubts that.</p>
             <h1>Madridstas</h1>
-            <p>I have just come back from the United States, where they were amazing, as they were here. Real Madrid is universal. Fans all over the world have the club in their hearts and we can see that every time we leave Spain.</p>
+            <p>I have just come back from the United States, where they were amazing, as they were here. Real Madrid is universal. Fans all over the world have the club in their hearts and we can see that every time we leave Spain.</p> */}
 
             <Link href="/">
                 <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back →</button>
@@ -301,8 +304,9 @@ const Page = () => {
         </div>
 
         <div className="text">
+            <h1>Hello World</h1>
 
-            <h1>Florentino Perez: This title will give us energy for a very difficult season</h1>
+            {/* <h1>Florentino Perez: This title will give us energy for a very difficult season</h1>
             <p>Florentino Perez talks on winning the Super Cup</p>
             <p>It is not easy to debut at Real Madrid with a goal and Mbappe has made a very good start, added the president after picking up his 64th title at the helm of the club.</p>
             <p>President Florentino Perez was interviewed by Real Madrid TV after winning the European Super Cup in Warsaw: I am very happy. We are just starting the season, it is the first title we have won and this is going to encourage us to do our best. it would give us energy for a season that, as we all know, is going to be very difficult.</p>
@@ -313,7 +317,7 @@ const Page = () => {
             <h1>64 titles as President</h1>
             <p>I am excited about everything we can do. We have to keep working hard like we did last year and we will reap the rewards. We have a great team and nobody doubts that.</p>
             <h1>Madridstas</h1>
-            <p>I have just come back from the United States, where they were amazing, as they were here. Real Madrid is universal. Fans all over the world have the club in their hearts and we can see that every time we leave Spain.</p>
+            <p>I have just come back from the United States, where they were amazing, as they were here. Real Madrid is universal. Fans all over the world have the club in their hearts and we can see that every time we leave Spain.</p> */}
 
             <Link href="/">
                 <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back</button>
