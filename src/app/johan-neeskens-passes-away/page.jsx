@@ -119,7 +119,7 @@ const Page = () => {
 
                 <p>KickOff-SantiagoBernabéu would like to
                 express their deepest regrets at the passing of Johan Neeskens, one of the 
-                greatest legends of F.C. Barcelona, Ajaz Amsterdam and world football.                             
+                greatest legends of F.C. Barcelona, Ajax Amsterdam and world football.                             
                 </p>
 
                 <p>KickOff-SantiagoBernabéu would like to express its condolence and affection to his family,
@@ -183,7 +183,7 @@ const Page = () => {
 
               <p>KickOff-SantiagoBernabéu would like to
                 express their deepest regrets at the passing of Johan Neeskens, one of the 
-                greatest legends of F.C. Barcelona, Ajaz Amsterdam and world football.                         
+                greatest legends of F.C. Barcelona, Ajax Amsterdam and world football.                         
               </p>
 
               <p>KickOff-SantiagoBernabéu would like to express its condolence and affection to his family,
@@ -248,7 +248,7 @@ const Page = () => {
 
               <p>KickOff-SantiagoBernabéu would like to
                 express their deepest regrets at the passing of Johan Neeskens, one of the 
-                greatest legends of F.C. Barcelona, Ajaz Amsterdam and world football.                         
+                greatest legends of F.C. Barcelona, Ajax Amsterdam and world football.                         
               </p>
 
               <p>KickOff-SantiagoBernabéu would like to express its condolence and affection to his family,
@@ -325,7 +325,7 @@ const Page = () => {
 
               <p>KickOff-SantiagoBernabéu would like to
                 express their deepest regrets at the passing of Johan Neeskens, one of the 
-                greatest legends of F.C. Barcelona, Ajaz Amsterdam and world football.                         
+                greatest legends of F.C. Barcelona, Ajax Amsterdam and world football.                         
               </p>
 
               <p>KickOff-SantiagoBernabéu would like to express its condolence and affection to his family,
