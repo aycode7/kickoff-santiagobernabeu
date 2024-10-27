@@ -114,7 +114,15 @@ const Page = () => {
             <div className='news'>
 
               <div data-aos="fade-right" className="text">
-                <h1>Hello World</h1>
+                <h1>Real Madrid players carry out individual work in Real Madrid City</h1>
+
+                <p>14/10/2024</p>
+
+                <p>Kylian Mbappe continues to work on his individual fitness plan, the forward is working on his own as he tries to recover fully from the discomfort in his biceps femoris of his left leg. This afternoon he trained on his own in the gym and out of the pitch in Real Madrid City, under the guidance of Antonio Pintus, who is in charge of the clubs physical preparation.</p>
+
+                <p>Thibaut Courtois and Andriy Lunin also trained under the watchful eye of goalkeeping coach of Lluis Llopis. Courtois continues his recovery process following the injury he sufffered on 29 September against Atletico de Madrid. Lunin has returned to work on the pitch after a bout of gastroenterities.</p>
+
+                <p>More players would return to training on Tuesday, while Carlo Ancelotti is waiting to welcome back the internationals who are still with their national teams.</p>
 
                 <Link href="/">
                 <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back →</button>
@@ -160,11 +168,19 @@ const Page = () => {
           <div className='news'>
 
             <div data-aos="fade-right" className="text">
-              <h1>Hello World</h1>
+            <h1>Real Madrid players carry out individual work in Real Madrid City</h1>
 
-              <Link href="/">
-                <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back →</button>
-              </Link>
+            <p>14/10/2024</p>
+
+            <p>Kylian Mbappe continues to work on his individual fitness plan, the forward is working on his own as he tries to recover fully from the discomfort in his biceps femoris of his left leg. This afternoon he trained on his own in the gym and out of the pitch in Real Madrid City, under the guidance of Antonio Pintus, who is in charge of the clubs physical preparation.</p>
+
+            <p>Thibaut Courtois and Andriy Lunin also trained under the watchful eye of goalkeeping coach of Lluis Llopis. Courtois continues his recovery process following the injury he sufffered on 29 September against Atletico de Madrid. Lunin has returned to work on the pitch after a bout of gastroenterities.</p>
+
+            <p>More players would return to training on Tuesday, while Carlo Ancelotti is waiting to welcome back the internationals who are still with their national teams.</p>
+
+            <Link href="/">
+            <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back →</button>
+            </Link>
 
             </div>
 
@@ -207,11 +223,19 @@ const Page = () => {
           <div className='news_tablet'>
 
             <div data-aos="fade-right" className="text">
-                <h1>Hello World</h1>
+            <h1>Real Madrid players carry out individual work in Real Madrid City</h1>
 
-                <Link href="/">
-                    <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back →</button>
-                </Link>
+            <p>14/10/2024</p>
+
+            <p>Kylian Mbappe continues to work on his individual fitness plan, the forward is working on his own as he tries to recover fully from the discomfort in his biceps femoris of his left leg. This afternoon he trained on his own in the gym and out of the pitch in Real Madrid City, under the guidance of Antonio Pintus, who is in charge of the clubs physical preparation.</p>
+
+            <p>Thibaut Courtois and Andriy Lunin also trained under the watchful eye of goalkeeping coach of Lluis Llopis. Courtois continues his recovery process following the injury he sufffered on 29 September against Atletico de Madrid. Lunin has returned to work on the pitch after a bout of gastroenterities.</p>
+
+            <p>More players would return to training on Tuesday, while Carlo Ancelotti is waiting to welcome back the internationals who are still with their national teams.</p>
+
+            <Link href="/">
+                <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back →</button>
+            </Link>
 
             </div>
 
@@ -266,11 +290,19 @@ const Page = () => {
             </div>
 
             <div className="text">
-                <h1>Hello World</h1>
+            <h1>Real Madrid players carry out individual work in Real Madrid City</h1>
 
-              <Link href="/">
-                <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back</button>
-              </Link>
+            <p>14/10/2024</p>
+
+            <p>Kylian Mbappe continues to work on his individual fitness plan, the forward is working on his own as he tries to recover fully from the discomfort in his biceps femoris of his left leg. This afternoon he trained on his own in the gym and out of the pitch in Real Madrid City, under the guidance of Antonio Pintus, who is in charge of the clubs physical preparation.</p>
+
+            <p>Thibaut Courtois and Andriy Lunin also trained under the watchful eye of goalkeeping coach of Lluis Llopis. Courtois continues his recovery process following the injury he sufffered on 29 September against Atletico de Madrid. Lunin has returned to work on the pitch after a bout of gastroenterities.</p>
+
+            <p>More players would return to training on Tuesday, while Carlo Ancelotti is waiting to welcome back the internationals who are still with their national teams.</p>
+
+            <Link href="/">
+            <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back</button>
+            </Link>
 
             </div>
 
