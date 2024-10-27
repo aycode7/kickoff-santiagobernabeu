@@ -347,7 +347,7 @@ const Homepage = () => {
               </div>
               </Link>
 
-              <Link href="rodrygo-medical-update">
+              <Link href="rodrygo-medical-report">
               <div className="left" data-aos="fade-left">
                 <Image className='img' src={rodrygo_med} alt='' priority />
 
@@ -600,7 +600,7 @@ const Homepage = () => {
               </div>
               </Link>
 
-              <Link href="rodrygo-medical-update">
+              <Link href="rodrygo-medical-report">
               <div className="left" data-aos="fade-left">
                 <Image className='img' src={rodrygo_med} alt='' priority />
 
@@ -1067,7 +1067,7 @@ const Homepage = () => {
 
               </div>
 
-              <Link href="rodrygo-medical-update">
+              <Link href="rodrygo-medical-report">
               <div className="right" data-aos="fade-up">
                 <Image className='img' src={rodrygo_med} alt='champions league 2024' priority />
 
