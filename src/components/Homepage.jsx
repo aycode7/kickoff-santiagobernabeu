@@ -318,7 +318,7 @@ const Homepage = () => {
               </div>
               </Link>
 
-              <Link href="florentino-perez-opinion-on-winning-the-super-cup">
+              <Link href="florentino-perez-talks-about-winning-the-super-cup">
               <div className="left" data-aos="fade-left">
                 <Image className='img' src={perez} alt='' priority />
 
@@ -562,7 +562,7 @@ const Homepage = () => {
 
               </div>
 
-              <Link href="florentino-perez-opinion-on-winning-the-super-cup">
+              <Link href="florentino-perez-talks-about-winning-the-super-cup">
               <div className="middle" data-aos="fade-up">
                 <Image className='img' src={perez} alt='' priority />
 
@@ -828,7 +828,7 @@ const Homepage = () => {
               </div>
               </Link>
 
-              <Link href="florentino-perez-opinion-on-winning-the-super-cup">
+              <Link href="florentino-perez-talks-about-winning-the-super-cup">
                 <div className="left" data-aos="fade-left">
                   <Image className='img' src={perez} alt='' priority />
 
@@ -991,7 +991,7 @@ const Homepage = () => {
 
               </div>              
               
-              <Link href="florentino-perez-opinion-on-winning-the-super-cup">
+              <Link href="florentino-perez-talks-about-winning-the-super-cup">
               <div className="right" data-aos="fade-up">
                 <Image className='img' src={perez} alt='' priority />
 
