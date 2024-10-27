@@ -120,7 +120,7 @@ const Page = () => {
 
             <p>Real Madrids French midfielder, Aurélien Tchouaméni has achieved a remarkable milestone, completing his 100th game for the Los Blancos. The accomplishment underscores Tchouaméni rapid intergration and consistent performance since joining the Spanish Giants </p>
 
-            <h1>Key Statistics</h1>
+            <h1>Tchouameni Key Statistics</h1>
 
             <p>Tchouaméni successfully played a 100 plus games, atotal of 7,432 minutes, total of 10 goals with 12 assists making it 22 GA for Real Madrid, with a 444 tackles won and a pass completion rate of 92.5% </p>
 
@@ -174,7 +174,7 @@ const Page = () => {
 
             <p>Real Madrids French midfielder, Aurélien Tchouaméni has achieved a remarkable milestone, completing his 100th game for the Los Blancos. The accomplishment underscores Tchouaméni rapid intergration and consistent performance since joining the Spanish Giants </p>
 
-            <h1>Key Statistics</h1>
+            <h1>Tchouameni Key Statistics</h1>
 
             <p>Tchouaméni successfully played a 100 plus games, atotal of 7,432 minutes, total of 10 goals with 12 assists making it 22 GA for Real Madrid, with a 444 tackles won and a pass completion rate of 92.5% </p>
 
@@ -229,7 +229,7 @@ const Page = () => {
 
             <p>Real Madrids French midfielder, Aurélien Tchouaméni has achieved a remarkable milestone, completing his 100th game for the Los Blancos. The accomplishment underscores Tchouaméni rapid intergration and consistent performance since joining the Spanish Giants </p>
 
-            <h1>Key Statistics</h1>
+            <h1>Tchouameni Key Statistics</h1>
 
             <p>Tchouaméni successfully played a 100 plus games, atotal of 7,432 minutes, total of 10 goals with 12 assists making it 22 GA for Real Madrid, with a 444 tackles won and a pass completion rate of 92.5% </p>
 
@@ -296,7 +296,7 @@ const Page = () => {
 
         <p>Real Madrids French midfielder, Aurélien Tchouaméni has achieved a remarkable milestone, completing his 100th game for the Los Blancos. The accomplishment underscores Tchouaméni rapid intergration and consistent performance since joining the Spanish Giants </p>
 
-        <h1>Key Statistics</h1>
+        <h1>Tchouameni Key Statistics</h1>
 
         <p>Tchouaméni successfully played a 100 plus games, atotal of 7,432 minutes, total of 10 goals with 12 assists making it 22 GA for Real Madrid, with a 444 tackles won and a pass completion rate of 92.5% </p>
 
