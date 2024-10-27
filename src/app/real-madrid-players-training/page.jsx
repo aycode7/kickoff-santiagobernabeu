@@ -1,13 +1,13 @@
 'use client'
 import { useState } from "react"
 import { useEffect } from "react"
-import Aos from "aos"
 import Link from "next/link"
+import Image from "next/image"
+import Aos from "aos"
 import 'aos/dist/aos.css'
 import './page.css'
-import Image from "next/image"
 import logo from './Image/madrid_icon.png'
-import mbappe from './Image/mbappe-training.jpg'
+import training from './Image/mbappe-training.jpg'
 import React from 'react'
 
 const page = () => {
@@ -114,15 +114,7 @@ const page = () => {
             <div className='news'>
 
               <div data-aos="fade-right" className="text">
-                <h1>Real Madrid players carry out individual work in Real Madrid City</h1>
-
-                <p>14/10/2024</p>
-
-                <p>Kylian Mbappe contiues to work on his idividual fitness plan, the forward is working on his own as he tries to recover fully from the discomfort in his biceps femoris of his left leg. This afternoon he trained on his own in the gym and out of the pitch in Real Madrid City, under the guidance of Antonio Pintus, who is in charge of the clubs physical preparation</p>
-
-                <p>Thibaut Courtois and Andriy Lunin also trained under the watchful eye of goalkeeping coach Lluis Llopis. Courtois cotinues his recovery process following the injury he suffered on 29 September against Atletico de Madrid. Lunin has returned to work on the pitch after a bout of gastroenteritis.</p>
-
-                <p>More players will return to training on Tuesday, while Carlo Ancelotti is waiting to welcome back the internationals who are still with their national teams.</p>               
+                <h1>Hello World</h1>
 
                 <Link href="/">
                 <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back →</button>
@@ -131,7 +123,7 @@ const page = () => {
               </div>
 
               <div data-aos="fade-left" className="image">
-                <Image className='img' src={mbappe} alt='' priority />
+                <Image className='img' src={training} alt='' priority />
               </div>
 
             </div>
@@ -168,15 +160,7 @@ const page = () => {
           <div className='news'>
 
             <div data-aos="fade-right" className="text">
-              <h1>Real Madrid players carry out individual work in Real Madrid City</h1>
-
-              <p>14/10/2024</p>
-
-              <p>Kylian Mbappe contiues to work on his idividual fitness plan, the forward is working on his own as he tries to recover fully from the discomfort in his biceps femoris of his left leg. This afternoon he trained on his own in the gym and out of the pitch in Real Madrid City, under the guidance of Antonio Pintus, who is in charge of the clubs physical preparation</p>
-
-              <p>Thibaut Courtois and Andriy Lunin also trained under the watchful eye of goalkeeping coach Lluis Llopis. Courtois cotinues his recovery process following the injury he suffered on 29 September against Atletico de Madrid. Lunin has returned to work on the pitch after a bout of gastroenteritis.</p>
-
-              <p>More players will return to training on Tuesday, while Carlo Ancelotti is waiting to welcome back the internationals who are still with their national teams.</p>               
+              <h1>Hello World</h1>
 
               <Link href="/">
                 <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back →</button>
@@ -185,7 +169,7 @@ const page = () => {
             </div>
 
             <div data-aos="fade-left" className="image">
-              <Image className='img' src={mbappe} alt='' priority />
+              <Image className='img' src={training} alt='' priority />
             </div>
 
           </div>
@@ -223,24 +207,16 @@ const page = () => {
           <div className='news_tablet'>
 
             <div data-aos="fade-right" className="text">
-              <h1>Real Madrid players carry out individual work in Real Madrid City</h1>
+                <h1>Hello World</h1>
 
-              <p>14/10/2024</p>
-
-              <p>Kylian Mbappe contiues to work on his idividual fitness plan, the forward is working on his own as he tries to recover fully from the discomfort in his biceps femoris of his left leg. This afternoon he trained on his own in the gym and out of the pitch in Real Madrid City, under the guidance of Antonio Pintus, who is in charge of the clubs physical preparation</p>
-
-              <p>Thibaut Courtois and Andriy Lunin also trained under the watchful eye of goalkeeping coach Lluis Llopis. Courtois cotinues his recovery process following the injury he suffered on 29 September against Atletico de Madrid. Lunin has returned to work on the pitch after a bout of gastroenteritis.</p>
-
-              <p>More players will return to training on Tuesday, while Carlo Ancelotti is waiting to welcome back the internationals who are still with their national teams.</p>               
-
-              <Link href="/">
-                <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back →</button>
-              </Link>
+                <Link href="/">
+                    <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back →</button>
+                </Link>
 
             </div>
 
             <div data-aos="fade-left" className="image">
-              <Image className='img' src={mbappe} alt='' priority />
+              <Image className='img' src={training} alt='' priority />
             </div>
 
           </div>
@@ -286,20 +262,11 @@ const page = () => {
           <div data-aos="fade-up" className='news_phone'>
 
             <div className="image">
-              <Image className='img' src={mbappe} alt='' priority />
+              <Image className='img' src={training} alt='' priority />
             </div>
 
             <div className="text">
-
-              <h1>Real Madrid players carry out individual work in Real Madrid City</h1>
-
-              <p>14/10/2024</p>
-
-              <p>Kylian Mbappe contiues to work on his idividual fitness plan, the forward is working on his own as he tries to recover fully from the discomfort in his biceps femoris of his left leg. This afternoon he trained on his own in the gym and out of the pitch in Real Madrid City, under the guidance of Antonio Pintus, who is in charge of the clubs physical preparation</p>
-
-              <p>Thibaut Courtois and Andriy Lunin also trained under the watchful eye of goalkeeping coach Lluis Llopis. Courtois cotinues his recovery process following the injury he suffered on 29 September against Atletico de Madrid. Lunin has returned to work on the pitch after a bout of gastroenteritis.</p>
-
-              <p>More players will return to training on Tuesday, while Carlo Ancelotti is waiting to welcome back the internationals who are still with their national teams.</p>               
+                <h1>Hello World</h1>
 
               <Link href="/">
                 <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back</button>
