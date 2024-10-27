@@ -254,20 +254,23 @@ const Homepage = () => {
               </Link>
             </div>
 
-            <div className="ctn">
+            <div className="ctn">            
+              <Link href="tchouameni-reaches-his-100th-game-for-real-madrid">
               <div className="left" data-aos="fade-right">
                 <Image className='img' src={tchoumeini} alt='' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Tchouameni reaches his 100th game for Real Madrid</h2>
 
               </div>
-
-              <div className="middle" data-aos="fade-up">
+              </Link>
+            
+              <Link href="modric-becomes-the-oldest-player-to-appear-in-an-official-real-madrid-match"><div className="middle" data-aos="fade-up">
                 <Image className='img' src={modric_oldest} alt='' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Modric becomes the oldest player to appear in an official match in the history of Real Madrid</h2>
 
               </div>
+              </Link>
 
               <Link href="johan-neeskens-passes-away" >
               <div className="right" data-aos="fade-left">
@@ -516,20 +519,23 @@ const Homepage = () => {
               </Link>
             </div>
 
-            <div className="ctn_small">
+            <div className="ctn_small">              
+              <Link href="tchouameni-reaches-his-100th-game-for-real-madrid">
               <div className="left" data-aos="fade-right">
                 <Image className='img' src={tchoumeini} alt='' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Tchouameni reaches his 100th game for Real Madrid</h2>
 
               </div>
-
-              <div className="middle" data-aos="fade-up">
+              </Link>
+              
+              <Link href="modric-becomes-the-oldest-player-to-appear-in-an-official-real-madrid-match"><div className="middle" data-aos="fade-up">
                 <Image className='img' src={modric_oldest} alt='' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Modric becomes the oldest player to appear in an official match in the history of Real Madrid</h2>
 
               </div>
+              </Link>
 
               <Link href="johan-neeskens-passes-away" >
               <div className="right" data-aos="fade-left">
@@ -777,20 +783,23 @@ const Homepage = () => {
               </Link>
             </div>
 
-            <div className="ctn_tablet">
+            <div className="ctn_tablet">              
+              <Link href="tchouameni-reaches-his-100th-game-for-real-madrid">
               <div className="left" data-aos="fade-right">
                 <Image className='img' src={tchoumeini} alt='' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Tchouameni reaches his 100th game for Real Madrid</h2>
 
               </div>
+              </Link>
 
-              <div className="middle" data-aos="fade-up">
+              <Link href="modric-becomes-the-oldest-player-to-appear-in-an-official-real-madrid-match"><div className="middle" data-aos="fade-up">
                 <Image className='img' src={modric_oldest} alt='' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Modric becomes the oldest player to appear in an official match in the history of Real Madrid</h2>
 
               </div>
+              </Link>
 
               <Link href="johan-neeskens-passes-away" >
               <div className="right" data-aos="fade-left">
@@ -1048,20 +1057,23 @@ const Homepage = () => {
               </Link>
             </div>
 
-            <div className="ctn_phone">
-              <div className="left" data-aos="fade-up">
+            <div className="ctn_phone">              
+              <Link href="tchouameni-reaches-his-100th-game-for-real-madrid">
+              <div className="left" data-aos="fade-right">
                 <Image className='img' src={tchoumeini} alt='' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Tchouameni reaches his 100th game for Real Madrid</h2>
 
               </div>
-
-              <div className="middle" data-aos="fade-up">
+              </Link>
+            
+              <Link href="modric-becomes-the-oldest-player-to-appear-in-an-official-real-madrid-match"><div className="middle" data-aos="fade-up">
                 <Image className='img' src={modric_oldest} alt='' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Modric becomes the oldest player to appear in an official match in the history of Real Madrid</h2>
 
               </div>
+              </Link>
 
               <Link href="johan-neeskens-passes-away" >
               <div className="right" data-aos="fade-up">
