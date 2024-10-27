@@ -1,18 +1,18 @@
 'use client'
-import Aos from "aos"
 import { useState } from "react"
 import { useEffect } from "react"
-import 'aos/dist/aos.css'
-import './page.css'
-import Image from "next/image"
 import Link from "next/link"
+import Image from "next/image"
+import Aos from "aos"
+import './page.css'
+import 'aos/dist/aos.css'
 import React from 'react'
 import logo from './Image/madrid_icon.png'
-import rodrygo from './Image/rodrygo_med.jpg'
+import stadium from './Image/Santiago-Bernabeu.jpg'
 
 const Page = () => {
 
-    // aos
+  // aos
   useEffect(()=> {
     Aos.init({duration: 1100});
   }, [])
@@ -114,12 +114,25 @@ const Page = () => {
         <div className='news'>
 
         <div data-aos="fade-right" className="text">
-            <h1>Hello World</h1>
-            {/* <h1>Rodrygo medical report</h1>
+            <h1>Welcome to KickOff-SantiagoBernabéu</h1>
 
-            <p>MEDICAL REPORT 24/10/2024</p>
+            <p>Hello and welcome to KickOff-SantiagoBernabéu, your ultimate destination relating to Real Madrid.</p>
 
-            <p>The following test carried out on the Real Madrid player Rodrygo goes by the Real Madrid medical service, he has been diagnosed with an injury to the biceps femoris muscle in his right thigh. His recovery would be accessed</p> */}
+            <p style={{marginTop:'12px'}}>We are thrilled to have you join our community of passionate football fans, where we share the latest news, fixtures, analysis and discussion about the beautiful game.</p>
+
+            <h1>What to Expect</h1>
+
+            <p style={{marginTop:'3px'}}>● Latest football news and updates</p>
+
+            <p style={{marginTop:'3px'}}>● Match analysis and previews</p>
+
+            <p style={{marginTop:'3px'}}>● Transfer windows update</p>
+
+            <p style={{marginTop:'12px'}}>Thank you for choosing KickOff-SantiagoBernabeu, lets kick off the conversation</p>
+
+            <p style={{marginTop:'6px'}}>Best regards,</p>
+
+            <p style={{marginTop:'6px'}}>KickOff-SantiagoBernabéu</p>
 
             <Link href="/">
             <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back →</button>
@@ -128,7 +141,7 @@ const Page = () => {
         </div>
 
         <div data-aos="fade-left" className="image">
-            <Image className='img' src={rodrygo} alt='' priority />
+            <Image className='img' src={stadium} alt='' priority />
         </div>
 
         </div>
@@ -165,12 +178,25 @@ const Page = () => {
         <div className='news'>
 
         <div data-aos="fade-right" className="text">
-        <h1>Hello World</h1>
-        {/* <h1>Rodrygo medical report</h1>
+        <h1>Welcome to KickOff-SantiagoBernabéu</h1>
 
-        <p>MEDICAL REPORT 24/10/2024</p>
+        <p>Hello and welcome to KickOff-SantiagoBernabéu, your ultimate destination relating to Real Madrid.</p>
 
-        <p>The following test carried out on the Real Madrid player Rodrygo goes by the Real Madrid medical service, he has been diagnosed with an injury to the biceps femoris muscle in his right thigh. His recovery would be accessed</p> */}
+        <p style={{marginTop:'12px'}}>We are thrilled to have you join our community of passionate football fans, where we share the latest news, fixtures, analysis and discussion about the beautiful game.</p>
+
+        <h1>What to Expect</h1>
+
+        <p style={{marginTop:'3px'}}>● Latest football news and updates</p>
+
+        <p style={{marginTop:'3px'}}>● Match analysis and previews</p>
+
+        <p style={{marginTop:'3px'}}>● Transfer windows update</p>
+
+        <p style={{marginTop:'12px'}}>Thank you for choosing KickOff-SantiagoBernabeu, lets kick off the conversation</p>
+
+        <p style={{marginTop:'6px'}}>Best regards,</p>
+
+        <p style={{marginTop:'6px'}}>KickOff-SantiagoBernabéu</p>
 
         <Link href="/">
             <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back →</button>
@@ -179,7 +205,7 @@ const Page = () => {
         </div>
 
         <div data-aos="fade-left" className="image">
-        <Image className='img' src={rodrygo} alt='' priority />
+        <Image className='img' src={stadium} alt='' priority />
         </div>
 
         </div>
@@ -217,12 +243,25 @@ const Page = () => {
         <div className='news_tablet'>
 
         <div data-aos="fade-right" className="text">
-        <h1>Hello World</h1>
-        {/* <h1>Rodrygo medical report</h1>
+        <h1>Welcome to KickOff-SantiagoBernabéu</h1>
 
-        <p>MEDICAL REPORT 24/10/2024</p>
+        <p>Hello and welcome to KickOff-SantiagoBernabéu, your ultimate destination relating to Real Madrid.</p>
 
-        <p>The following test carried out on the Real Madrid player Rodrygo goes by the Real Madrid medical service, he has been diagnosed with an injury to the biceps femoris muscle in his right thigh. His recovery would be accessed</p> */}
+        <p style={{marginTop:'12px'}}>We are thrilled to have you join our community of passionate football fans, where we share the latest news, fixtures, analysis and discussion about the beautiful game.</p>
+
+        <h1>What to Expect</h1>
+
+        <p style={{marginTop:'3px'}}>● Latest football news and updates</p>
+
+        <p style={{marginTop:'3px'}}>● Match analysis and previews</p>
+
+        <p style={{marginTop:'3px'}}>● Transfer windows update</p>
+
+        <p style={{marginTop:'12px'}}>Thank you for choosing KickOff-SantiagoBernabeu, lets kick off the conversation</p>
+
+        <p style={{marginTop:'6px'}}>Best regards,</p>
+
+        <p style={{marginTop:'6px'}}>KickOff-SantiagoBernabéu</p>
 
         <Link href="/">
             <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back →</button>
@@ -231,13 +270,13 @@ const Page = () => {
         </div>
 
         <div data-aos="fade-left" className="image">
-        <Image className='img' src={rodrygo} alt='' priority />
+        <Image className='img' src={stadium} alt='' priority />
         </div>
 
         </div>
         </div>
 
-        {/* phone */}
+        {/* phone laptop */}
         <div id='mobile' className='block md:hidden lg:hidden xl:hidden'>
 
         {/* navbar_phone */}
@@ -277,16 +316,29 @@ const Page = () => {
         <div data-aos="fade-up" className='news_phone'>
 
         <div className="image">
-        <Image className='img' src={rodrygo} alt='' priority />
+        <Image className='img' src={stadium} alt='' priority />
         </div>
 
         <div className="text">
-        <h1>Hello World</h1>
-        {/* <h1>Rodrygo medical report</h1>
+        <h1>Welcome to KickOff-SantiagoBernabéu</h1>
 
-        <p>MEDICAL REPORT 24/10/2024</p>
+        <p>Hello and welcome to KickOff-SantiagoBernabéu, your ultimate destination relating to Real Madrid.</p>
 
-        <p>The following test carried out on the Real Madrid player Rodrygo goes by the Real Madrid medical service, he has been diagnosed with an injury to the biceps femoris muscle in his right thigh. His recovery would be accessed</p> */}
+        <p style={{marginTop:'12px'}}>We are thrilled to have you join our community of passionate football fans, where we share the latest news, fixtures, analysis and discussion about the beautiful game.</p>
+
+        <h1>What to Expect</h1>
+
+        <p style={{marginTop:'3px'}}>● Latest football news and updates</p>
+
+        <p style={{marginTop:'3px'}}>● Match analysis and previews</p>
+
+        <p style={{marginTop:'3px'}}>● Transfer windows update</p>
+
+        <p style={{marginTop:'12px'}}>Thank you for choosing KickOff-SantiagoBernabeu, lets kick off the conversation</p>
+
+        <p style={{marginTop:'6px'}}>Best regards,</p>
+
+        <p style={{marginTop:'6px'}}>KickOff-SantiagoBernabéu</p>
 
         <Link href="/">
             <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back</button>

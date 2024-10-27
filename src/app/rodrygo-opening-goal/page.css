@@ -92,6 +92,7 @@ button:active
 {
     display: flex;
     gap: 30px;
+    justify-content: center;
     padding: 140px 6%;
 
 }
@@ -127,7 +128,7 @@ button:active
 .news .image .img
 {
     width: 500px;
-    height: 600px;
+    height: 550px;
     border: none;
     border-radius: 40px;
     cursor: pointer;

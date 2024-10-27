@@ -210,12 +210,14 @@ const Homepage = () => {
               </div>
               </Link>
 
+              <Link href="rodrygo-opening-goal">
               <div className="middle" data-aos="fade-up">
                 <Image className='img' src={rodrygo} alt='' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Rodrygo has succeded to score the opening goal for Real Madrid for the last two seasons</h2>
 
               </div>
+              </Link>
 
               <div className="right" data-aos="fade-left">
                 <Image className='img' src={mobile_background_img} alt='champions league 2024' priority />
@@ -240,12 +242,14 @@ const Homepage = () => {
 
               </div>
 
+              <Link href="welcome-to-kickoff-santiagobernabeu">
               <div className="right" data-aos="fade-left">
                 <Image className='img' src={madrid_stadium} alt='champions league 2024' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Welcome to KickOff-SantiagoBernabeu</h2>
 
               </div>
+              </Link>
             </div>
 
             <div className="ctn">
@@ -465,12 +469,14 @@ const Homepage = () => {
               </div>
               </Link>
 
+              <Link href="rodrygo-opening-goal">
               <div className="middle" data-aos="fade-up">
                 <Image className='img' src={rodrygo} alt='' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Rodrygo has succeded to score the opening goal for Real Madrid for the last two seasons</h2>
 
               </div>
+              </Link>
 
               <div className="right" data-aos="fade-left">
                 <Image className='img' src={mobile_background_img} alt='champions league 2024' priority />
@@ -496,12 +502,14 @@ const Homepage = () => {
 
               </div>
 
+              <Link href="welcome-to-kickoff-santiagobernabeu">
               <div className="right" data-aos="fade-left">
                 <Image className='img' src={madrid_stadium} alt='champions league 2024' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Welcome to KickOff-SantiagoBernabeu</h2>
 
               </div>
+              </Link>
             </div>
 
             <div className="ctn_small">
@@ -720,13 +728,15 @@ const Homepage = () => {
 
               </div>
               </Link>
-
+              
+              <Link href="rodrygo-opening-goal">
               <div className="middle" data-aos="fade-up">
                 <Image className='img' src={rodrygo} alt='' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Rodrygo has succeded to score the opening goal for Real Madrid for the last two seasons</h2>
 
               </div>
+              </Link>
 
               <div className="right" data-aos="fade-left">
                 <Image className='img' src={mobile_background_img} alt='champions league 2024' priority />
@@ -751,12 +761,14 @@ const Homepage = () => {
 
               </div>
 
+              <Link href="welcome-to-kickoff-santiagobernabeu">
               <div className="right" data-aos="fade-left">
                 <Image className='img' src={madrid_stadium} alt='champions league 2024' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Welcome to KickOff-SantiagoBernabeu</h2>
 
               </div>
+              </Link>
             </div>
 
             <div className="ctn_tablet">
@@ -983,13 +995,15 @@ const Homepage = () => {
 
                 </div>
               </Link>
-
+                
+              <Link href="rodrygo-opening-goal">
               <div className="middle" data-aos="fade-up">
                 <Image className='img' src={rodrygo} alt='' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Rodrygo has succeded to score the opening goal for Real Madrid for the last two seasons</h2>
 
-              </div>              
+              </div>
+              </Link>              
               
               <Link href="florentino-perez-talks-about-winning-the-super-cup">
               <div className="right" data-aos="fade-up">
@@ -1016,12 +1030,14 @@ const Homepage = () => {
 
               </div>
 
-              <div className="right" data-aos="fade-up">
+              <Link href="welcome-to-kickoff-santiagobernabeu">
+              <div className="right" data-aos="fade-left">
                 <Image className='img' src={madrid_stadium} alt='champions league 2024' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Welcome to KickOff-SantiagoBernabeu</h2>
 
               </div>
+              </Link>
             </div>
 
             <div className="ctn_phone">

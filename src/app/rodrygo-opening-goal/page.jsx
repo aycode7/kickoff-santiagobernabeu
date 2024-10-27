@@ -1,14 +1,14 @@
 'use client'
-import React from 'react'
-import Link from 'next/link'
-import { useState } from 'react'
-import { useEffect } from 'react'
-import Aos from 'aos'
-import Image from 'next/image'
+import { useState } from "react"
+import { useEffect } from "react"
+import Aos from "aos"
+import Link from "next/link"
+import Image from "next/image"
 import './page.css'
 import 'aos/dist/aos.css'
+import React from 'react'
 import logo from './Image/madrid_icon.png'
-import militao from './Image/militao.jpg'
+import rodrygo from './Image/rodrygo.jpg'
 
 const Page = () => {
 
@@ -114,13 +114,11 @@ const Page = () => {
           <div className='news'>
 
             <div data-aos="fade-right" className="text">
-              <h1>Eder Militao medical report</h1>
+              <h1>Rodrygo has succeded to score the opening goal for Real Madrid for the last two seasons</h1>
 
-              <p>08/09/2024</p>
+              <p>Rodrygo has been on fire for Real Madrid, consistently scoring goals and making a name for himself as a top player, yet he succeded to score the opening goal for Real Madrid for the last two seasons. This season, he has already scored 5 + goals. In the last two seasons he has netted 22 goals, with 17 of thosecoming from the 2023/2024 season. His impressive performance has been crucial to Real Madrids success</p>
 
-              <p>Èder Milităo, the Brazilian defender for Real Madrid, recetly suffered a muscular injury due to a strain in the rectus abdominis muscle in his right leg. This injury was diagnosed by Real Madrids Medical Service after conducting tests on September 8, 2024.</p>
-
-              <p>According to reports, Milităo is expected to spend around 10 days on the sidelines, which would cause him to miss matches against Real Sociedad and Stuttgart</p>
+              <p>Playing over 1447 minutes of football this season, Rodrygo stats demonstrate his value to Real Madrid. He is a key player who consistently delivers on the field.</p>
 
               <Link href="/">
               <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back →</button>
@@ -129,7 +127,7 @@ const Page = () => {
             </div>
 
             <div data-aos="fade-left" className="image">
-              <Image className='img' src={militao} alt='' priority />
+              <Image className='img' src={rodrygo} alt='' priority />
             </div>
 
           </div>
@@ -166,13 +164,11 @@ const Page = () => {
         <div className='news'>
 
           <div data-aos="fade-right" className="text">
-            <h1>Eder Militao medical report</h1>
+            <h1>Rodrygo has succeded to score the opening goal for Real Madrid for the last two seasons</h1>
 
-            <p>08/09/2024</p>
+            <p>Rodrygo has been on fire for Real Madrid, consistently scoring goals and making a name for himself as a top player, yet he succeded to score the opening goal for Real Madrid for the last two seasons. This season, he has already scored 5 + goals. In the last two seasons he has netted 22 goals, with 17 of thosecoming from the 2023/2024 season. His impressive performance has been crucial to Real Madrids success</p>
 
-            <p>Èder Milităo, the Brazilian defender for Real Madrid, recetly suffered a muscular injury due to a strain in the rectus abdominis muscle in his right leg. This injury was diagnosed by Real Madrids Medical Service after conducting tests on September 8, 2024.</p>
-
-            <p>According to reports, Milităo is expected to spend around 10 days on the sidelines, which would cause him to miss matches against Real Sociedad and Stuttgart</p>
+            <p>Playing over 1447 minutes of football this season, Rodrygo stats demonstrate his value to Real Madrid. He is a key player who consistently delivers on the field.</p>
 
             <Link href="/">
               <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back →</button>
@@ -181,7 +177,7 @@ const Page = () => {
           </div>
 
           <div data-aos="fade-left" className="image">
-            <Image className='img' src={militao} alt='' priority />
+            <Image className='img' src={rodrygo} alt='' priority />
           </div>
 
         </div>
@@ -219,13 +215,11 @@ const Page = () => {
         <div className='news_tablet'>
 
           <div data-aos="fade-right" className="text">
-            <h1>Eder Militao medical report</h1>
+            <h1>Rodrygo has succeded to score the opening goal for Real Madrid for the last two seasons</h1>
 
-            <p>08/09/2024</p>
+            <p>Rodrygo has been on fire for Real Madrid, consistently scoring goals and making a name for himself as a top player, yet he succeded to score the opening goal for Real Madrid for the last two seasons. This season, he has already scored 5 + goals. In the last two seasons he has netted 22 goals, with 17 of thosecoming from the 2023/2024 season. His impressive performance has been crucial to Real Madrids success</p>
 
-            <p>Èder Milităo, the Brazilian defender for Real Madrid, recetly suffered a muscular injury due to a strain in the rectus abdominis muscle in his right leg. This injury was diagnosed by Real Madrids Medical Service after conducting tests on September 8, 2024.</p>
-
-            <p>According to reports, Milităo is expected to spend around 10 days on the sidelines, which would cause him to miss matches against Real Sociedad and Stuttgart</p>
+            <p>Playing over 1447 minutes of football this season, Rodrygo stats demonstrate his value to Real Madrid. He is a key player who consistently delivers on the field.</p>
 
             <Link href="/">
               <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back →</button>
@@ -234,7 +228,7 @@ const Page = () => {
           </div>
 
           <div data-aos="fade-left" className="image">
-            <Image className='img' src={militao} alt='' priority />
+            <Image className='img' src={rodrygo} alt='' priority />
           </div>
 
         </div>
@@ -280,17 +274,15 @@ const Page = () => {
         <div data-aos="fade-up" className='news_phone'>
 
           <div className="image">
-            <Image className='img' src={militao} alt='' priority />
+            <Image className='img' src={rodrygo} alt='' priority />
           </div>
 
           <div className="text">
-            <h1>Eder Militao medical report</h1>
+            <h1>Rodrygo has succeded to score the opening goal for Real Madrid for the last two seasons</h1>
 
-            <p>08/09/2024</p>
+            <p>Rodrygo has been on fire for Real Madrid, consistently scoring goals and making a name for himself as a top player, yet he succeded to score the opening goal for Real Madrid for the last two seasons. This season, he has already scored 5 + goals. In the last two seasons he has netted 22 goals, with 17 of thosecoming from the 2023/2024 season. His impressive performance has been crucial to Real Madrids success</p>
 
-            <p>Èder Milităo, the Brazilian defender for Real Madrid, recetly suffered a muscular injury due to a strain in the rectus abdominis muscle in his right leg. This injury was diagnosed by Real Madrids Medical Service after conducting tests on September 8, 2024.</p>
-
-            <p>According to reports, Milităo is expected to spend around 10 days on the sidelines, which would cause him to miss matches against Real Sociedad and Stuttgart</p>
+            <p>Playing over 1447 minutes of football this season, Rodrygo stats demonstrate his value to Real Madrid. He is a key player who consistently delivers on the field.</p>
 
             <Link href="/">
               <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back</button>
