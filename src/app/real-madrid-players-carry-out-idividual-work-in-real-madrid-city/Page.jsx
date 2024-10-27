@@ -10,7 +10,7 @@ import logo from './Image/madrid_icon.png'
 import mbappe from './Image/mbappe-training.jpg'
 import React from 'react'
 
-const page = () => {
+const Page = () => {
 
     // aos
   useEffect(()=> {
@@ -314,4 +314,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
