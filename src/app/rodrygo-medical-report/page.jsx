@@ -123,7 +123,7 @@ const Page = () => {
         </div>
 
         <div data-aos="fade-left" className="image">
-            <Image className='img' src={varane} alt='' priority />
+            <Image className='img' src={rodrygo} alt='' priority />
         </div>
 
         </div>
@@ -169,7 +169,7 @@ const Page = () => {
         </div>
 
         <div data-aos="fade-left" className="image">
-        <Image className='img' src={varane} alt='' priority />
+        <Image className='img' src={rodrygo} alt='' priority />
         </div>
 
         </div>
@@ -262,7 +262,7 @@ const Page = () => {
         <div data-aos="fade-up" className='news_phone'>
 
         <div className="image">
-        <Image className='img' src={varane} alt='' priority />
+        <Image className='img' src={rodrygo} alt='' priority />
         </div>
 
         <div className="text">
