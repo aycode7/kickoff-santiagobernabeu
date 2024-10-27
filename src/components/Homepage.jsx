@@ -228,12 +228,14 @@ const Homepage = () => {
             </div>
 
             <div className="ctn">
+              <Link href="bellingham-medical-report">
               <div className="left" data-aos="fade-right">
                 <Image className='img' src={background_img} alt='militao' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Bellinghams medical report</h2>
 
               </div>
+              </Link>
 
               <div className="middle" data-aos="fade-up">
                 <Image className='img' src={mbappe} alt='' priority />
@@ -487,13 +489,15 @@ const Homepage = () => {
               
             </div>
 
-            <div className="ctn_small">
+            <div className="ctn_small">              
+              <Link href="bellingham-medical-report">
               <div className="left" data-aos="fade-right">
                 <Image className='img' src={background_img} alt='militao' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Bellinghams medical report</h2>
 
               </div>
+              </Link>
 
               <div className="middle" data-aos="fade-up">
                 <Image className='img' src={mbappe} alt='' priority />
@@ -746,13 +750,15 @@ const Homepage = () => {
               </div>
             </div>
 
-            <div className="ctn_tablet">
+            <div className="ctn_tablet">              
+              <Link href="bellingham-medical-report">
               <div className="left" data-aos="fade-right">
                 <Image className='img' src={background_img} alt='militao' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Bellinghams medical report</h2>
 
               </div>
+              </Link>
 
               <div className="middle" data-aos="fade-up">
                 <Image className='img' src={mbappe} alt='' priority />
@@ -1015,13 +1021,15 @@ const Homepage = () => {
               </Link>
             </div>
 
-            <div className="ctn_phone">
-              <div className="left" data-aos="fade-up">
+            <div className="ctn_phone">              
+              <Link href="bellingham-medical-report">
+              <div className="left" data-aos="fade-right">
                 <Image className='img' src={background_img} alt='militao' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Bellinghams medical report</h2>
 
               </div>
+              </Link>
 
               <div className="middle" data-aos="fade-up">
                 <Image className='img' src={mbappe} alt='' priority />

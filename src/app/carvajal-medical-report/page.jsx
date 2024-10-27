@@ -12,7 +12,7 @@ import carvajal_med from './Image/carvajal_med.jpg'
 
 const Page = () => {
 
-    // aos
+  // aos
   useEffect(()=> {
     Aos.init({duration: 1100});
   }, [])
