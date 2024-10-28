@@ -124,6 +124,7 @@ body
 {
     width: 100%;
     height: 105vh;
+
 }
 
 /* news heading */
@@ -235,8 +236,8 @@ body
 {
     padding: 30px 5%;
     position: fixed;
-    width: 99.5%;
-    max-width: 99.5%;
+    width: 100%;
+    max-width: 100%;
     z-index: 1000;
 
 }
@@ -377,8 +378,8 @@ body
 {
     padding: 30px 5%;
     position: fixed;
-    width: 92.5%;
-    max-width: 92.5%;
+    width: 100%;
+    max-width: 100%;
     z-index: 1000;
 
 }
@@ -667,7 +668,6 @@ body
 .navbar_phone .right p
 {
     font-size: 30px;
-    /* font-weight: bold; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }

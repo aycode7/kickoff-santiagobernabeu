@@ -1,0 +1,336 @@
+body
+{
+    background-color: white;
+    width: 100%;
+    overflow-x: hidden;
+
+}
+
+button
+{
+    margin-top: 25px;
+
+}
+
+button:active
+{
+    transition: all 0.7s ease;
+    transform: scale(0.96);
+    
+}
+
+#big
+{
+    font-family: cursive;
+
+}
+
+.topnav
+{
+    padding: 30px 5%;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 1000;
+
+}
+
+.navbar
+{
+    background-color: rgba(0, 0, 0, 0.459);
+    color: white;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 20px;
+    padding: 15px 20px;
+
+}
+
+.navbar .left
+{
+    display: flex;
+    align-items: center;
+
+}
+
+.navbar .left h1
+{
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.navbar .middle
+{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    gap: 25px;
+    
+}
+
+.navbar .middle h2
+{
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.1s;
+
+}
+
+.tap
+{
+    border-bottom: 2px solid white;
+    width: fit-content;
+    padding-bottom: 8px;
+
+}
+
+/* news */
+.news
+{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 140px 6%;
+
+}
+
+.news .text
+{
+    width: 500px;
+
+}
+
+.news .text h1
+{
+    font-size: 23px;
+
+}
+
+.news .text p
+{
+    font-size: 15px;
+    margin-top: 25px;
+
+}
+
+.news .image
+{
+    width: 600px;
+    height: 600px;
+    border: none;
+    border-radius: 40px;
+
+}
+
+.news .image .img
+{
+    width: 500px;
+    height: 600px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+
+}
+
+
+/* tablet news */
+.news_tablet
+{
+    display: flex;
+    gap: 30px;
+    padding: 140px 6%;
+
+}
+
+.news_tablet .text
+{
+    width: 500px;
+
+}
+
+.news_tablet .text h1
+{
+    font-size: 20px;
+
+}
+
+.news_tablet .text p
+{
+    font-size: 15px;
+    margin-top: 25px;
+
+}
+
+.news_tablet .image
+{
+    width: 600px;
+    height: 500px;
+    border: none;
+    border-radius: 40px;
+
+}
+
+.news_tablet .image .img
+{
+    width: 600px;
+    height: 500px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+
+}
+
+
+
+
+/* phone */
+#mobile
+{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.topnav_phone
+{
+    padding: 30px 5%;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 1000;
+
+}
+
+.navbar_phone
+{
+    background-color: rgba(0, 0, 0, 0.459);
+    color: white;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 20px;
+
+}
+
+.navbar_phone .left
+{
+    display: flex;
+    align-items: center;
+
+}
+
+.navbar_phone .left h1
+{
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.navbar_phone .right
+{
+    margin-left: auto;
+    cursor: pointer;
+
+}
+
+.navbar_phone .right p
+{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.navbar_phone .right .dropdown
+{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.459);
+    color: white;
+    padding: 20px 10px;
+    border: 2px solid white;
+    border-radius: 15px;
+    margin-top: -5px;
+    margin-left: -35px;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+    align-items: center;
+    transition: 0.3s;
+    justify-content: center;
+
+}
+
+.navbar_phone .right .dropdown p
+{
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+
+.tap_phone
+{
+    background-color: white;
+    color: black;
+    width: 72px;
+
+}
+
+/* news_phone */
+.news_phone
+{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 140px 6%;
+
+}
+
+.news_phone .text
+{
+    width: 270px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 85px;
+    text-align: center;
+
+}
+
+.news_phone .text h1
+{
+    font-size: 23px;
+
+}
+
+.news_phone .text p
+{
+    font-size: 15px;
+    margin-top: 25px;
+
+}
+
+.news_phone .image
+{
+    width: 270px;
+    height: 300px;
+    border: none;
+    border-radius: 40px;
+
+}
+
+.news_phone .image .img
+{
+    width: 270px;
+    height: 400px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+
+}

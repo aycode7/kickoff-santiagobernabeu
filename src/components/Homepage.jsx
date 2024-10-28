@@ -111,7 +111,7 @@ const Homepage = () => {
         <div>
 
           {/* navbar */}
-          <div className="topnav">
+          <div data-aos="fade-down" className="topnav">
 
             <div className='navbar'>
               <Link href="/">
@@ -237,12 +237,14 @@ const Homepage = () => {
               </div>
               </Link>
 
+              <Link href="mbappe-set-to-leave-psg-to-real-madrid">
               <div className="middle" data-aos="fade-up">
                 <Image className='img' src={mbappe} alt='' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Mbappe set to leave PSG for Real Madrid</h2>
 
               </div>
+              </Link>
 
               <Link href="welcome-to-kickoff-santiagobernabeu">
               <div className="right" data-aos="fade-left">
@@ -379,7 +381,7 @@ const Homepage = () => {
         <div>
 
           {/* navbar */}
-          <div className="topnav_small">
+          <div data-aos="fade-down" className="topnav_small">
 
             <div className='navbar_small'>
               <div className="left">
@@ -501,13 +503,15 @@ const Homepage = () => {
 
               </div>
               </Link>
-
+              
+              <Link href="mbappe-set-to-leave-psg-to-real-madrid">
               <div className="middle" data-aos="fade-up">
                 <Image className='img' src={mbappe} alt='' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Mbappe set to leave PSG for Real Madrid</h2>
 
               </div>
+              </Link>
 
               <Link href="welcome-to-kickoff-santiagobernabeu">
               <div className="right" data-aos="fade-left">
@@ -640,7 +644,7 @@ const Homepage = () => {
         <div>
 
           {/* navbar */}
-          <div className="topnav_tablet">
+          <div data-aos="fade-down" className="topnav_tablet">
 
             <div className='navbar_tablet'>
               <Link href="/">
@@ -765,13 +769,15 @@ const Homepage = () => {
 
               </div>
               </Link>
-
+              
+              <Link href="mbappe-set-to-leave-psg-to-real-madrid">
               <div className="middle" data-aos="fade-up">
                 <Image className='img' src={mbappe} alt='' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Mbappe set to leave PSG for Real Madrid</h2>
 
               </div>
+              </Link>
 
               <Link href="welcome-to-kickoff-santiagobernabeu">
               <div className="right" data-aos="fade-left">
@@ -907,7 +913,7 @@ const Homepage = () => {
         <div>
 
           {/* navbar_phone */}
-          <div className="topnav_phone">
+          <div data-aos="fade-down" className="topnav_phone">
 
             <div className="navbar_phone">
 
@@ -1032,23 +1038,25 @@ const Homepage = () => {
 
             <div className="ctn_phone">              
               <Link href="bellingham-medical-report">
-              <div className="left" data-aos="fade-right">
+              <div className="left" data-aos="fade-up">
                 <Image className='img' src={background_img} alt='militao' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Bellinghams medical report</h2>
 
               </div>
               </Link>
-
+              
+              <Link href="mbappe-set-to-leave-psg-to-real-madrid">
               <div className="middle" data-aos="fade-up">
                 <Image className='img' src={mbappe} alt='' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Mbappe set to leave PSG for Real Madrid</h2>
 
               </div>
+              </Link>
 
               <Link href="welcome-to-kickoff-santiagobernabeu">
-              <div className="right" data-aos="fade-left">
+              <div className="right" data-aos="fade-up">
                 <Image className='img' src={madrid_stadium} alt='champions league 2024' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Welcome to KickOff-SantiagoBernabeu</h2>
