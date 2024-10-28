@@ -30,6 +30,7 @@ import tchoumeini from './Image/tchoumeini.jpg'
 import varane from './Image/varane.jpg'
 import mbappe_training from './Image/mbappe-training.jpg'
 import elclassico from './Image/elclassico.jpg'
+import Elclassico from './Image/IMG-20241028-WA0016.jpg'
 
 const Homepage = () => {
 
@@ -218,13 +219,15 @@ const Homepage = () => {
 
               </div>
               </Link>
-
+              
+              <Link href="vinicuis-star-play">
               <div className="right" data-aos="fade-left">
                 <Image className='img' src={mobile_background_img} alt='champions league 2024' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Vinicius star play</h2>
 
               </div>
+              </Link>
             </div>
 
             <div className="ctn">
@@ -294,20 +297,24 @@ const Homepage = () => {
 
               </div>
               </Link>
-
+              
+              <Link href="ancelotti-reaches-200-laliga-games-at-real-madrid">
               <div className="middle" data-aos="fade-up">
                 <Image className='img' src={ancelloti_200} alt='' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Ancelotti reaches 200 Laliga games at Real Madrid</h2>
 
               </div>
+              </Link>
 
+              <Link href="modric-wins-his-250-league-match-for-real-madrid">
               <div className="right" data-aos="fade-left">
                 <Image className='img' src={modric_250} alt='champions league 2024' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Modrić wins his 250th league match as a Real Madrid player</h2>
 
               </div>
+              </Link>
             </div>
 
             <div className="ctn">
@@ -349,14 +356,35 @@ const Homepage = () => {
               </div>
               </Link>
 
-              <Link href="">
+              <Link href="elclassico-2024">
               <div className="middle" data-aos="fade-up">
-                <Image className='img' src={elclassico} alt='' priority />
+                <Image className='img' src={Elclassico} alt='' priority />
 
-                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Pròximo Partido</h2>
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>El Classico <br /> Real Madrid vs Barcelona</h2>
 
               </div>
               </Link>
+
+              <Link href="rodrygo-medical-report">
+              <div className="left" data-aos="fade-left">
+                <Image className='img' src={rodrygo_med} alt='' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Rodrygo medical report</h2>
+
+              </div>
+              </Link>
+             
+            </div>
+
+            <div className="ctn">
+              <Link href="real-madrid-players-training">
+              <div className="left" data-aos="fade-right">
+                <Image className='img' src={mbappe_training} alt='' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Mbappe and Real Madrid players carry out individual work at Real Madrid City</h2>
+
+              </div>
+              </Link>             
 
               <Link href="rodrygo-medical-report">
               <div className="left" data-aos="fade-left">
@@ -484,13 +512,15 @@ const Homepage = () => {
 
               </div>
               </Link>
-
+              
+              <Link href="vinicuis-star-play">
               <div className="right" data-aos="fade-left">
                 <Image className='img' src={mobile_background_img} alt='champions league 2024' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Vinicius star play</h2>
 
               </div>
+              </Link>
               
             </div>
 
@@ -560,20 +590,24 @@ const Homepage = () => {
 
               </div>
               </Link>
-
+              
+              <Link href="ancelotti-reaches-200-laliga-games-at-real-madrid">
               <div className="middle" data-aos="fade-up">
                 <Image className='img' src={ancelloti_200} alt='' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Ancelotti reaches 200 Laliga games at Real Madrid</h2>
 
               </div>
-
+              </Link>
+              
+              <Link href="modric-wins-his-250-league-match-for-real-madrid">
               <div className="right" data-aos="fade-left">
                 <Image className='img' src={modric_250} alt='champions league 2024' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Modrić wins his 250th league match as a Real Madrid player</h2>
 
               </div>
+              </Link>
             </div>
 
             <div className="ctn_small">
@@ -613,14 +647,34 @@ const Homepage = () => {
               </div>
               </Link>
 
-              <Link href="">
+              <Link href="elclassico-2024">
               <div className="middle" data-aos="fade-up">
-                <Image className='img' src={elclassico} alt='' priority />
+                <Image className='img' src={Elclassico} alt='' priority />
 
-                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Pròximo Partido</h2>
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>El Classico <br /> Real Madrid vs Barcelona</h2>
 
               </div>
               </Link>
+
+              <Link href="rodrygo-medical-report">
+              <div className="left" data-aos="fade-left">
+                <Image className='img' src={rodrygo_med} alt='' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Rodrygo medical report</h2>
+
+              </div>
+              </Link>
+            </div>
+
+            <div className="ctn_small">
+              <Link href="real-madrid-players-training">
+              <div className="left" data-aos="fade-right">
+                <Image className='img' src={mbappe_training} alt='' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Mbappe and Real Madrid players carry out individual work at Real Madrid City</h2>
+
+              </div>
+              </Link>              
 
               <Link href="rodrygo-medical-report">
               <div className="left" data-aos="fade-left">
@@ -751,13 +805,15 @@ const Homepage = () => {
 
               </div>
               </Link>
-
+              
+              <Link href="vinicuis-star-play">
               <div className="right" data-aos="fade-left">
                 <Image className='img' src={mobile_background_img} alt='champions league 2024' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Vinicius star play</h2>
 
               </div>
+              </Link>
             </div>
 
             <div className="ctn_tablet">              
@@ -826,20 +882,24 @@ const Homepage = () => {
 
               </div>
               </Link>
-
+              
+              <Link href="ancelotti-reaches-200-laliga-games-at-real-madrid">
               <div className="middle" data-aos="fade-up">
                 <Image className='img' src={ancelloti_200} alt='' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Ancelotti reaches 200 Laliga games at Real Madrid</h2>
 
               </div>
-
+              </Link>
+              
+              <Link href="modric-wins-his-250-league-match-for-real-madrid">
               <div className="right" data-aos="fade-left">
                 <Image className='img' src={modric_250} alt='champions league 2024' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Modrić wins his 250th league match as a Real Madrid player</h2>
 
               </div>
+              </Link>
             </div>
 
             <div className="ctn_tablet">
@@ -881,14 +941,34 @@ const Homepage = () => {
               </div>
               </Link>
 
-              <Link href="">
+              <Link href="elclassico-2024">
               <div className="middle" data-aos="fade-up">
-                <Image className='img' src={elclassico} alt='' priority />
+                <Image className='img' src={Elclassico} alt='' priority />
 
-                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Pròximo Partido</h2>
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Elclassico <br /> Real Madrid vs Barcelona</h2>
 
               </div>
               </Link>
+
+              <Link href="rodrygo-medical-update">
+              <div className="left" data-aos="fade-left">
+                <Image className='img' src={rodrygo_med} alt='' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Rodrygo medical report</h2>
+
+              </div>
+              </Link>
+            </div>
+
+            <div className="ctn_tablet">
+              <Link href="real-madrid-players-training">
+              <div className="left" data-aos="fade-right">
+                <Image className='img' src={mbappe_training} alt='' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Mbappe and Real Madrid players carry out individual work at Real Madrid City</h2>
+
+              </div>
+              </Link>              
 
               <Link href="rodrygo-medical-update">
               <div className="left" data-aos="fade-left">
@@ -1103,13 +1183,15 @@ const Homepage = () => {
 
               </div>
               </Link>
-
-              <div className="middle" data-aos="fade-up">
+              
+              <Link href="modric-wins-his-250-league-match-for-real-madrid">
+              <div className="right" data-aos="fade-up">
                 <Image className='img' src={modric_250} alt='champions league 2024' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Modrić wins his 250th league match as a Real Madrid player</h2>
 
               </div>
+              </Link>
 
               <Link href="rodrygo-medical-report">
               <div className="right" data-aos="fade-up">
@@ -1130,13 +1212,15 @@ const Homepage = () => {
 
               </div>
             </Link>
-
+              
+              <Link href="ancelotti-reaches-200-laliga-games-at-real-madrid">
               <div className="middle" data-aos="fade-up">
                 <Image className='img' src={ancelloti_200} alt='' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Ancelotti reaches 200 Laliga games at Real Madrid</h2>
 
               </div>
+              </Link>
 
               <Link href="raphael-varane-announce-his-retirement-from-football">
               <div className="right" data-aos="fade-up">
@@ -1158,14 +1242,34 @@ const Homepage = () => {
               </div>
               </Link>
 
-              <Link href="">
+              <Link href="elclassico-2024">
               <div className="middle" data-aos="fade-up">
-                <Image className='img' src={elclassico} alt='' priority />
+                <Image className='img' src={Elclassico} alt='' priority />
 
-                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Pròximo Partido</h2>
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>El Classico <br /> Real Madrid vs Barcelona</h2>
 
               </div>
               </Link>
+            
+              <Link href="vinicuis-star-play">
+              <div className="right" data-aos="fade-up">
+                <Image className='img' src={mobile_background_img} alt='champions league 2024' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Vinicius star play</h2>
+
+              </div>
+              </Link>
+            </div>
+
+            <div className="ctn_phone">
+              <Link href="real-madrid-players-training">
+              <div className="left" data-aos="fade-up">
+                <Image className='img' src={mbappe_training} alt='' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Mbappe and Real Madrid players carry out individual work at Real Madrid City</h2>
+
+              </div>
+              </Link>              
 
               <div className="right" data-aos="fade-up">
                 <Image className='img' src={mobile_background_img} alt='champions league 2024' priority />
