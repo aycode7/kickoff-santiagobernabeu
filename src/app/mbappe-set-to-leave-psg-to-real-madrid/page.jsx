@@ -8,7 +8,7 @@ import './page.css'
 import 'aos/dist/aos.css'
 import React from 'react'
 import logo from './Image/madrid_icon.png'
-import mbappe from './Image/mbappe.jpg'
+import mbappe from './Image/Mbappe.jpg'
 
 const Page = () => {
 
