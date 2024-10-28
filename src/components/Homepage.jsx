@@ -1147,7 +1147,7 @@ const Homepage = () => {
 
             <div className="ctn_phone">              
               <Link href="tchouameni-reaches-his-100th-game-for-real-madrid">
-              <div className="left" data-aos="fade-right">
+              <div className="left" data-aos="fade-up">
                 <Image className='img' src={tchoumeini} alt='' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Tchouameni reaches his 100th game for Real Madrid</h2>
