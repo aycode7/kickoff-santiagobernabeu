@@ -118,7 +118,7 @@ const Page = () => {
 
             <p>Luka Modric recently reached a remarkable milestone, securing his 250th league match win as a Real Madrid player,
                 Modrics impressive career is marked by numerous accolades, including six Champions League titles, four LaLiga titles
-                and the 2018 Ballon d'Or award. His exceptional skills and intelligence on the field has earned him recognition as one
+                and the 2018 Ballon d Or award. His exceptional skills and intelligence on the field has earned him recognition as one
                 of the greatest midfielders in football history.
             </p>
 
@@ -170,7 +170,7 @@ const Page = () => {
 
         <p>Luka Modric recently reached a remarkable milestone, securing his 250th league match win as a Real Madrid player,
             Modrics impressive career is marked by numerous accolades, including six Champions League titles, four LaLiga titles
-            and the 2018 Ballon d'Or award. His exceptional skills and intelligence on the field has earned him recognition as one
+            and the 2018 Ballon d Or award. His exceptional skills and intelligence on the field has earned him recognition as one
             of the greatest midfielders in football history.
         </p>
 
@@ -223,7 +223,7 @@ const Page = () => {
 
         <p>Luka Modric recently reached a remarkable milestone, securing his 250th league match win as a Real Madrid player,
             Modrics impressive career is marked by numerous accolades, including six Champions League titles, four LaLiga titles
-            and the 2018 Ballon d'Or award. His exceptional skills and intelligence on the field has earned him recognition as one
+            and the 2018 Ballon d Or award. His exceptional skills and intelligence on the field has earned him recognition as one
             of the greatest midfielders in football history.
         </p>
 
@@ -288,7 +288,7 @@ const Page = () => {
 
         <p>Luka Modric recently reached a remarkable milestone, securing his 250th league match win as a Real Madrid player,
             Modrics impressive career is marked by numerous accolades, including six Champions League titles, four LaLiga titles
-            and the 2018 Ballon d'Or award. His exceptional skills and intelligence on the field has earned him recognition as one
+            and the 2018 Ballon d Or award. His exceptional skills and intelligence on the field has earned him recognition as one
             of the greatest midfielders in football history.
         </p>
 
