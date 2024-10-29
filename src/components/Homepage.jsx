@@ -31,6 +31,7 @@ import varane from './Image/varane.jpg'
 import mbappe_training from './Image/mbappe-training.jpg'
 import elclassico from './Image/elclassico.jpg'
 import Elclassico from './Image/IMG-20241028-WA0016.jpg'
+import racial from './Image/racial.jpg'
 
 const Homepage = () => {
 
@@ -377,11 +378,11 @@ const Homepage = () => {
             </div>
 
             <div className="ctn">
-              <Link href="real-madrid-players-training">
+              <Link href="official-announcement-from-real-madrid">
               <div className="left" data-aos="fade-right">
-                <Image className='img' src={mbappe_training} alt='' priority />
+                <Image className='img' src={racial} alt='' priority />
 
-                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Mbappe and Real Madrid players carry out individual work at Real Madrid City</h2>
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Official announcement from Real Madrid</h2>
 
               </div>
               </Link>             
@@ -667,9 +668,9 @@ const Homepage = () => {
             </div>
 
             <div className="ctn_small">
-              <Link href="real-madrid-players-training">
+              <Link href="official-announcement-from-real-madrid">
               <div className="left" data-aos="fade-right">
-                <Image className='img' src={mbappe_training} alt='' priority />
+                <Image className='img' src={racial} alt='' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Mbappe and Real Madrid players carry out individual work at Real Madrid City</h2>
 
@@ -961,9 +962,9 @@ const Homepage = () => {
             </div>
 
             <div className="ctn_tablet">
-              <Link href="real-madrid-players-training">
+              <Link href="official-announcement-from-real-madrid">
               <div className="left" data-aos="fade-right">
-                <Image className='img' src={mbappe_training} alt='' priority />
+                <Image className='img' src={racial} alt='' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Mbappe and Real Madrid players carry out individual work at Real Madrid City</h2>
 
@@ -1262,9 +1263,9 @@ const Homepage = () => {
             </div>
 
             <div className="ctn_phone">
-              <Link href="real-madrid-players-training">
-              <div className="left" data-aos="fade-up">
-                <Image className='img' src={mbappe_training} alt='' priority />
+              <Link href="official-announcement-from-real-madrid">
+              <div className="left" data-aos="fade-right">
+                <Image className='img' src={racial} alt='' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Mbappe and Real Madrid players carry out individual work at Real Madrid City</h2>
 
