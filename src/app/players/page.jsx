@@ -8,6 +8,7 @@ import Link from "next/link"
 import 'aos/dist/aos.css'
 import React from 'react'
 import logo from './Image/madrid_icon.png'
+import background_img_phone from './Image/football.jpeg'
 import background_img from './Image/night-stadium.jpg'
 import courtois from './Image/courtois.jpg'
 import alaba from './Image/alaba.jpg'
@@ -2008,7 +2009,7 @@ const Page = () => {
 
         {/* background image */}
         <div>
-        <Image className='background' src={background_img} alt='' priority />
+        <Image className='background' src={background_img_phone} alt='' priority />
         </div>
 
         {/* players */}
