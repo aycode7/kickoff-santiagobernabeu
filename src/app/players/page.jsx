@@ -757,9 +757,10 @@ const Page = () => {
 
         {/* background image */}
         <div>
-        <Image className='background_img' src={background_img} alt='' priority />
-        </div>  
-      {/* players */}
+        <Image className='background' src={background_img} alt='' priority />
+        </div> 
+
+        {/* players */}
         <div className="players">
 
             <div className="ctn">
@@ -1377,7 +1378,7 @@ const Page = () => {
 
         {/* background image */}
         <div>
-        <Image className='background_img' src={background_img} alt='' priority />
+        <Image className='background' src={background_img} alt='' priority />
         </div>
 
         {/* players */}
@@ -2007,8 +2008,7 @@ const Page = () => {
 
         {/* background image */}
         <div>
-        <Image className='background_phone' src={background_img} alt='' priority />
-        <Image className='background_phone' src={background_img} alt='' priority />
+        <Image className='background' src={background_img} alt='' priority />
         </div>
 
         {/* players */}
