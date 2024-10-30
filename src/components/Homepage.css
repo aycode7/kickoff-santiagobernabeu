@@ -663,7 +663,7 @@ body
 
 .navbar_phone .left h1
 {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     cursor: pointer;
 
@@ -779,7 +779,7 @@ body
     color: black;
     border: 2px solid black;
     font-family: cursive;
-    font-size: 17px;
+    font-size: 15px;
     cursor: pointer;
     padding: 8px 5%;
     font-family: 'Times New Roman', Times, serif;
