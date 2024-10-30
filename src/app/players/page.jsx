@@ -2008,6 +2008,592 @@ const Page = () => {
         {/* background image */}
         <div>
         <Image className='background_phone' src={background_img} alt='' priority />
+        <Image className='background_phone' src={background_img} alt='' priority />
+        </div>
+
+        {/* players */}
+        <div className="players_phone">
+
+            <div className="ctn_phone">
+                <div id="box" data-aos="fade-up" className="box">
+                    <div className="name">
+                        <Image id="img" src={courtois} alt="courtois" />
+                        <p>1. Thibaut Courtois</p>
+                    </div>
+
+                    <div className="position">
+                        <p>Position :</p>
+                        <p>Goal Keeper</p>
+                    </div>
+
+                    <div className="age">
+                        <p>Age :</p>
+                        <p>32</p>
+                    </div>
+
+                    <div className="nationality">
+                        <p>Nationality :</p>
+                        <p>Belgium</p>
+                    </div>
+
+                    <div className="value">                        
+                        <p>Market Value :</p>
+                        <p>€25.00m </p>
+                    </div>
+                </div>
+
+                <div id="box" data-aos="fade-up" className="box">
+                    <div className="name">
+                        <Image id="img" src={lunin} alt="courtois" />
+                        <p>13. Andriy Lunin</p>
+                    </div>
+
+                    <div className="position">
+                        <p>Position :</p>
+                        <p>Goal Keeper</p>
+                    </div>
+
+                    <div className="age">
+                        <p>Age :</p>
+                        <p>25</p>
+                    </div>
+
+                    <div className="nationality">
+                        <p>Nationality :</p>
+                        <p>Ukriane</p>
+                    </div>
+
+                    <div className="value">                        
+                        <p>Market Value :</p>
+                        <p>€25.00m</p>
+                    </div>
+                </div>
+
+                <div id="box" data-aos="fade-up" className="box">
+                    <div className="name">
+                        <Image id="img" src={militao} alt="courtois" />
+                        <p>3. Eder Milităo</p>
+                    </div>
+
+                    <div className="position">
+                        <p>Position :</p>
+                        <p>Center-Back</p>
+                    </div>
+
+                    <div className="age">
+                        <p>Age :</p>
+                        <p>26</p>
+                    </div>
+
+                    <div className="nationality">
+                        <p>Nationality :</p>
+                        <p>Brazil</p>
+                    </div>
+
+                    <div className="value">                        
+                        <p>Market Value :</p>
+                        <p>€60.00m</p>
+                    </div>
+                </div>
+            </div>
+
+            <div className="ctn_phone">
+                <div id="box" data-aos="fade-up" className="box">
+                    <div className="name">
+                        <Image id="img" src={rudiger} alt="courtois" />
+                        <p>22. Antonio Rügidér</p>
+                    </div>
+
+                    <div className="position">
+                        <p>Position :</p>
+                        <p>Center-Back</p>
+                    </div>
+
+                    <div className="age">
+                        <p>Age :</p>
+                        <p>31</p>
+                    </div>
+
+                    <div className="nationality">
+                        <p>Nationality :</p>
+                        <p>Germany</p>
+                    </div>
+
+                    <div className="value">                        
+                        <p>Market Value :</p>
+                        <p>€25.00m </p>
+                    </div>
+                </div>
+
+                <div id="box" data-aos="fade-up" className="box">
+                    <div className="name">
+                        <Image id="img" src={alaba} alt="courtois" />
+                        <p>4. David Alaba</p>
+                    </div>
+
+                    <div className="position">
+                        <p>Position :</p>
+                        <p>Center-Back</p>
+                    </div>
+
+                    <div className="age">
+                        <p>Age :</p>
+                        <p>32</p>
+                    </div>
+
+                    <div className="nationality">
+                        <p>Nationality :</p>
+                        <p>Austria</p>
+                    </div>
+
+                    <div className="value">                        
+                        <p>Market Value :</p>
+                        <p>€15.00m</p>
+                    </div>
+                </div>
+
+                <div id="box" data-aos="fade-up" className="box">
+                    <div className="name">
+                        <Image id="img" src={vallejo} alt="courtois" />
+                        <p>18. Jesùs Vallejo</p>
+                    </div>
+
+                    <div className="position">
+                        <p>Position :</p>
+                        <p>Center-Back</p>
+                    </div>
+
+                    <div className="age">
+                        <p>Age :</p>
+                        <p>27</p>
+                    </div>
+
+                    <div className="nationality">
+                        <p>Nationality :</p>
+                        <p>Spain</p>
+                    </div>
+
+                    <div className="value">                        
+                        <p>Market Value :</p>
+                        <p>€1.00m</p>
+                    </div>
+                </div>
+            </div>
+
+            <div className="ctn_phone">
+                <div id="box" data-aos="fade-up" className="box">
+                    <div className="name">
+                        <Image id="img" src={mendy} alt="courtois" />
+                        <p>23. Ferland Mendy</p>
+                    </div>
+
+                    <div className="position">
+                        <p>Position :</p>
+                        <p>Left-Back</p>
+                    </div>
+
+                    <div className="age">
+                        <p>Age :</p>
+                        <p>29</p>
+                    </div>
+
+                    <div className="nationality">
+                        <p>Nationality :</p>
+                        <p>France</p>
+                    </div>
+
+                    <div className="value">                        
+                        <p>Market Value :</p>
+                        <p>€22.00m </p>
+                    </div>
+                </div>
+
+                <div id="box" data-aos="fade-up" className="box">
+                    <div className="name">
+                        <Image id="img" src={garcia} alt="courtois" />
+                        <p>20. Fran García</p>
+                    </div>
+
+                    <div className="position">
+                        <p>Position :</p>
+                        <p>Left-Back</p>
+                    </div>
+
+                    <div className="age">
+                        <p>Age :</p>
+                        <p>25</p>
+                    </div>
+
+                    <div className="nationality">
+                        <p>Nationality :</p>
+                        <p>Spain</p>
+                    </div>
+
+                    <div className="value">                        
+                        <p>Market Value :</p>
+                        <p>€15.00m</p>
+                    </div>
+                </div>
+
+                <div id="box" data-aos="fade-up" className="box">
+                    <div className="name">
+                        <Image id="img" src={lucas} alt="courtois" />
+                        <p>17. Lucas Vázquez</p>
+                    </div>
+
+                    <div className="position">
+                        <p>Position :</p>
+                        <p>Right-Back</p>
+                    </div>
+
+                    <div className="age">
+                        <p>Age :</p>
+                        <p>33</p>
+                    </div>
+
+                    <div className="nationality">
+                        <p>Nationality :</p>
+                        <p>Spain</p>
+                    </div>
+
+                    <div className="value">                        
+                        <p>Market Value :</p>
+                        <p>€4.00m</p>
+                    </div>
+                </div>
+            </div>
+
+            <div className="ctn_phone">
+                <div id="box" data-aos="fade-up" className="box">
+                    <div className="name">
+                        <Image id="img" src={tchouameni} alt="courtois" />
+                        <p>14. Aurélin Tchouoaméni</p>
+                    </div>
+
+                    <div className="position">
+                        <p>Position :</p>
+                        <p>Defensive-Midfield</p>
+                    </div>
+
+                    <div className="age">
+                        <p>Age :</p>
+                        <p>24</p>
+                    </div>
+
+                    <div className="nationality">
+                        <p>Nationality :</p>
+                        <p>France</p>
+                    </div>
+
+                    <div className="value">                        
+                        <p>Market Value :</p>
+                        <p>€100.00m </p>
+                    </div>
+                </div>
+
+                <div id="box" data-aos="fade-up" className="box">
+                    <div className="name">
+                        <Image id="img" src={valverde} alt="courtois" />
+                        <p>8. Federico Valverde</p>
+                    </div>
+
+                    <div className="position">
+                        <p>Position :</p>
+                        <p>Central-Midfield</p>
+                    </div>
+
+                    <div className="age">
+                        <p>Age :</p>
+                        <p>26</p>
+                    </div>
+
+                    <div className="nationality">
+                        <p>Nationality :</p>
+                        <p>Uruguay</p>
+                    </div>
+
+                    <div className="value">                        
+                        <p>Market Value :</p>
+                        <p>€130.00m</p>
+                    </div>
+                </div>
+
+                <div id="box" data-aos="fade-up" className="box">
+                    <div className="name">
+                        <Image id="img" src={camavinga} alt="courtois" />
+                        <p>6. Eduardo Camavinga</p>
+                    </div>
+
+                    <div className="position">
+                        <p>Position :</p>
+                        <p>Central-Midfield</p>
+                    </div>
+
+                    <div className="age">
+                        <p>Age :</p>
+                        <p>21</p>
+                    </div>
+
+                    <div className="nationality">
+                        <p>Nationality :</p>
+                        <p>France</p>
+                    </div>
+
+                    <div className="value">                        
+                        <p>Market Value :</p>
+                        <p>€100.00m</p>
+                    </div>
+                </div>
+            </div>
+
+            <div className="ctn_phone">
+                <div id="box" data-aos="fade-up" className="box">
+                    <div className="name">
+                        <Image id="img" src={modric} alt="courtois" />
+                        <p>10. Luka Modric</p>
+                    </div>
+
+                    <div className="position">
+                        <p>Position :</p>
+                        <p>Central-Midfield</p>
+                    </div>
+
+                    <div className="age">
+                        <p>Age :</p>
+                        <p>39</p>
+                    </div>
+
+                    <div className="nationality">
+                        <p>Nationality :</p>
+                        <p>Croatia</p>
+                    </div>
+
+                    <div className="value">                        
+                        <p>Market Value :</p>
+                        <p>€6.00m </p>
+                    </div>
+                </div>
+
+                <div id="box" data-aos="fade-up" className="box">
+                    <div className="name">
+                        <Image id="img" src={ceballos} alt="courtois" />
+                        <p>19. Dani Ceballos</p>
+                    </div>
+
+                    <div className="position">
+                        <p>Position :</p>
+                        <p>Central-Midfield</p>
+                    </div>
+
+                    <div className="age">
+                        <p>Age :</p>
+                        <p>28</p>
+                    </div>
+
+                    <div className="nationality">
+                        <p>Nationality :</p>
+                        <p>Spain</p>
+                    </div>
+
+                    <div className="value">                        
+                        <p>Market Value :</p>
+                        <p>€40.00m</p>
+                    </div>
+                </div>
+
+                <div id="box" data-aos="fade-up" className="box">
+                    <div className="name">
+                        <Image id="img" src={bellingham} alt="courtois" />
+                        <p>5. Jude Bellingham</p>
+                    </div>
+
+                    <div className="position">
+                        <p>Position :</p>
+                        <p>Attacking-Midfielder</p>
+                    </div>
+
+                    <div className="age">
+                        <p>Age :</p>
+                        <p>21</p>
+                    </div>
+
+                    <div className="nationality">
+                        <p>Nationality :</p>
+                        <p>England</p>
+                    </div>
+
+                    <div className="value">                        
+                        <p>Market Value :</p>
+                        <p>€180.00m</p>
+                    </div>
+                </div>
+            </div>
+
+            <div className="ctn_phone">
+                <div id="box" data-aos="fade-up" className="box">
+                    <div className="name">
+                        <Image id="img" src={rodrygo} alt="courtois" />
+                        <p>11. Rodrygo</p>
+                    </div>
+
+                    <div className="position">
+                        <p>Position :</p>
+                        <p>Right-Winger</p>
+                    </div>
+
+                    <div className="age">
+                        <p>Age :</p>
+                        <p>23</p>
+                    </div>
+
+                    <div className="nationality">
+                        <p>Nationality :</p>
+                        <p>Brazil</p>
+                    </div>
+
+                    <div className="value">                        
+                        <p>Market Value :</p>
+                        <p>€110.00m </p>
+                    </div>
+                </div>
+
+                <div id="box" data-aos="fade-up" className="box">
+                    <div className="name">
+                        <Image id="img" src={vinicius} alt="courtois" />
+                        <p>7. Vinicius Junior</p>
+                    </div>
+
+                    <div className="position">
+                        <p>Position :</p>
+                        <p>Left-Winger</p>
+                    </div>
+
+                    <div className="age">
+                        <p>Age :</p>
+                        <p>24</p>
+                    </div>
+
+                    <div className="nationality">
+                        <p>Nationality :</p>
+                        <p>Brazil</p>
+                    </div>
+
+                    <div className="value">                        
+                        <p>Market Value :</p>
+                        <p>€200.00m</p>
+                    </div>
+                </div>
+
+                <div id="box" data-aos="fade-up" className="box">
+                    <div className="name">
+                        <Image id="img" src={diaz} alt="courtois" />
+                        <p>21. Brahim-Diaz</p>
+                    </div>
+
+                    <div className="position">
+                        <p>Position :</p>
+                        <p>Attacking-Midfielder</p>
+                    </div>
+
+                    <div className="age">
+                        <p>Age :</p>
+                        <p>25</p>
+                    </div>
+
+                    <div className="nationality">
+                        <p>Nationality :</p>
+                        <p>Morocco</p>
+                    </div>
+
+                    <div className="value">                        
+                        <p>Market Value :</p>
+                        <p>€40.00m</p>
+                    </div>
+                </div>
+            </div>
+
+            <div className="ctn_phone">
+                <div id="box" data-aos="fade-up" className="box">
+                    <div className="name">
+                        <Image id="img" src={guler} alt="courtois" />
+                        <p>15. Arder Guler</p>
+                    </div>
+
+                    <div className="position">
+                        <p>Position :</p>
+                        <p>Right-Winger</p>
+                    </div>
+
+                    <div className="age">
+                        <p>Age :</p>
+                        <p>19</p>
+                    </div>
+
+                    <div className="nationality">
+                        <p>Nationality :</p>
+                        <p>Turkey</p>
+                    </div>
+
+                    <div className="value">                        
+                        <p>Market Value :</p>
+                        <p>€45.00m </p>
+                    </div>
+                </div>
+
+                <div id="box" data-aos="fade-up" className="box">
+                    <div className="name">
+                        <Image id="img" src={mbappe} alt="courtois" />
+                        <p>9. Kylian Mbappé</p>
+                    </div>
+
+                    <div className="position">
+                        <p>Position :</p>
+                        <p>Centre-Forward</p>
+                    </div>
+
+                    <div className="age">
+                        <p>Age :</p>
+                        <p>25</p>
+                    </div>
+
+                    <div className="nationality">
+                        <p>Nationality :</p>
+                        <p>France</p>
+                    </div>
+
+                    <div className="value">                        
+                        <p>Market Value :</p>
+                        <p>€180.00m</p>
+                    </div>
+                </div>
+
+                <div id="box" data-aos="fade-up" className="box">
+                    <div className="name">
+                        <Image id="img" src={endrick} alt="courtois" />
+                        <p>16. Endrick</p>
+                    </div>
+
+                    <div className="position">
+                        <p>Position :</p>
+                        <p>Centre-Forward</p>
+                    </div>
+
+                    <div className="age">
+                        <p>Age :</p>
+                        <p>18</p>
+                    </div>
+
+                    <div className="nationality">
+                        <p>Nationality :</p>
+                        <p>Brazil</p>
+                    </div>
+
+                    <div className="value">                        
+                        <p>Market Value :</p>
+                        <p>€60.00m</p>
+                    </div>
+                </div>
+            </div>
         </div>
         
         </div>

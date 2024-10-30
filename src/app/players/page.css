@@ -85,7 +85,7 @@ p
 .background
 {
     width: 100%;
-    height: 320vh;
+    height: 365vh;
 
 }
 
@@ -103,7 +103,7 @@ p
 {
     display: flex;
     position: relative;
-    margin-top: -1750px;
+    margin-top: -2100px;
     flex-direction: column;
     align-items: center;
     padding: 10px 5%;
@@ -404,6 +404,133 @@ p
 .background_phone
 {
     width: 100%;
-    height: 100vh;
+    height: 480vh;
 
+}
+
+
+/* players */
+
+#img
+{
+    border-radius: 100%;
+    height: 48px;
+    width: 40px;
+
+}
+
+.players_phone
+{
+    display: flex;
+    position: relative;
+    margin-top: -5800px;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 5%;
+    color: white;
+    justify-content: center;
+
+}
+
+.ctn_phone
+{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding-bottom: 15px;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.ctn_phone #box:active
+{
+    transform: scale(0.92);
+
+}
+
+.ctn_phone .box
+{
+    background-color: rgba(0, 0, 0, 0.459);
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    padding: 15px;
+    width: 290px;
+    padding: 25px 30px;
+    gap: 10px;
+    flex-direction: column;
+
+}
+
+.ctn_phone .box .name
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.ctn_phone .box .name p
+{
+    font-size: 16px;
+    
+}
+
+.ctn_phone .box .position
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.ctn_phone .box .position p
+{
+    font-size: 16px;
+    
+}
+
+.ctn_phone .box .age
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.ctn_phone .box .age p
+{
+    font-size: 16px;
+    
+}
+
+.ctn_phone .box .nationality
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.ctn_phone .box .nationality p
+{
+    font-size: 16px;
+    
+}
+
+.ctn_phone .box .value
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.ctn_phone .box .value p
+{
+    font-size: 16px;
+    
 }

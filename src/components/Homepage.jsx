@@ -1288,7 +1288,7 @@ const Homepage = () => {
 
             <div className="ctn_phone">
               <Link href="official-announcement-from-real-madrid">
-              <div className="left" data-aos="fade-right">
+              <div className="left" data-aos="fade-up">
                 <Image className='img' src={racial} alt='' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Mbappe and Real Madrid players carry out individual work at Real Madrid City</h2>
