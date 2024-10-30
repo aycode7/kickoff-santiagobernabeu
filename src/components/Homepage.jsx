@@ -127,9 +127,15 @@ const Homepage = () => {
                 <Link href="/">
                 <h2 onClick={handleTap} className={tap === true ? 'tap' : ''}>News</h2>
                 </Link>
+                <Link href="fixtures">
                 <h2 onClick={handleTap2} className={tap2 === true ? 'tap' : ''}>Fixtures</h2>
+                </Link>
+                <Link href="standings">
                 <h2 onClick={handleTap3} className={tap3 === true ? 'tap' : ''}>Standings</h2>
+                </Link>
+                <Link href="players">
                 <h2 onClick={handleTap4} className={tap4 === true ? 'tap' : ''}>Players</h2>
+                </Link>
               </div>
 
             </div>
@@ -420,9 +426,15 @@ const Homepage = () => {
 
               <div className="middle">
                 <h2 onClick={handleTap} className={tap === true ? 'tap' : ''}>News</h2>
+                <Link href="fixtures">
                 <h2 onClick={handleTap2} className={tap2 === true ? 'tap' : ''}>Fixtures</h2>
+                </Link>
+                <Link href="standings">
                 <h2 onClick={handleTap3} className={tap3 === true ? 'tap' : ''}>Standings</h2>
+                </Link>
+                <Link href="players">
                 <h2 onClick={handleTap4} className={tap4 === true ? 'tap' : ''}>Players</h2>
+                </Link>
               </div>
 
             </div>
@@ -713,9 +725,15 @@ const Homepage = () => {
                 <Link href="/">
                 <h2 onClick={handleTap} className={tap === true ? 'tap' : ''}>News</h2>
                 </Link>
+                <Link href="fixtures">
                 <h2 onClick={handleTap2} className={tap2 === true ? 'tap' : ''}>Fixtures</h2>
+                </Link>
+                <Link href="standings">
                 <h2 onClick={handleTap3} className={tap3 === true ? 'tap' : ''}>Standings</h2>
+                </Link>
+                <Link href="players">
                 <h2 onClick={handleTap4} className={tap4 === true ? 'tap' : ''}>Players</h2>
+                </Link>
               </div>
 
             </div>
@@ -1015,9 +1033,15 @@ const Homepage = () => {
                     <Link href="/">
                     <p onClick={handleTap} className={tap === true ? "tap_phone" : ''}>News</p>
                     </Link>
+                    <Link href="fixtures">
                     <p onClick={handleTap2} className={tap2 === true ? "tap_phone" : ''}>Fixtures</p>
+                    </Link>
+                    <Link href="standings">
                     <p onClick={handleTap3} className={tap3 === true ? "tap_phone" : ''}>Standings</p>
+                    </Link>
+                    <Link href="players">
                     <p onClick={handleTap4} className={tap4 === true ? "tap_phone" : ''}>Players</p>
+                    </Link>
                   </div>
                 }
               </div>
