@@ -125,7 +125,9 @@ const Page = () => {
                 <h2 onClick={handleTap4} className={tap4 === true ? 'tap' : ''}>News</h2>
                 </Link>
                 <h2 onClick={handleTap2} className={tap2 === true ? 'tap' : ''}>Fixtures</h2>
+                <Link href="standings">
                 <h2 onClick={handleTap3} className={tap3 === true ? 'tap' : ''}>Standings</h2>
+                </Link>
                 <Link href="players">
                 <h2 onClick={handleTap} className={tap === true ? 'tap' : ''}>Players</h2>
                 </Link>
@@ -143,7 +145,7 @@ const Page = () => {
         {/* players */}
         <div className="players">
 
-            <div className="ctn">
+            <div className="ctn_players">
                 <div id="box" data-aos="fade-right" className="box">
                     <div className="name">
                         <Image id="img" src={courtois} alt="courtois" />
@@ -226,7 +228,7 @@ const Page = () => {
                 </div>
             </div>
 
-            <div className="ctn">
+            <div className="ctn_players">
                 <div id="box" data-aos="fade-right" className="box">
                     <div className="name">
                         <Image id="img" src={rudiger} alt="courtois" />
@@ -309,7 +311,7 @@ const Page = () => {
                 </div>
             </div>
 
-            <div className="ctn">
+            <div className="ctn_players">
                 <div id="box" data-aos="fade-right" className="box">
                     <div className="name">
                         <Image id="img" src={mendy} alt="courtois" />
@@ -392,7 +394,7 @@ const Page = () => {
                 </div>
             </div>
 
-            <div className="ctn">
+            <div className="ctn_players">
                 <div id="box" data-aos="fade-right" className="box">
                     <div className="name">
                         <Image id="img" src={tchouameni} alt="courtois" />
@@ -475,7 +477,7 @@ const Page = () => {
                 </div>
             </div>
 
-            <div className="ctn">
+            <div className="ctn_players">
                 <div id="box" data-aos="fade-right" className="box">
                     <div className="name">
                         <Image id="img" src={modric} alt="courtois" />
@@ -558,7 +560,7 @@ const Page = () => {
                 </div>
             </div>
 
-            <div className="ctn">
+            <div className="ctn_players">
                 <div id="box" data-aos="fade-right" className="box">
                     <div className="name">
                         <Image id="img" src={rodrygo} alt="courtois" />
@@ -641,7 +643,7 @@ const Page = () => {
                 </div>
             </div>
 
-            <div className="ctn">
+            <div className="ctn_players">
                 <div id="box" data-aos="fade-right" className="box">
                     <div className="name">
                         <Image id="img" src={guler} alt="courtois" />
@@ -746,7 +748,9 @@ const Page = () => {
             <h2 onClick={handleTap4} className={tap4 === true ? 'tap' : ''}>News</h2>
             </Link>
             <h2 onClick={handleTap2} className={tap2 === true ? 'tap' : ''}>Fixtures</h2>
+            <Link href="standings">
             <h2 onClick={handleTap3} className={tap3 === true ? 'tap' : ''}>Standings</h2>
+            </Link>
             <Link href="players">
             <h2 onClick={handleTap} className={tap === true ? 'tap' : ''}>Players</h2>
             </Link>
@@ -764,7 +768,7 @@ const Page = () => {
         {/* players */}
         <div className="players">
 
-            <div className="ctn">
+            <div className="ctn_players">
                 <div id="box" data-aos="fade-right" className="box">
                     <div className="name">
                         <Image id="img" src={courtois} alt="courtois" />
@@ -847,7 +851,7 @@ const Page = () => {
                 </div>
             </div>
 
-            <div className="ctn">
+            <div className="ctn_players">
                 <div id="box" data-aos="fade-right" className="box">
                     <div className="name">
                         <Image id="img" src={rudiger} alt="courtois" />
@@ -930,7 +934,7 @@ const Page = () => {
                 </div>
             </div>
 
-            <div className="ctn">
+            <div className="ctn_players">
                 <div id="box" data-aos="fade-right" className="box">
                     <div className="name">
                         <Image id="img" src={mendy} alt="courtois" />
@@ -1013,7 +1017,7 @@ const Page = () => {
                 </div>
             </div>
 
-            <div className="ctn">
+            <div className="ctn_players">
                 <div id="box" data-aos="fade-right" className="box">
                     <div className="name">
                         <Image id="img" src={tchouameni} alt="courtois" />
@@ -1096,7 +1100,7 @@ const Page = () => {
                 </div>
             </div>
 
-            <div className="ctn">
+            <div className="ctn_players">
                 <div id="box" data-aos="fade-right" className="box">
                     <div className="name">
                         <Image id="img" src={modric} alt="courtois" />
@@ -1179,7 +1183,7 @@ const Page = () => {
                 </div>
             </div>
 
-            <div className="ctn">
+            <div className="ctn_players">
                 <div id="box" data-aos="fade-right" className="box">
                     <div className="name">
                         <Image id="img" src={rodrygo} alt="courtois" />
@@ -1262,7 +1266,7 @@ const Page = () => {
                 </div>
             </div>
 
-            <div className="ctn">
+            <div className="ctn_players">
                 <div id="box" data-aos="fade-right" className="box">
                     <div className="name">
                         <Image id="img" src={guler} alt="courtois" />
@@ -1367,7 +1371,9 @@ const Page = () => {
             <h2 onClick={handleTap4} className={tap4 === true ? 'tap' : ''}>News</h2>
             </Link>
             <h2 onClick={handleTap2} className={tap2 === true ? 'tap' : ''}>Fixtures</h2>
+            <Link href="standings">
             <h2 onClick={handleTap3} className={tap3 === true ? 'tap' : ''}>Standings</h2>
+            </Link>
             <Link href="players">
             <h2 onClick={handleTap} className={tap === true ? 'tap' : ''}>Players</h2>
             </Link>
@@ -1385,7 +1391,7 @@ const Page = () => {
         {/* players */}
         <div className="players">
 
-            <div className="ctn">
+            <div className="ctn_players">
                 <div id="box" data-aos="fade-right" className="box">
                     <div className="name">
                         <Image id="img" src={courtois} alt="courtois" />
@@ -1468,7 +1474,7 @@ const Page = () => {
                 </div>
             </div>
 
-            <div className="ctn">
+            <div className="ctn_players">
                 <div id="box" data-aos="fade-right" className="box">
                     <div className="name">
                         <Image id="img" src={rudiger} alt="courtois" />
@@ -1551,7 +1557,7 @@ const Page = () => {
                 </div>
             </div>
 
-            <div className="ctn">
+            <div className="ctn_players">
                 <div id="box" data-aos="fade-right" className="box">
                     <div className="name">
                         <Image id="img" src={mendy} alt="courtois" />
@@ -1634,7 +1640,7 @@ const Page = () => {
                 </div>
             </div>
 
-            <div className="ctn">
+            <div className="ctn_players">
                 <div id="box" data-aos="fade-right" className="box">
                     <div className="name">
                         <Image id="img" src={tchouameni} alt="courtois" />
@@ -1717,7 +1723,7 @@ const Page = () => {
                 </div>
             </div>
 
-            <div className="ctn">
+            <div className="ctn_players">
                 <div id="box" data-aos="fade-right" className="box">
                     <div className="name">
                         <Image id="img" src={modric} alt="courtois" />
@@ -1800,7 +1806,7 @@ const Page = () => {
                 </div>
             </div>
 
-            <div className="ctn">
+            <div className="ctn_players">
                 <div id="box" data-aos="fade-right" className="box">
                     <div className="name">
                         <Image id="img" src={rodrygo} alt="courtois" />
@@ -1883,7 +1889,7 @@ const Page = () => {
                 </div>
             </div>
 
-            <div className="ctn">
+            <div className="ctn_players">
                 <div id="box" data-aos="fade-right" className="box">
                     <div className="name">
                         <Image id="img" src={guler} alt="courtois" />
@@ -1995,7 +2001,9 @@ const Page = () => {
                 <p onClick={handleTap4} className={tap4 === true ? "tap_phone" : ''}>News</p>
                 </Link>
                 <p onClick={handleTap2} className={tap2 === true ? "tap_phone" : ''}>Fixtures</p>
+                <Link href="standings">
                 <p onClick={handleTap3} className={tap3 === true ? "tap_phone" : ''}>Standings</p>
+                </Link>
                 <Link href="players">
                 <p onClick={handleTap} className={tap === true ? "tap_phone" : ''}>Players</p>
                 </Link>
@@ -2015,7 +2023,7 @@ const Page = () => {
         {/* players */}
         <div className="players_phone">
 
-            <div className="ctn_phone">
+            <div className="ctn_players_phone">
                 <div id="box" data-aos="fade-up" className="box">
                     <div className="name">
                         <Image id="img" src={courtois} alt="courtois" />
@@ -2098,7 +2106,7 @@ const Page = () => {
                 </div>
             </div>
 
-            <div className="ctn_phone">
+            <div className="ctn_players_phone">
                 <div id="box" data-aos="fade-up" className="box">
                     <div className="name">
                         <Image id="img" src={rudiger} alt="courtois" />
@@ -2181,7 +2189,7 @@ const Page = () => {
                 </div>
             </div>
 
-            <div className="ctn_phone">
+            <div className="ctn_players_phone">
                 <div id="box" data-aos="fade-up" className="box">
                     <div className="name">
                         <Image id="img" src={mendy} alt="courtois" />
@@ -2264,7 +2272,7 @@ const Page = () => {
                 </div>
             </div>
 
-            <div className="ctn_phone">
+            <div className="ctn_players_phone">
                 <div id="box" data-aos="fade-up" className="box">
                     <div className="name">
                         <Image id="img" src={tchouameni} alt="courtois" />
@@ -2347,7 +2355,7 @@ const Page = () => {
                 </div>
             </div>
 
-            <div className="ctn_phone">
+            <div className="ctn_players_phone">
                 <div id="box" data-aos="fade-up" className="box">
                     <div className="name">
                         <Image id="img" src={modric} alt="courtois" />
@@ -2430,7 +2438,7 @@ const Page = () => {
                 </div>
             </div>
 
-            <div className="ctn_phone">
+            <div className="ctn_players_phone">
                 <div id="box" data-aos="fade-up" className="box">
                     <div className="name">
                         <Image id="img" src={rodrygo} alt="courtois" />
@@ -2513,7 +2521,7 @@ const Page = () => {
                 </div>
             </div>
 
-            <div className="ctn_phone">
+            <div className="ctn_players_phone">
                 <div id="box" data-aos="fade-up" className="box">
                     <div className="name">
                         <Image id="img" src={guler} alt="courtois" />

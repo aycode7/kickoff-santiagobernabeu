@@ -11,7 +11,7 @@ body
 
 p
 {
-    font-size: 15px;
+    font-size: 13px;
 
 }
 
@@ -122,7 +122,7 @@ p
 
 }
 
-.ctn
+.ctn_players
 {
     display: flex;
     align-items: center;
@@ -133,13 +133,13 @@ p
 
 }
 
-.ctn #box:hover
+.ctn_players #box:hover
 {
     transition: all 0.6s ease;
     transform: scale(0.94);
 }
 
-.ctn .box
+.ctn_players .box
 {
     background-color: rgba(0, 0, 0, 0.459);
     border-radius: 40px;
@@ -154,7 +154,7 @@ p
 
 }
 
-.ctn .box .name
+.ctn_players .box .name
 {
     display: flex;
     align-items: center;
@@ -162,7 +162,7 @@ p
 
 }
 
-.ctn .box .position
+.ctn_players .box .position
 {
     display: flex;
     align-items: center;
@@ -170,7 +170,7 @@ p
 
 }
 
-.ctn .box .age
+.ctn_players .box .age
 {
     display: flex;
     align-items: center;
@@ -178,7 +178,7 @@ p
 
 }
 
-.ctn .box .nationality
+.ctn_players .box .nationality
 {
     display: flex;
     align-items: center;
@@ -186,7 +186,7 @@ p
 
 }
 
-.ctn .box .value
+.ctn_players .box .value
 {
     display: flex;
     align-items: center;
@@ -396,7 +396,7 @@ p
 
 .navbar_phone .right .dropdown p
 {
-    font-size: 16px;
+    font-size: 13px;
     font-family: 'Times New Roman', Times, serif;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -442,7 +442,7 @@ p
 
 }
 
-.ctn_phone
+.ctn_players_phone
 {
     display: flex;
     align-items: center;
@@ -454,13 +454,13 @@ p
 
 }
 
-.ctn_phone #box:active
+.ctn_players_phone #box:active
 {
     transform: scale(0.92);
 
 }
 
-.ctn_phone .box
+.ctn_players_phone .box
 {
     background-color: rgba(0, 0, 0, 0.459);
     border-radius: 40px;
@@ -468,14 +468,14 @@ p
     cursor: pointer;
     display: flex;
     padding: 15px;
-    width: 290px;
+    width: 250px;
     padding: 25px 30px;
     gap: 25px;
     flex-direction: column;
 
 }
 
-.ctn_phone .box .name
+.ctn_players_phone .box .name
 {
     display: flex;
     align-items: center;
@@ -483,13 +483,13 @@ p
 
 }
 
-.ctn_phone .box .name p
+.ctn_players_phone .box .name p
 {
     font-size: 16px;
     
 }
 
-.ctn_phone .box .position
+.ctn_players_phone .box .position
 {
     display: flex;
     align-items: center;
@@ -497,13 +497,13 @@ p
 
 }
 
-.ctn_phone .box .position p
+.ctn_players_phone .box .position p
 {
     font-size: 16px;
     
 }
 
-.ctn_phone .box .age
+.ctn_players_phone .box .age
 {
     display: flex;
     align-items: center;
@@ -511,13 +511,13 @@ p
 
 }
 
-.ctn_phone .box .age p
+.ctn_players_phone .box .age p
 {
     font-size: 16px;
     
 }
 
-.ctn_phone .box .nationality
+.ctn_players_phone .box .nationality
 {
     display: flex;
     align-items: center;
@@ -525,13 +525,13 @@ p
 
 }
 
-.ctn_phone .box .nationality p
+.ctn_players_phone .box .nationality p
 {
     font-size: 16px;
     
 }
 
-.ctn_phone .box .value
+.ctn_players_phone .box .value
 {
     display: flex;
     align-items: center;
@@ -539,7 +539,7 @@ p
 
 }
 
-.ctn_phone .box .value p
+.ctn_players_phone .box .value p
 {
     font-size: 16px;
     

@@ -8,7 +8,8 @@ import './page.css'
 import Image from "next/image"
 import logo from './Image/madrid_icon.png'
 import React from 'react'
-import background from './Image/football.jpeg'
+import background from './Image/night-stadium.jpg'
+import background_phone from './Image/football.jpeg'
 
 const Page = () => {
 
@@ -117,7 +118,140 @@ const Page = () => {
         {/* background image */}
         <div>
         <Image className='background' src={background} alt='' priority />
-        </div>           
+        </div> 
+
+        {/* standings */}
+        <div style={{cursor:'pointer'}} data-aos="fade-up" className="ctn_standings">
+            <div className="standings">
+
+              {/* number */}
+              <div className="number">
+                  <p>#</p>
+                  <p>1</p>
+                  <p>2</p>
+                  <p>3</p>
+                  <p>4</p>
+                  <p>5</p>
+                  <p>6</p>
+                  <p>7</p>
+                  <p>8</p>
+                  <p>9</p>
+                  <p>10</p>
+                  <p>11</p>
+                  <p>12</p>
+                  <p>13</p>
+                  <p>14</p>
+                  <p>15</p>
+                  <p>16</p>
+                  <p>17</p>
+                  <p>18</p>
+                  <p>19</p>
+                  <p style={{borderRadius:'0 0 0 20px'}}>20</p>
+              </div>
+
+              {/* clubs */}
+              <div className="clubs">
+                  <p>Clubs</p>
+                  <p>Barcelona</p>
+                  <p>RealMadrid</p>
+                  <p>Villarreal</p>
+                  <p>AtléticoMadrid</p>
+                  <p>AthleticClub</p>
+                  <p>RealBetis</p>
+                  <p>Mallorca</p>
+                  <p>Osasuna</p>
+                  <p>RayoVallecano</p>
+                  <p>SevillaFC</p>
+                  <p>CeltaVigo</p>
+                  <p>RealSociedad</p>
+                  <p>Girona</p>
+                  <p>CDLeganés</p>
+                  <p>Getafe</p>
+                  <p>Alavés</p>
+                  <p>Espanyol</p>
+                  <p>UDLasPalmas</p>
+                  <p>RealValladolid</p>
+                  <p>Valencia</p>
+              </div>
+
+              {/* Matches */}
+              <div className="matches">
+                  <p>Pld</p>
+                  <p>11</p>                
+                  <p>11</p>
+                  <p>11</p>
+                  <p>11</p>
+                  <p>11</p>
+                  <p>11</p>
+                  <p>11</p>
+                  <p>11</p>
+                  <p>11</p>
+                  <p>11</p>
+                  <p>11</p>
+                  <p>11</p>
+                  <p>11</p>
+                  <p>11</p>
+                  <p>11</p>
+                  <p>11</p>
+                  <p>11</p>
+                  <p>11</p>
+                  <p>11</p>
+                  <p>11</p>
+              </div>
+
+              {/* +/- */}
+              <div className="ga">                
+                  <p>+/-</p>
+                  <p>27</p>
+                  <p>10</p>
+                  <p>1</p>
+                  <p>9</p>
+                  <p>6</p>
+                  <p>2</p>
+                  <p>2</p>
+                  <p>0</p>
+                  <p>2</p>
+                  <p>-3</p>
+                  <p>-3</p>
+                  <p>-2</p>
+                  <p>-3</p>
+                  <p>-3</p>
+                  <p>-1</p>
+                  <p>-6</p>
+                  <p>-9</p>
+                  <p>-6</p>
+                  <p>-14</p>
+                  <p>-9</p>                
+              </div>
+
+              {/* points */}
+              <div className="points">                
+                  <p>Pts</p>
+                  <p>30</p>
+                  <p>24</p>
+                  <p>21</p>
+                  <p>20</p>
+                  <p>18</p>
+                  <p>18</p>
+                  <p>18</p>
+                  <p>18</p>
+                  <p>16</p>
+                  <p>15</p>
+                  <p>13</p>
+                  <p>12</p>
+                  <p>12</p>
+                  <p>11</p>
+                  <p>10</p>
+                  <p>10</p>
+                  <p>10</p>
+                  <p>9</p>
+                  <p>8</p>
+                  <p style={{borderRadius:'0 0 20px 0'}}>7</p>                                
+              </div>
+
+
+            </div>
+        </div>          
         
         </div>
 
@@ -155,7 +289,140 @@ const Page = () => {
         {/* background image */}
         <div>
         <Image className='background' src={background} alt='' priority />
-        </div>         
+        </div> 
+
+        {/* standings */}
+        <div style={{cursor:'pointer'}} data-aos="fade-up" className="ctn_standings_small">
+            <div className="standings_small">
+
+              {/* number */}
+              <div className="number">
+                  <p>#</p>
+                  <p>1</p>
+                  <p>2</p>
+                  <p>3</p>
+                  <p>4</p>
+                  <p>5</p>
+                  <p>6</p>
+                  <p>7</p>
+                  <p>8</p>
+                  <p>9</p>
+                  <p>10</p>
+                  <p>11</p>
+                  <p>12</p>
+                  <p>13</p>
+                  <p>14</p>
+                  <p>15</p>
+                  <p>16</p>
+                  <p>17</p>
+                  <p>18</p>
+                  <p>19</p>
+                  <p style={{borderRadius:'0 0 0 20px'}}>20</p>
+              </div>
+
+              {/* clubs */}
+              <div className="clubs">
+                  <p>Clubs</p>
+                  <p>Barcelona</p>
+                  <p>RealMadrid</p>
+                  <p>Villarreal</p>
+                  <p>AtléticoMadrid</p>
+                  <p>AthleticClub</p>
+                  <p>RealBetis</p>
+                  <p>Mallorca</p>
+                  <p>Osasuna</p>
+                  <p>RayoVallecano</p>
+                  <p>SevillaFC</p>
+                  <p>CeltaVigo</p>
+                  <p>RealSociedad</p>
+                  <p>Girona</p>
+                  <p>CDLeganés</p>
+                  <p>Getafe</p>
+                  <p>Alavés</p>
+                  <p>Espanyol</p>
+                  <p>UDLasPalmas</p>
+                  <p>RealValladolid</p>
+                  <p>Valencia</p>
+              </div>
+
+              {/* Matches */}
+              <div className="matches">
+                  <p>Pld</p>
+                  <p>11</p>                
+                  <p>11</p>
+                  <p>11</p>
+                  <p>11</p>
+                  <p>11</p>
+                  <p>11</p>
+                  <p>11</p>
+                  <p>11</p>
+                  <p>11</p>
+                  <p>11</p>
+                  <p>11</p>
+                  <p>11</p>
+                  <p>11</p>
+                  <p>11</p>
+                  <p>11</p>
+                  <p>11</p>
+                  <p>11</p>
+                  <p>11</p>
+                  <p>11</p>
+                  <p>11</p>
+              </div>
+
+              {/* +/- */}
+              <div className="ga">                
+                  <p>+/-</p>
+                  <p>27</p>
+                  <p>10</p>
+                  <p>1</p>
+                  <p>9</p>
+                  <p>6</p>
+                  <p>2</p>
+                  <p>2</p>
+                  <p>0</p>
+                  <p>2</p>
+                  <p>-3</p>
+                  <p>-3</p>
+                  <p>-2</p>
+                  <p>-3</p>
+                  <p>-3</p>
+                  <p>-1</p>
+                  <p>-6</p>
+                  <p>-9</p>
+                  <p>-6</p>
+                  <p>-14</p>
+                  <p>-9</p>                
+              </div>
+
+              {/* points */}
+              <div className="points">                
+                  <p>Pts</p>
+                  <p>30</p>
+                  <p>24</p>
+                  <p>21</p>
+                  <p>20</p>
+                  <p>18</p>
+                  <p>18</p>
+                  <p>18</p>
+                  <p>18</p>
+                  <p>16</p>
+                  <p>15</p>
+                  <p>13</p>
+                  <p>12</p>
+                  <p>12</p>
+                  <p>11</p>
+                  <p>10</p>
+                  <p>10</p>
+                  <p>10</p>
+                  <p>9</p>
+                  <p>8</p>
+                  <p style={{borderRadius:'0 0 20px 0'}}>7</p>                                
+              </div>
+
+
+            </div>
+        </div>        
 
         </div>
 
@@ -193,6 +460,139 @@ const Page = () => {
         {/* background image */}
         <div>
         <Image className='background' src={background} alt='' priority />
+        </div>
+
+        {/* standings */}
+        <div style={{cursor:'pointer'}} data-aos="fade-up" className="ctn_standings_tablet">
+            <div className="standings_tablet">
+
+              {/* number */}
+              <div style={{cursor:'pointer'}} className="number">
+                  <p>#</p>
+                  <p>1</p>
+                  <p>2</p>
+                  <p>3</p>
+                  <p>4</p>
+                  <p>5</p>
+                  <p>6</p>
+                  <p>7</p>
+                  <p>8</p>
+                  <p>9</p>
+                  <p>10</p>
+                  <p>11</p>
+                  <p>12</p>
+                  <p>13</p>
+                  <p>14</p>
+                  <p>15</p>
+                  <p>16</p>
+                  <p>17</p>
+                  <p>18</p>
+                  <p>19</p>
+                  <p style={{borderRadius:'0 0 0 20px'}}>20</p>
+              </div>
+
+              {/* clubs */}
+              <div className="clubs">
+                  <p>Clubs</p>
+                  <p>Barcelona</p>
+                  <p>RealMadrid</p>
+                  <p>Villarreal</p>
+                  <p>AtléticoMadrid</p>
+                  <p>AthleticClub</p>
+                  <p>RealBetis</p>
+                  <p>Mallorca</p>
+                  <p>Osasuna</p>
+                  <p>RayoVallecano</p>
+                  <p>SevillaFC</p>
+                  <p>CeltaVigo</p>
+                  <p>RealSociedad</p>
+                  <p>Girona</p>
+                  <p>CDLeganés</p>
+                  <p>Getafe</p>
+                  <p>Alavés</p>
+                  <p>Espanyol</p>
+                  <p>UDLasPalmas</p>
+                  <p>RealValladolid</p>
+                  <p>Valencia</p>
+              </div>
+
+              {/* Matches */}
+              <div className="matches">
+                  <p>Pld</p>
+                  <p>11</p>                
+                  <p>11</p>
+                  <p>11</p>
+                  <p>11</p>
+                  <p>11</p>
+                  <p>11</p>
+                  <p>11</p>
+                  <p>11</p>
+                  <p>11</p>
+                  <p>11</p>
+                  <p>11</p>
+                  <p>11</p>
+                  <p>11</p>
+                  <p>11</p>
+                  <p>11</p>
+                  <p>11</p>
+                  <p>11</p>
+                  <p>11</p>
+                  <p>11</p>
+                  <p>11</p>
+              </div>
+
+              {/* +/- */}
+              <div className="ga">                
+                  <p>+/-</p>
+                  <p>27</p>
+                  <p>10</p>
+                  <p>1</p>
+                  <p>9</p>
+                  <p>6</p>
+                  <p>2</p>
+                  <p>2</p>
+                  <p>0</p>
+                  <p>2</p>
+                  <p>-3</p>
+                  <p>-3</p>
+                  <p>-2</p>
+                  <p>-3</p>
+                  <p>-3</p>
+                  <p>-1</p>
+                  <p>-6</p>
+                  <p>-9</p>
+                  <p>-6</p>
+                  <p>-14</p>
+                  <p>-9</p>                
+              </div>
+
+              {/* points */}
+              <div className="points">                
+                  <p>Pts</p>
+                  <p>30</p>
+                  <p>24</p>
+                  <p>21</p>
+                  <p>20</p>
+                  <p>18</p>
+                  <p>18</p>
+                  <p>18</p>
+                  <p>18</p>
+                  <p>16</p>
+                  <p>15</p>
+                  <p>13</p>
+                  <p>12</p>
+                  <p>12</p>
+                  <p>11</p>
+                  <p>10</p>
+                  <p>10</p>
+                  <p>10</p>
+                  <p>9</p>
+                  <p>8</p>
+                  <p style={{borderRadius:'0 0 20px 0'}}>7</p>                                
+              </div>
+
+
+            </div>
         </div>        
         
         </div>
@@ -239,12 +639,12 @@ const Page = () => {
 
         {/* background image */}
         <div>
-        <Image className='background' src={background} alt='' priority />
+        <Image className='background' src={background_phone} alt='' priority />
         </div>       
 
         {/* standings */}
-        <div className="ctn">
-            <div className="standings">
+        <div className="ctn_standings_phone">
+            <div className="standings_phone">
 
                 {/* number */}
                 <div className="number">

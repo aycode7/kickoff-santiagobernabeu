@@ -15,7 +15,7 @@ import bellingham_med from './Image/bellingham_med.webp'
 import perez from './Image/Perez.jpg'
 import kylian from './Image/kylian.jpg'
 import rodrygo from './Image/rodrygo.jpg'
-import mobile_background_img from './Image/mobile.jpg'
+import mobile_background_img from './Image/mbappe-training.jpg'
 import mbappe from './Image/Mbappe.jpg'
 import madrid_stadium from './Image/Santiago-Bernabeu.jpg'
 import ancelloti_200 from './Image/ancelloti_200.jpg'
@@ -1132,7 +1132,7 @@ const Homepage = () => {
               </Link>              
               
               <Link href="florentino-perez-talks-about-winning-the-super-cup">
-              <div className="right" data-aos="fade-up">
+              <div style={{marginTop:'30px'}} className="right" data-aos="fade-up">
                 <Image className='img' src={perez} alt='' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Floretino Perez:This title would give us energy for a very difficult season</h2>

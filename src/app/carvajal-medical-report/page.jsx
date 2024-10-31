@@ -102,7 +102,9 @@ const Page = () => {
                   <h2 onClick={handleTap} className={tap === true ? 'tap' : ''}>News</h2>
                   </Link>
                   <h2 onClick={handleTap2} className={tap2 === true ? 'tap' : ''}>Fixtures</h2>
+                  <Link href="standings">
                   <h2 onClick={handleTap3} className={tap3 === true ? 'tap' : ''}>Standings</h2>
+                  </Link>
                   <Link href="players">
                   <h2 onClick={handleTap4} className={tap4 === true ? 'tap' : ''}>Players</h2>
                   </Link>
@@ -157,7 +159,9 @@ const Page = () => {
               <h2 onClick={handleTap} className={tap === true ? 'tap' : ''}>News</h2>
               </Link>
               <h2 onClick={handleTap2} className={tap2 === true ? 'tap' : ''}>Fixtures</h2>
+              <Link href="standings">
               <h2 onClick={handleTap3} className={tap3 === true ? 'tap' : ''}>Standings</h2>
+              </Link>
               <Link href="players">
               <h2 onClick={handleTap4} className={tap4 === true ? 'tap' : ''}>Players</h2>
               </Link>
@@ -213,7 +217,9 @@ const Page = () => {
               <h2 onClick={handleTap} className={tap === true ? 'tap' : ''}>News</h2>
               </Link>
               <h2 onClick={handleTap2} className={tap2 === true ? 'tap' : ''}>Fixtures</h2>
+              <Link href="standings">
               <h2 onClick={handleTap3} className={tap3 === true ? 'tap' : ''}>Standings</h2>
+              </Link>
               <Link href="players">
               <h2 onClick={handleTap4} className={tap4 === true ? 'tap' : ''}>Players</h2>
               </Link>
@@ -274,8 +280,10 @@ const Page = () => {
                   <Link href="/">
                   <p onClick={handleTap} className={tap === true ? "tap_phone" : ''}>News</p>
                   </Link>
-                  <p onClick={handleTap2} className={tap2 === true ? "tap_phone" : ''}>Fixtures</p>
-                  <p onClick={handleTap3} className={tap3 === true ? "tap_phone" : ''}>Standings</p>
+                  <p onClick={handleTap2} className={tap2 === true ? "tap_phone" : ''}>Fixtures</p>                  
+                  <Link href="standings">
+                  <h2 onClick={handleTap3} className={tap3 === true ? 'tap' : ''}>Standings</h2>              
+                  </Link>
                   <Link href="players">
                   <p onClick={handleTap4} className={tap4 === true ? "tap_phone" : ''}>Players</p>
                   </Link>

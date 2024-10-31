@@ -523,102 +523,6 @@ p{
 
 
 
-/* phone */
-
-/* #mobile
-{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-}
-
-.topnav_phone
-{
-    padding: 30px 5%;
-    position: fixed;
-    width: 81%;
-    max-width: 81%;
-    z-index: 1000;
-
-}
-
-.navbar_phone
-{
-    background-color: rgba(0, 0, 0, 0.459);
-    color: white;
-    display: flex;
-    align-items: center;
-    border: none;
-    border-radius: 20px;
-    padding: 5px 20px;
-
-}
-
-.navbar_phone .left
-{
-    display: flex;
-    align-items: center;
-
-}
-
-.navbar_phone .left h1
-{
-    font-size: 20px;
-    font-weight: bold;
-    cursor: pointer;
-
-}
-
-.navbar_phone .right
-{
-    margin-left: auto;
-    cursor: pointer;
-
-}
-
-.navbar_phone .right p
-{
-    font-size: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-}
-
-.navbar_phone .right .dropdown
-{
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.459);
-    color: white;
-    padding: 20px 10px;
-    border: 2px solid white;
-    border-radius: 15px;
-    margin-top: -5px;
-    margin-left: -35px;
-    width: 80px;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    text-align: center;
-    align-items: center;
-    transition: 0.3s;
-    justify-content: center;
-
-}
-
-.navbar_phone .right .dropdown p
-{
-    font-size: 16px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-
-}
-
-.tap_phone
-{
-    background-color: white;
-    color: black;
-    width: 72px;
-
-} */
-
 body
 {
     width: 100%;
@@ -635,9 +539,8 @@ body
 {
     padding: 30px 5%;
     position: fixed;
-    max-width: 100%;
+    /* max-width: 97%; */
     width: 100%;
-    box-sizing: border-box;
     z-index: 1000;
 
 }

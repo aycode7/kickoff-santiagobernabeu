@@ -98,6 +98,134 @@ p
 
 }
 
+/* standings */
+.ctn_standings
+{
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 170px 10px 5% 5%;
+    color: white;
+    justify-content: center;
+    z-index: -1;
+    cursor: pointer;
+
+}
+
+.standings
+{
+    display: flex;
+    position: relative;
+    align-items: center;
+    cursor: pointer;
+    z-index: -1;
+    border: 1.5px solid gray;
+    border-radius: 20px;
+
+}
+
+.standings .number
+{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px 0 0 20px;
+    gap: 10px;
+    background-color: rgba(0, 0, 0, 0.822);
+    cursor: pointer;
+
+}
+
+.standings .number p
+{
+    border-bottom: 1.5px solid gray;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 5px 50px;
+    
+}
+
+.standings .clubs
+{
+    border-left: 1.5px solid gray;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgba(0, 0, 0, 0.822);
+    cursor: pointer;
+
+}
+
+.standings .clubs p
+{
+    border-bottom: 1.5px solid gray;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 5px 350px 5px 7px;
+
+}
+
+.standings .matches
+{
+    border-left: 1.5px solid gray;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgba(0, 0, 0, 0.822);
+    cursor: pointer;
+    
+}
+
+.standings .matches p
+{
+    padding: 5px 50px;
+    border-bottom: 1.5px solid gray;
+    cursor: pointer;
+    font-size: 15px;
+
+}
+
+.standings .ga
+{
+    border-left: 1.5px solid gray;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgba(0, 0, 0, 0.822);
+    cursor: pointer;
+    
+}
+
+.standings .ga p
+{
+    padding: 5px 50px;
+    border-bottom: 1.5px solid gray;
+    cursor: pointer;
+    font-size: 15px;
+
+}
+
+.standings .points
+{
+    border-left: 1.5px solid gray;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 0 20px 20px 0;
+    background-color: rgba(0, 0, 0, 0.822);
+    cursor: pointer;
+    
+}
+
+
+.standings .points p
+{
+    padding: 5px 50px;
+    border-bottom: 1.5px solid gray;
+    cursor: pointer;
+    font-size: 15px;
+    
+}
+
 
 
 
@@ -157,6 +285,134 @@ p
 
 }
 
+/* standings */
+.ctn_standings_small
+{
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 170px 10px 5% 5%;
+    color: white;
+    justify-content: center;
+    z-index: -1;
+    cursor: pointer;
+
+}
+
+.standings_small
+{
+    display: flex;
+    position: relative;
+    align-items: center;
+    cursor: pointer;
+    z-index: -1;
+    border: 1.5px solid gray;
+    border-radius: 20px;
+
+}
+
+.standings_small .number
+{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px 0 0 20px;
+    gap: 10px;
+    background-color: rgba(0, 0, 0, 0.822);
+    cursor: pointer;
+
+}
+
+.standings_small .number p
+{
+    border-bottom: 1.5px solid gray;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 5px 35px;
+    
+}
+
+.standings_small .clubs
+{
+    border-left: 1.5px solid gray;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgba(0, 0, 0, 0.822);
+    cursor: pointer;
+
+}
+
+.standings_small .clubs p
+{
+    border-bottom: 1.5px solid gray;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 5px 210px 5px 7px;
+
+}
+
+.standings_small .matches
+{
+    border-left: 1.5px solid gray;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgba(0, 0, 0, 0.822);
+    cursor: pointer;
+    
+}
+
+.standings_small .matches p
+{
+    padding: 5px 35px;
+    border-bottom: 1.5px solid gray;
+    cursor: pointer;
+    font-size: 15px;
+
+}
+
+.standings_small .ga
+{
+    border-left: 1.5px solid gray;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgba(0, 0, 0, 0.822);
+    cursor: pointer;
+    
+}
+
+.standings_small .ga p
+{
+    padding: 5px 35px;
+    border-bottom: 1.5px solid gray;
+    cursor: pointer;
+    font-size: 15px;
+
+}
+
+.standings_small .points
+{
+    border-left: 1.5px solid gray;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 0 20px 20px 0;
+    background-color: rgba(0, 0, 0, 0.822);
+    cursor: pointer;
+    
+}
+
+
+.standings_small .points p
+{
+    padding: 5px 35px;
+    border-bottom: 1.5px solid gray;
+    cursor: pointer;
+    font-size: 15px;
+    
+}
+
 
 
 
@@ -213,6 +469,134 @@ p
     cursor: pointer;
     transition: 0.1s;
 
+}
+
+/* standings */
+.ctn_standings_tablet
+{
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 170px 10px 5% 5%;
+    color: white;
+    justify-content: center;
+    z-index: -1;
+    cursor: pointer;
+
+}
+
+.standings_tablet
+{
+    display: flex;
+    position: relative;
+    align-items: center;
+    cursor: pointer;
+    z-index: -1;
+    border: 1.5px solid gray;
+    border-radius: 20px;
+
+}
+
+.standings_tablet .number
+{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px 0 0 20px;
+    gap: 10px;
+    background-color: rgba(0, 0, 0, 0.822);
+    cursor: pointer;
+
+}
+
+.standings_tablet .number p
+{
+    border-bottom: 1.5px solid gray;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 5px 20px;
+    
+}
+
+.standings_tablet .clubs
+{
+    border-left: 1.5px solid gray;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgba(0, 0, 0, 0.822);
+    cursor: pointer;
+
+}
+
+.standings_tablet .clubs p
+{
+    border-bottom: 1.5px solid gray;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 5px 165px 5px 7px;
+
+}
+
+.standings_tablet .matches
+{
+    border-left: 1.5px solid gray;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgba(0, 0, 0, 0.822);
+    cursor: pointer;
+    
+}
+
+.standings_tablet .matches p
+{
+    padding: 5px 20px;
+    border-bottom: 1.5px solid gray;
+    cursor: pointer;
+    font-size: 15px;
+
+}
+
+.standings_tablet .ga
+{
+    border-left: 1.5px solid gray;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgba(0, 0, 0, 0.822);
+    cursor: pointer;
+    
+}
+
+.standings_tablet .ga p
+{
+    padding: 5px 20px;
+    border-bottom: 1.5px solid gray;
+    cursor: pointer;
+    font-size: 15px;
+
+}
+
+.standings_tablet .points
+{
+    border-left: 1.5px solid gray;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 0 20px 20px 0;
+    background-color: rgba(0, 0, 0, 0.822);
+    cursor: pointer;
+    
+}
+
+
+.standings_tablet .points p
+{
+    padding: 5px 20px;
+    border-bottom: 1.5px solid gray;
+    cursor: pointer;
+    font-size: 15px;
+    
 }
 
 
@@ -324,19 +708,19 @@ p
 }
 
 /* standings */
-.ctn
+.ctn_standings_phone
 {
     display: flex;
     position: relative;
     align-items: center;
-    padding: 130px 10px 5% 5%;
+    padding: 170px 10px 5% 5%;
     color: white;
     justify-content: center;
     z-index: -1;
 
 }
 
-.standings
+.standings_phone
 {
     display: flex;
     position: relative;
@@ -347,7 +731,7 @@ p
 
 }
 
-.standings .number
+.standings_phone .number
 {
     display: flex;
     flex-direction: column;
@@ -357,14 +741,14 @@ p
 
 }
 
-.standings .number p
+.standings_phone .number p
 {
     border-bottom: 1.5px solid gray;
     padding: 5px 10px;
     
 }
 
-.standings .clubs
+.standings_phone .clubs
 {
     border-left: 1.5px solid gray;
     display: flex;
@@ -374,14 +758,14 @@ p
 
 }
 
-.standings .clubs p
+.standings_phone .clubs p
 {
     border-bottom: 1.5px solid gray;
-    padding: 5px 17px 5px 7px;
+    padding: 5px 50px 5px 7px;
 
 }
 
-.standings .matches
+.standings_phone .matches
 {
     border-left: 1.5px solid gray;
     display: flex;
@@ -391,14 +775,14 @@ p
     
 }
 
-.standings .matches p
+.standings_phone .matches p
 {
     padding: 5px 10px;
     border-bottom: 1.5px solid gray;
 
 }
 
-.standings .ga
+.standings_phone .ga
 {
     border-left: 1.5px solid gray;
     display: flex;
@@ -408,14 +792,14 @@ p
     
 }
 
-.standings .ga p
+.standings_phone .ga p
 {
     padding: 5px 10px;
     border-bottom: 1.5px solid gray;
 
 }
 
-.standings .points
+.standings_phone .points
 {
     border-left: 1.5px solid gray;
     display: flex;
@@ -427,7 +811,7 @@ p
 }
 
 
-.standings .points p
+.standings_phone .points p
 {
     padding: 5px 10px;
     border-bottom: 1.5px solid gray;
