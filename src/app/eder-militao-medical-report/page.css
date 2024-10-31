@@ -187,11 +187,6 @@ button:active
 
 
 /* phone */
-#mobile
-{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
-}
 
 .topnav_phone
 {
@@ -241,7 +236,6 @@ button:active
 .navbar_phone .right p
 {
     font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
 
 }
 
