@@ -529,12 +529,6 @@ body
 
 }
 
-#mobile
-{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
-}
-
 .topnav_phone
 {
     padding: 30px 5%;
@@ -610,7 +604,6 @@ body
 .navbar_phone .right .dropdown p
 {
     font-size: 13px;
-    font-family: 'Times New Roman', Times, serif;
     cursor: pointer;
     transition: all 0.3s ease;
 

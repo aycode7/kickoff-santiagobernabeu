@@ -10,6 +10,28 @@ import logo from './Image/madrid_icon.png'
 import React from 'react'
 import background from './Image/night-stadium.jpg'
 import background_phone from './Image/football.jpeg'
+import barcelona from './Image/barcelona.png'
+import realmadrid from './Image/realmadrid.png'
+import alaves from './Image/alaves.png'
+import atalanta from './Image/atalanta.png'
+import atletico from './Image/Atletico.png'
+import bilbao from './Image/Bilbao.png'
+import celtavigo from './Image/celtavigo.png'
+import dortmund from './Image/dortmund.png'
+import espanyol from './Image/espanyol.png'
+import getafe from './Image/getafe.png'
+import girona from './Image/girona.png'
+import laspalmas from './Image/laspalmas.png'
+import leganes from './Image/leganes.png'
+import mallorca from './Image/mallorca.png'
+import osasuna from './Image/osasuna.png'
+import realbetis from './Image/realbetis.png'
+import realsociedad from './Image/realsociedad.png'
+import sevilla from './Image/sevilla.png'
+import valencia from './Image/valencia.png'
+import valladolid from './Image/valladolid.png'
+import vallecano from './Image/vallecano.png'
+import villareal from './Image/villareal.png'
 
 const Page = () => {
 
@@ -152,26 +174,86 @@ const Page = () => {
               {/* clubs */}
               <div className="clubs">
                   <p>Clubs</p>
-                  <p>Barcelona</p>
-                  <p>RealMadrid</p>
-                  <p>Villarreal</p>
-                  <p>AtléticoMadrid</p>
-                  <p>AthleticClub</p>
-                  <p>RealBetis</p>
-                  <p>Mallorca</p>
-                  <p>Osasuna</p>
-                  <p>RayoVallecano</p>
-                  <p>SevillaFC</p>
-                  <p>CeltaVigo</p>
-                  <p>RealSociedad</p>
-                  <p>Girona</p>
-                  <p>CDLeganés</p>
-                  <p>Getafe</p>
-                  <p>Alavés</p>
-                  <p>Espanyol</p>
-                  <p>UDLasPalmas</p>
-                  <p>RealValladolid</p>
-                  <p>Valencia</p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={barcelona} alt="" width={20} />
+                  <h3>Barcelona</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={realmadrid} width={20} alt="" />
+                    <h3>Real Madrid</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={villareal} width={20} alt="" />
+                    <h3>Villarreal</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={atletico} width={20} alt="" />
+                    <h3>Atlético Madrid</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={bilbao} width={20} alt="" />
+                    <h3>Athletic Bilbao</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={realbetis} width={20} alt="" />
+                    <h3>Real Betis</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={mallorca} width={20} alt="" />
+                    <h3>Mallorca</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={osasuna} width={20} alt="" />
+                    <h3>Osasuna</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={vallecano} width={20} alt="" />
+                    <h3>Rayo Vallecano</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={sevilla} width={20} alt="" />
+                    <h3>Sevilla FC</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={celtavigo} width={20} alt="" />
+                    <h3>Celta Vigo</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={realsociedad} width={20} alt="" />
+                    <h3>Real Sociedad</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={girona} width={20} alt="" />
+                    <h3>Girona</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={leganes} width={20} alt="" />
+                    <h3>CD Leganés</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={getafe} width={20} alt="" />
+                    <h3>Getafe</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={alaves} width={20} alt="" />
+                    <h3>Alavés</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={espanyol} width={20} alt="" />
+                    <h3>Espanyol</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={laspalmas} width={20} alt="" />
+                    <h3>UD Las palmas</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={valladolid} width={20} alt='' />
+                    <h3>Real Valladolid</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={valencia} width={20} alt="" />
+                    <h3>Valencia</h3>
+                  </p>
               </div>
 
               {/* Matches */}
@@ -197,6 +279,131 @@ const Page = () => {
                   <p>11</p>
                   <p>11</p>
                   <p>11</p>
+              </div>
+
+              {/* Wins */}
+              <div className="matches">
+                  <p>W</p>
+                  <p>10</p>                
+                  <p>7</p>
+                  <p>6</p>
+                  <p>5</p>
+                  <p>5</p>
+                  <p>5</p>
+                  <p>5</p>
+                  <p>5</p>
+                  <p>4</p>
+                  <p>4</p>
+                  <p>4</p>
+                  <p>3</p>
+                  <p>3</p>
+                  <p>2</p>
+                  <p>2</p>
+                  <p>3</p>
+                  <p>3</p>
+                  <p>2</p>
+                  <p>2</p>
+                  <p>1</p>
+              </div>
+
+              {/* Lose */}
+              <div className="matches">
+                  <p>L</p>
+                  <p>1</p>                
+                  <p>1</p>
+                  <p>2</p>
+                  <p>1</p>
+                  <p>3</p>
+                  <p>3</p>
+                  <p>3</p>
+                  <p>3</p>
+                  <p>3</p>
+                  <p>4</p>
+                  <p>6</p>
+                  <p>5</p>
+                  <p>5</p>
+                  <p>4</p>
+                  <p>3</p>
+                  <p>7</p>
+                  <p>7</p>
+                  <p>6</p>
+                  <p>7</p>
+                  <p>6</p>
+              </div>
+
+              {/* Draw */}
+              <div className="matches">
+                  <p>D</p>
+                  <p>0</p>                
+                  <p>3</p>
+                  <p>3</p>
+                  <p>5</p>
+                  <p>3</p>
+                  <p>3</p>
+                  <p>3</p>
+                  <p>3</p>
+                  <p>4</p>
+                  <p>3</p>
+                  <p>1</p>
+                  <p>3</p>
+                  <p>3</p>
+                  <p>5</p>
+                  <p>7</p>
+                  <p>1</p>
+                  <p>1</p>
+                  <p>3</p>
+                  <p>2</p>
+                  <p>4</p>
+              </div>
+
+              {/* Goal */}
+              <div className="matches">
+                  <p>GF</p>
+                  <p>37</p>                
+                  <p>21</p>
+                  <p>20</p>
+                  <p>16</p>
+                  <p>17</p>
+                  <p>11</p>
+                  <p>10</p>
+                  <p>16</p>
+                  <p>12</p>
+                  <p>12</p>
+                  <p>17</p>
+                  <p>8</p>
+                  <p>11</p>
+                  <p>9</p>
+                  <p>8</p>
+                  <p>13</p>
+                  <p>10</p>
+                  <p>13</p>
+                  <p>9</p>
+                  <p>8</p>
+              </div>
+
+              {/* GA */}
+              <div className="matches">
+                  <p>GA</p>
+                  <p>10</p>                
+                  <p>11</p>
+                  <p>19</p>
+                  <p>7</p>
+                  <p>11</p>
+                  <p>9</p>
+                  <p>8</p>
+                  <p>16</p>
+                  <p>10</p>
+                  <p>15</p>
+                  <p>20</p>
+                  <p>10</p>
+                  <p>14</p>
+                  <p>12</p>
+                  <p>9</p>
+                  <p>19</p>
+                  <p>19</p>
+                  <p>19</p>
+                  <p>23</p>
+                  <p>17</p>
               </div>
 
               {/* +/- */}
@@ -323,26 +530,86 @@ const Page = () => {
               {/* clubs */}
               <div className="clubs">
                   <p>Clubs</p>
-                  <p>Barcelona</p>
-                  <p>RealMadrid</p>
-                  <p>Villarreal</p>
-                  <p>AtléticoMadrid</p>
-                  <p>AthleticClub</p>
-                  <p>RealBetis</p>
-                  <p>Mallorca</p>
-                  <p>Osasuna</p>
-                  <p>RayoVallecano</p>
-                  <p>SevillaFC</p>
-                  <p>CeltaVigo</p>
-                  <p>RealSociedad</p>
-                  <p>Girona</p>
-                  <p>CDLeganés</p>
-                  <p>Getafe</p>
-                  <p>Alavés</p>
-                  <p>Espanyol</p>
-                  <p>UDLasPalmas</p>
-                  <p>RealValladolid</p>
-                  <p>Valencia</p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={barcelona} alt="" width={20} />
+                  <h3>Barcelona</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={realmadrid} width={20} alt="" />
+                    <h3>Real Madrid</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={villareal} width={20} alt="" />
+                    <h3>Villarreal</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={atletico} width={20} alt="" />
+                    <h3>Atlético Madrid</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={bilbao} width={20} alt="" />
+                    <h3>Athletic Bilbao</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={realbetis} width={20} alt="" />
+                    <h3>Real Betis</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={mallorca} width={20} alt="" />
+                    <h3>Mallorca</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={osasuna} width={20} alt="" />
+                    <h3>Osasuna</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={vallecano} width={20} alt="" />
+                    <h3>Rayo Vallecano</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={sevilla} width={20} alt="" />
+                    <h3>Sevilla FC</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={celtavigo} width={20} alt="" />
+                    <h3>Celta Vigo</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={realsociedad} width={20} alt="" />
+                    <h3>Real Sociedad</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={girona} width={20} alt="" />
+                    <h3>Girona</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={leganes} width={20} alt="" />
+                    <h3>CD Leganés</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={getafe} width={20} alt="" />
+                    <h3>Getafe</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={alaves} width={20} alt="" />
+                    <h3>Alavés</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={espanyol} width={20} alt="" />
+                    <h3>Espanyol</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={laspalmas} width={20} alt="" />
+                    <h3>UD Las palmas</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={valladolid} width={20} alt='' />
+                    <h3>Real Valladolid</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={valencia} width={20} alt="" />
+                    <h3>Valencia</h3>
+                  </p>
               </div>
 
               {/* Matches */}
@@ -368,6 +635,131 @@ const Page = () => {
                   <p>11</p>
                   <p>11</p>
                   <p>11</p>
+              </div>
+
+              {/* Wins */}
+              <div className="matches">
+                  <p>W</p>
+                  <p>10</p>                
+                  <p>7</p>
+                  <p>6</p>
+                  <p>5</p>
+                  <p>5</p>
+                  <p>5</p>
+                  <p>5</p>
+                  <p>5</p>
+                  <p>4</p>
+                  <p>4</p>
+                  <p>4</p>
+                  <p>3</p>
+                  <p>3</p>
+                  <p>2</p>
+                  <p>2</p>
+                  <p>3</p>
+                  <p>3</p>
+                  <p>2</p>
+                  <p>2</p>
+                  <p>1</p>
+              </div>
+
+              {/* Lose */}
+              <div className="matches">
+                  <p>L</p>
+                  <p>1</p>                
+                  <p>1</p>
+                  <p>2</p>
+                  <p>1</p>
+                  <p>3</p>
+                  <p>3</p>
+                  <p>3</p>
+                  <p>3</p>
+                  <p>3</p>
+                  <p>4</p>
+                  <p>6</p>
+                  <p>5</p>
+                  <p>5</p>
+                  <p>4</p>
+                  <p>3</p>
+                  <p>7</p>
+                  <p>7</p>
+                  <p>6</p>
+                  <p>7</p>
+                  <p>6</p>
+              </div>
+
+              {/* Draw */}
+              <div className="matches">
+                  <p>D</p>
+                  <p>0</p>                
+                  <p>3</p>
+                  <p>3</p>
+                  <p>5</p>
+                  <p>3</p>
+                  <p>3</p>
+                  <p>3</p>
+                  <p>3</p>
+                  <p>4</p>
+                  <p>3</p>
+                  <p>1</p>
+                  <p>3</p>
+                  <p>3</p>
+                  <p>5</p>
+                  <p>7</p>
+                  <p>1</p>
+                  <p>1</p>
+                  <p>3</p>
+                  <p>2</p>
+                  <p>4</p>
+              </div>
+
+              {/* Goal */}
+              <div className="matches">
+                  <p>GF</p>
+                  <p>37</p>                
+                  <p>21</p>
+                  <p>20</p>
+                  <p>16</p>
+                  <p>17</p>
+                  <p>11</p>
+                  <p>10</p>
+                  <p>16</p>
+                  <p>12</p>
+                  <p>12</p>
+                  <p>17</p>
+                  <p>8</p>
+                  <p>11</p>
+                  <p>9</p>
+                  <p>8</p>
+                  <p>13</p>
+                  <p>10</p>
+                  <p>13</p>
+                  <p>9</p>
+                  <p>8</p>
+              </div>
+
+              {/* GA */}
+              <div className="matches">
+                  <p>GA</p>
+                  <p>10</p>                
+                  <p>11</p>
+                  <p>19</p>
+                  <p>7</p>
+                  <p>11</p>
+                  <p>9</p>
+                  <p>8</p>
+                  <p>16</p>
+                  <p>10</p>
+                  <p>15</p>
+                  <p>20</p>
+                  <p>10</p>
+                  <p>14</p>
+                  <p>12</p>
+                  <p>9</p>
+                  <p>19</p>
+                  <p>19</p>
+                  <p>19</p>
+                  <p>23</p>
+                  <p>17</p>
               </div>
 
               {/* +/- */}
@@ -494,26 +886,86 @@ const Page = () => {
               {/* clubs */}
               <div className="clubs">
                   <p>Clubs</p>
-                  <p>Barcelona</p>
-                  <p>RealMadrid</p>
-                  <p>Villarreal</p>
-                  <p>AtléticoMadrid</p>
-                  <p>AthleticClub</p>
-                  <p>RealBetis</p>
-                  <p>Mallorca</p>
-                  <p>Osasuna</p>
-                  <p>RayoVallecano</p>
-                  <p>SevillaFC</p>
-                  <p>CeltaVigo</p>
-                  <p>RealSociedad</p>
-                  <p>Girona</p>
-                  <p>CDLeganés</p>
-                  <p>Getafe</p>
-                  <p>Alavés</p>
-                  <p>Espanyol</p>
-                  <p>UDLasPalmas</p>
-                  <p>RealValladolid</p>
-                  <p>Valencia</p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={barcelona} alt="" width={20} />
+                  <h3>Barcelona</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={realmadrid} width={20} alt="" />
+                    <h3>Real Madrid</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={villareal} width={20} alt="" />
+                    <h3>Villarreal</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={atletico} width={20} alt="" />
+                    <h3>Atlético Madrid</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={bilbao} width={20} alt="" />
+                    <h3>Athletic Bilbao</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={realbetis} width={20} alt="" />
+                    <h3>Real Betis</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={mallorca} width={20} alt="" />
+                    <h3>Mallorca</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={osasuna} width={20} alt="" />
+                    <h3>Osasuna</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={vallecano} width={20} alt="" />
+                    <h3>Rayo Vallecano</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={sevilla} width={20} alt="" />
+                    <h3>Sevilla FC</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={celtavigo} width={20} alt="" />
+                    <h3>Celta Vigo</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={realsociedad} width={20} alt="" />
+                    <h3>Real Sociedad</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={girona} width={20} alt="" />
+                    <h3>Girona</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={leganes} width={20} alt="" />
+                    <h3>CD Leganés</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={getafe} width={20} alt="" />
+                    <h3>Getafe</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={alaves} width={20} alt="" />
+                    <h3>Alavés</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={espanyol} width={20} alt="" />
+                    <h3>Espanyol</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={laspalmas} width={20} alt="" />
+                    <h3>UD Las palmas</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={valladolid} width={20} alt='' />
+                    <h3>Real Valladolid</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={valencia} width={20} alt="" />
+                    <h3>Valencia</h3>
+                  </p>
               </div>
 
               {/* Matches */}
@@ -539,6 +991,131 @@ const Page = () => {
                   <p>11</p>
                   <p>11</p>
                   <p>11</p>
+              </div>
+
+              {/* Wins */}
+              <div className="matches">
+                  <p>W</p>
+                  <p>10</p>                
+                  <p>7</p>
+                  <p>6</p>
+                  <p>5</p>
+                  <p>5</p>
+                  <p>5</p>
+                  <p>5</p>
+                  <p>5</p>
+                  <p>4</p>
+                  <p>4</p>
+                  <p>4</p>
+                  <p>3</p>
+                  <p>3</p>
+                  <p>2</p>
+                  <p>2</p>
+                  <p>3</p>
+                  <p>3</p>
+                  <p>2</p>
+                  <p>2</p>
+                  <p>1</p>
+              </div>
+
+              {/* Lose */}
+              <div className="matches">
+                  <p>L</p>
+                  <p>1</p>                
+                  <p>1</p>
+                  <p>2</p>
+                  <p>1</p>
+                  <p>3</p>
+                  <p>3</p>
+                  <p>3</p>
+                  <p>3</p>
+                  <p>3</p>
+                  <p>4</p>
+                  <p>6</p>
+                  <p>5</p>
+                  <p>5</p>
+                  <p>4</p>
+                  <p>3</p>
+                  <p>7</p>
+                  <p>7</p>
+                  <p>6</p>
+                  <p>7</p>
+                  <p>6</p>
+              </div>
+
+              {/* Draw */}
+              <div className="matches">
+                  <p>D</p>
+                  <p>0</p>                
+                  <p>3</p>
+                  <p>3</p>
+                  <p>5</p>
+                  <p>3</p>
+                  <p>3</p>
+                  <p>3</p>
+                  <p>3</p>
+                  <p>4</p>
+                  <p>3</p>
+                  <p>1</p>
+                  <p>3</p>
+                  <p>3</p>
+                  <p>5</p>
+                  <p>7</p>
+                  <p>1</p>
+                  <p>1</p>
+                  <p>3</p>
+                  <p>2</p>
+                  <p>4</p>
+              </div>
+
+              {/* Goal */}
+              <div className="matches">
+                  <p>GF</p>
+                  <p>37</p>                
+                  <p>21</p>
+                  <p>20</p>
+                  <p>16</p>
+                  <p>17</p>
+                  <p>11</p>
+                  <p>10</p>
+                  <p>16</p>
+                  <p>12</p>
+                  <p>12</p>
+                  <p>17</p>
+                  <p>8</p>
+                  <p>11</p>
+                  <p>9</p>
+                  <p>8</p>
+                  <p>13</p>
+                  <p>10</p>
+                  <p>13</p>
+                  <p>9</p>
+                  <p>8</p>
+              </div>
+
+              {/* GA */}
+              <div className="matches">
+                  <p>GA</p>
+                  <p>10</p>                
+                  <p>11</p>
+                  <p>19</p>
+                  <p>7</p>
+                  <p>11</p>
+                  <p>9</p>
+                  <p>8</p>
+                  <p>16</p>
+                  <p>10</p>
+                  <p>15</p>
+                  <p>20</p>
+                  <p>10</p>
+                  <p>14</p>
+                  <p>12</p>
+                  <p>9</p>
+                  <p>19</p>
+                  <p>19</p>
+                  <p>19</p>
+                  <p>23</p>
+                  <p>17</p>
               </div>
 
               {/* +/- */}
@@ -674,26 +1251,86 @@ const Page = () => {
                 {/* clubs */}
                 <div className="clubs">
                     <p>Clubs</p>
-                    <p>Barcelona</p>
-                    <p>RealMadrid</p>
-                    <p>Villarreal</p>
-                    <p>AtléticoMadrid</p>
-                    <p>AthleticClub</p>
-                    <p>RealBetis</p>
-                    <p>Mallorca</p>
-                    <p>Osasuna</p>
-                    <p>RayoVallecano</p>
-                    <p>SevillaFC</p>
-                    <p>CeltaVigo</p>
-                    <p>RealSociedad</p>
-                    <p>Girona</p>
-                    <p>CDLeganés</p>
-                    <p>Getafe</p>
-                    <p>Alavés</p>
-                    <p>Espanyol</p>
-                    <p>UDLasPalmas</p>
-                    <p>RealValladolid</p>
-                    <p>Valencia</p>
+                    <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                        <Image src={barcelona} width={15} alt="" />
+                    <h3>Barcelona</h3>
+                    </p>
+                    <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                        <Image src={realmadrid} width={15} alt="" />
+                        <h3>RealMadrid</h3>
+                    </p>
+                    <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                        <Image src={villareal} width={15} alt="" />
+                        <h3>Villarreal</h3>
+                    </p>
+                    <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                        <Image src={atletico} width={15} alt="" />
+                        <h3>AtléticoMadrid</h3>
+                    </p>
+                    <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                        <Image src={bilbao} width={15} alt="" />
+                        <h3>AthleticBilbao</h3>
+                    </p>
+                    <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                        <Image src={realbetis} width={15} alt="" />
+                        <h3>RealBetis</h3>
+                    </p>
+                    <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                        <Image src={mallorca} width={15} alt="" />
+                        <h3>Mallorca</h3>
+                    </p>
+                    <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                        <Image src={osasuna} width={15} alt="" />
+                        <h3>Osasuna</h3>
+                    </p>
+                    <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                        <Image src={vallecano} width={15} alt="" />
+                        <h3>RayoVallecano</h3>
+                    </p>
+                    <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                        <Image src={sevilla} width={15} alt="" />
+                        <h3>SevillaFC</h3>
+                    </p>
+                    <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                        <Image src={celtavigo} width={15} alt="" />
+                        <h3>CeltaVigo</h3>
+                    </p>
+                    <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                        <Image src={realsociedad} width={15} alt="" />
+                        <h3>RealSociedad</h3>
+                    </p>
+                    <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                        <Image src={girona} width={15} alt="" />
+                        <h3>Girona</h3>
+                    </p>
+                    <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                        <Image src={leganes} width={15} alt="" />
+                        <h3>CDLeganés</h3>
+                    </p>
+                    <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                        <Image src={getafe} width={15} alt="" />
+                        <h3>Getafe</h3>
+                    </p>
+                    <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                        <Image src={alaves} width={15} alt="" />
+                        <h3>Alavés</h3>
+                    </p>
+                    <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                        <Image src={espanyol} width={15} alt="" />
+                        <h3>Espanyol</h3>
+                    </p>
+                    <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                        <Image src={laspalmas} width={15} alt="" />
+                        <h3>UDLaspalmas</h3>
+                    </p>
+                    <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                        <Image src={valladolid} width={15} alt='' />
+                        <h3>RealValladolid</h3>
+                    </p>
+                    <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                        <Image src={valencia} width={15} alt="" />
+                        <h3>Valencia</h3>
+                    </p>
                 </div>
 
                 {/* Matches */}

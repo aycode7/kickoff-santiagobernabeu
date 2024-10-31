@@ -140,7 +140,7 @@ p
     border-bottom: 1.5px solid gray;
     cursor: pointer;
     font-size: 15px;
-    padding: 5px 50px;
+    padding: 5px 25px;
     
 }
 
@@ -160,7 +160,7 @@ p
     border-bottom: 1.5px solid gray;
     cursor: pointer;
     font-size: 15px;
-    padding: 5px 350px 5px 7px;
+    padding: 5px 190px 5px 7px;
 
 }
 
@@ -177,7 +177,7 @@ p
 
 .standings .matches p
 {
-    padding: 5px 50px;
+    padding: 5px 25px;
     border-bottom: 1.5px solid gray;
     cursor: pointer;
     font-size: 15px;
@@ -197,7 +197,7 @@ p
 
 .standings .ga p
 {
-    padding: 5px 50px;
+    padding: 5px 25px;
     border-bottom: 1.5px solid gray;
     cursor: pointer;
     font-size: 15px;
@@ -219,7 +219,7 @@ p
 
 .standings .points p
 {
-    padding: 5px 50px;
+    padding: 5px 25px;
     border-bottom: 1.5px solid gray;
     cursor: pointer;
     font-size: 15px;
@@ -327,7 +327,7 @@ p
     border-bottom: 1.5px solid gray;
     cursor: pointer;
     font-size: 15px;
-    padding: 5px 35px;
+    padding: 5px 17px;
     
 }
 
@@ -347,7 +347,7 @@ p
     border-bottom: 1.5px solid gray;
     cursor: pointer;
     font-size: 15px;
-    padding: 5px 210px 5px 7px;
+    padding: 5px 115px 5px 7px;
 
 }
 
@@ -364,7 +364,7 @@ p
 
 .standings_small .matches p
 {
-    padding: 5px 35px;
+    padding: 5px 17px;
     border-bottom: 1.5px solid gray;
     cursor: pointer;
     font-size: 15px;
@@ -384,7 +384,7 @@ p
 
 .standings_small .ga p
 {
-    padding: 5px 35px;
+    padding: 5px 17px;
     border-bottom: 1.5px solid gray;
     cursor: pointer;
     font-size: 15px;
@@ -406,7 +406,7 @@ p
 
 .standings_small .points p
 {
-    padding: 5px 35px;
+    padding: 5px 17px;
     border-bottom: 1.5px solid gray;
     cursor: pointer;
     font-size: 15px;
@@ -513,7 +513,7 @@ p
     border-bottom: 1.5px solid gray;
     cursor: pointer;
     font-size: 15px;
-    padding: 5px 20px;
+    padding: 5px 12px;
     
 }
 
@@ -533,7 +533,7 @@ p
     border-bottom: 1.5px solid gray;
     cursor: pointer;
     font-size: 15px;
-    padding: 5px 165px 5px 7px;
+    padding: 5px 65px 5px 7px;
 
 }
 
@@ -550,7 +550,7 @@ p
 
 .standings_tablet .matches p
 {
-    padding: 5px 20px;
+    padding: 5px 12px;
     border-bottom: 1.5px solid gray;
     cursor: pointer;
     font-size: 15px;
@@ -570,7 +570,7 @@ p
 
 .standings_tablet .ga p
 {
-    padding: 5px 20px;
+    padding: 5px 12px;
     border-bottom: 1.5px solid gray;
     cursor: pointer;
     font-size: 15px;
@@ -592,7 +592,7 @@ p
 
 .standings_tablet .points p
 {
-    padding: 5px 20px;
+    padding: 5px 12px;
     border-bottom: 1.5px solid gray;
     cursor: pointer;
     font-size: 15px;
