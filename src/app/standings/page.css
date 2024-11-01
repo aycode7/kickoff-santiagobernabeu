@@ -226,6 +226,12 @@ p
     
 }
 
+.standings #madrid
+{
+    color: orange;
+    
+}
+
 
 
 
@@ -413,6 +419,12 @@ p
     
 }
 
+.standings_small #madrid
+{
+    color: orange;
+    
+}
+
 
 
 
@@ -596,6 +608,12 @@ p
     border-bottom: 1.5px solid gray;
     cursor: pointer;
     font-size: 15px;
+    
+}
+
+.standings_tablet #madrid
+{
+    color: orange;
     
 }
 
@@ -809,5 +827,11 @@ p
 {
     padding: 5px 10px;
     border-bottom: 1.5px solid gray;
+    
+}
+
+.standings_mobile #madrid
+{
+    color: orange;
     
 }

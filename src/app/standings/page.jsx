@@ -152,7 +152,7 @@ const Page = () => {
               <div className="number">
                   <p>#</p>
                   <p>1</p>
-                  <p>2</p>
+                  <p id="madrid">2</p>
                   <p>3</p>
                   <p>4</p>
                   <p>5</p>
@@ -180,7 +180,7 @@ const Page = () => {
                     <Image src={barcelona} alt="" width={20} />
                   <h3>Barcelona</h3>
                   </p>
-                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                  <p id="madrid" style={{display:'flex', alignItems:'center', gap:'1px'}}>
                     <Image src={realmadrid} width={20} alt="" />
                     <h3>Real Madrid</h3>
                   </p>
@@ -262,7 +262,7 @@ const Page = () => {
               <div className="matches">
                   <p>Pld</p>
                   <p>11</p>                
-                  <p>11</p>
+                  <p id="madrid">11</p>
                   <p>11</p>
                   <p>11</p>
                   <p>11</p>
@@ -287,7 +287,7 @@ const Page = () => {
               <div className="matches">
                   <p>W</p>
                   <p>10</p>                
-                  <p>7</p>
+                  <p id="madrid">7</p>
                   <p>6</p>
                   <p>5</p>
                   <p>5</p>
@@ -312,7 +312,7 @@ const Page = () => {
               <div className="matches">
                   <p>L</p>
                   <p>1</p>                
-                  <p>1</p>
+                  <p id="madrid">1</p>
                   <p>2</p>
                   <p>1</p>
                   <p>3</p>
@@ -337,7 +337,7 @@ const Page = () => {
               <div className="matches">
                   <p>D</p>
                   <p>0</p>                
-                  <p>3</p>
+                  <p id="madrid">3</p>
                   <p>3</p>
                   <p>5</p>
                   <p>3</p>
@@ -362,7 +362,7 @@ const Page = () => {
               <div className="matches">
                   <p>GF</p>
                   <p>37</p>                
-                  <p>21</p>
+                  <p id="madrid">21</p>
                   <p>20</p>
                   <p>16</p>
                   <p>17</p>
@@ -387,7 +387,7 @@ const Page = () => {
               <div className="matches">
                   <p>GA</p>
                   <p>10</p>                
-                  <p>11</p>
+                  <p id="madrid">11</p>
                   <p>19</p>
                   <p>7</p>
                   <p>11</p>
@@ -412,7 +412,7 @@ const Page = () => {
               <div className="ga">                
                   <p>+/-</p>
                   <p>27</p>
-                  <p>10</p>
+                  <p id="madrid">10</p>
                   <p>1</p>
                   <p>9</p>
                   <p>6</p>
@@ -437,7 +437,7 @@ const Page = () => {
               <div className="points">                
                   <p>Pts</p>
                   <p>30</p>
-                  <p>24</p>
+                  <p id="madrid">24</p>
                   <p>21</p>
                   <p>20</p>
                   <p>18</p>
@@ -510,7 +510,7 @@ const Page = () => {
               <div className="number">
                   <p>#</p>
                   <p>1</p>
-                  <p>2</p>
+                  <p id="madrid">2</p>
                   <p>3</p>
                   <p>4</p>
                   <p>5</p>
@@ -538,7 +538,7 @@ const Page = () => {
                     <Image src={barcelona} alt="" width={20} />
                   <h3>Barcelona</h3>
                   </p>
-                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                  <p id="madrid" style={{display:'flex', alignItems:'center', gap:'1px'}}>
                     <Image src={realmadrid} width={20} alt="" />
                     <h3>Real Madrid</h3>
                   </p>
@@ -620,7 +620,7 @@ const Page = () => {
               <div className="matches">
                   <p>Pld</p>
                   <p>11</p>                
-                  <p>11</p>
+                  <p id="madrid">11</p>
                   <p>11</p>
                   <p>11</p>
                   <p>11</p>
@@ -645,7 +645,7 @@ const Page = () => {
               <div className="matches">
                   <p>W</p>
                   <p>10</p>                
-                  <p>7</p>
+                  <p id="madrid">7</p>
                   <p>6</p>
                   <p>5</p>
                   <p>5</p>
@@ -670,7 +670,7 @@ const Page = () => {
               <div className="matches">
                   <p>L</p>
                   <p>1</p>                
-                  <p>1</p>
+                  <p id="madrid">1</p>
                   <p>2</p>
                   <p>1</p>
                   <p>3</p>
@@ -695,7 +695,7 @@ const Page = () => {
               <div className="matches">
                   <p>D</p>
                   <p>0</p>                
-                  <p>3</p>
+                  <p id="madrid">3</p>
                   <p>3</p>
                   <p>5</p>
                   <p>3</p>
@@ -720,7 +720,7 @@ const Page = () => {
               <div className="matches">
                   <p>GF</p>
                   <p>37</p>                
-                  <p>21</p>
+                  <p id="madrid">21</p>
                   <p>20</p>
                   <p>16</p>
                   <p>17</p>
@@ -745,7 +745,7 @@ const Page = () => {
               <div className="matches">
                   <p>GA</p>
                   <p>10</p>                
-                  <p>11</p>
+                  <p id="madrid">11</p>
                   <p>19</p>
                   <p>7</p>
                   <p>11</p>
@@ -770,7 +770,7 @@ const Page = () => {
               <div className="ga">                
                   <p>+/-</p>
                   <p>27</p>
-                  <p>10</p>
+                  <p id="madrid">10</p>
                   <p>1</p>
                   <p>9</p>
                   <p>6</p>
@@ -795,7 +795,7 @@ const Page = () => {
               <div className="points">                
                   <p>Pts</p>
                   <p>30</p>
-                  <p>24</p>
+                  <p id="madrid">24</p>
                   <p>21</p>
                   <p>20</p>
                   <p>18</p>
@@ -868,7 +868,7 @@ const Page = () => {
               <div style={{cursor:'pointer'}} className="number">
                   <p>#</p>
                   <p>1</p>
-                  <p>2</p>
+                  <p id="madrid">2</p>
                   <p>3</p>
                   <p>4</p>
                   <p>5</p>
@@ -896,7 +896,7 @@ const Page = () => {
                     <Image src={barcelona} alt="" width={20} />
                   <h3>Barcelona</h3>
                   </p>
-                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                  <p id="madrid" style={{display:'flex', alignItems:'center', gap:'1px'}}>
                     <Image src={realmadrid} width={20} alt="" />
                     <h3>Real Madrid</h3>
                   </p>
@@ -978,7 +978,7 @@ const Page = () => {
               <div className="matches">
                   <p>Pld</p>
                   <p>11</p>                
-                  <p>11</p>
+                  <p id="madrid">11</p>
                   <p>11</p>
                   <p>11</p>
                   <p>11</p>
@@ -1003,7 +1003,7 @@ const Page = () => {
               <div className="matches">
                   <p>W</p>
                   <p>10</p>                
-                  <p>7</p>
+                  <p id="madrid">7</p>
                   <p>6</p>
                   <p>5</p>
                   <p>5</p>
@@ -1028,7 +1028,7 @@ const Page = () => {
               <div className="matches">
                   <p>L</p>
                   <p>1</p>                
-                  <p>1</p>
+                  <p id="madrid">1</p>
                   <p>2</p>
                   <p>1</p>
                   <p>3</p>
@@ -1053,7 +1053,7 @@ const Page = () => {
               <div className="matches">
                   <p>D</p>
                   <p>0</p>                
-                  <p>3</p>
+                  <p id="madrid">3</p>
                   <p>3</p>
                   <p>5</p>
                   <p>3</p>
@@ -1078,7 +1078,7 @@ const Page = () => {
               <div className="matches">
                   <p>GF</p>
                   <p>37</p>                
-                  <p>21</p>
+                  <p id="madrid">21</p>
                   <p>20</p>
                   <p>16</p>
                   <p>17</p>
@@ -1103,7 +1103,7 @@ const Page = () => {
               <div className="matches">
                   <p>GA</p>
                   <p>10</p>                
-                  <p>11</p>
+                  <p id="madrid">11</p>
                   <p>19</p>
                   <p>7</p>
                   <p>11</p>
@@ -1128,7 +1128,7 @@ const Page = () => {
               <div className="ga">                
                   <p>+/-</p>
                   <p>27</p>
-                  <p>10</p>
+                  <p id="madrid">10</p>
                   <p>1</p>
                   <p>9</p>
                   <p>6</p>
@@ -1153,7 +1153,7 @@ const Page = () => {
               <div className="points">                
                   <p>Pts</p>
                   <p>30</p>
-                  <p>24</p>
+                  <p id="madrid">24</p>
                   <p>21</p>
                   <p>20</p>
                   <p>18</p>
@@ -1235,7 +1235,7 @@ const Page = () => {
                 <div className="number">
                     <p>#</p>
                     <p>1</p>
-                    <p>2</p>
+                    <p id="madrid">2</p>
                     <p>3</p>
                     <p>4</p>
                     <p>5</p>
@@ -1263,7 +1263,7 @@ const Page = () => {
                         <Image src={barcelona} width={15} alt="" />
                     <p>Barcelona</p>
                     </div>
-                    <div className="p" style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <div id="madrid" className="p" style={{display:'flex', alignItems:'center', gap:'1px'}}>
                         <Image src={realmadrid} width={15} alt="" />
                         <p>RealMadrid</p>
                     </div>
@@ -1345,7 +1345,7 @@ const Page = () => {
                 <div className="matches">
                     <p>Pld</p>
                     <p>11</p>                
-                    <p>11</p>
+                    <p id="madrid">11</p>
                     <p>11</p>
                     <p>11</p>
                     <p>11</p>
@@ -1370,7 +1370,7 @@ const Page = () => {
                 <div className="ga">                
                     <p>+/-</p>
                     <p>27</p>
-                    <p>10</p>
+                    <p id="madrid">10</p>
                     <p>1</p>
                     <p>9</p>
                     <p>6</p>
@@ -1395,7 +1395,7 @@ const Page = () => {
                 <div className="points">                
                     <p>Pts</p>
                     <p>30</p>
-                    <p>24</p>
+                    <p id="madrid">24</p>
                     <p>21</p>
                     <p>20</p>
                     <p>18</p>

@@ -141,7 +141,8 @@ p
 
 .ctn_players .box
 {
-    background-color: rgba(0, 0, 0, 0.459);
+    /* background-color: rgba(0, 0, 0, 0.459); */
+    background: linear-gradient(rgba(0, 0, 0, 0.999),rgba(0, 0, 0, 0.459),rgba(0, 0, 0, 0.999));
     border-radius: 40px;
     border: none;
     cursor: pointer;
