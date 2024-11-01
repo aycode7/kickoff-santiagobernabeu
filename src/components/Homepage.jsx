@@ -15,6 +15,7 @@ import bellingham_med from './Image/bellingham_med.webp'
 import perez from './Image/Perez.jpg'
 import kylian from './Image/kylian.jpg'
 import rodrygo from './Image/rodrygo.jpg'
+import mobile from './Image/mobile.jpg'
 import mobile_background_img from './Image/mbappe-training.jpg'
 import mbappe from './Image/Mbappe.jpg'
 import madrid_stadium from './Image/Santiago-Bernabeu.jpg'
@@ -32,6 +33,11 @@ import mbappe_training from './Image/mbappe-training.jpg'
 import elclassico from './Image/elclassico.jpg'
 import Elclassico from './Image/IMG-20241028-WA0016.jpg'
 import racial from './Image/racial.jpg'
+import madrid_dor from './Image/madrid_dor.jpg'
+import news5 from './Image/news5.jpg'
+import news4 from './Image/news4.jpg'
+import news3 from './Image/news3.jpg'
+import news1 from './Image/news1.jpg'
 
 const Homepage = () => {
 
@@ -178,7 +184,38 @@ const Homepage = () => {
           </div>
 
           {/* news */}
-          <div>
+          <div> 
+
+            <div className="ctn">
+              <Link href="official-announcement-from-real-madrid">
+              <div className="left" data-aos="fade-right">
+                <Image className='img' src={racial} alt='' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Official announcement from Real Madrid</h2>
+
+              </div>
+              </Link>
+
+              <Link href="reason-behind-real-madrid-not-attending-the-2024-ballon-dor-ceremony">
+              <div className="left" data-aos="fade-up">
+                <Image className='img' src={madrid_dor} alt='madrid' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Reason Behind Real Madrid Not Attending The 2024 Ballon d Or Ceremony</h2>
+
+              </div>
+              </Link>
+
+              <Link href="rodrygo-medical-report">
+              <div className="left" data-aos="fade-left">
+                <Image className='img' src={rodrygo_med} alt='' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Rodrygo medical report</h2>
+
+              </div>
+              </Link>
+             
+            </div>           
+
             <div className="ctn">
               <Link href="eder-militao-medical-report">
               <div className="left" data-aos="fade-right">
@@ -229,7 +266,7 @@ const Homepage = () => {
               
               <Link href="vinicuis-star-play">
               <div className="right" data-aos="fade-left">
-                <Image className='img' src={mobile_background_img} alt='champions league 2024' priority />
+                <Image className='img' src={mobile} alt='champions league 2024' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Vinicius star play</h2>
 
@@ -381,28 +418,7 @@ const Homepage = () => {
               </div>
               </Link>
              
-            </div>
-
-            <div className="ctn">
-              <Link href="official-announcement-from-real-madrid">
-              <div className="left" data-aos="fade-right">
-                <Image className='img' src={racial} alt='' priority />
-
-                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Official announcement from Real Madrid</h2>
-
-              </div>
-              </Link>             
-
-              <Link href="rodrygo-medical-report">
-              <div className="left" data-aos="fade-left">
-                <Image className='img' src={rodrygo_med} alt='' priority />
-
-                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Rodrygo medical report</h2>
-
-              </div>
-              </Link>
-             
-            </div>
+            </div>            
           </div>
 
         </div>
@@ -479,6 +495,36 @@ const Homepage = () => {
           {/* news */}
           <div>
             <div className="ctn_small">
+              <Link href="official-announcement-from-real-madrid">
+              <div className="left" data-aos="fade-right">
+                <Image className='img' src={racial} alt='' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Official announcement from Real Madrid</h2>
+
+              </div>
+              </Link>
+
+              <Link href="reason-behind-real-madrid-not-attending-the-2024-ballon-dor-ceremony">
+              <div className="left" data-aos="fade-up">
+                <Image className='img' src={madrid_dor} alt='madrid' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Reason Behind Real Madrid Not Attending The 2024 Ballon d Or Ceremony</h2>
+
+              </div>
+              </Link>
+
+              <Link href="rodrygo-medical-report">
+              <div className="left" data-aos="fade-left">
+                <Image className='img' src={rodrygo_med} alt='' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Rodrygo medical report</h2>
+
+              </div>
+              </Link>
+             
+            </div>
+
+            <div className="ctn_small">
               <Link href="eder-militao-medical-report">
                 <div className="left" data-aos="fade-right">
                   <Image className='img' src={militao} alt='militao' priority />
@@ -528,7 +574,7 @@ const Homepage = () => {
               
               <Link href="vinicuis-star-play">
               <div className="right" data-aos="fade-left">
-                <Image className='img' src={mobile_background_img} alt='champions league 2024' priority />
+                <Image className='img' src={mobile} alt='champions league 2024' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Vinicius star play</h2>
 
@@ -677,27 +723,7 @@ const Homepage = () => {
 
               </div>
               </Link>
-            </div>
-
-            <div className="ctn_small">
-              <Link href="official-announcement-from-real-madrid">
-              <div className="left" data-aos="fade-right">
-                <Image className='img' src={racial} alt='' priority />
-
-                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Mbappe and Real Madrid players carry out individual work at Real Madrid City</h2>
-
-              </div>
-              </Link>              
-
-              <Link href="rodrygo-medical-report">
-              <div className="left" data-aos="fade-left">
-                <Image className='img' src={rodrygo_med} alt='' priority />
-
-                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Rodrygo medical report</h2>
-
-              </div>
-              </Link>
-            </div>
+            </div>            
           </div>
 
         </div>
@@ -778,6 +804,36 @@ const Homepage = () => {
           {/* news */}
           <div>
             <div className="ctn_tablet">
+              <Link href="official-announcement-from-real-madrid">
+              <div className="left" data-aos="fade-right">
+                <Image className='img' src={racial} alt='' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Official announcement from Real Madrid</h2>
+
+              </div>
+              </Link>
+
+              <Link href="reason-behind-real-madrid-not-attending-the-2024-ballon-dor-ceremony">
+              <div className="left" data-aos="fade-up">
+                <Image className='img' src={madrid_dor} alt='madrid' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Reason Behind Real Madrid Not Attending The 2024 Ballon d Or Ceremony</h2>
+
+              </div>
+              </Link>
+
+              <Link href="rodrygo-medical-report">
+              <div className="left" data-aos="fade-left">
+                <Image className='img' src={rodrygo_med} alt='' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Rodrygo medical report</h2>
+
+              </div>
+              </Link>
+             
+            </div>
+
+            <div className="ctn_tablet">
               <Link href="eder-militao-medical-report">
                 <div className="left" data-aos="fade-right">
                   <Image className='img' src={militao} alt='militao' priority />
@@ -827,7 +883,7 @@ const Homepage = () => {
               
               <Link href="vinicuis-star-play">
               <div className="right" data-aos="fade-left">
-                <Image className='img' src={mobile_background_img} alt='champions league 2024' priority />
+                <Image className='img' src={mobile} alt='champions league 2024' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Vinicius star play</h2>
 
@@ -977,27 +1033,7 @@ const Homepage = () => {
 
               </div>
               </Link>
-            </div>
-
-            <div className="ctn_tablet">
-              <Link href="official-announcement-from-real-madrid">
-              <div className="left" data-aos="fade-right">
-                <Image className='img' src={racial} alt='' priority />
-
-                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Mbappe and Real Madrid players carry out individual work at Real Madrid City</h2>
-
-              </div>
-              </Link>              
-
-              <Link href="rodrygo-medical-update">
-              <div className="left" data-aos="fade-left">
-                <Image className='img' src={rodrygo_med} alt='' priority />
-
-                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Rodrygo medical report</h2>
-
-              </div>
-              </Link>
-            </div>
+            </div>            
             
           </div>
 
@@ -1073,7 +1109,7 @@ const Homepage = () => {
 
           {/* background_img_phone */}
           <div >
-            <Image className='background_img_phone' src={mobile_background_img} alt='' priority />
+            <Image className='background_img_phone' src={mobile} alt='' priority />
           </div>
 
           {/* news heading */}
@@ -1083,6 +1119,36 @@ const Homepage = () => {
 
           {/* news */}
           <div className="news_phone">
+            <div className="ctn_phone">
+              <Link href="official-announcement-from-real-madrid">
+              <div className="left" data-aos="fade-up">
+                <Image className='img' src={racial} alt='' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Official announcement from Real Madrid</h2>
+
+              </div>
+              </Link>
+
+              <Link href="reason-behind-real-madrid-not-attending-the-2024-ballon-dor-ceremony">
+              <div className="left" data-aos="fade-up">
+                <Image className='img' src={madrid_dor} alt='madrid' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Reason Behind Real Madrid Not Attending The 2024 Ballon d Or Ceremony</h2>
+
+              </div>
+              </Link>
+
+              <Link href="rodrygo-medical-report">
+              <div className="left" data-aos="fade-up">
+                <Image className='img' src={rodrygo_med} alt='' priority />
+
+                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Rodrygo medical report</h2>
+
+              </div>
+              </Link>
+             
+            </div>
+
             <div className="ctn_phone">
               <Link href="eder-militao-medical-report">
                 <div className="left" data-aos="fade-up">
@@ -1278,31 +1344,13 @@ const Homepage = () => {
             
               <Link href="vinicuis-star-play">
               <div className="right" data-aos="fade-up">
-                <Image className='img' src={mobile_background_img} alt='champions league 2024' priority />
+                <Image className='img' src={mobile} alt='champions league 2024' priority />
 
                 <h2 style={{marginTop:'20px', fontSize:'15px'}}>Vinicius star play</h2>
 
               </div>
               </Link>
-            </div>
-
-            <div className="ctn_phone">
-              <Link href="official-announcement-from-real-madrid">
-              <div className="left" data-aos="fade-up">
-                <Image className='img' src={racial} alt='' priority />
-
-                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Mbappe and Real Madrid players carry out individual work at Real Madrid City</h2>
-
-              </div>
-              </Link>              
-
-              <div className="right" data-aos="fade-up">
-                <Image className='img' src={mobile_background_img} alt='champions league 2024' priority />
-
-                <h2 style={{marginTop:'20px', fontSize:'15px'}}>Vinicius star play</h2>
-
-              </div>
-            </div>
+            </div>            
           </div>
           
         </div>

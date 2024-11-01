@@ -6,13 +6,13 @@ import Link from "next/link"
 import Image from "next/image"
 import './page.css'
 import 'aos/dist/aos.css'
-import React from 'react'
 import logo from './Image/madrid_icon.png'
-import mbappe from './Image/Mbappe.jpg'
+import madrid from './Image/madrid_dor.jpg'
+import React from 'react'
 
 const Page = () => {
 
-  // aos
+    // aos
   useEffect(()=> {
     Aos.init({duration: 1100});
   }, [])
@@ -120,15 +120,32 @@ const Page = () => {
         <div className='news'>
 
         <div data-aos="fade-right" className="text">
-            <h1>Mbappe Set To Leave PSG to Real Madrid</h1>
+            <h1>Reason Behind Real Madrid Not Attending The 2024 Ballon d or Ceremony</h1>
 
-            <p>Kylian Mbappe, the electrifying French forward is on the verge of a sensational move from Paris-Saint-Germain also known as PSG to Real Madrid. The 25 year old has superstar has reportedly grown disillusioned with PSG inabiility to secure Champions League glory and is seeking a new challenge.</p>
+            <p>Real Madrids absence from the 2024 Ballon d or was quite buzzworthy topic, the team decided to boycott the event after
+                learning that neither Vinicius Junior nor Dani Carvajal would take home the prestigious award. Apparently,
+            </p>
 
-            <p>Mbappes current deal with PSG expires on 2025 and PSG has refused to extend his contract thereby opening a new door for Real Madrid, Los Blancos have intensified their efforts, with President Florentino Pérez leading the charge. </p>
+            <p>Vinicius Jr was considered the top contender, but Manchester Citys Rodri ultimately won the award. Real Madrid felt
+                disrespected by this decision, releasing a statememnt saying that if the criteria did not favor Vinicuis as the winner,
+                then it should have been pointed to Carvajal
+            </p>
 
-            <h1>Mbappes Desire</h1>
+            <p>The teams dissatisfaction was evident, with no representatives attending the ceremony in Paris. This meant that Carlo
+                Ancelotti, who won the Mens Coach of the Year Trophy, wasnt present to accept his award.
+            </p>
 
-            <p>The Frenchman is attracted to Real Madrids rich history, competitive spirit and promise of Champions League sucess</p>    
+            <h1>Real Madrids Nominees Who Did Not Attend</h1>
+
+            <p>● Vinicius Jr</p>
+            <p>● Jude Bellingham</p>
+            <p>● Dani Carvajal</p>    
+            <p>● Kylian Mbappe</p>    
+            <p>● Antonio Rüdiger</p>    
+            <p>● Federico Valverde</p>    
+            <p>● Andriy Lunin (nominated for best goalkeeper)</p>    
+            <p>● Arder Güler (nominated for Kopa Trophy)</p>    
+            <p>● Carlo Ancelotti(nominated for best coach)</p>
 
             <Link href="/">
             <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back →</button>
@@ -137,7 +154,7 @@ const Page = () => {
         </div>
 
         <div data-aos="fade-left" className="image">
-            <Image className='img' src={mbappe} alt='' priority />
+            <Image className='img' src={madrid} alt='' priority />
         </div>
 
         </div>
@@ -180,31 +197,48 @@ const Page = () => {
         <div className='news'>
 
         <div data-aos="fade-right" className="text">
-        <h1>Mbappe Set To Leave PSG to Real Madrid</h1>
+            <h1>Reason Behind Real Madrid Not Attending The 2024 Ballon d or Ceremony</h1>
 
-        <p>Kylian Mbappe, the electrifying French forward is on the verge of a sensational move from Paris-Saint-Germain also known as PSG to Real Madrid. The 25 year old has superstar has reportedly grown disillusioned with PSG inabiility to secure Champions League glory and is seeking a new challenge.</p>
+            <p>Real Madrids absence from the 2024 Ballon d or was quite buzzworthy topic, the team decided to boycott the event after
+                learning that neither Vinicius Junior nor Dani Carvajal would take home the prestigious award. Apparently,
+            </p>
 
-        <p>Mbappes current deal with PSG expires on 2025 and PSG has refused to extend his contract thereby opening a new door for Real Madrid, Los Blancos have intensified their efforts, with President Florentino Pérez leading the charge. </p>
+            <p>Vinicius Jr was considered the top contender, but Manchester Citys Rodri ultimately won the award. Real Madrid felt
+                disrespected by this decision, releasing a statememnt saying that if the criteria did not favor Vinicuis as the winner,
+                then it should have been pointed to Carvajal
+            </p>
 
-        <h1>Mbappes Desire</h1>
+            <p>The teams dissatisfaction was evident, with no representatives attending the ceremony in Paris. This meant that Carlo
+                Ancelotti, who won the Mens Coach of the Year Trophy, wasnt present to accept his award.
+            </p>
 
-        <p>The Frenchman is attracted to Real Madrids rich history, competitive spirit and promise of Champions League sucess</p>  
+            <h1>Real Madrids Nominees Who Did Not Attend</h1>
 
-            <Link href="/">
+            <p>● Vinicius Jr</p>
+            <p>● Jude Bellingham</p>
+            <p>● Dani Carvajal</p>    
+            <p>● Kylian Mbappe</p>    
+            <p>● Antonio Rüdiger</p>    
+            <p>● Federico Valverde</p>    
+            <p>● Andriy Lunin (nominated for best goalkeeper)</p>    
+            <p>● Arder Güler (nominated for Kopa Trophy)</p>    
+            <p>● Carlo Ancelotti(nominated for best coach)</p>
+
+        <Link href="/">
             <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back →</button>
-            </Link>
+        </Link>
 
         </div>
 
         <div data-aos="fade-left" className="image">
-        <Image className='img' src={mbappe} alt='' priority />
+        <Image className='img' src={madrid} alt='' priority />
         </div>
 
         </div>
 
         </div>
 
-        {/* tablet */}
+        {/* tablet_laptop */}
         <div id='big' className='hidden md:block lg:hidden xl:hidden'>
 
         {/* navbar */}
@@ -241,30 +275,47 @@ const Page = () => {
         <div className='news_tablet'>
 
         <div data-aos="fade-right" className="text">
-        <h1>Mbappe Set To Leave PSG to Real Madrid</h1>
+            <h1>Reason Behind Real Madrid Not Attending The 2024 Ballon d or Ceremony</h1>
 
-        <p>Kylian Mbappe, the electrifying French forward is on the verge of a sensational move from Paris-Saint-Germain also known as PSG to Real Madrid. The 25 year old has superstar has reportedly grown disillusioned with PSG inabiility to secure Champions League glory and is seeking a new challenge.</p>
+            <p>Real Madrids absence from the 2024 Ballon d or was quite buzzworthy topic, the team decided to boycott the event after
+                learning that neither Vinicius Junior nor Dani Carvajal would take home the prestigious award. Apparently,
+            </p>
 
-        <p>Mbappes current deal with PSG expires on 2025 and PSG has refused to extend his contract thereby opening a new door for Real Madrid, Los Blancos have intensified their efforts, with President Florentino Pérez leading the charge. </p>
+            <p>Vinicius Jr was considered the top contender, but Manchester Citys Rodri ultimately won the award. Real Madrid felt
+                disrespected by this decision, releasing a statememnt saying that if the criteria did not favor Vinicuis as the winner,
+                then it should have been pointed to Carvajal
+            </p>
 
-        <h1>Mbappes Desire</h1>
+            <p>The teams dissatisfaction was evident, with no representatives attending the ceremony in Paris. This meant that Carlo
+                Ancelotti, who won the Mens Coach of the Year Trophy, wasnt present to accept his award.
+            </p>
 
-        <p>The Frenchman is attracted to Real Madrids rich history, competitive spirit and promise of Champions League sucess</p> 
+            <h1>Real Madrids Nominees Who Did Not Attend</h1>
 
-            <Link href="/">
+            <p>● Vinicius Jr</p>
+            <p>● Jude Bellingham</p>
+            <p>● Dani Carvajal</p>    
+            <p>● Kylian Mbappe</p>    
+            <p>● Antonio Rüdiger</p>    
+            <p>● Federico Valverde</p>    
+            <p>● Andriy Lunin (nominated for best goalkeeper)</p>    
+            <p>● Arder Güler (nominated for Kopa Trophy)</p>    
+            <p>● Carlo Ancelotti(nominated for best coach)</p>
+
+        <Link href="/">
             <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back →</button>
-            </Link>
+        </Link>
 
         </div>
 
         <div data-aos="fade-left" className="image">
-        <Image className='img' src={mbappe} alt='' priority />
+        <Image className='img' src={madrid} alt='' priority />
         </div>
 
         </div>
         </div>
 
-        {/* phone */}
+        {/* phone laptop */}
         <div id='mobile' className='block md:hidden lg:hidden xl:hidden'>
 
         {/* navbar_phone */}
@@ -310,19 +361,36 @@ const Page = () => {
         <div data-aos="fade-up" className='news_phone'>
 
         <div className="image">
-        <Image className='img' src={mbappe} alt='' priority />
+        <Image className='img' src={madrid} alt='' priority />
         </div>
 
         <div className="text">
-        <h1>Mbappe Set To Leave PSG to Real Madrid</h1>
+            <h1>Reason Behind Real Madrid Not Attending The 2024 Ballon d or Ceremony</h1>
 
-        <p>Kylian Mbappe, the electrifying French forward is on the verge of a sensational move from Paris-Saint-Germain also known as PSG to Real Madrid. The 25 year old has superstar has reportedly grown disillusioned with PSG inabiility to secure Champions League glory and is seeking a new challenge.</p>
+            <p>Real Madrids absence from the 2024 Ballon d or was quite buzzworthy topic, the team decided to boycott the event after
+                learning that neither Vinicius Junior nor Dani Carvajal would take home the prestigious award. Apparently,
+            </p>
 
-        <p>Mbappes current deal with PSG expires on 2025 and PSG has refused to extend his contract thereby opening a new door for Real Madrid, Los Blancos have intensified their efforts, with President Florentino Pérez leading the charge. </p>
+            <p>Vinicius Jr was considered the top contender, but Manchester Citys Rodri ultimately won the award. Real Madrid felt
+                disrespected by this decision, releasing a statememnt saying that if the criteria did not favor Vinicuis as the winner,
+                then it should have been pointed to Carvajal
+            </p>
 
-        <h1>Mbappes Desire</h1>
+            <p>The teams dissatisfaction was evident, with no representatives attending the ceremony in Paris. This meant that Carlo
+                Ancelotti, who won the Mens Coach of the Year Trophy, wasnt present to accept his award.
+            </p>
 
-        <p>The Frenchman is attracted to Real Madrids rich history, competitive spirit and promise of Champions League sucess</p>
+            <h1>Real Madrids Nominees Who Did Not Attend</h1>
+
+            <p>● Vinicius Jr</p>
+            <p>● Jude Bellingham</p>
+            <p>● Dani Carvajal</p>    
+            <p>● Kylian Mbappe</p>    
+            <p>● Antonio Rüdiger</p>    
+            <p>● Federico Valverde</p>    
+            <p>● Andriy Lunin (nominated for best goalkeeper)</p>    
+            <p>● Arder Güler (nominated for Kopa Trophy)</p>    
+            <p>● Carlo Ancelotti(nominated for best coach)</p>
 
         <Link href="/">
             <button style={{transition:'0.7s', backgroundColor:'black', color:'white', padding:'7px 15px', border:'2px solid black', borderRadius:'10px', cursor:'pointer', width:'fit-content'}}>Back</button>

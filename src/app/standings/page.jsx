@@ -124,7 +124,9 @@ const Page = () => {
                 <Link href="/">
                 <h2 onClick={handleTap4} className={tap4 === true ? 'tap' : ''}>News</h2>
                 </Link>
+                <Link href="fixtures">
                 <h2 onClick={handleTap2} className={tap2 === true ? 'tap' : ''}>Fixtures</h2>
+                </Link>
                 <Link href="standings">
                 <h2 onClick={handleTap} className={tap === true ? 'tap' : ''}>Standings</h2>
                 </Link>
@@ -480,7 +482,9 @@ const Page = () => {
             <Link href="/">
             <h2 onClick={handleTap4} className={tap4 === true ? 'tap' : ''}>News</h2>
             </Link>
+            <Link href="fixtures">
             <h2 onClick={handleTap2} className={tap2 === true ? 'tap' : ''}>Fixtures</h2>
+            </Link>
             <Link href="standings">
             <h2 onClick={handleTap} className={tap === true ? 'tap' : ''}>Standings</h2>
             </Link>
@@ -836,7 +840,9 @@ const Page = () => {
             <Link href="/">
             <h2 onClick={handleTap4} className={tap4 === true ? 'tap' : ''}>News</h2>
             </Link>
+            <Link href="fixtures">
             <h2 onClick={handleTap2} className={tap2 === true ? 'tap' : ''}>Fixtures</h2>
+            </Link>
             <Link href="standings" >
             <h2 onClick={handleTap} className={tap === true ? 'tap' : ''}>Standings</h2>
             </Link>
@@ -1199,7 +1205,9 @@ const Page = () => {
                 <Link href="/">
                 <p onClick={handleTap4} className={tap4 === true ? "tap_phone" : ''}>News</p>
                 </Link>
+                <Link href="fixtures">
                 <p onClick={handleTap2} className={tap2 === true ? "tap_phone" : ''}>Fixtures</p>
+                </Link>
                 <Link href="standings" >
                 <p onClick={handleTap} className={tap === true ? "tap_phone" : ''}>Standings</p>
                 </Link>
@@ -1220,8 +1228,8 @@ const Page = () => {
         </div>       
 
         {/* standings */}
-        <div className="ctn_standings_phone">
-            <div className="standings_phone">
+        <div data-aos="fade-up" className="ctn_standings_mobile">
+            <div className="standings_mobile">
 
                 {/* number */}
                 <div className="number">
@@ -1250,87 +1258,87 @@ const Page = () => {
 
                 {/* clubs */}
                 <div className="clubs">
-                    <p>Clubs</p>
-                    <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <p className="p">Clubs</p>
+                    <div className="p" style={{display:'flex', alignItems:'center', gap:'1px'}}>
                         <Image src={barcelona} width={15} alt="" />
-                    <h3>Barcelona</h3>
-                    </p>
-                    <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <p>Barcelona</p>
+                    </div>
+                    <div className="p" style={{display:'flex', alignItems:'center', gap:'1px'}}>
                         <Image src={realmadrid} width={15} alt="" />
-                        <h3>RealMadrid</h3>
-                    </p>
-                    <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                        <p>RealMadrid</p>
+                    </div>
+                    <div className="p" style={{display:'flex', alignItems:'center', gap:'1px'}}>
                         <Image src={villareal} width={15} alt="" />
-                        <h3>Villarreal</h3>
-                    </p>
-                    <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                        <p>Villarreal</p>
+                    </div>
+                    <div className="p" style={{display:'flex', alignItems:'center', gap:'1px'}}>
                         <Image src={atletico} width={15} alt="" />
-                        <h3>AtléticoMadrid</h3>
-                    </p>
-                    <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                        <p>AtléticoMadrid</p>
+                    </div>
+                    <div className="p" style={{display:'flex', alignItems:'center', gap:'1px'}}>
                         <Image src={bilbao} width={15} alt="" />
-                        <h3>AthleticBilbao</h3>
-                    </p>
-                    <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                        <p>AthleticBilbao</p>
+                    </div>
+                    <div className="p" style={{display:'flex', alignItems:'center', gap:'1px'}}>
                         <Image src={realbetis} width={15} alt="" />
-                        <h3>RealBetis</h3>
-                    </p>
-                    <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                        <p>RealBetis</p>
+                    </div>
+                    <div className="p" style={{display:'flex', alignItems:'center', gap:'1px'}}>
                         <Image src={mallorca} width={15} alt="" />
-                        <h3>Mallorca</h3>
-                    </p>
-                    <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                        <p>Mallorca</p>
+                    </div>
+                    <div className="p" style={{display:'flex', alignItems:'center', gap:'1px'}}>
                         <Image src={osasuna} width={15} alt="" />
-                        <h3>Osasuna</h3>
-                    </p>
-                    <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                        <p>Osasuna</p>
+                    </div>
+                    <div className="p" style={{display:'flex', alignItems:'center', gap:'1px'}}>
                         <Image src={vallecano} width={15} alt="" />
-                        <h3>RayoVallecano</h3>
-                    </p>
-                    <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                        <p>RayoVallecano</p>
+                    </div>
+                    <div className="p" style={{display:'flex', alignItems:'center', gap:'1px'}}>
                         <Image src={sevilla} width={15} alt="" />
-                        <h3>SevillaFC</h3>
-                    </p>
-                    <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                        <p>SevillaFC</p>
+                    </div>
+                    <div className="p" style={{display:'flex', alignItems:'center', gap:'1px'}}>
                         <Image src={celtavigo} width={15} alt="" />
-                        <h3>CeltaVigo</h3>
-                    </p>
-                    <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                        <p>CeltaVigo</p>
+                    </div>
+                    <div className="p" style={{display:'flex', alignItems:'center', gap:'1px'}}>
                         <Image src={realsociedad} width={15} alt="" />
-                        <h3>RealSociedad</h3>
-                    </p>
-                    <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                        <p>RealSociedad</p>
+                    </div>
+                    <div className="p" style={{display:'flex', alignItems:'center', gap:'1px'}}>
                         <Image src={girona} width={15} alt="" />
-                        <h3>Girona</h3>
-                    </p>
-                    <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                        <p>Girona</p>
+                    </div>
+                    <div className="p" style={{display:'flex', alignItems:'center', gap:'1px'}}>
                         <Image src={leganes} width={15} alt="" />
-                        <h3>CDLeganés</h3>
-                    </p>
-                    <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                        <p>CDLeganés</p>
+                    </div>
+                    <div className="p" style={{display:'flex', alignItems:'center', gap:'1px'}}>
                         <Image src={getafe} width={15} alt="" />
-                        <h3>Getafe</h3>
-                    </p>
-                    <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                        <p>Getafe</p>
+                    </div>
+                    <div className="p" style={{display:'flex', alignItems:'center', gap:'1px'}}>
                         <Image src={alaves} width={15} alt="" />
-                        <h3>Alavés</h3>
-                    </p>
-                    <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                        <p>Alavés</p>
+                    </div>
+                    <div className="p" style={{display:'flex', alignItems:'center', gap:'1px'}}>
                         <Image src={espanyol} width={15} alt="" />
-                        <h3>Espanyol</h3>
-                    </p>
-                    <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                        <p>Espanyol</p>
+                    </div>
+                    <div className="p" style={{display:'flex', alignItems:'center', gap:'1px'}}>
                         <Image src={laspalmas} width={15} alt="" />
-                        <h3>UDLaspalmas</h3>
-                    </p>
-                    <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                        <p>UDLaspalmas</p>
+                    </div>
+                    <div className="p" style={{display:'flex', alignItems:'center', gap:'1px'}}>
                         <Image src={valladolid} width={15} alt='' />
-                        <h3>RealValladolid</h3>
-                    </p>
-                    <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                        <p>RealValladolid</p>
+                    </div>
+                    <div className="p" style={{display:'flex', alignItems:'center', gap:'1px'}}>
                         <Image src={valencia} width={15} alt="" />
-                        <h3>Valencia</h3>
-                    </p>
+                        <p>Valencia</p>
+                    </div>
                 </div>
 
                 {/* Matches */}

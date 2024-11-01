@@ -702,7 +702,7 @@ p
 }
 
 /* standings */
-.ctn_standings_phone
+.ctn_standings_mobile
 {
     display: flex;
     position: relative;
@@ -714,7 +714,7 @@ p
 
 }
 
-.standings_phone
+.standings_mobile
 {
     display: flex;
     position: relative;
@@ -725,7 +725,7 @@ p
 
 }
 
-.standings_phone .number
+.standings_mobile .number
 {
     display: flex;
     flex-direction: column;
@@ -735,14 +735,14 @@ p
 
 }
 
-.standings_phone .number p
+.standings_mobile .number p
 {
     border-bottom: 1.5px solid gray;
     padding: 5px 10px;
     
 }
 
-.standings_phone .clubs
+.standings_mobile .clubs
 {
     border-left: 1.5px solid gray;
     display: flex;
@@ -752,14 +752,14 @@ p
 
 }
 
-.standings_phone .clubs p
+.standings_mobile .clubs .p
 {
     border-bottom: 1.5px solid gray;
     padding: 5px 50px 5px 7px;
 
 }
 
-.standings_phone .matches
+.standings_mobile .matches
 {
     border-left: 1.5px solid gray;
     display: flex;
@@ -769,14 +769,14 @@ p
     
 }
 
-.standings_phone .matches p
+.standings_mobile .matches p
 {
     padding: 5px 10px;
     border-bottom: 1.5px solid gray;
 
 }
 
-.standings_phone .ga
+.standings_mobile .ga
 {
     border-left: 1.5px solid gray;
     display: flex;
@@ -786,14 +786,14 @@ p
     
 }
 
-.standings_phone .ga p
+.standings_mobile .ga p
 {
     padding: 5px 10px;
     border-bottom: 1.5px solid gray;
 
 }
 
-.standings_phone .points
+.standings_mobile .points
 {
     border-left: 1.5px solid gray;
     display: flex;
@@ -805,7 +805,7 @@ p
 }
 
 
-.standings_phone .points p
+.standings_mobile .points p
 {
     padding: 5px 10px;
     border-bottom: 1.5px solid gray;

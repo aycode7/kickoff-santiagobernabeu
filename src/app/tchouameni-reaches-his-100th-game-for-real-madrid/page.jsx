@@ -101,7 +101,9 @@ const Page = () => {
                 <Link href="/">
                 <h2 onClick={handleTap} className={tap === true ? 'tap' : ''}>News</h2>
                 </Link>
+                <Link href="fixtures">
                 <h2 onClick={handleTap2} className={tap2 === true ? 'tap' : ''}>Fixtures</h2>
+                </Link>
                 <Link href="standings">
                 <h2 onClick={handleTap3} className={tap3 === true ? 'tap' : ''}>Standings</h2>
                 </Link>
@@ -159,7 +161,9 @@ const Page = () => {
             <Link href="/">
             <h2 onClick={handleTap} className={tap === true ? 'tap' : ''}>News</h2>
             </Link>
+            <Link href="fixtures">
             <h2 onClick={handleTap2} className={tap2 === true ? 'tap' : ''}>Fixtures</h2>
+            </Link>
             <Link href="standings">
             <h2 onClick={handleTap3} className={tap3 === true ? 'tap' : ''}>Standings</h2>
             </Link>
@@ -218,7 +222,9 @@ const Page = () => {
             <Link href="/">
             <h2 onClick={handleTap} className={tap === true ? 'tap' : ''}>News</h2>
             </Link>
+            <Link href="fixtures">
             <h2 onClick={handleTap2} className={tap2 === true ? 'tap' : ''}>Fixtures</h2>
+            </Link>
             <Link href="standings">
             <h2 onClick={handleTap3} className={tap3 === true ? 'tap' : ''}>Standings</h2>
             </Link>
