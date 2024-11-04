@@ -9,7 +9,7 @@ import Image from "next/image"
 import logo from './Image/madrid_icon.png'
 import React from 'react'
 import background from './Image/night-stadium.jpg'
-import background_phone from './Image/football.jpeg'
+import background_phone from './Image/night-stadium.jpg'
 import barcelona from './Image/barcelona.png'
 import realmadrid from './Image/realmadrid.png'
 import alaves from './Image/alaves.png'
@@ -221,6 +221,10 @@ const Page = () => {
                     <h3>Celta Vigo</h3>
                   </p>
                   <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={alaves} width={20} alt="" />
+                    <h3>Alavés</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
                     <Image src={realsociedad} width={20} alt="" />
                     <h3>Real Sociedad</h3>
                   </p>
@@ -235,11 +239,7 @@ const Page = () => {
                   <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
                     <Image src={getafe} width={20} alt="" />
                     <h3>Getafe</h3>
-                  </p>
-                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
-                    <Image src={alaves} width={20} alt="" />
-                    <h3>Alavés</h3>
-                  </p>
+                  </p>                  
                   <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
                     <Image src={espanyol} width={20} alt="" />
                     <h3>Espanyol</h3>
@@ -267,12 +267,12 @@ const Page = () => {
                   <p>11</p>
                   <p>11</p>
                   <p>11</p>
+                  <p>12</p>
                   <p>11</p>
                   <p>11</p>
                   <p>11</p>
                   <p>11</p>
-                  <p>11</p>
-                  <p>11</p>
+                  <p>12</p>
                   <p>11</p>
                   <p>11</p>
                   <p>11</p>
@@ -297,11 +297,11 @@ const Page = () => {
                   <p>4</p>
                   <p>4</p>
                   <p>4</p>
+                  <p>4</p>
                   <p>3</p>
                   <p>3</p>
                   <p>2</p>
-                  <p>2</p>
-                  <p>3</p>
+                  <p>1</p>                  
                   <p>3</p>
                   <p>2</p>
                   <p>2</p>
@@ -317,16 +317,16 @@ const Page = () => {
                   <p>1</p>
                   <p>3</p>
                   <p>3</p>
-                  <p>3</p>
+                  <p>4</p>
                   <p>3</p>
                   <p>3</p>
                   <p>4</p>
                   <p>6</p>
+                  <p>7</p>
                   <p>5</p>
                   <p>5</p>
                   <p>4</p>
-                  <p>3</p>
-                  <p>7</p>
+                  <p>3</p>                  
                   <p>7</p>
                   <p>6</p>
                   <p>7</p>
@@ -347,11 +347,11 @@ const Page = () => {
                   <p>4</p>
                   <p>3</p>
                   <p>1</p>
+                  <p>1</p>
                   <p>3</p>
                   <p>3</p>
                   <p>5</p>
                   <p>7</p>
-                  <p>1</p>
                   <p>1</p>
                   <p>3</p>
                   <p>2</p>
@@ -372,11 +372,11 @@ const Page = () => {
                   <p>12</p>
                   <p>12</p>
                   <p>17</p>
+                  <p>14</p>
                   <p>8</p>
                   <p>11</p>
                   <p>9</p>
-                  <p>8</p>
-                  <p>13</p>
+                  <p>8</p>                  
                   <p>10</p>
                   <p>13</p>
                   <p>9</p>
@@ -392,16 +392,16 @@ const Page = () => {
                   <p>7</p>
                   <p>11</p>
                   <p>9</p>
-                  <p>8</p>
+                  <p>9</p>
                   <p>16</p>
                   <p>10</p>
                   <p>15</p>
                   <p>20</p>
+                  <p>19</p>
                   <p>10</p>
                   <p>14</p>
                   <p>12</p>
                   <p>9</p>
-                  <p>19</p>
                   <p>19</p>
                   <p>19</p>
                   <p>23</p>
@@ -417,16 +417,16 @@ const Page = () => {
                   <p>9</p>
                   <p>6</p>
                   <p>2</p>
-                  <p>2</p>
+                  <p>1</p>
                   <p>0</p>
                   <p>2</p>
                   <p>-3</p>
                   <p>-3</p>
+                  <p>-5</p>
                   <p>-2</p>
                   <p>-3</p>
                   <p>-3</p>
                   <p>-1</p>
-                  <p>-6</p>
                   <p>-9</p>
                   <p>-6</p>
                   <p>-14</p>
@@ -447,10 +447,10 @@ const Page = () => {
                   <p>16</p>
                   <p>15</p>
                   <p>13</p>
+                  <p>13</p>
                   <p>12</p>
                   <p>12</p>
                   <p>11</p>
-                  <p>10</p>
                   <p>10</p>
                   <p>10</p>
                   <p>9</p>
@@ -503,8 +503,8 @@ const Page = () => {
         </div> 
 
         {/* standings */}
-        <div style={{cursor:'pointer'}} data-aos="fade-up" className="ctn_standings_small">
-            <div className="standings_small">
+        <div style={{cursor:'pointer'}} data-aos="fade-up" className="ctn_standings">
+            <div className="standings">
 
               {/* number */}
               <div className="number">
@@ -579,6 +579,10 @@ const Page = () => {
                     <h3>Celta Vigo</h3>
                   </p>
                   <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={alaves} width={20} alt="" />
+                    <h3>Alavés</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
                     <Image src={realsociedad} width={20} alt="" />
                     <h3>Real Sociedad</h3>
                   </p>
@@ -593,11 +597,7 @@ const Page = () => {
                   <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
                     <Image src={getafe} width={20} alt="" />
                     <h3>Getafe</h3>
-                  </p>
-                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
-                    <Image src={alaves} width={20} alt="" />
-                    <h3>Alavés</h3>
-                  </p>
+                  </p>                  
                   <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
                     <Image src={espanyol} width={20} alt="" />
                     <h3>Espanyol</h3>
@@ -625,12 +625,12 @@ const Page = () => {
                   <p>11</p>
                   <p>11</p>
                   <p>11</p>
+                  <p>12</p>
                   <p>11</p>
                   <p>11</p>
                   <p>11</p>
                   <p>11</p>
-                  <p>11</p>
-                  <p>11</p>
+                  <p>12</p>
                   <p>11</p>
                   <p>11</p>
                   <p>11</p>
@@ -655,11 +655,11 @@ const Page = () => {
                   <p>4</p>
                   <p>4</p>
                   <p>4</p>
+                  <p>4</p>
                   <p>3</p>
                   <p>3</p>
                   <p>2</p>
-                  <p>2</p>
-                  <p>3</p>
+                  <p>1</p>                  
                   <p>3</p>
                   <p>2</p>
                   <p>2</p>
@@ -675,16 +675,16 @@ const Page = () => {
                   <p>1</p>
                   <p>3</p>
                   <p>3</p>
-                  <p>3</p>
+                  <p>4</p>
                   <p>3</p>
                   <p>3</p>
                   <p>4</p>
                   <p>6</p>
+                  <p>7</p>
                   <p>5</p>
                   <p>5</p>
                   <p>4</p>
-                  <p>3</p>
-                  <p>7</p>
+                  <p>3</p>                  
                   <p>7</p>
                   <p>6</p>
                   <p>7</p>
@@ -705,11 +705,11 @@ const Page = () => {
                   <p>4</p>
                   <p>3</p>
                   <p>1</p>
+                  <p>1</p>
                   <p>3</p>
                   <p>3</p>
                   <p>5</p>
                   <p>7</p>
-                  <p>1</p>
                   <p>1</p>
                   <p>3</p>
                   <p>2</p>
@@ -730,11 +730,11 @@ const Page = () => {
                   <p>12</p>
                   <p>12</p>
                   <p>17</p>
+                  <p>14</p>
                   <p>8</p>
                   <p>11</p>
                   <p>9</p>
-                  <p>8</p>
-                  <p>13</p>
+                  <p>8</p>                  
                   <p>10</p>
                   <p>13</p>
                   <p>9</p>
@@ -750,16 +750,16 @@ const Page = () => {
                   <p>7</p>
                   <p>11</p>
                   <p>9</p>
-                  <p>8</p>
+                  <p>9</p>
                   <p>16</p>
                   <p>10</p>
                   <p>15</p>
                   <p>20</p>
+                  <p>19</p>
                   <p>10</p>
                   <p>14</p>
                   <p>12</p>
                   <p>9</p>
-                  <p>19</p>
                   <p>19</p>
                   <p>19</p>
                   <p>23</p>
@@ -775,16 +775,16 @@ const Page = () => {
                   <p>9</p>
                   <p>6</p>
                   <p>2</p>
-                  <p>2</p>
+                  <p>1</p>
                   <p>0</p>
                   <p>2</p>
                   <p>-3</p>
                   <p>-3</p>
+                  <p>-5</p>
                   <p>-2</p>
                   <p>-3</p>
                   <p>-3</p>
                   <p>-1</p>
-                  <p>-6</p>
                   <p>-9</p>
                   <p>-6</p>
                   <p>-14</p>
@@ -805,10 +805,10 @@ const Page = () => {
                   <p>16</p>
                   <p>15</p>
                   <p>13</p>
+                  <p>13</p>
                   <p>12</p>
                   <p>12</p>
                   <p>11</p>
-                  <p>10</p>
                   <p>10</p>
                   <p>10</p>
                   <p>9</p>
@@ -822,7 +822,7 @@ const Page = () => {
 
         </div>
 
-        {/* tablet_laptop */}
+        {/* tablet */}
         <div id='big' className='hidden md:block lg:hidden xl:hidden'>
 
         {/* navbar */}
@@ -865,7 +865,7 @@ const Page = () => {
             <div className="standings_tablet">
 
               {/* number */}
-              <div style={{cursor:'pointer'}} className="number">
+              <div className="number">
                   <p>#</p>
                   <p>1</p>
                   <p id="madrid">2</p>
@@ -937,6 +937,10 @@ const Page = () => {
                     <h3>Celta Vigo</h3>
                   </p>
                   <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={alaves} width={20} alt="" />
+                    <h3>Alavés</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
                     <Image src={realsociedad} width={20} alt="" />
                     <h3>Real Sociedad</h3>
                   </p>
@@ -951,11 +955,7 @@ const Page = () => {
                   <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
                     <Image src={getafe} width={20} alt="" />
                     <h3>Getafe</h3>
-                  </p>
-                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
-                    <Image src={alaves} width={20} alt="" />
-                    <h3>Alavés</h3>
-                  </p>
+                  </p>                  
                   <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
                     <Image src={espanyol} width={20} alt="" />
                     <h3>Espanyol</h3>
@@ -983,12 +983,12 @@ const Page = () => {
                   <p>11</p>
                   <p>11</p>
                   <p>11</p>
+                  <p>12</p>
                   <p>11</p>
                   <p>11</p>
                   <p>11</p>
                   <p>11</p>
-                  <p>11</p>
-                  <p>11</p>
+                  <p>12</p>
                   <p>11</p>
                   <p>11</p>
                   <p>11</p>
@@ -1013,11 +1013,11 @@ const Page = () => {
                   <p>4</p>
                   <p>4</p>
                   <p>4</p>
+                  <p>4</p>
                   <p>3</p>
                   <p>3</p>
                   <p>2</p>
-                  <p>2</p>
-                  <p>3</p>
+                  <p>1</p>                  
                   <p>3</p>
                   <p>2</p>
                   <p>2</p>
@@ -1033,16 +1033,16 @@ const Page = () => {
                   <p>1</p>
                   <p>3</p>
                   <p>3</p>
-                  <p>3</p>
+                  <p>4</p>
                   <p>3</p>
                   <p>3</p>
                   <p>4</p>
                   <p>6</p>
+                  <p>7</p>
                   <p>5</p>
                   <p>5</p>
                   <p>4</p>
-                  <p>3</p>
-                  <p>7</p>
+                  <p>3</p>                  
                   <p>7</p>
                   <p>6</p>
                   <p>7</p>
@@ -1063,11 +1063,11 @@ const Page = () => {
                   <p>4</p>
                   <p>3</p>
                   <p>1</p>
+                  <p>1</p>
                   <p>3</p>
                   <p>3</p>
                   <p>5</p>
                   <p>7</p>
-                  <p>1</p>
                   <p>1</p>
                   <p>3</p>
                   <p>2</p>
@@ -1088,11 +1088,11 @@ const Page = () => {
                   <p>12</p>
                   <p>12</p>
                   <p>17</p>
+                  <p>14</p>
                   <p>8</p>
                   <p>11</p>
                   <p>9</p>
-                  <p>8</p>
-                  <p>13</p>
+                  <p>8</p>                  
                   <p>10</p>
                   <p>13</p>
                   <p>9</p>
@@ -1108,16 +1108,16 @@ const Page = () => {
                   <p>7</p>
                   <p>11</p>
                   <p>9</p>
-                  <p>8</p>
+                  <p>9</p>
                   <p>16</p>
                   <p>10</p>
                   <p>15</p>
                   <p>20</p>
+                  <p>19</p>
                   <p>10</p>
                   <p>14</p>
                   <p>12</p>
                   <p>9</p>
-                  <p>19</p>
                   <p>19</p>
                   <p>19</p>
                   <p>23</p>
@@ -1133,16 +1133,16 @@ const Page = () => {
                   <p>9</p>
                   <p>6</p>
                   <p>2</p>
-                  <p>2</p>
+                  <p>1</p>
                   <p>0</p>
                   <p>2</p>
                   <p>-3</p>
                   <p>-3</p>
+                  <p>-5</p>
                   <p>-2</p>
                   <p>-3</p>
                   <p>-3</p>
                   <p>-1</p>
-                  <p>-6</p>
                   <p>-9</p>
                   <p>-6</p>
                   <p>-14</p>
@@ -1163,10 +1163,10 @@ const Page = () => {
                   <p>16</p>
                   <p>15</p>
                   <p>13</p>
+                  <p>13</p>
                   <p>12</p>
                   <p>12</p>
                   <p>11</p>
-                  <p>10</p>
                   <p>10</p>
                   <p>10</p>
                   <p>9</p>
@@ -1228,193 +1228,193 @@ const Page = () => {
         </div>       
 
         {/* standings */}
-        <div data-aos="fade-up" className="ctn_standings_mobile">
+        <div style={{cursor:'pointer'}} data-aos="fade-up" className="ctn_standings_mobile">
             <div className="standings_mobile">
 
-                {/* number */}
-                <div className="number">
-                    <p>#</p>
-                    <p>1</p>
-                    <p id="madrid">2</p>
-                    <p>3</p>
-                    <p>4</p>
-                    <p>5</p>
-                    <p>6</p>
-                    <p>7</p>
-                    <p>8</p>
-                    <p>9</p>
-                    <p>10</p>
-                    <p>11</p>
-                    <p>12</p>
-                    <p>13</p>
-                    <p>14</p>
-                    <p>15</p>
-                    <p>16</p>
-                    <p>17</p>
-                    <p>18</p>
-                    <p>19</p>
-                    <p style={{borderRadius:'0 0 0 20px'}}>20</p>
-                </div>
+              {/* number */}
+              <div className="number">
+                  <p>#</p>
+                  <p>1</p>
+                  <p id="madrid">2</p>
+                  <p>3</p>
+                  <p>4</p>
+                  <p>5</p>
+                  <p>6</p>
+                  <p>7</p>
+                  <p>8</p>
+                  <p>9</p>
+                  <p>10</p>
+                  <p>11</p>
+                  <p>12</p>
+                  <p>13</p>
+                  <p>14</p>
+                  <p>15</p>
+                  <p>16</p>
+                  <p>17</p>
+                  <p>18</p>
+                  <p>19</p>
+                  <p style={{borderRadius:'0 0 0 20px'}}>20</p>
+              </div>
 
-                {/* clubs */}
-                <div className="clubs">
-                    <p className="p">Clubs</p>
-                    <div className="p" style={{display:'flex', alignItems:'center', gap:'1px'}}>
-                        <Image src={barcelona} width={15} alt="" />
-                    <p>Barcelona</p>
-                    </div>
-                    <div id="madrid" className="p" style={{display:'flex', alignItems:'center', gap:'1px'}}>
-                        <Image src={realmadrid} width={15} alt="" />
-                        <p>RealMadrid</p>
-                    </div>
-                    <div className="p" style={{display:'flex', alignItems:'center', gap:'1px'}}>
-                        <Image src={villareal} width={15} alt="" />
-                        <p>Villarreal</p>
-                    </div>
-                    <div className="p" style={{display:'flex', alignItems:'center', gap:'1px'}}>
-                        <Image src={atletico} width={15} alt="" />
-                        <p>AtléticoMadrid</p>
-                    </div>
-                    <div className="p" style={{display:'flex', alignItems:'center', gap:'1px'}}>
-                        <Image src={bilbao} width={15} alt="" />
-                        <p>AthleticBilbao</p>
-                    </div>
-                    <div className="p" style={{display:'flex', alignItems:'center', gap:'1px'}}>
-                        <Image src={realbetis} width={15} alt="" />
-                        <p>RealBetis</p>
-                    </div>
-                    <div className="p" style={{display:'flex', alignItems:'center', gap:'1px'}}>
-                        <Image src={mallorca} width={15} alt="" />
-                        <p>Mallorca</p>
-                    </div>
-                    <div className="p" style={{display:'flex', alignItems:'center', gap:'1px'}}>
-                        <Image src={osasuna} width={15} alt="" />
-                        <p>Osasuna</p>
-                    </div>
-                    <div className="p" style={{display:'flex', alignItems:'center', gap:'1px'}}>
-                        <Image src={vallecano} width={15} alt="" />
-                        <p>RayoVallecano</p>
-                    </div>
-                    <div className="p" style={{display:'flex', alignItems:'center', gap:'1px'}}>
-                        <Image src={sevilla} width={15} alt="" />
-                        <p>SevillaFC</p>
-                    </div>
-                    <div className="p" style={{display:'flex', alignItems:'center', gap:'1px'}}>
-                        <Image src={celtavigo} width={15} alt="" />
-                        <p>CeltaVigo</p>
-                    </div>
-                    <div className="p" style={{display:'flex', alignItems:'center', gap:'1px'}}>
-                        <Image src={realsociedad} width={15} alt="" />
-                        <p>RealSociedad</p>
-                    </div>
-                    <div className="p" style={{display:'flex', alignItems:'center', gap:'1px'}}>
-                        <Image src={girona} width={15} alt="" />
-                        <p>Girona</p>
-                    </div>
-                    <div className="p" style={{display:'flex', alignItems:'center', gap:'1px'}}>
-                        <Image src={leganes} width={15} alt="" />
-                        <p>CDLeganés</p>
-                    </div>
-                    <div className="p" style={{display:'flex', alignItems:'center', gap:'1px'}}>
-                        <Image src={getafe} width={15} alt="" />
-                        <p>Getafe</p>
-                    </div>
-                    <div className="p" style={{display:'flex', alignItems:'center', gap:'1px'}}>
-                        <Image src={alaves} width={15} alt="" />
-                        <p>Alavés</p>
-                    </div>
-                    <div className="p" style={{display:'flex', alignItems:'center', gap:'1px'}}>
-                        <Image src={espanyol} width={15} alt="" />
-                        <p>Espanyol</p>
-                    </div>
-                    <div className="p" style={{display:'flex', alignItems:'center', gap:'1px'}}>
-                        <Image src={laspalmas} width={15} alt="" />
-                        <p>UDLaspalmas</p>
-                    </div>
-                    <div className="p" style={{display:'flex', alignItems:'center', gap:'1px'}}>
-                        <Image src={valladolid} width={15} alt='' />
-                        <p>RealValladolid</p>
-                    </div>
-                    <div className="p" style={{display:'flex', alignItems:'center', gap:'1px'}}>
-                        <Image src={valencia} width={15} alt="" />
-                        <p>Valencia</p>
-                    </div>
-                </div>
+              {/* clubs */}
+              <div className="clubs">
+                  <p>Clubs</p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={barcelona} alt="" width={17} />
+                  <h3>Barcelona</h3>
+                  </p>
+                  <p id="madrid" style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={realmadrid} width={17} alt="" />
+                    <h3>RealMadrid</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={villareal} width={17} alt="" />
+                    <h3>Villarreal</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={atletico} width={17} alt="" />
+                    <h3>AtléticoMadrid</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={bilbao} width={17} alt="" />
+                    <h3>AthleticBilbao</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={realbetis} width={17} alt="" />
+                    <h3>RealBetis</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={mallorca} width={17} alt="" />
+                    <h3>Mallorca</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={osasuna} width={17} alt="" />
+                    <h3>Osasuna</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={vallecano} width={17} alt="" />
+                    <h3>RayoVallecano</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={sevilla} width={17} alt="" />
+                    <h3>SevillaFC</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={celtavigo} width={17} alt="" />
+                    <h3>CeltaVigo</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={alaves} width={17} alt="" />
+                    <h3>Alavés</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={realsociedad} width={17} alt="" />
+                    <h3>RealSociedad</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={girona} width={17} alt="" />
+                    <h3>Girona</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={leganes} width={17} alt="" />
+                    <h3>CDLeganés</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={getafe} width={17} alt="" />
+                    <h3>Getafe</h3>
+                  </p>                  
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={espanyol} width={17} alt="" />
+                    <h3>Espanyol</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={laspalmas} width={17} alt="" />
+                    <h3>LasPalmas</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={valladolid} width={17} alt='' />
+                    <h3>RealValladolid</h3>
+                  </p>
+                  <p style={{display:'flex', alignItems:'center', gap:'1px'}}>
+                    <Image src={valencia} width={17} alt="" />
+                    <h3>Valencia</h3>
+                  </p>
+              </div>
 
-                {/* Matches */}
-                <div className="matches">
-                    <p>Pld</p>
-                    <p>11</p>                
-                    <p id="madrid">11</p>
-                    <p>11</p>
-                    <p>11</p>
-                    <p>11</p>
-                    <p>11</p>
-                    <p>11</p>
-                    <p>11</p>
-                    <p>11</p>
-                    <p>11</p>
-                    <p>11</p>
-                    <p>11</p>
-                    <p>11</p>
-                    <p>11</p>
-                    <p>11</p>
-                    <p>11</p>
-                    <p>11</p>
-                    <p>11</p>
-                    <p>11</p>
-                    <p>11</p>
-                </div>
+              {/* Matches */}
+              <div className="matches">
+                  <p>Pld</p>
+                  <p>11</p>                
+                  <p id="madrid">11</p>
+                  <p>11</p>
+                  <p>11</p>
+                  <p>11</p>
+                  <p>11</p>
+                  <p>12</p>
+                  <p>11</p>
+                  <p>11</p>
+                  <p>11</p>
+                  <p>11</p>
+                  <p>12</p>
+                  <p>11</p>
+                  <p>11</p>
+                  <p>11</p>
+                  <p>11</p>
+                  <p>11</p>
+                  <p>11</p>
+                  <p>11</p>
+                  <p>11</p>
+              </div>                                                                   
 
-                {/* +/- */}
-                <div className="ga">                
-                    <p>+/-</p>
-                    <p>27</p>
-                    <p id="madrid">10</p>
-                    <p>1</p>
-                    <p>9</p>
-                    <p>6</p>
-                    <p>2</p>
-                    <p>2</p>
-                    <p>0</p>
-                    <p>2</p>
-                    <p>-3</p>
-                    <p>-3</p>
-                    <p>-2</p>
-                    <p>-3</p>
-                    <p>-3</p>
-                    <p>-1</p>
-                    <p>-6</p>
-                    <p>-9</p>
-                    <p>-6</p>
-                    <p>-14</p>
-                    <p>-9</p>                
-                </div>
+              {/* +/- */}
+              <div className="ga">                
+                  <p>+/-</p>
+                  <p>27</p>
+                  <p id="madrid">10</p>
+                  <p>1</p>
+                  <p>9</p>
+                  <p>6</p>
+                  <p>2</p>
+                  <p>1</p>
+                  <p>0</p>
+                  <p>2</p>
+                  <p>-3</p>
+                  <p>-3</p>
+                  <p>-5</p>
+                  <p>-2</p>
+                  <p>-3</p>
+                  <p>-3</p>
+                  <p>-1</p>
+                  <p>-9</p>
+                  <p>-6</p>
+                  <p>-14</p>
+                  <p>-9</p>                
+              </div>
 
-                {/* points */}
-                <div className="points">                
-                    <p>Pts</p>
-                    <p>30</p>
-                    <p id="madrid">24</p>
-                    <p>21</p>
-                    <p>20</p>
-                    <p>18</p>
-                    <p>18</p>
-                    <p>18</p>
-                    <p>18</p>
-                    <p>16</p>
-                    <p>15</p>
-                    <p>13</p>
-                    <p>12</p>
-                    <p>12</p>
-                    <p>11</p>
-                    <p>10</p>
-                    <p>10</p>
-                    <p>10</p>
-                    <p>9</p>
-                    <p>8</p>
-                    <p style={{borderRadius:'0 0 20px 0'}}>7</p>                                
-                </div>
+              {/* points */}
+              <div className="points">                
+                  <p>Pts</p>
+                  <p>30</p>
+                  <p id="madrid">24</p>
+                  <p>21</p>
+                  <p>20</p>
+                  <p>18</p>
+                  <p>18</p>
+                  <p>18</p>
+                  <p>18</p>
+                  <p>16</p>
+                  <p>15</p>
+                  <p>13</p>
+                  <p>13</p>
+                  <p>12</p>
+                  <p>12</p>
+                  <p>11</p>
+                  <p>10</p>
+                  <p>10</p>
+                  <p>9</p>
+                  <p>8</p>
+                  <p style={{borderRadius:'0 0 20px 0'}}>7</p>                                
+              </div>
 
 
             </div>

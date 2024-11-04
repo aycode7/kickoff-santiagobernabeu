@@ -1,15 +1,16 @@
 import React from 'react'
 import Image from 'next/image'
 import logo from './Image/madrid_icon.png'
-import preloader from './Image/Loading_2.gif'
+import './Loader.css'
+import preloader from './Image/preloader1.gif'
 import loader2 from './Image/loader2.gif'
 
 const Loader = () => {
   return (
-    <div>
+    <div className='homepage'>
 
-        <div>
-            <Image className='background_img' src={preloader} alt="" />
+        <div className='loading'>
+          <h1>Loading ....</h1>
         </div>
       
     </div>
