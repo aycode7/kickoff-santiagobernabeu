@@ -8,7 +8,7 @@ import Link from "next/link"
 import 'aos/dist/aos.css'
 import React from 'react'
 import logo from './Image/madrid_icon.png'
-import background_img_phone from './Image/football.jpeg'
+import background_img_phone from './Image/night-stadium.jpg'
 import background_img from './Image/night-stadium.jpg'
 import courtois from './Image/courtois.jpg'
 import alaba from './Image/alaba.jpg'
@@ -32,6 +32,7 @@ import bellingham from './Image/bellingham.jpg'
 import mbappe from './Image/mbappe-face.jpg'
 import diaz from './Image/dias.jpg'
 import vinicius from './Image/vinicius.jpg'
+import Loader from "@/components/Loader"
 
 const Page = () => {
 
@@ -39,6 +40,14 @@ const Page = () => {
   useEffect(()=> {
     Aos.init({duration: 1100});
   }, []) 
+
+  const [loading, setLoading] = useState(true);
+
+  useEffect(()=>{
+    setTimeout(()=>{
+      setLoading(false);
+    }, 500)
+  }, [])
 
   // navbar click functionality
   const [tap, setTap] = useState(true);
@@ -107,6 +116,7 @@ const Page = () => {
     <div>        
 
         {/* big laptop */}
+        {loading ? <Loader /> :
         <div id='big' className='hidden md:hidden lg:hidden xl:block'>
 
         {/* navbar */}
@@ -729,9 +739,10 @@ const Page = () => {
             </div>
         </div>
         
-        </div>
+        </div>}
 
         {/* small laptop */}
+        {loading ? <Loader /> :
         <div id='big' className='hidden md:hidden lg:block xl:hidden'>
 
         {/* navbar */}
@@ -1354,9 +1365,10 @@ const Page = () => {
             </div>
         </div>
 
-        </div>
+        </div>}
 
         {/* tablet_laptop */}
+        {loading ? <Loader /> :
         <div id='big' className='hidden md:block lg:hidden xl:hidden'>
 
         {/* navbar */}
@@ -1979,9 +1991,10 @@ const Page = () => {
             </div>
         </div>
         
-        </div>
+        </div>}
 
         {/* phone laptop */}
+        {loading ? <Loader /> :
         <div id='mobile' className='block md:hidden lg:hidden xl:hidden'>
 
         {/* navbar_phone */}
@@ -2613,7 +2626,7 @@ const Page = () => {
             </div>
         </div>
         
-        </div>
+        </div>}
       
     </div>
   )

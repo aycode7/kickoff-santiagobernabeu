@@ -138,6 +138,13 @@ p
 
 }
 
+.fixtures .container .one p
+{
+    font-size: 15px;
+
+}
+
+
 .fixtures .container .one .scores
 {
     display: flex;
@@ -147,6 +154,12 @@ p
 
 }
 
+.fixtures .container .one .scores p
+{
+    font-size: 15px;
+    
+}
+
 .fixtures .container .one .scores .left
 {
     display: flex;
@@ -154,10 +167,22 @@ p
 
 }
 
+.fixtures .container .one .scores .left p
+{
+    font-size: 15px;
+    
+}
+
 .fixtures .container .one .scores .right
 {
     display: flex;
     align-items: center;
+    
+}
+
+.fixtures .container .one .scores .right p
+{
+    font-size: 15px;
     
 }
 
@@ -319,6 +344,12 @@ p
 
 }
 
+.fixtures_tablet .container .one p
+{
+    font-size: 15px;
+
+}
+
 .fixtures_tablet .container .one .scores
 {
     display: flex;
@@ -328,6 +359,13 @@ p
 
 }
 
+.fixtures_tablet .container .one .scores p
+{
+    font-size: 15px;
+    
+}
+
+
 .fixtures_tablet .container .one .scores .left
 {
     display: flex;
@@ -335,12 +373,26 @@ p
 
 }
 
+.fixtures_tablet .container .one .scores .left p
+{
+    font-size: 15px;
+    
+}
+
+
 .fixtures_tablet .container .one .scores .right
 {
     display: flex;
     align-items: center;
     
 }
+
+.fixtures_tablet .container .one .scores .right p
+{
+    font-size: 15px;
+    
+}
+
 
 
 
@@ -473,7 +525,7 @@ p
 .fixtures_phone .container .one
 {
     background: linear-gradient(rgba(0, 0, 0, 0.999),rgba(0, 0, 0, 0.493),rgba(0, 0, 0, 0.999));
-    padding: 45px 35px;
+    padding: 65px 35px;
     border: none;
     border-radius: 30px;
     cursor: pointer;

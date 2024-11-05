@@ -9,12 +9,6 @@ body
 
 }
 
-p
-{
-    font-size: 13px;
-
-}
-
 #big
 {
     font-family: cursive;
@@ -141,7 +135,6 @@ p
 
 .ctn_players .box
 {
-    /* background-color: rgba(0, 0, 0, 0.459); */
     background: linear-gradient(rgba(0, 0, 0, 0.999),rgba(0, 0, 0, 0.459),rgba(0, 0, 0, 0.999));
     border-radius: 40px;
     border: none;
@@ -163,12 +156,24 @@ p
 
 }
 
+.ctn_players .box .name p
+{
+    font-size: 15px;
+
+}
+
 .ctn_players .box .position
 {
     display: flex;
     align-items: center;
     gap: 10px;
 
+}
+
+.ctn_players .box .position p
+{
+    font-size: 15px;
+    
 }
 
 .ctn_players .box .age
@@ -179,6 +184,12 @@ p
 
 }
 
+.ctn_players .box .age p
+{
+    font-size: 15px;
+    
+}
+
 .ctn_players .box .nationality
 {
     display: flex;
@@ -187,12 +198,24 @@ p
 
 }
 
+.ctn_players .box .nationality p
+{
+    font-size: 15px;
+    
+}
+
 .ctn_players .box .value
 {
     display: flex;
     align-items: center;
     gap: 10px;
 
+}
+
+.ctn_players .box .value p
+{
+    font-size: 15px;
+    
 }
 
 
@@ -457,7 +480,7 @@ p
 
 .ctn_players_phone .box
 {
-    background-color: rgba(0, 0, 0, 0.459);
+    background: linear-gradient(rgba(0, 0, 0, 0.999),rgba(0, 0, 0, 0.459),rgba(0, 0, 0, 0.999));
     border-radius: 40px;
     border: none;
     cursor: pointer;
@@ -480,7 +503,7 @@ p
 
 .ctn_players_phone .box .name p
 {
-    font-size: 16px;
+    font-size: 14px;
     
 }
 
@@ -508,7 +531,7 @@ p
 
 .ctn_players_phone .box .age p
 {
-    font-size: 16px;
+    font-size: 14px;
     
 }
 
@@ -522,7 +545,7 @@ p
 
 .ctn_players_phone .box .nationality p
 {
-    font-size: 16px;
+    font-size: 14px;
     
 }
 
@@ -536,6 +559,6 @@ p
 
 .ctn_players_phone .box .value p
 {
-    font-size: 16px;
+    font-size: 14px;
     
 } 

@@ -36,6 +36,7 @@ import lille from './Image/lille.png'
 import stade from './Image/stade.png'
 import salzburg from './Image/salzburg.png'
 import liverpool from './Image/liverpool.png'
+import Loader from "@/components/Loader"
 
 const Page = () => {
 
@@ -43,6 +44,14 @@ const Page = () => {
   useEffect(()=> {
     Aos.init({duration: 1100});
   }, []) 
+
+  const [loading, setLoading] = useState(true);
+
+  useEffect(()=>{
+    setTimeout(()=>{
+      setLoading(false);
+    }, 500)
+  }, [])
 
   // navbar click functionality
   const [tap, setTap] = useState(true);
@@ -111,6 +120,7 @@ const Page = () => {
     <div>
 
         {/* big laptop */}
+        {loading ? <Loader /> :
         <div id='big' className='hidden md:hidden lg:hidden xl:block'>
 
         {/* navbar */}
@@ -1119,9 +1129,10 @@ const Page = () => {
           
         </div>
         
-        </div>
+        </div>}
 
         {/* small laptop */}
+        {loading ? <Loader /> :
         <div id='big' className='hidden md:hidden lg:block xl:hidden'>
 
         {/* navbar */}
@@ -2128,9 +2139,10 @@ const Page = () => {
           
         </div>         
 
-        </div>
+        </div>}
 
         {/* tablet_laptop */}
+        {loading ? <Loader /> :
         <div id='big' className='hidden md:block lg:hidden xl:hidden'>
 
         {/* navbar */}
@@ -3137,9 +3149,10 @@ const Page = () => {
           
         </div>  
         
-        </div>
+        </div>}
 
         {/* phone laptop */}
+        {loading ? <Loader /> :
         <div id='mobile' className='block md:hidden lg:hidden xl:hidden'>
 
         {/* navbar_phone */}
@@ -3189,7 +3202,7 @@ const Page = () => {
         <div className="fixtures_phone">
           <div className="container">
 
-            <div data-aos="fade-right" className="one">
+            <div data-aos="fade-up" className="one">
 
               <div className="head">SUN, SEPT 29 - FT <br /> WEEK 8 - LALIGA</div>
 
@@ -3213,7 +3226,7 @@ const Page = () => {
 
             </div>
 
-            <div data-aos="fade-left" className="one">
+            <div data-aos="fade-up" className="one">
 
               <div className="head">WED, OCT 2 - FT <br /> UEFA Champions League</div>
 
@@ -3241,7 +3254,7 @@ const Page = () => {
 
           <div className="container">
 
-            <div data-aos="fade-right" className="one">
+            <div data-aos="fade-up" className="one">
 
               <div className="head">SAT, OCT 5 FT <br /> WEEK 9 - LALIGA</div>
 
@@ -3265,7 +3278,7 @@ const Page = () => {
 
             </div>
 
-            <div data-aos="fade-left" className="one">
+            <div data-aos="fade-up" className="one">
 
               <div className="head">SAT, OCT 19 - FT <br /> WEEK 10 - LALIGA</div>
 
@@ -3293,7 +3306,7 @@ const Page = () => {
 
           <div className="container">
 
-            <div data-aos="fade-right" className="one">
+            <div data-aos="fade-up" className="one">
 
               <div className="head">TUE, OCT 22 - FT <br /> UEFA Champions League</div>
 
@@ -3317,7 +3330,7 @@ const Page = () => {
 
             </div>
 
-            <div data-aos="fade-left" className="one">
+            <div data-aos="fade-up" className="one">
 
               <div className="head">SAT, OCT 26 - FT <br /> WEEK 11 - LALIGA</div>
 
@@ -3345,7 +3358,7 @@ const Page = () => {
 
           <div className="container">
 
-            <div data-aos="fade-right" className="one">
+            <div data-aos="fade-up" className="one">
 
               <div className="head"><span style={{color:'lime'}}>POSTPONED</span> <br /> WEEK 12 - LALIGA</div>
 
@@ -3369,7 +3382,7 @@ const Page = () => {
 
             </div>
 
-            <div data-aos="fade-left" className="one">
+            <div data-aos="fade-up" className="one">
 
               <div className="head">TUE, NOV 5 <br /> UEFA Champions League</div>
 
@@ -3397,7 +3410,7 @@ const Page = () => {
 
           <div className="container">
 
-            <div data-aos="fade-right" className="one">
+            <div data-aos="fade-up" className="one">
 
               <div className="head">WEDNESDAY, NOVEMBER 27 <br /> UEFA Champions League</div>
 
@@ -3421,7 +3434,7 @@ const Page = () => {
 
             </div>
 
-            <div data-aos="fade-left" className="one">
+            <div data-aos="fade-up" className="one">
 
               <div className="head">DECEMBER 1, 2024 <br /> WEEK 15 - LALIGA</div>
 
@@ -3449,7 +3462,7 @@ const Page = () => {
 
           <div className="container">
 
-            <div data-aos="fade-right" className="one">
+            <div data-aos="fade-up" className="one">
 
               <div className="head">DECEMBER 4, 2024 <br /> WEEK 16 - LALIGA</div>
 
@@ -3473,7 +3486,7 @@ const Page = () => {
 
             </div>
 
-            <div data-aos="fade-left" className="one">
+            <div data-aos="fade-up" className="one">
 
               <div className="head">DECEMBER 8, 2024 <br /> WEEK 16 - LALIGA</div>
 
@@ -3501,7 +3514,7 @@ const Page = () => {
 
           <div className="container">
 
-            <div data-aos="fade-right" className="one">
+            <div data-aos="fade-up" className="one">
 
               <div className="head">DEC 10, 2024 <br /> UEFA Champions League</div>
 
@@ -3525,7 +3538,7 @@ const Page = () => {
 
             </div>
 
-            <div data-aos="fade-left" className="one">
+            <div data-aos="fade-up" className="one">
 
               <div className="head">DEC 15, 2024 <br /> WEEK 17 - LALIGA</div>
 
@@ -3553,7 +3566,7 @@ const Page = () => {
 
           <div className="container">
 
-            <div data-aos="fade-right" className="one">
+            <div data-aos="fade-up" className="one">
 
               <div className="head">DECEMBER 22, 2024 <br /> WEEK 18 - LALIGA</div>
 
@@ -3577,7 +3590,7 @@ const Page = () => {
 
             </div>
 
-            <div data-aos="fade-left" className="one">
+            <div data-aos="fade-up" className="one">
 
               <div className="head">JANUARY 8, 2025 <br /> SEMI - FINALS</div>
 
@@ -3605,7 +3618,7 @@ const Page = () => {
 
           <div className="container">
 
-            <div data-aos="fade-right" className="one">
+            <div data-aos="fade-up" className="one">
 
               <div className="head">JAN 19, 2025 <br /> WEEK 20 - LALIGA</div>
 
@@ -3629,7 +3642,7 @@ const Page = () => {
 
             </div>
 
-            <div data-aos="fade-left" className="one">
+            <div data-aos="fade-up" className="one">
 
               <div className="head">JAN 22, 2025 <br /> UEFA Champions League</div>
 
@@ -3657,7 +3670,7 @@ const Page = () => {
 
           <div className="container">
 
-            <div data-aos="fade-right" className="one">
+            <div data-aos="fade-up" className="one">
 
               <div className="head">JAN 26, 2025 <br /> WEEK 21 - LALIGA</div>
 
@@ -3681,7 +3694,7 @@ const Page = () => {
 
             </div>
 
-            <div data-aos="fade-left" className="one">
+            <div data-aos="fade-up" className="one">
 
               <div className="head">JAN 29, 2025 <br /> UEFA Champions League</div>
 
@@ -3709,7 +3722,7 @@ const Page = () => {
 
           <div className="container">
 
-            <div data-aos="fade-right" className="one">
+            <div data-aos="fade-up" className="one">
 
               <div className="head">FEB 2, 2025 <br /> WEEK 22 - LALIGA</div>
 
@@ -3733,7 +3746,7 @@ const Page = () => {
 
             </div>
 
-            <div data-aos="fade-left" className="one">
+            <div data-aos="fade-up" className="one">
 
               <div className="head">FEB 9, 2025 <br /> WEEK 23 - LALIGA</div>
 
@@ -3761,7 +3774,7 @@ const Page = () => {
 
           <div className="container">
 
-            <div data-aos="fade-right" className="one">
+            <div data-aos="fade-up" className="one">
 
               <div className="head">FEB 16, 2025 <br /> WEEK 24 - LALIGA</div>
 
@@ -3785,7 +3798,7 @@ const Page = () => {
 
             </div>
 
-            <div data-aos="fade-left" className="one">
+            <div data-aos="fade-up" className="one">
 
               <div className="head">FEB 23, 2025 <br /> WEEK 25 - LALIGA</div>
 
@@ -3813,7 +3826,7 @@ const Page = () => {
 
           <div className="container">
 
-            <div data-aos="fade-right" className="one">
+            <div data-aos="fade-up" className="one">
 
               <div className="head">MAR 2, 2025 <br /> WEEK 26 - LALIGA</div>
 
@@ -3837,7 +3850,7 @@ const Page = () => {
 
             </div>
 
-            <div data-aos="fade-left" className="one">
+            <div data-aos="fade-up" className="one">
 
               <div className="head">MAR 9, 2025 <br /> WEEK 27 - LALIGA</div>
 
@@ -3865,7 +3878,7 @@ const Page = () => {
 
           <div className="container">
 
-            <div data-aos="fade-right" className="one">
+            <div data-aos="fade-up" className="one">
 
               <div className="head">MAR 16, 2025 <br /> WEEK 28 - LALIGA</div>
 
@@ -3889,7 +3902,7 @@ const Page = () => {
 
             </div>
 
-            <div data-aos="fade-left" className="one">
+            <div data-aos="fade-up" className="one">
 
               <div className="head">MAR 30, 2025 <br /> WEEK 29 - LALIGA</div>
 
@@ -3917,7 +3930,7 @@ const Page = () => {
 
           <div className="container">
 
-            <div data-aos="fade-right" className="one">
+            <div data-aos="fade-up" className="one">
 
               <div className="head">APR 6, 2025 <br /> WEEK 30 - LALIGA</div>
 
@@ -3941,7 +3954,7 @@ const Page = () => {
 
             </div>
 
-            <div data-aos="fade-left" className="one">
+            <div data-aos="fade-up" className="one">
 
               <div className="head">APR 13, 2025 <br /> WEEK 31 - LALIGA</div>
 
@@ -3969,7 +3982,7 @@ const Page = () => {
 
           <div className="container">                              
 
-            <div data-aos="fade-right" className="one">
+            <div data-aos="fade-up" className="one">
 
               <div className="head">APR 20, 2025 <br /> WEEK 32 - LALIGA</div>
 
@@ -3993,7 +4006,7 @@ const Page = () => {
 
             </div>
 
-            <div data-aos="fade-left" className="one"> 
+            <div data-aos="fade-up" className="one"> 
 
               <div className="head">APR 23, 2025 <br /> WEEK 33 - LALIGA</div>
 
@@ -4021,7 +4034,7 @@ const Page = () => {
 
           <div className="container">
 
-            <div data-aos="fade-right" className="one">
+            <div data-aos="fade-up" className="one">
 
               <div className="head">MAY 4, 2025 <br /> WEEK 34 - LALIGA</div>
 
@@ -4045,7 +4058,7 @@ const Page = () => {
 
             </div>
 
-            <div data-aos="fade-left" className="one">
+            <div data-aos="fade-up" className="one">
 
               <div className="head">MAY 11, 2025 <br /> WEEK 35 - LALIGA</div>
 
@@ -4073,7 +4086,7 @@ const Page = () => {
 
           <div className="container">
 
-            <div data-aos="fade-right" className="one">
+            <div data-aos="fade-up" className="one">
 
               <div className="head">MAY 14, 2025 <br /> WEEK 36 - LALIGA</div>
 
@@ -4097,7 +4110,7 @@ const Page = () => {
 
             </div>
 
-            <div data-aos="fade-left" className="one">
+            <div data-aos="fade-up" className="one">
 
               <div className="head">MAY 18, 2025 <br /> WEEK 37 - LALIGA</div>
 
@@ -4125,7 +4138,7 @@ const Page = () => {
 
           <div className="container">
 
-            <div data-aos="fade-right" className="one">
+            <div data-aos="fade-up" className="one">
 
               <div className="head">MAY 25, 2025 <br /> WEEK 38 - LALIGA</div>
 
@@ -4155,7 +4168,7 @@ const Page = () => {
           
         </div>
 
-        </div>
+        </div>}
       
     </div>
   )

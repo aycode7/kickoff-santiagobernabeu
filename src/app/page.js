@@ -9,7 +9,7 @@ const Page = () => {
   useEffect(()=>{
     setTimeout(()=>{
       setLoading(false);
-    }, 1500)
+    }, 500)
   }, [])
 
   return (
