@@ -9,8 +9,28 @@ const Loader = () => {
   return (
     <div className='homepage'>
 
-        <div className='loading'>
-          <h1>KickOff ....</h1>
+        <div className='hidden md:hidden lg:hidden xl:block'>
+          <div className='loading'>
+            <h1>KickOff-SantiagoBernabeu ....</h1>
+          </div>
+        </div>
+
+        <div className='hidden md:hidden lg:block xl:hidden'>
+          <div className='loading'>
+            <h1>KickOff-SantiagoBernabeu ....</h1>
+          </div>
+        </div>
+
+        <div className='hidden md:block lg:hidden xl:hidden'>
+          <div className='loading'>
+            <h1>KickOff-SantiagoBernabeu ....</h1>
+          </div>
+        </div>
+
+        <div className='block md:hidden lg:hidden xl:hidden'>
+          <div className='loading'>
+            <h1>KickOff....</h1>
+          </div>
         </div>
       
     </div>

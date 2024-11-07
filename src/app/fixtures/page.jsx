@@ -214,7 +214,8 @@ const Page = () => {
           </div>
 
           <div className="container">
-
+        
+            <Link href='real-madrid-v-villareal-1'>
             <div data-aos="fade-right" className="one">
 
               <div className="head">SATURDAY, OCTOBER - 5 FULL TIME <br /> WEEK 9 - LALIGA</div>
@@ -237,8 +238,11 @@ const Page = () => {
                 </div>
               </div>
 
-            </div>
-
+            </div>            
+            </Link>
+            
+            <Link 
+            href='celtavigo-v-realmadrid'>
             <div data-aos="fade-left" className="one">
 
               <div className="head">SATURDAY, OCTOBER 19 - FULL TIME <br /> WEEK 10 - LALIGA</div>
@@ -262,6 +266,7 @@ const Page = () => {
               </div>
 
             </div>
+            </Link>
 
           </div>
 
@@ -345,21 +350,21 @@ const Page = () => {
 
             <div data-aos="fade-left" className="one">
 
-              <div className="head">TUESDAY, NOVEMEBR 5 <br /> UEFA Champions League</div>
+              <div className="head">TUESDAY, NOVEMEBR 5 <br /> UEFA Champions League - FULL TIME</div>
 
               <div className="scores">
                 <div className="left">
                   <p>Real Madrid</p>
                   <Image width={35} src={realmadrid} alt="" />
-                  <p></p>
+                  <p>1</p>
                 </div>
 
                 <div className="center">
-                  <p>9:00 PM</p>
+                  <p>-</p>
                 </div>
 
                 <div className="right">
-                  <p></p>
+                  <p>3</p>
                   <Image width={35} src={acmilan} alt="" />                
                   <p>Milan</p>                  
                 </div>
@@ -1224,7 +1229,8 @@ const Page = () => {
           </div>
 
           <div className="container">
-
+            
+            <Link href='real-madrid-v-villareal-1'>
             <div data-aos="fade-right" className="one">
 
               <div className="head">SATURDAY, OCTOBER - 5 FULL TIME <br /> WEEK 9 - LALIGA</div>
@@ -1248,7 +1254,9 @@ const Page = () => {
               </div>
 
             </div>
-
+            </Link>            
+            
+            <Link href='celtavigo-v-realmadrid'>
             <div data-aos="fade-left" className="one">
 
               <div className="head">SATURDAY, OCTOBER 19 - FULL TIME <br /> WEEK 10 - LALIGA</div>
@@ -1272,6 +1280,7 @@ const Page = () => {
               </div>
 
             </div>
+            </Link>            
 
           </div>
 
@@ -1355,21 +1364,21 @@ const Page = () => {
 
             <div data-aos="fade-left" className="one">
 
-              <div className="head">TUESDAY, NOVEMEBR 5 <br /> UEFA Champions League</div>
+              <div className="head">TUESDAY, NOVEMEBR 5 <br /> UEFA Champions League - FULL TIME</div>
 
               <div className="scores">
                 <div className="left">
                   <p>Real Madrid</p>
                   <Image width={35} src={realmadrid} alt="" />
-                  <p></p>
+                  <p>1</p>
                 </div>
 
                 <div className="center">
-                  <p>9:00 PM</p>
+                  <p>-</p>
                 </div>
 
                 <div className="right">
-                  <p></p>
+                  <p>3</p>
                   <Image width={35} src={acmilan} alt="" />                
                   <p>Milan</p>                  
                 </div>
@@ -2234,14 +2243,15 @@ const Page = () => {
           </div>
 
           <div className="container">
-
+            
+            <Link href='real-madrid-v-villareal-1'>
             <div data-aos="fade-right" className="one">
 
               <div className="head">SATURDAY, OCTOBER - 5 FULL TIME <br /> WEEK 9 - LALIGA</div>
 
               <div className="scores">
                 <div className="left">
-                  <p>RealMadrid</p>
+                  <p>Real Madrid</p>
                   <Image width={35} src={realmadrid} alt="" />
                   <p>2</p>
                 </div>
@@ -2258,7 +2268,9 @@ const Page = () => {
               </div>
 
             </div>
-
+            </Link>            
+            
+            <Link href='celtavigo-v-realmadrid'>
             <div data-aos="fade-left" className="one">
 
               <div className="head">SATURDAY, OCTOBER 19 - FULL TIME <br /> WEEK 10 - LALIGA</div>
@@ -2277,11 +2289,12 @@ const Page = () => {
                 <div className="right">
                   <p>2</p>
                   <Image width={35} src={realmadrid} alt="" />                
-                  <p>RealMadrid</p>                  
+                  <p>Real Madrid</p>                  
                 </div>
               </div>
 
             </div>
+            </Link>            
 
           </div>
 
@@ -2365,21 +2378,21 @@ const Page = () => {
 
             <div data-aos="fade-left" className="one">
 
-              <div className="head">TUESDAY, NOVEMEBR 5 <br /> UEFA Champions League</div>
+              <div className="head">TUESDAY, NOVEMEBR 5 <br /> UEFA Champions League - FULL TIME</div>
 
               <div className="scores">
                 <div className="left">
                   <p>RealMadrid</p>
                   <Image width={35} src={realmadrid} alt="" />
-                  <p></p>
+                  <p>1</p>
                 </div>
 
                 <div className="center">
-                  <p>9:00 PM</p>
+                  <p>-</p>
                 </div>
 
                 <div className="right">
-                  <p></p>
+                  <p>3</p>
                   <Image width={35} src={acmilan} alt="" />                
                   <p>Milan</p>                  
                 </div>
@@ -3253,15 +3266,16 @@ const Page = () => {
           </div>
 
           <div className="container">
+            
+            <Link href='real-madrid-v-villareal-1'>
+            <div data-aos="fade-right" className="one">
 
-            <div data-aos="fade-up" className="one">
-
-              <div className="head">SAT, OCT 5 FT <br /> WEEK 9 - LALIGA</div>
+              <div className="head">SATURDAY, OCTOBER - 5 FULL TIME <br /> WEEK 9 - LALIGA</div>
 
               <div className="scores">
                 <div className="left">
-                  <p>RealMadrid</p>
-                  <Image width={23} src={realmadrid} alt="" />
+                  <p>Real Madrid</p>
+                  <Image width={35} src={realmadrid} alt="" />
                   <p>2</p>
                 </div>
 
@@ -3271,21 +3285,23 @@ const Page = () => {
 
                 <div className="right">
                   <p>0</p>
-                  <Image width={23} src={villareal} alt="" />
+                  <Image width={35} src={villareal} alt="" />
                   <p>Villareal</p>
                 </div>
               </div>
 
             </div>
+            </Link>            
+            
+            <Link href='celtavigo-v-realmadrid'>
+            <div data-aos="fade-left" className="one">
 
-            <div data-aos="fade-up" className="one">
-
-              <div className="head">SAT, OCT 19 - FT <br /> WEEK 10 - LALIGA</div>
+              <div className="head">SATURDAY, OCTOBER 19 - FULL TIME <br /> WEEK 10 - LALIGA</div>
 
               <div className="scores">
                 <div className="left">
                   <p>Celta Vigo</p>
-                  <Image width={23} src={celtavigo} alt="" />
+                  <Image width={35} src={celtavigo} alt="" />
                   <p>1</p>
                 </div>
 
@@ -3295,12 +3311,13 @@ const Page = () => {
 
                 <div className="right">
                   <p>2</p>
-                  <Image width={23} src={realmadrid} alt="" />                
-                  <p>RealMadrid</p>                  
+                  <Image width={35} src={realmadrid} alt="" />                
+                  <p>Real Madrid</p>                  
                 </div>
               </div>
 
             </div>
+            </Link>            
 
           </div>
 
@@ -3384,21 +3401,21 @@ const Page = () => {
 
             <div data-aos="fade-up" className="one">
 
-              <div className="head">TUE, NOV 5 <br /> UEFA Champions League</div>
+              <div className="head">TUE, NOV 5 <br /> UEFA Champions League - FULL TIME</div>
 
               <div className="scores">
                 <div className="left">
                   <p>RealMadrid</p>
                   <Image width={23} src={realmadrid} alt="" />
-                  <p></p>
+                  <p>1</p>
                 </div>
 
                 <div className="center">
-                  <p>9:00 PM</p>
+                  <p>-</p>
                 </div>
 
                 <div className="right">
-                  <p></p>
+                  <p>3</p>
                   <Image width={23} src={acmilan} alt="" />                
                   <p>Milan</p>                  
                 </div>
