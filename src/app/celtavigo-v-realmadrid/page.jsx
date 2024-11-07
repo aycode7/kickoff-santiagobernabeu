@@ -15,7 +15,7 @@ import React from 'react'
 
 const Page = () => {
 
-      // aos
+  // aos
   useEffect(()=> {
     Aos.init({duration: 1100});
   }, []) 
@@ -161,7 +161,7 @@ const Page = () => {
                     </div>
 
                     <div data-aos='fade-left' className="right">
-                        <p>V. Junior 66 ⚽</p>
+                        <p style={{marginLeft:'9px'}}>V. Junior 66 ⚽</p>
                         <p>K. Mbappe 20 ⚽</p>
                     </div>
 
@@ -244,7 +244,7 @@ const Page = () => {
                     </div>
 
                     <div className="right">
-                        <p>V. Junior 66 ⚽</p>
+                        <p style={{marginLeft:'9px'}}>V. Junior 66 ⚽</p>
                         <p>K. Mbappe 20 ⚽</p>
                     </div>
 
@@ -327,7 +327,7 @@ const Page = () => {
                     </div>
 
                     <div className="right">
-                        <p>V. Junior 66 ⚽</p>
+                        <p style={{marginLeft:'9px'}}>V. Junior 66 ⚽</p>
                         <p>K. Mbappe 20 ⚽</p>
                     </div>
 
@@ -419,7 +419,7 @@ const Page = () => {
                     </div>
 
                     <div className="right">
-                        <p>V. Junior 66 ⚽</p>
+                        <p style={{marginLeft:'11px'}}>V. Junior 66 ⚽</p>
                         <p>K. Mbappe 20 ⚽</p>
                     </div>
 

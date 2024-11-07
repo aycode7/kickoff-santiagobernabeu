@@ -184,7 +184,6 @@ p
     display: flex;
     text-align: center;
     padding: 35px 35px;
-    
 
 }
 
@@ -735,7 +734,7 @@ p
 .match_phone .container .head .right
 {
     margin-left: auto;
-
+    
 }
 
 .match_phone .container .scores .left
@@ -755,7 +754,9 @@ p
     width: fit-content;
     display: flex;
     flex-direction: column;
+    text-align: center;
     gap: 15px;
+    align-items: center;
 
 }
 
@@ -823,7 +824,7 @@ p
 {
     display: flex;
     text-align: center;
-    padding: 25px 25px;
+    padding: 25px 23px;
 
 }
 
@@ -835,13 +836,13 @@ p
 
 .match_phone .container .scores .left p
 {
-    font-size: 11.5px;
+    font-size: 11px;
 
 }
 
 .match_phone .container .scores .right p
 {
-    font-size: 11.5px;
+    font-size: 11px;
 
 }
 

@@ -350,6 +350,12 @@ p
 
 }
 
+.fixtures_tablet .container .one .head
+{
+    font-size: 15.5px;
+
+}
+
 .fixtures_tablet .container .one .scores
 {
     display: flex;

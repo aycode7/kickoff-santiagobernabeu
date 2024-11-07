@@ -184,16 +184,12 @@ p
     display: flex;
     text-align: center;
     padding: 35px 35px;
-    
 
 }
 
 .match .container .scores .left
 {
     width: fit-content;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
 
 }
 
@@ -201,9 +197,6 @@ p
 {
     margin-left: auto;
     width: fit-content;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
 
 }
 
@@ -375,9 +368,6 @@ p
 .match_small .container .scores .left
 {
     width: fit-content;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
 
 }
 
@@ -385,9 +375,6 @@ p
 {
     margin-left: auto;
     width: fit-content;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
 
 }
 
@@ -556,9 +543,6 @@ p
 .match_tablet .container .scores .left
 {
     width: fit-content;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
 
 }
 
@@ -566,9 +550,6 @@ p
 {
     margin-left: auto;
     width: fit-content;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
 
 }
 
@@ -735,7 +716,7 @@ p
 .match_phone .container .head .right
 {
     margin-left: auto;
-
+    
 }
 
 .match_phone .container .scores .left
@@ -755,7 +736,9 @@ p
     width: fit-content;
     display: flex;
     flex-direction: column;
+    text-align: center;
     gap: 15px;
+    align-items: center;
 
 }
 

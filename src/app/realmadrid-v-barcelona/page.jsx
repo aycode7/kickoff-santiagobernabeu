@@ -2,20 +2,20 @@
 import { useState } from "react"
 import { useEffect } from "react"
 import Aos from "aos"
-import './page.css'
 import Link from "next/link"
 import Image from "next/image"
+import './page.css'
 import 'aos/dist/aos.css'
-import React from 'react'
 import logo from './Image/madrid_icon.png'
 import background_img from './Image/night-stadium.jpg'
-import Loader from "@/components/Loader"
 import realmadrid from './Image/realmadrid.png'
-import villareal from './Image/villareal.png'
+import barcelona from './Image/barcelona.png'
+import React from 'react'
+import Loader from "@/components/Loader"
 
 const Page = () => {
 
-    // aos
+      // aos
   useEffect(()=> {
     Aos.init({duration: 1100});
   }, []) 
@@ -138,7 +138,7 @@ const Page = () => {
             <div className="container">
                 <div className="head">                    
                     <div data-aos='fade-right' className="left"><p>Full-Time</p></div>
-                    <div data-aos='fade-left' className="right"><p>Week 9 - LaLiga</p></div>
+                    <div data-aos='fade-left' className="right"><p>Week 11 - LaLiga</p></div>
                 </div>
 
                 <div className="details">
@@ -147,18 +147,19 @@ const Page = () => {
                         <h1>Real Madrid</h1>
                     </div>
                     <div data-aos='fade-up' className="middle">
-                        <h3>2 - 0</h3>
+                        <h3>0 - 4</h3>
                     </div>
                     <div data-aos='fade-left' className="right">
-                        <h1>Villareal</h1>
-                        <Image src={villareal} alt="" width={45} />
+                        <h1>Barcelona</h1>
+                        <Image src={barcelona} alt="" width={45} />
                     </div>
                 </div>
 
                 <div className="scores">
-                    <div data-aos='fade-right' className="left">
-                    <p style={{marginLeft:'-13px'}}>⚽ V. Junior 73</p>                    
-                    <p>⚽ F. Valverde 14</p>                    
+                    <div data-aos='fade-right' className="right">
+                    <p style={{marginLeft:'79px'}}>Raphina 84 ⚽</p>
+                    <p style={{marginLeft:'77px'}}>L. Yamal 77 ⚽</p>
+                    <p>R. Lewandowski 56, 54 ⚽</p>                     
                     </div>                    
                 </div>
 
@@ -216,7 +217,7 @@ const Page = () => {
             <div className="container">
                 <div className="head">                    
                     <div data-aos='fade-right' className="left"><p>Full-Time</p></div>
-                    <div data-aos='fade-left' className="right"><p>Week 9 - LaLiga</p></div>
+                    <div data-aos='fade-left' className="right"><p>Week 11 - LaLiga</p></div>
                 </div>
 
                 <div className="details">
@@ -225,18 +226,19 @@ const Page = () => {
                         <h1>Real Madrid</h1>
                     </div>
                     <div data-aos='fade-up' className="middle">
-                        <h3>2 - 0</h3>
+                        <h3>0 - 4</h3>
                     </div>
                     <div data-aos='fade-left' className="right">
-                        <h1>Villareal</h1>
-                        <Image src={villareal} alt="" width={45} />
+                        <h1>Barcelona</h1>
+                        <Image src={barcelona} alt="" width={45} />
                     </div>
                 </div>
 
                 <div className="scores">
-                    <div data-aos='fade-right' className="left">
-                    <p style={{marginLeft:'-13px'}}>⚽ V. Junior 73</p>                    
-                    <p>⚽ F. Valverde 14</p>                    
+                    <div data-aos='fade-right' className="right">
+                    <p style={{marginLeft:'79px'}}>Raphina 84 ⚽</p>
+                    <p style={{marginLeft:'77px'}}>L. Yamal 77 ⚽</p>
+                    <p>R. Lewandowski 56, 54 ⚽</p>                     
                     </div>                    
                 </div>
 
@@ -294,7 +296,7 @@ const Page = () => {
             <div className="container">
                 <div className="head">                    
                     <div data-aos='fade-right' className="left"><p>Full-Time</p></div>
-                    <div data-aos='fade-left' className="right"><p>Week 9 - LaLiga</p></div>
+                    <div data-aos='fade-left' className="right"><p>Week 11 - LaLiga</p></div>
                 </div>
 
                 <div className="details">
@@ -303,18 +305,19 @@ const Page = () => {
                         <h1>Real Madrid</h1>
                     </div>
                     <div data-aos='fade-up' className="middle">
-                        <h3>2 - 0</h3>
+                        <h3>0 - 4</h3>
                     </div>
                     <div data-aos='fade-left' className="right">
-                        <h1>Villareal</h1>
-                        <Image src={villareal} alt="" width={37} />
+                        <h1>Barcelona</h1>
+                        <Image src={barcelona} alt="" width={37} />
                     </div>
                 </div>
 
                 <div className="scores">
-                    <div data-aos='fade-right' className="left">
-                    <p style={{marginLeft:'-13px'}}>⚽ V. Junior 73</p>                    
-                    <p>⚽ F. Valverde 14</p>                    
+                    <div data-aos='fade-right' className="right">
+                    <p style={{marginLeft:'79px'}}>Raphina 84 ⚽</p>
+                    <p style={{marginLeft:'77px'}}>L. Yamal 77 ⚽</p>
+                    <p>R. Lewandowski 56, 54 ⚽</p>                     
                     </div>                    
                 </div>
 
@@ -381,7 +384,7 @@ const Page = () => {
             <div className="container">
                 <div className="head">
                     <div data-aos='fade-up' className="left"><p>Full-Time</p></div>
-                    <div data-aos='fade-up' className="right"><p>Week 9 - LaLiga</p></div>
+                    <div data-aos='fade-up' className="right"><p>Week 11 - LaLiga</p></div>
                 </div>
 
                 <div className="details">
@@ -390,18 +393,19 @@ const Page = () => {
                         <h1>Real Madrid</h1>
                     </div>
                     <div data-aos='fade-up' className="middle">
-                        <h3>2 - 0</h3>
+                        <h3>0 - 4</h3>
                     </div>
                     <div data-aos='fade-up' className="right">
-                        <h1>Villareal</h1>
-                        <Image src={villareal} alt="" width={22} />
+                        <h1>Barcelona</h1>
+                        <Image src={barcelona} alt="" width={22} />
                     </div>
                 </div>
 
                 <div className="scores">
-                    <div data-aos='fade-up' className="left">
-                    <p style={{marginLeft:'-10px'}}>⚽ V. Junior 73</p>                    
-                    <p>⚽ F. Valverde 14</p>                    
+                    <div data-aos='fade-up' className="right">
+                    <p style={{marginLeft:'60px'}}>Raphina 84 ⚽</p>
+                    <p style={{marginLeft:'60px'}}>L. Yamal 77 ⚽</p>
+                    <p>R. Lewandowski 56, 54 ⚽</p>                     
                     </div>                    
                 </div>
 
